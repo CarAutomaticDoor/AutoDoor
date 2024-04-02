@@ -29,7 +29,9 @@
 #include "IfxScuWdt.h"
 
 #include "Out_Module.h"
-
+#include "myPwm.h"
+#include "Bsp.h"
+#define WAIT_TIME   10
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
 
@@ -48,10 +50,14 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
         
+    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+
     // 정의한 모듈 초기화
     Out_Module_init();
-
+    setPinModePWM(2,0);
     while(1)
     {
+        fadeLED();
+        waitTime(ticksFor10ms);
     }
 }

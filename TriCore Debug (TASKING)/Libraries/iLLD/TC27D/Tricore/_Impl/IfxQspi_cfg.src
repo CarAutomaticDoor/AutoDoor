@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc4404a --dep-file=Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Configurations -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c"
+	.compiler_invocation	"ctc -f cc3672a --dep-file=Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git-repo\\\\AutoDoor -IC:\\\\git-repo\\\\AutoDoor\\\\Configurations -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c"
 	.compiler_name		"ctc"
 	;source	'../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c'
 
@@ -20,7 +20,7 @@ IfxQspi_cfg_indexMap:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L3:
-	.word	6036
+	.word	6010
 	.half	3
 	.word	.L4
 	.byte	4
@@ -28,889 +28,889 @@ IfxQspi_cfg_indexMap:	.type	object
 	.byte	1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L5
 	.byte	2
 	.byte	'short int',0,2,5,3
 	.byte	'__wchar_t',0,1,1,1
-	.word	219
+	.word	193
 	.byte	2
 	.byte	'unsigned int',0,4,7,3
 	.byte	'__size_t',0,1,1,1
-	.word	250
+	.word	224
 	.byte	2
 	.byte	'int',0,4,5,3
 	.byte	'__ptrdiff_t',0,1,1,1
-	.word	283
+	.word	257
 	.byte	4,1,5
-	.word	310
+	.word	284
 	.byte	3
 	.byte	'__codeptr',0,1,1,1
-	.word	312
+	.word	286
 	.byte	2
 	.byte	'unsigned char',0,1,8,3
 	.byte	'uint8',0,2,108,29
-	.word	335
+	.word	309
 	.byte	2
 	.byte	'unsigned short int',0,2,7,3
 	.byte	'uint16',0,2,112,29
-	.word	366
+	.word	340
 	.byte	2
 	.byte	'unsigned long int',0,4,7,3
 	.byte	'uint32',0,2,116,29
-	.word	403
+	.word	377
 	.byte	3
 	.byte	'sint16',0,2,129,1,29
-	.word	219
+	.word	193
 	.byte	2
 	.byte	'long int',0,4,5,3
 	.byte	'sint32',0,2,134,1,29
-	.word	455
+	.word	429
 	.byte	2
 	.byte	'long long int',0,8,5,3
 	.byte	'sint64',0,2,141,1,29
-	.word	483
+	.word	457
 	.byte	2
 	.byte	'float',0,4,4,3
 	.byte	'float32',0,2,170,1,29
-	.word	516
+	.word	490
 	.byte	6
 	.byte	'void',0,5
-	.word	542
+	.word	516
 	.byte	3
 	.byte	'pvoid',0,3,54,28
-	.word	548
+	.word	522
 	.byte	3
 	.byte	'Ifx_TickTime',0,3,76,28
-	.word	483
+	.word	457
 	.byte	7
-	.word	542
+	.word	516
 	.byte	5
-	.word	588
+	.word	562
 	.byte	8,3,140,1,9,8,9
 	.byte	'module',0
-	.word	593
+	.word	567
 	.byte	4,2,35,0,9
 	.byte	'index',0
-	.word	455
+	.word	429
 	.byte	4,2,35,4,0,3
 	.byte	'IfxModule_IndexMap',0,3,144,1,3
-	.word	598
+	.word	572
 	.byte	10
 	.byte	'_Ifx_QSPI_ACCEN0_Bits',0,4,63,16,4,11
 	.byte	'EN0',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'EN1',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,0,11
 	.byte	'EN2',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,0,11
 	.byte	'EN3',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,0,11
 	.byte	'EN4',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,0,11
 	.byte	'EN5',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,0,11
 	.byte	'EN6',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,0,11
 	.byte	'EN7',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,0,11
 	.byte	'EN8',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,1,11
 	.byte	'EN9',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,1,11
 	.byte	'EN10',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,1,11
 	.byte	'EN11',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,1,11
 	.byte	'EN12',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,1,11
 	.byte	'EN13',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,1,11
 	.byte	'EN14',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,1,11
 	.byte	'EN15',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,1,11
 	.byte	'EN16',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,2,11
 	.byte	'EN17',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,2,11
 	.byte	'EN18',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,2,11
 	.byte	'EN19',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,2,11
 	.byte	'EN20',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,2,11
 	.byte	'EN21',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,2,11
 	.byte	'EN22',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,2,11
 	.byte	'EN23',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,2,11
 	.byte	'EN24',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,3,11
 	.byte	'EN25',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,3,11
 	.byte	'EN26',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,3,11
 	.byte	'EN27',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,3,11
 	.byte	'EN28',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,3,11
 	.byte	'EN29',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,3,11
 	.byte	'EN30',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,3,11
 	.byte	'EN31',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_ACCEN0_Bits',0,4,97,3
-	.word	664
+	.word	638
 	.byte	10
 	.byte	'_Ifx_QSPI_ACCEN1_Bits',0,4,100,16,4,11
 	.byte	'reserved_0',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_ACCEN1_Bits',0,4,103,3
-	.word	1223
+	.word	1197
 	.byte	10
 	.byte	'_Ifx_QSPI_BACON_Bits',0,4,106,16,4,11
 	.byte	'LAST',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'IPRE',0,1
-	.word	335
+	.word	309
 	.byte	3,4,2,35,0,11
 	.byte	'IDLE',0,1
-	.word	335
+	.word	309
 	.byte	3,1,2,35,0,11
 	.byte	'LPRE',0,2
-	.word	366
+	.word	340
 	.byte	3,6,2,35,0,11
 	.byte	'LEAD',0,1
-	.word	335
+	.word	309
 	.byte	3,3,2,35,1,11
 	.byte	'TPRE',0,1
-	.word	335
+	.word	309
 	.byte	3,0,2,35,1,11
 	.byte	'TRAIL',0,1
-	.word	335
+	.word	309
 	.byte	3,5,2,35,2,11
 	.byte	'PARTYP',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,2,11
 	.byte	'UINT',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,2,11
 	.byte	'MSB',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,2,11
 	.byte	'BYTE',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,2,11
 	.byte	'DL',0,2
-	.word	366
+	.word	340
 	.byte	5,4,2,35,2,11
 	.byte	'CS',0,1
-	.word	335
+	.word	309
 	.byte	4,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_BACON_Bits',0,4,121,3
-	.word	1302
+	.word	1276
 	.byte	10
 	.byte	'_Ifx_QSPI_BACONENTRY_Bits',0,4,124,16,4,11
 	.byte	'E',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_BACONENTRY_Bits',0,4,127,3
-	.word	1563
+	.word	1537
 	.byte	10
 	.byte	'_Ifx_QSPI_CLC_Bits',0,4,130,1,16,4,11
 	.byte	'DISR',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'DISS',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,0,11
 	.byte	'EDIS',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	250
+	.word	224
 	.byte	28,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_CLC_Bits',0,4,137,1,3
-	.word	1641
+	.word	1615
 	.byte	10
 	.byte	'_Ifx_QSPI_DATAENTRY_Bits',0,4,140,1,16,4,11
 	.byte	'E',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_DATAENTRY_Bits',0,4,143,1,3
-	.word	1786
+	.word	1760
 	.byte	10
 	.byte	'_Ifx_QSPI_ECON_Bits',0,4,146,1,16,4,11
 	.byte	'Q',0,1
-	.word	335
+	.word	309
 	.byte	6,2,2,35,0,11
 	.byte	'A',0,1
-	.word	335
+	.word	309
 	.byte	2,0,2,35,0,11
 	.byte	'B',0,1
-	.word	335
+	.word	309
 	.byte	2,6,2,35,1,11
 	.byte	'C',0,1
-	.word	335
+	.word	309
 	.byte	2,4,2,35,1,11
 	.byte	'CPH',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,1,11
 	.byte	'CPOL',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,1,11
 	.byte	'PAREN',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,1,11
 	.byte	'reserved_15',0,4
-	.word	250
+	.word	224
 	.byte	15,2,2,35,0,11
 	.byte	'BE',0,1
-	.word	335
+	.word	309
 	.byte	2,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_ECON_Bits',0,4,157,1,3
-	.word	1864
+	.word	1838
 	.byte	10
 	.byte	'_Ifx_QSPI_FLAGSCLEAR_Bits',0,4,160,1,16,4,11
 	.byte	'ERRORCLEARS',0,2
-	.word	366
+	.word	340
 	.byte	9,7,2,35,0,11
 	.byte	'TXC',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,1,11
 	.byte	'RXC',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,1,11
 	.byte	'PT1C',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,1,11
 	.byte	'PT2C',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,1,11
 	.byte	'reserved_13',0,1
-	.word	335
+	.word	309
 	.byte	2,1,2,35,1,11
 	.byte	'USRC',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,2,0,3
 	.byte	'Ifx_QSPI_FLAGSCLEAR_Bits',0,4,170,1,3
-	.word	2056
+	.word	2030
 	.byte	10
 	.byte	'_Ifx_QSPI_GLOBALCON1_Bits',0,4,173,1,16,4,11
 	.byte	'ERRORENS',0,2
-	.word	366
+	.word	340
 	.byte	9,7,2,35,0,11
 	.byte	'TXEN',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,1,11
 	.byte	'RXEN',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,1,11
 	.byte	'PT1EN',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,1,11
 	.byte	'PT2EN',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,1,11
 	.byte	'reserved_13',0,1
-	.word	335
+	.word	309
 	.byte	2,1,2,35,1,11
 	.byte	'USREN',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,1,11
 	.byte	'TXFIFOINT',0,1
-	.word	335
+	.word	309
 	.byte	2,6,2,35,2,11
 	.byte	'RXFIFOINT',0,1
-	.word	335
+	.word	309
 	.byte	2,4,2,35,2,11
 	.byte	'PT1',0,1
-	.word	335
+	.word	309
 	.byte	3,1,2,35,2,11
 	.byte	'PT2',0,2
-	.word	366
+	.word	340
 	.byte	3,6,2,35,2,11
 	.byte	'TXFM',0,1
-	.word	335
+	.word	309
 	.byte	2,4,2,35,3,11
 	.byte	'RXFM',0,1
-	.word	335
+	.word	309
 	.byte	2,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	335
+	.word	309
 	.byte	2,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_GLOBALCON1_Bits',0,4,189,1,3
-	.word	2270
+	.word	2244
 	.byte	10
 	.byte	'_Ifx_QSPI_GLOBALCON_Bits',0,4,192,1,16,4,11
 	.byte	'TQ',0,1
-	.word	335
+	.word	309
 	.byte	8,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,1,11
 	.byte	'SI',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,1,11
 	.byte	'EXPECT',0,1
-	.word	335
+	.word	309
 	.byte	4,2,2,35,1,11
 	.byte	'LB',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,1,11
 	.byte	'DEL0',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,1,11
 	.byte	'STROBE',0,1
-	.word	335
+	.word	309
 	.byte	5,3,2,35,2,11
 	.byte	'SRF',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,2,11
 	.byte	'STIP',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,2,11
 	.byte	'reserved_23',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,2,11
 	.byte	'EN',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,3,11
 	.byte	'MS',0,1
-	.word	335
+	.word	309
 	.byte	2,5,2,35,3,11
 	.byte	'AREN',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,3,11
 	.byte	'RESETS',0,1
-	.word	335
+	.word	309
 	.byte	4,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_GLOBALCON_Bits',0,4,208,1,3
-	.word	2590
+	.word	2564
 	.byte	10
 	.byte	'_Ifx_QSPI_ID_Bits',0,4,211,1,16,4,11
 	.byte	'MODREV',0,1
-	.word	335
+	.word	309
 	.byte	8,0,2,35,0,11
 	.byte	'MODTYPE',0,1
-	.word	335
+	.word	309
 	.byte	8,0,2,35,1,11
 	.byte	'MODNUMBER',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,2,0,3
 	.byte	'Ifx_QSPI_ID_Bits',0,4,216,1,3
-	.word	2887
+	.word	2861
 	.byte	10
 	.byte	'_Ifx_QSPI_KRST0_Bits',0,4,219,1,16,4,11
 	.byte	'RST',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'RSTSTAT',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	250
+	.word	224
 	.byte	30,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRST0_Bits',0,4,224,1,3
-	.word	2996
+	.word	2970
 	.byte	10
 	.byte	'_Ifx_QSPI_KRST1_Bits',0,4,227,1,16,4,11
 	.byte	'RST',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	250
+	.word	224
 	.byte	31,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRST1_Bits',0,4,231,1,3
-	.word	3109
+	.word	3083
 	.byte	10
 	.byte	'_Ifx_QSPI_KRSTCLR_Bits',0,4,234,1,16,4,11
 	.byte	'CLR',0,1
-	.word	335
+	.word	309
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	250
+	.word	224
 	.byte	31,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRSTCLR_Bits',0,4,238,1,3
-	.word	3203
+	.word	3177
 	.byte	10
 	.byte	'_Ifx_QSPI_MIXENTRY_Bits',0,4,241,1,16,4,11
 	.byte	'E',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_MIXENTRY_Bits',0,4,244,1,3
-	.word	3301
+	.word	3275
 	.byte	10
 	.byte	'_Ifx_QSPI_OCS_Bits',0,4,247,1,16,4,11
 	.byte	'reserved_0',0,4
-	.word	250
+	.word	224
 	.byte	24,8,2,35,0,11
 	.byte	'SUS',0,1
-	.word	335
+	.word	309
 	.byte	4,4,2,35,3,11
 	.byte	'SUS_P',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,3,11
 	.byte	'SUSSTA',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	335
+	.word	309
 	.byte	2,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_OCS_Bits',0,4,254,1,3
-	.word	3377
+	.word	3351
 	.byte	10
 	.byte	'_Ifx_QSPI_PISEL_Bits',0,4,129,2,16,4,11
 	.byte	'MRIS',0,1
-	.word	335
+	.word	309
 	.byte	3,5,2,35,0,11
 	.byte	'reserved_3',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,0,11
 	.byte	'SRIS',0,1
-	.word	335
+	.word	309
 	.byte	3,1,2,35,0,11
 	.byte	'reserved_7',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,0,11
 	.byte	'SCIS',0,1
-	.word	335
+	.word	309
 	.byte	3,5,2,35,1,11
 	.byte	'reserved_11',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,1,11
 	.byte	'SLSIS',0,1
-	.word	335
+	.word	309
 	.byte	3,1,2,35,1,11
 	.byte	'reserved_15',0,4
-	.word	250
+	.word	224
 	.byte	17,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_PISEL_Bits',0,4,139,2,3
-	.word	3525
+	.word	3499
 	.byte	10
 	.byte	'_Ifx_QSPI_RXEXIT_Bits',0,4,142,2,16,4,11
 	.byte	'E',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_RXEXIT_Bits',0,4,145,2,3
-	.word	3737
+	.word	3711
 	.byte	10
 	.byte	'_Ifx_QSPI_RXEXITD_Bits',0,4,148,2,16,4,11
 	.byte	'E',0,4
-	.word	250
+	.word	224
 	.byte	32,0,2,35,0,0,3
 	.byte	'Ifx_QSPI_RXEXITD_Bits',0,4,151,2,3
-	.word	3809
+	.word	3783
 	.byte	10
 	.byte	'_Ifx_QSPI_SSOC_Bits',0,4,154,2,16,4,11
 	.byte	'AOL',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,0,11
 	.byte	'OEN',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,2,0,3
 	.byte	'Ifx_QSPI_SSOC_Bits',0,4,158,2,3
-	.word	3883
+	.word	3857
 	.byte	10
 	.byte	'_Ifx_QSPI_STATUS1_Bits',0,4,161,2,16,4,11
 	.byte	'BITCOUNT',0,1
-	.word	335
+	.word	309
 	.byte	8,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	250
+	.word	224
 	.byte	20,4,2,35,0,11
 	.byte	'BRDEN',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,3,11
 	.byte	'BRD',0,1
-	.word	335
+	.word	309
 	.byte	1,2,2,35,3,11
 	.byte	'SPDEN',0,1
-	.word	335
+	.word	309
 	.byte	1,1,2,35,3,11
 	.byte	'SPD',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_STATUS1_Bits',0,4,169,2,3
-	.word	3968
+	.word	3942
 	.byte	10
 	.byte	'_Ifx_QSPI_STATUS_Bits',0,4,172,2,16,4,11
 	.byte	'ERRORFLAGS',0,2
-	.word	366
+	.word	340
 	.byte	9,7,2,35,0,11
 	.byte	'TXF',0,1
-	.word	335
+	.word	309
 	.byte	1,6,2,35,1,11
 	.byte	'RXF',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,1,11
 	.byte	'PT1F',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,1,11
 	.byte	'PT2F',0,1
-	.word	335
+	.word	309
 	.byte	1,3,2,35,1,11
 	.byte	'reserved_13',0,1
-	.word	335
+	.word	309
 	.byte	2,1,2,35,1,11
 	.byte	'USRF',0,1
-	.word	335
+	.word	309
 	.byte	1,0,2,35,1,11
 	.byte	'TXFIFOLEVEL',0,1
-	.word	335
+	.word	309
 	.byte	3,5,2,35,2,11
 	.byte	'RXFIFOLEVEL',0,1
-	.word	335
+	.word	309
 	.byte	3,2,2,35,2,11
 	.byte	'SLAVESEL',0,2
-	.word	366
+	.word	340
 	.byte	4,6,2,35,2,11
 	.byte	'RPV',0,1
-	.word	335
+	.word	309
 	.byte	1,5,2,35,3,11
 	.byte	'TPV',0,1
-	.word	335
+	.word	309
 	.byte	1,4,2,35,3,11
 	.byte	'PHASE',0,1
-	.word	335
+	.word	309
 	.byte	4,0,2,35,3,0,3
 	.byte	'Ifx_QSPI_STATUS_Bits',0,4,187,2,3
-	.word	4135
+	.word	4109
 	.byte	10
 	.byte	'_Ifx_QSPI_XXLCON_Bits',0,4,190,2,16,4,11
 	.byte	'XDL',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,0,11
 	.byte	'BYTECOUNT',0,2
-	.word	366
+	.word	340
 	.byte	16,0,2,35,2,0,3
 	.byte	'Ifx_QSPI_XXLCON_Bits',0,4,194,2,3
-	.word	4430
+	.word	4404
 	.byte	12,4,202,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	664
+	.word	638
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_ACCEN0',0,4,207,2,3
-	.word	4525
+	.word	4499
 	.byte	12,4,210,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1223
+	.word	1197
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_ACCEN1',0,4,215,2,3
-	.word	4590
+	.word	4564
 	.byte	12,4,218,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1302
+	.word	1276
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_BACON',0,4,223,2,3
-	.word	4655
+	.word	4629
 	.byte	12,4,226,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1563
+	.word	1537
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_BACONENTRY',0,4,231,2,3
-	.word	4719
+	.word	4693
 	.byte	12,4,234,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1641
+	.word	1615
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_CLC',0,4,239,2,3
-	.word	4788
+	.word	4762
 	.byte	12,4,242,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1786
+	.word	1760
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_DATAENTRY',0,4,247,2,3
-	.word	4850
+	.word	4824
 	.byte	12,4,250,2,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	1864
+	.word	1838
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_ECON',0,4,255,2,3
-	.word	4918
+	.word	4892
 	.byte	12,4,130,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	2056
+	.word	2030
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_FLAGSCLEAR',0,4,135,3,3
-	.word	4981
+	.word	4955
 	.byte	12,4,138,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	2590
+	.word	2564
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_GLOBALCON',0,4,143,3,3
-	.word	5050
+	.word	5024
 	.byte	12,4,146,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	2270
+	.word	2244
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_GLOBALCON1',0,4,151,3,3
-	.word	5118
+	.word	5092
 	.byte	12,4,154,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	2887
+	.word	2861
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_ID',0,4,159,3,3
-	.word	5187
+	.word	5161
 	.byte	12,4,162,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	2996
+	.word	2970
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRST0',0,4,167,3,3
-	.word	5248
+	.word	5222
 	.byte	12,4,170,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3109
+	.word	3083
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRST1',0,4,175,3,3
-	.word	5312
+	.word	5286
 	.byte	12,4,178,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3203
+	.word	3177
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_KRSTCLR',0,4,183,3,3
-	.word	5376
+	.word	5350
 	.byte	12,4,186,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3301
+	.word	3275
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_MIXENTRY',0,4,191,3,3
-	.word	5442
+	.word	5416
 	.byte	12,4,194,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3377
+	.word	3351
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_OCS',0,4,199,3,3
-	.word	5509
+	.word	5483
 	.byte	12,4,202,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3525
+	.word	3499
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_PISEL',0,4,207,3,3
-	.word	5571
+	.word	5545
 	.byte	12,4,210,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3737
+	.word	3711
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_RXEXIT',0,4,215,3,3
-	.word	5635
+	.word	5609
 	.byte	12,4,218,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3809
+	.word	3783
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_RXEXITD',0,4,223,3,3
-	.word	5700
+	.word	5674
 	.byte	12,4,226,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3883
+	.word	3857
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_SSOC',0,4,231,3,3
-	.word	5766
+	.word	5740
 	.byte	12,4,234,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	4135
+	.word	4109
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_STATUS',0,4,239,3,3
-	.word	5829
+	.word	5803
 	.byte	12,4,242,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	3968
+	.word	3942
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_STATUS1',0,4,247,3,3
-	.word	5894
+	.word	5868
 	.byte	12,4,250,3,9,4,9
 	.byte	'U',0
-	.word	250
+	.word	224
 	.byte	4,2,35,0,9
 	.byte	'I',0
-	.word	283
+	.word	257
 	.byte	4,2,35,0,9
 	.byte	'B',0
-	.word	4430
+	.word	4404
 	.byte	4,2,35,0,0,3
 	.byte	'Ifx_QSPI_XXLCON',0,4,255,3,3
-	.word	5960
+	.word	5934
 	.byte	13,32
-	.word	598
+	.word	572
 	.byte	14,3,0
 .L8:
 	.byte	15
-	.word	6025
+	.word	5999
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -929,26 +929,24 @@ IfxQspi_cfg_indexMap:	.type	object
 	.word	.L12-.L11
 .L11:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
-	.byte	0
+	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0,0
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c',0,0,0,0
-	.byte	'C:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
-	.byte	0,0,0
-	.byte	'C:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
-	.byte	0,0,0
+	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0,0
+	.byte	0,0
+	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0,0,0,0
 	.byte	'IfxQspi_regdef.h',0,1,0,0,0
 .L12:
 .L10:
 	.sdecl	'.debug_info',debug,cluster('IfxQspi_cfg_indexMap')
 	.sect	'.debug_info'
 .L6:
-	.word	253
+	.word	227
 	.half	3
 	.word	.L7
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxQspi_cfg_indexMap',0,1,54,30
