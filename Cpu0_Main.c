@@ -28,7 +28,7 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
-#include "Out_Module.h"
+#include "ECU_Module.h"
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
@@ -49,7 +49,7 @@ void core0_main(void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
         
     // 정의한 모듈 초기화
-    Out_Module_init();
+    ECU_Module_Init();
 
     while(1)
     {
