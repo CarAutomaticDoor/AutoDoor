@@ -53,7 +53,7 @@ void core0_main(void)
 
     while(1)
     {
-
+        Race_Start();
 
     }
 }

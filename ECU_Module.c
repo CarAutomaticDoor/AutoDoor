@@ -95,6 +95,7 @@ void Race_Start(){
 
     }*/
 
+    Play_DoorOpen_Sound();
 
     return;
 }
