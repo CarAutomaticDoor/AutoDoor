@@ -48,12 +48,11 @@ void core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
         
-    // 정의한 모듈 초기화
+    // 전체 모듈 초기 세팅
     ECU_Module_Init();
 
     while(1)
     {
-
 
 
     }
