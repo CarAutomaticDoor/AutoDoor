@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc9364a --dep-file=In_Module_Switch_Door_KidLock.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\gitRepo_autoDoor\\\\AutoDoor -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Configurations -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o In_Module_Switch_Door_KidLock.src ../In_Module_Switch_Door_KidLock.c"
+	.compiler_invocation	"ctc -f cc13168a --dep-file=In_Module_Switch_Door_KidLock.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\gitRepo_autoDoor\\\\AutoDoor -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Configurations -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o In_Module_Switch_Door_KidLock.src ../In_Module_Switch_Door_KidLock.c"
 	.compiler_name		"ctc"
 	;source	'../In_Module_Switch_Door_KidLock.c'
 
@@ -13,49 +13,49 @@ $TC16X
 	
 	.global	In_Module_Switch_Door_KdL_init
 ; Function In_Module_Switch_Door_KdL_init
-.L10:
+.L24:
 In_Module_Switch_Door_KdL_init:	.type	func
 	movh.a	a15,#@his(dKdLNum)
 	lea	a15,[a15]@los(dKdLNum)
-.L71:
+.L87:
 	add	d15,d4,#-22
-.L72:
+.L88:
 	st.b	[a15],d15
-.L73:
+.L89:
 	add	d15,d4,#-22
-.L74:
+.L90:
 	mul	d15,d15,#8
-.L75:
+.L91:
 	movh.a	a15,#@his(x_IO_KdL)
 	lea	a15,[a15]@los(x_IO_KdL)
-.L76:
+.L92:
 	addsc.a	a15,a15,d15,#0
-.L77:
+.L93:
 	ld.a	a4,[a15]
-.L78:
+.L94:
 	add	d15,d4,#-22
-.L79:
+.L95:
 	mul	d15,d15,#8
-.L80:
+.L96:
 	movh.a	a15,#@his(x_IO_KdL)
 	lea	a15,[a15]@los(x_IO_KdL)
-.L81:
+.L97:
 	addsc.a	a15,a15,d15,#0
-.L82:
+.L98:
 	ld.bu	d4,[a15]4
-.L62:
+.L78:
 	mov	d5,#16
-.L39:
+.L55:
 	call	IfxPort_setPinMode
-.L40:
+.L56:
 	j	.L2
 .L2:
 	ret
-.L35:
+.L51:
 	
 __In_Module_Switch_Door_KdL_init_function_end:
 	.size	In_Module_Switch_Door_KdL_init,__In_Module_Switch_Door_KdL_init_function_end-In_Module_Switch_Door_KdL_init
-.L21:
+.L35:
 	; End of function
 	
 	.sdecl	'.text.In_Module_Switch_Door_KidLock.In_Module_Switch_Door_KdL_return',code,cluster('In_Module_Switch_Door_KdL_return')
@@ -64,41 +64,41 @@ __In_Module_Switch_Door_KdL_init_function_end:
 	
 	.global	In_Module_Switch_Door_KdL_return
 ; Function In_Module_Switch_Door_KdL_return
-.L12:
+.L26:
 In_Module_Switch_Door_KdL_return:	.type	func
 	movh.a	a15,#@his(dKdLNum)
 	lea	a15,[a15]@los(dKdLNum)
 	ld.bu	d15,[a15]
-.L87:
+.L103:
 	mul	d15,d15,#8
-.L88:
+.L104:
 	movh.a	a15,#@his(x_IO_KdL)
 	lea	a15,[a15]@los(x_IO_KdL)
-.L89:
+.L105:
 	addsc.a	a15,a15,d15,#0
-.L90:
+.L106:
 	ld.a	a2,[a15]
-.L91:
+.L107:
 	movh.a	a15,#@his(dKdLNum)
 	lea	a15,[a15]@los(dKdLNum)
 	ld.bu	d15,[a15]
-.L92:
+.L108:
 	mul	d15,d15,#8
-.L93:
+.L109:
 	movh.a	a15,#@his(x_IO_KdL)
 	lea	a15,[a15]@los(x_IO_KdL)
-.L94:
+.L110:
 	addsc.a	a15,a15,d15,#0
-.L95:
+.L111:
 	ld.bu	d15,[a15]4
-.L50:
+.L66:
 	ld.w	d0,[a2]36
 	extr.u	d15,d0,d15,#1
-.L96:
+.L112:
 	jeq	d15,#0,.L3
-.L97:
+.L113:
 	mov	d15,#1
-.L98:
+.L114:
 	j	.L4
 .L3:
 	mov	d15,#0
@@ -107,36 +107,142 @@ In_Module_Switch_Door_KdL_return:	.type	func
 .L5:
 	movh.a	a15,#@his(temp_InDoorKdL_SW)
 	lea	a15,[a15]@los(temp_InDoorKdL_SW)
-.L57:
+.L73:
 	st.b	[a15],d15
-.L58:
+.L74:
 	movh.a	a15,#@his(pre_InDoorKdL_SW)
 	lea	a15,[a15]@los(pre_InDoorKdL_SW)
 	ld.bu	d0,[a15]
-.L59:
+.L75:
 	eq	d15,d15,#0
-.L60:
+.L76:
 	and	d0,d15
-.L99:
+.L115:
 	jeq	d0,#0,.L6
-.L100:
-	mov	d2,#1
-.L101:
-	j	.L7
-.L6:
-	mov	d2,#0
-.L102:
-	j	.L8
-.L8:
+.L116:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+	ld.bu	d15,[a15]
+.L117:
+	mov	d0,#0
+	jeq	d15,d0,.L7
+.L118:
+	mov	d0,#1
+	jeq	d15,d0,.L8
+.L119:
+	mov	d0,#2
+	jeq	d15,d0,.L9
+	j	.L10
 .L7:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L120:
+	mov	d15,#1
+.L121:
+	st.b	[a15],d15
+.L122:
+	mov	d2,#1
+.L123:
+	j	.L11
+.L8:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L124:
+	mov	d15,#2
+.L125:
+	st.b	[a15],d15
+.L126:
+	mov	d2,#0
+.L127:
+	j	.L12
+.L9:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L128:
+	mov	d15,#1
+.L129:
+	st.b	[a15],d15
+.L130:
+	mov	d2,#1
+.L131:
+	j	.L13
+.L10:
+	mov	d2,#0
+.L132:
+	j	.L14
+.L6:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+	ld.bu	d15,[a15]
+.L133:
+	mov	d0,#0
+	jeq	d15,d0,.L15
+.L134:
+	mov	d0,#1
+	jeq	d15,d0,.L16
+.L135:
+	mov	d0,#2
+	jeq	d15,d0,.L17
+	j	.L18
+.L15:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L136:
+	mov	d15,#0
+.L137:
+	st.b	[a15],d15
+.L138:
+	mov	d2,#0
+.L139:
+	j	.L19
+.L16:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L140:
+	mov	d15,#1
+.L141:
+	st.b	[a15],d15
+.L142:
+	mov	d2,#1
+.L143:
+	j	.L20
+.L17:
+	movh.a	a15,#@his(KdL_STATE)
+	lea	a15,[a15]@los(KdL_STATE)
+.L144:
+	mov	d15,#2
+.L145:
+	st.b	[a15],d15
+.L146:
+	mov	d2,#0
+.L147:
+	j	.L21
+.L18:
+	mov	d2,#0
+.L148:
+	j	.L22
+.L22:
+.L21:
+.L20:
+.L19:
+.L14:
+.L13:
+.L12:
+.L11:
 	ret
-.L48:
+.L64:
 	
 __In_Module_Switch_Door_KdL_return_function_end:
 	.size	In_Module_Switch_Door_KdL_return,__In_Module_Switch_Door_KdL_return_function_end-In_Module_Switch_Door_KdL_return
-.L26:
+.L40:
 	; End of function
 	
+	.sdecl	'.data.In_Module_Switch_Door_KidLock.KdL_STATE',data,cluster('KdL_STATE')
+	.sect	'.data.In_Module_Switch_Door_KidLock.KdL_STATE'
+	.global	KdL_STATE
+KdL_STATE:	.type	object
+	.size	KdL_STATE,1
+	.space	1
 	.sdecl	'.bss.In_Module_Switch_Door_KidLock.dKdLNum',data,cluster('dKdLNum')
 	.sect	'.bss.In_Module_Switch_Door_KidLock.dKdLNum'
 	.global	dKdLNum
@@ -253,17 +359,17 @@ x_IO_KdL:	.type	object
 	.calls	'In_Module_Switch_Door_KdL_return','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L14:
+.L28:
 	.word	93713
 	.half	3
-	.word	.L15
+	.word	.L29
 	.byte	4
-.L13:
+.L27:
 	.byte	1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L16
+	.word	.L30
 	.byte	2,1,1,3
 	.word	184
 	.byte	4
@@ -322,7 +428,7 @@ x_IO_KdL:	.type	object
 	.byte	'B',0
 	.word	487
 	.byte	4,2,35,0,0
-.L36:
+.L52:
 	.byte	7
 	.byte	'unsigned char',0,1,8,7
 	.byte	'unsigned short int',0,2,7,10
@@ -1785,41 +1891,41 @@ x_IO_KdL:	.type	object
 	.word	8566
 	.byte	3
 	.word	9169
-.L49:
+.L65:
 	.byte	8
 	.byte	'IfxPort_getPinState',0,3,5,170,4,20
 	.word	623
 	.byte	1,1
-.L51:
+.L67:
 	.byte	5
 	.byte	'port',0,5,170,4,47
 	.word	9174
-.L53:
+.L69:
 	.byte	5
 	.byte	'pinIndex',0,5,170,4,59
 	.word	623
-.L55:
+.L71:
 	.byte	6,0,17,5,80,9,1,18
 	.byte	'IfxPort_InputMode_undefined',0,127,18
 	.byte	'IfxPort_InputMode_noPullDevice',0,0,18
 	.byte	'IfxPort_InputMode_pullDown',0,8,18
 	.byte	'IfxPort_InputMode_pullUp',0,16,0
-.L38:
+.L54:
 	.byte	4
 	.byte	'IfxPort_setPinModeInput',0,3,5,194,4,17,1,1
-.L41:
+.L57:
 	.byte	5
 	.byte	'port',0,5,194,4,48
 	.word	9174
-.L43:
+.L59:
 	.byte	5
 	.byte	'pinIndex',0,5,194,4,60
 	.word	623
-.L45:
+.L61:
 	.byte	5
 	.byte	'mode',0,5,194,4,88
 	.word	9245
-.L47:
+.L63:
 	.byte	6,0,17,5,170,1,9,4,18
 	.byte	'IfxPort_State_notChanged',0,0,18
 	.byte	'IfxPort_State_high',0,1,18
@@ -14073,13 +14179,13 @@ x_IO_KdL:	.type	object
 	.byte	'IfxStm_SuspendMode_soft',0,2,0,28
 	.byte	'IfxStm_SuspendMode',0,12,137,2,3
 	.word	93593
-.L61:
+.L77:
 	.byte	15,240,1
 	.word	44250
 	.byte	16,29,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L15:
+.L29:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -14091,12 +14197,12 @@ x_IO_KdL:	.type	object
 	.byte	0,54,15,0,0,30,19,1,58,15,59,15,57,15,11,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L16:
-	.word	.L64-.L63
-.L63:
+.L30:
+	.word	.L80-.L79
+.L79:
 	.half	3
-	.word	.L66-.L65
-.L65:
+	.word	.L82-.L81
+.L81:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std',0,0
@@ -14133,151 +14239,49 @@ x_IO_KdL:	.type	object
 	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxSrc_cfg.h',0,0
 	.byte	0,0
 	.byte	'IfxCbs_regdef.h',0,1,0,0,0
-.L66:
-.L64:
+.L82:
+.L80:
 	.sdecl	'.debug_info',debug,cluster('In_Module_Switch_Door_KdL_init')
 	.sect	'.debug_info'
-.L17:
+.L31:
 	.word	327
 	.half	3
-	.word	.L18
+	.word	.L32
 	.byte	4,1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L20,.L19
+	.word	.L34,.L33
 	.byte	2
-	.word	.L13
+	.word	.L27
 	.byte	3
-	.byte	'In_Module_Switch_Door_KdL_init',0,1,62,6,1,1,1
-	.word	.L10,.L35,.L9
+	.byte	'In_Module_Switch_Door_KdL_init',0,1,65,6,1,1,1
+	.word	.L24,.L51,.L23
 	.byte	4
-	.byte	'btnNumber',0,1,62,43
-	.word	.L36,.L37
+	.byte	'btnNumber',0,1,65,43
+	.word	.L52,.L53
 	.byte	5
-	.word	.L10,.L35
+	.word	.L24,.L51
 	.byte	6
-	.word	.L38,.L39,.L40
+	.word	.L54,.L55,.L56
 	.byte	7
-	.word	.L41,.L42
+	.word	.L57,.L58
 	.byte	7
-	.word	.L43,.L44
+	.word	.L59,.L60
 	.byte	7
-	.word	.L45,.L46
+	.word	.L61,.L62
 	.byte	8
-	.word	.L47,.L39,.L40
+	.word	.L63,.L55,.L56
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('In_Module_Switch_Door_KdL_init')
 	.sect	'.debug_abbrev'
-.L18:
+.L32:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,29,1,49
 	.byte	16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('In_Module_Switch_Door_KdL_init')
 	.sect	'.debug_line'
-.L19:
-	.word	.L68-.L67
-.L67:
-	.half	3
-	.word	.L70-.L69
-.L69:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../In_Module_Switch_Door_KidLock.c',0,0,0,0
-	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
-	.byte	0,0,0,0
-.L70:
-	.byte	5,5,7,0,5,2
-	.word	.L10
-	.byte	3,62,1,5,24,9
-	.half	.L71-.L10
-	.byte	1,5,13,9
-	.half	.L72-.L71
-	.byte	1,5,47,9
-	.half	.L73-.L72
-	.byte	3,1,1,5,37,9
-	.half	.L74-.L73
-	.byte	1,5,29,9
-	.half	.L75-.L74
-	.byte	1,5,37,9
-	.half	.L76-.L75
-	.byte	1,5,51,9
-	.half	.L77-.L76
-	.byte	1,5,76,9
-	.half	.L78-.L77
-	.byte	1,5,66,9
-	.half	.L79-.L78
-	.byte	1,5,58,9
-	.half	.L80-.L79
-	.byte	1,5,66,9
-	.half	.L81-.L80
-	.byte	1,5,80,9
-	.half	.L82-.L81
-	.byte	1,5,91,9
-	.half	.L62-.L82
-	.byte	1,4,2,5,40,9
-	.half	.L39-.L62
-	.byte	3,132,4,1,4,1,5,5,9
-	.half	.L40-.L39
-	.byte	3,254,123,1,5,1,9
-	.half	.L2-.L40
-	.byte	3,1,1,7,9
-	.half	.L21-.L2
-	.byte	0,1,1
-.L68:
-	.sdecl	'.debug_ranges',debug,cluster('In_Module_Switch_Door_KdL_init')
-	.sect	'.debug_ranges'
-.L20:
-	.word	-1,.L10,0,.L21-.L10,0,0
-	.sdecl	'.debug_info',debug,cluster('In_Module_Switch_Door_KdL_return')
-	.sect	'.debug_info'
-.L22:
-	.word	361
-	.half	3
-	.word	.L23
-	.byte	4,1
-	.byte	'../In_Module_Switch_Door_KidLock.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L25,.L24
-	.byte	2
-	.word	.L13
-	.byte	3
-	.byte	'In_Module_Switch_Door_KdL_return',0,1,69,7
-	.word	.L36
-	.byte	1,1
-	.word	.L12,.L48,.L11
-	.byte	4
-	.word	.L12,.L48
-	.byte	5
-	.word	.L49,.L50,.L5
-	.byte	6
-	.word	.L51,.L52
-	.byte	6
-	.word	.L53,.L54
-	.byte	7
-	.word	.L55,.L56
-	.byte	0,5
-	.word	.L49,.L57,.L58
-	.byte	6
-	.word	.L51,.L52
-	.byte	6
-	.word	.L53,.L54
-	.byte	0,5
-	.word	.L49,.L59,.L60
-	.byte	6
-	.word	.L51,.L52
-	.byte	6
-	.word	.L53,.L54
-	.byte	0,0,0,0
-	.sdecl	'.debug_abbrev',debug,cluster('In_Module_Switch_Door_KdL_return')
-	.sect	'.debug_abbrev'
-.L23:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
-	.byte	0,49,16,85,6,0,0,0
-	.sdecl	'.debug_line',debug,cluster('In_Module_Switch_Door_KdL_return')
-	.sect	'.debug_line'
-.L24:
+.L33:
 	.word	.L84-.L83
 .L83:
 	.half	3
@@ -14288,190 +14292,390 @@ x_IO_KdL:	.type	object
 	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
 	.byte	0,0,0,0
 .L86:
-	.byte	5,61,7,0,5,2
-	.word	.L12
-	.byte	3,197,0,1,5,60,9
-	.half	.L87-.L12
-	.byte	1,5,52,9
+	.byte	5,5,7,0,5,2
+	.word	.L24
+	.byte	3,193,0,1,5,24,9
+	.half	.L87-.L24
+	.byte	1,5,13,9
 	.half	.L88-.L87
-	.byte	1,5,60,9
+	.byte	1,5,47,9
 	.half	.L89-.L88
-	.byte	1,5,69,9
+	.byte	3,1,1,5,37,9
 	.half	.L90-.L89
-	.byte	1,5,85,9
+	.byte	1,5,29,9
 	.half	.L91-.L90
-	.byte	1,5,84,9
+	.byte	1,5,37,9
 	.half	.L92-.L91
-	.byte	1,5,76,9
-	.half	.L93-.L92
-	.byte	1,5,84,9
-	.half	.L94-.L93
-	.byte	1,5,93,9
-	.half	.L95-.L94
-	.byte	1,4,2,5,13,9
-	.half	.L50-.L95
-	.byte	3,230,3,1,5,12,9
-	.half	.L96-.L50
-	.byte	1,5,51,7,9
-	.half	.L97-.L96
-	.byte	1,5,58,9
-	.half	.L98-.L97
 	.byte	1,5,51,9
-	.half	.L3-.L98
+	.half	.L93-.L92
+	.byte	1,5,76,9
+	.half	.L94-.L93
+	.byte	1,5,66,9
+	.half	.L95-.L94
+	.byte	1,5,58,9
+	.half	.L96-.L95
+	.byte	1,5,66,9
+	.half	.L97-.L96
+	.byte	1,5,80,9
+	.half	.L98-.L97
+	.byte	1,5,91,9
+	.half	.L78-.L98
+	.byte	1,4,2,5,40,9
+	.half	.L55-.L78
+	.byte	3,129,4,1,4,1,5,5,9
+	.half	.L56-.L55
+	.byte	3,129,124,1,5,1,9
+	.half	.L2-.L56
+	.byte	3,1,1,7,9
+	.half	.L35-.L2
+	.byte	0,1,1
+.L84:
+	.sdecl	'.debug_ranges',debug,cluster('In_Module_Switch_Door_KdL_init')
+	.sect	'.debug_ranges'
+.L34:
+	.word	-1,.L24,0,.L35-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('In_Module_Switch_Door_KdL_return')
+	.sect	'.debug_info'
+.L36:
+	.word	361
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../In_Module_Switch_Door_KidLock.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L39,.L38
+	.byte	2
+	.word	.L27
+	.byte	3
+	.byte	'In_Module_Switch_Door_KdL_return',0,1,72,7
+	.word	.L52
+	.byte	1,1
+	.word	.L26,.L64,.L25
+	.byte	4
+	.word	.L26,.L64
+	.byte	5
+	.word	.L65,.L66,.L5
+	.byte	6
+	.word	.L67,.L68
+	.byte	6
+	.word	.L69,.L70
+	.byte	7
+	.word	.L71,.L72
+	.byte	0,5
+	.word	.L65,.L73,.L74
+	.byte	6
+	.word	.L67,.L68
+	.byte	6
+	.word	.L69,.L70
+	.byte	0,5
+	.word	.L65,.L75,.L76
+	.byte	6
+	.word	.L67,.L68
+	.byte	6
+	.word	.L69,.L70
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('In_Module_Switch_Door_KdL_return')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
+	.byte	0,49,16,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('In_Module_Switch_Door_KdL_return')
+	.sect	'.debug_line'
+.L38:
+	.word	.L100-.L99
+.L99:
+	.half	3
+	.word	.L102-.L101
+.L101:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../In_Module_Switch_Door_KidLock.c',0,0,0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
+	.byte	0,0,0,0
+.L102:
+	.byte	5,61,7,0,5,2
+	.word	.L26
+	.byte	3,200,0,1,5,60,9
+	.half	.L103-.L26
+	.byte	1,5,52,9
+	.half	.L104-.L103
+	.byte	1,5,60,9
+	.half	.L105-.L104
+	.byte	1,5,69,9
+	.half	.L106-.L105
+	.byte	1,5,85,9
+	.half	.L107-.L106
+	.byte	1,5,84,9
+	.half	.L108-.L107
+	.byte	1,5,76,9
+	.half	.L109-.L108
+	.byte	1,5,84,9
+	.half	.L110-.L109
+	.byte	1,5,93,9
+	.half	.L111-.L110
+	.byte	1,4,2,5,13,9
+	.half	.L66-.L111
+	.byte	3,227,3,1,5,12,9
+	.half	.L112-.L66
+	.byte	1,5,51,7,9
+	.half	.L113-.L112
+	.byte	1,5,58,9
+	.half	.L114-.L113
+	.byte	1,5,51,9
+	.half	.L3-.L114
 	.byte	1,5,5,9
 	.half	.L4-.L3
 	.byte	1,4,1,9
 	.half	.L5-.L4
-	.byte	3,154,124,1,5,23,9
-	.half	.L57-.L5
+	.byte	3,157,124,1,5,23,9
+	.half	.L73-.L5
 	.byte	1,5,8,9
-	.half	.L58-.L57
+	.half	.L74-.L73
 	.byte	3,1,1,5,27,9
-	.half	.L59-.L58
+	.half	.L75-.L74
 	.byte	1,5,25,9
-	.half	.L60-.L59
+	.half	.L76-.L75
 	.byte	1,5,5,9
-	.half	.L99-.L60
-	.byte	1,5,54,7,9
-	.half	.L100-.L99
-	.byte	1,5,47,9
-	.half	.L101-.L100
-	.byte	1,5,17,9
-	.half	.L6-.L101
-	.byte	3,1,1,5,10,9
-	.half	.L102-.L6
-	.byte	1,5,1,9
-	.half	.L7-.L102
-	.byte	3,1,1,7,9
-	.half	.L26-.L7
+	.half	.L115-.L76
+	.byte	1,5,20,7,9
+	.half	.L116-.L115
+	.byte	3,1,1,5,22,9
+	.half	.L117-.L116
+	.byte	3,1,1,9
+	.half	.L118-.L117
+	.byte	3,3,1,9
+	.half	.L119-.L118
+	.byte	3,3,1,5,21,9
+	.half	.L7-.L119
+	.byte	3,123,1,5,33,9
+	.half	.L120-.L7
+	.byte	1,5,31,9
+	.half	.L121-.L120
+	.byte	1,5,28,9
+	.half	.L122-.L121
+	.byte	3,1,1,5,21,9
+	.half	.L123-.L122
+	.byte	1,9
+	.half	.L8-.L123
+	.byte	3,2,1,5,33,9
+	.half	.L124-.L8
+	.byte	1,5,31,9
+	.half	.L125-.L124
+	.byte	1,5,28,9
+	.half	.L126-.L125
+	.byte	3,1,1,5,21,9
+	.half	.L127-.L126
+	.byte	1,9
+	.half	.L9-.L127
+	.byte	3,2,1,5,33,9
+	.half	.L128-.L9
+	.byte	1,5,31,9
+	.half	.L129-.L128
+	.byte	1,5,28,9
+	.half	.L130-.L129
+	.byte	3,1,1,5,21,9
+	.half	.L131-.L130
+	.byte	1,5,28,9
+	.half	.L10-.L131
+	.byte	3,2,1,5,21,9
+	.half	.L132-.L10
+	.byte	1,5,20,9
+	.half	.L6-.L132
+	.byte	3,3,1,5,30,9
+	.half	.L133-.L6
+	.byte	3,1,1,9
+	.half	.L134-.L133
+	.byte	3,3,1,9
+	.half	.L135-.L134
+	.byte	3,3,1,5,29,9
+	.half	.L15-.L135
+	.byte	3,123,1,5,41,9
+	.half	.L136-.L15
+	.byte	1,5,39,9
+	.half	.L137-.L136
+	.byte	1,5,36,9
+	.half	.L138-.L137
+	.byte	3,1,1,5,29,9
+	.half	.L139-.L138
+	.byte	1,9
+	.half	.L16-.L139
+	.byte	3,2,1,5,41,9
+	.half	.L140-.L16
+	.byte	1,5,39,9
+	.half	.L141-.L140
+	.byte	1,5,36,9
+	.half	.L142-.L141
+	.byte	3,1,1,5,29,9
+	.half	.L143-.L142
+	.byte	1,9
+	.half	.L17-.L143
+	.byte	3,2,1,5,41,9
+	.half	.L144-.L17
+	.byte	1,5,39,9
+	.half	.L145-.L144
+	.byte	1,5,36,9
+	.half	.L146-.L145
+	.byte	3,1,1,5,29,9
+	.half	.L147-.L146
+	.byte	1,5,36,9
+	.half	.L18-.L147
+	.byte	3,2,1,5,29,9
+	.half	.L148-.L18
+	.byte	1,5,5,9
+	.half	.L11-.L148
+	.byte	3,3,1,7,9
+	.half	.L40-.L11
 	.byte	0,1,1
-.L84:
+.L100:
 	.sdecl	'.debug_ranges',debug,cluster('In_Module_Switch_Door_KdL_return')
 	.sect	'.debug_ranges'
-.L25:
-	.word	-1,.L12,0,.L26-.L12,0,0
-.L56:
-	.word	-1,.L12,.L50-.L12,.L5-.L12,.L57-.L12,.L58-.L12,.L59-.L12,.L60-.L12,0,0
-	.sdecl	'.debug_info',debug,cluster('dKdLNum')
+.L39:
+	.word	-1,.L26,0,.L40-.L26,0,0
+.L72:
+	.word	-1,.L26,.L66-.L26,.L5-.L26,.L73-.L26,.L74-.L26,.L75-.L26,.L76-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('KdL_STATE')
 	.sect	'.debug_info'
-.L27:
-	.word	205
+.L41:
+	.word	207
 	.half	3
-	.word	.L28
+	.word	.L42
 	.byte	4,1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L13
+	.word	.L27
 	.byte	3
-	.byte	'dKdLNum',0,14,44,7
-	.word	.L36
+	.byte	'KdL_STATE',0,14,46,7
+	.word	.L52
+	.byte	1,5,3
+	.word	KdL_STATE
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('KdL_STATE')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('dKdLNum')
+	.sect	'.debug_info'
+.L43:
+	.word	205
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../In_Module_Switch_Door_KidLock.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L27
+	.byte	3
+	.byte	'dKdLNum',0,14,47,7
+	.word	.L52
 	.byte	1,5,3
 	.word	dKdLNum
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('dKdLNum')
 	.sect	'.debug_abbrev'
-.L28:
+.L44:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('pre_InDoorKdL_SW')
 	.sect	'.debug_info'
-.L29:
+.L45:
 	.word	214
 	.half	3
-	.word	.L30
+	.word	.L46
 	.byte	4,1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L13
+	.word	.L27
 	.byte	3
-	.byte	'pre_InDoorKdL_SW',0,14,45,7
-	.word	.L36
+	.byte	'pre_InDoorKdL_SW',0,14,48,7
+	.word	.L52
 	.byte	1,5,3
 	.word	pre_InDoorKdL_SW
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('pre_InDoorKdL_SW')
 	.sect	'.debug_abbrev'
-.L30:
+.L46:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('temp_InDoorKdL_SW')
 	.sect	'.debug_info'
-.L31:
+.L47:
 	.word	215
 	.half	3
-	.word	.L32
+	.word	.L48
 	.byte	4,1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L13
+	.word	.L27
 	.byte	3
-	.byte	'temp_InDoorKdL_SW',0,14,46,7
-	.word	.L36
+	.byte	'temp_InDoorKdL_SW',0,14,49,7
+	.word	.L52
 	.byte	1,5,3
 	.word	temp_InDoorKdL_SW
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('temp_InDoorKdL_SW')
 	.sect	'.debug_abbrev'
-.L32:
+.L48:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('x_IO_KdL')
 	.sect	'.debug_info'
-.L33:
+.L49:
 	.word	206
 	.half	3
-	.word	.L34
+	.word	.L50
 	.byte	4,1
 	.byte	'../In_Module_Switch_Door_KidLock.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L13
+	.word	.L27
 	.byte	3
-	.byte	'x_IO_KdL',0,14,47,14
-	.word	.L61
+	.byte	'x_IO_KdL',0,14,50,14
+	.word	.L77
 	.byte	1,5,3
 	.word	x_IO_KdL
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('x_IO_KdL')
 	.sect	'.debug_abbrev'
-.L34:
+.L50:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('In_Module_Switch_Door_KdL_init')
 	.sect	'.debug_loc'
-.L9:
-	.word	-1,.L10,0,.L35-.L10
+.L23:
+	.word	-1,.L24,0,.L51-.L24
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L37:
-	.word	-1,.L10,0,.L62-.L10
+.L53:
+	.word	-1,.L24,0,.L78-.L24
 	.half	1
 	.byte	84
 	.word	0,0
-.L46:
+.L62:
 	.word	0,0
-.L44:
+.L60:
 	.word	0,0
-.L42:
+.L58:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('In_Module_Switch_Door_KdL_return')
 	.sect	'.debug_loc'
-.L11:
-	.word	-1,.L12,0,.L48-.L12
+.L25:
+	.word	-1,.L26,0,.L64-.L26
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L54:
+.L70:
 	.word	0,0
-.L52:
+.L68:
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L103:
+.L149:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -14479,10 +14683,10 @@ x_IO_KdL:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('In_Module_Switch_Door_KdL_init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L103,.L10,.L35-.L10
+	.word	.L149,.L24,.L51-.L24
 	.sdecl	'.debug_frame',debug,cluster('In_Module_Switch_Door_KdL_return')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L103,.L12,.L48-.L12
+	.word	.L149,.L26,.L64-.L26
 	.byte	8,19,8,20,8,21,8,22,8,23,0,0
 	; Module end

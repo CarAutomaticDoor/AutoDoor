@@ -36,11 +36,14 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-
+#define KDL_IDLE    0    /*In Door On/Off State  */
+#define KDL_ON      1
+#define KDL_OFF     2
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
+uint8 KdL_STATE = 0;
 uint8 dKdLNum;
 uint8 pre_InDoorKdL_SW = 1;
 uint8 temp_InDoorKdL_SW;
@@ -68,7 +71,33 @@ void In_Module_Switch_Door_KdL_init(uint8 btnNumber){ /*btnNumber : Close btn �
 
 uint8 In_Module_Switch_Door_KdL_return(){   /* btn(switch)눌리면 1 return  */
     temp_InDoorKdL_SW = (uint8)IfxPort_getPinState(x_IO_KdL[dKdLNum].port, x_IO_KdL[dKdLNum].pinIndex); /*Close Btn(Switch) 값 읽어와 tempSW에 저장  */
-    if(pre_InDoorKdL_SW & !temp_InDoorKdL_SW){return 1;}    /* temp는 눌릴때 0 (pull up)*/
-    else{return 0;}
-}
-
+    if(pre_InDoorKdL_SW & !temp_InDoorKdL_SW){
+            switch(KdL_STATE){  /*버튼 누르는 동작 감지 시 상태 변화  */
+                case KDL_IDLE :
+                    KdL_STATE = KDL_ON;
+                    return 1;
+                case KDL_ON:
+                    KdL_STATE = KDL_OFF;
+                    return 0;
+                case KDL_OFF:
+                    KdL_STATE = KDL_ON;
+                    return 1;
+                default:
+                    return 0;
+            }    /* temp는 눌릴때 0 (pull up)*/
+        }else{
+            switch(KdL_STATE){  /*안눌리고 있을 때에는 현상 유지 */
+                        case KDL_IDLE :
+                            KdL_STATE = KDL_IDLE;
+                            return 0;
+                        case KDL_ON:
+                            KdL_STATE = KDL_ON;
+                            return 1;
+                        case KDL_OFF:
+                            KdL_STATE = KDL_OFF;
+                            return 0;
+                        default:
+                            return 0;
+                    }    /* temp는 눌릴때 0 (pull up)*/
+        }
+    }
