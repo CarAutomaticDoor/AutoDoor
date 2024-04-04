@@ -36,7 +36,11 @@
 #include "App_Module.h"
 #include "Audio_Module.h"
 #include "Door_Module.h"
-#include "In_Module.h"
+#include "In_Module_Switch_Door_Close.h"
+#include "In_Module_Switch_Door_KidLock.h"
+#include "In_Module_Switch_Door_OnOff.h"
+#include "In_Module_Switch_Door_Open.h"
+#include "XIO.h"
 #include "Out_Module.h"
 
 /*********************************************************************************************************************/
@@ -74,7 +78,10 @@ void ECU_Module_Init(){
     App_Module_init();
     Audio_Module_init();
     Door_Module_init();
-    In_Module_init();
+    //void In_Module_Switch_Door_Close_init(TC275 (PINnum))
+    //void In_Module_Switch_Door_KdL_init(TC275 (PINnum))
+    //void In_Module_Switch_Door_OnOff_init(TC275 (PINnum))
+    //void In_Module_Switch_Door_Open_init(TC275 (PINnum))
     Out_Module_init();
 
     return;

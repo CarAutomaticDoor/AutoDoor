@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc2356a --dep-file=Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c"
+	.compiler_invocation	"ctc -f cc13740a --dep-file=Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\gitRepo_autoDoor\\\\AutoDoor -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Configurations -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c"
 	.compiler_name		"ctc"
 	;source	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c'
 
@@ -90,7 +90,7 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L3:
-	.word	44651
+	.word	44659
 	.half	3
 	.word	.L4
 	.byte	4
@@ -98,39 +98,39 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L5
 	.byte	2,1,1,3
-	.word	197
+	.word	205
 	.byte	4
 	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
 	.byte	'fun',0,1,58,43
-	.word	200
+	.word	208
 	.byte	6,0,7
 	.byte	'__fract',0,4,128,1,7
 	.byte	'float',0,4,4,8
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
-	.word	245
+	.word	253
 	.byte	1,1,5
 	.byte	'a',0,1,149,2,44
-	.word	257
+	.word	265
 	.byte	6,0,7
 	.byte	'unsigned long long int',0,8,7,9
 	.byte	'void',0,3
-	.word	337
+	.word	345
 	.byte	8
 	.byte	'__ld64',0,3,2,135,1,19
-	.word	311
+	.word	319
 	.byte	1,1,5
 	.byte	'addr',0,2,135,1,32
-	.word	343
+	.word	351
 	.byte	6,0,4
 	.byte	'__st64',0,3,2,143,1,17,1,1,5
 	.byte	'addr',0,2,143,1,30
-	.word	343
+	.word	351
 	.byte	5
 	.byte	'value',0,2,143,1,43
-	.word	311
+	.word	319
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7,7
 	.byte	'int',0,4,5,7
@@ -138,1346 +138,1346 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_P_OUT_Bits',0,4,161,3,16,4,11
 	.byte	'P0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'P1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'P2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'P3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'P4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'P5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'P6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'P7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'P8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'P9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'P10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'P11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'P12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'P13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'P14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'P15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,198,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	491
+	.word	499
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMR_Bits',0,4,187,2,16,4,11
 	.byte	'PS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PS2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PS3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PS4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PS5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PS6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PS7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PS8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'PS9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'PS10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'PS11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'PS12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'PS13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'PS14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'PS15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'PCL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'PCL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'PCL2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'PCL3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'PCL4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'PCL5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'PCL6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'PCL7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'PCL8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'PCL9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'PCL10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'PCL11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'PCL12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'PCL13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'PCL14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'PCL15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,150,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	807
+	.word	815
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_ID_Bits',0,4,128,1,16,4,11
 	.byte	'MODREV',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'MODTYPE',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'MODNUMBER',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,165,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	1378
+	.word	1386
 	.byte	4,2,35,0,0,14,4
-	.word	452
+	.word	460
 	.byte	15,3,0,10
 	.byte	'_Ifx_P_IOCR0_Bits',0,4,158,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PC0',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PC1',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PC2',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PC3',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,3,0,12,4,181,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	1507
+	.word	1515
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_IOCR4_Bits',0,4,184,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PC4',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PC5',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PC6',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PC7',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,3,0,12,4,197,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	1722
+	.word	1730
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_IOCR8_Bits',0,4,197,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PC8',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PC9',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PC10',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PC11',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,3,0,12,4,205,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	1937
+	.word	1945
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_IOCR12_Bits',0,4,171,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PC12',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PC13',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PC14',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PC15',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,3,0,12,4,189,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	2154
+	.word	2162
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_IN_Bits',0,4,136,1,16,4,11
 	.byte	'P0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'P1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'P2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'P3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'P4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'P5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'P6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'P7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'P8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'P9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'P10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'P11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'P12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'P13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'P14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'P15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,173,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	2374
+	.word	2382
 	.byte	4,2,35,0,0,14,24
-	.word	452
+	.word	460
 	.byte	15,23,0,10
 	.byte	'_Ifx_P_PDR0_Bits',0,4,222,3,16,4,11
 	.byte	'PD0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PL0',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PD1',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,0,11
 	.byte	'PL1',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PD2',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PL2',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'PD3',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,1,11
 	.byte	'PL3',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'PD4',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PL4',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'PD5',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,2,11
 	.byte	'PL5',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'PD6',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PL6',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'PD7',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,3,11
 	.byte	'PL7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,222,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	2698
+	.word	2706
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_PDR1_Bits',0,4,243,3,16,4,11
 	.byte	'PD8',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PL8',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PD9',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,0,11
 	.byte	'PL9',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PD10',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'PL10',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'PD11',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,1,11
 	.byte	'PL11',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'PD12',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'PL12',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'PD13',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,2,11
 	.byte	'PL13',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'PD14',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'PL14',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'PD15',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,3,11
 	.byte	'PL15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,230,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	3002
+	.word	3010
 	.byte	4,2,35,0,0,14,8
-	.word	452
+	.word	460
 	.byte	15,7,0,10
 	.byte	'_Ifx_P_ESR_Bits',0,4,106,16,4,11
 	.byte	'EN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'EN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'EN2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'EN3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'EN4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'EN5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'EN6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'EN7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'EN8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'EN9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'EN10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'EN11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'EN12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'EN13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'EN14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'EN15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,157,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	3327
+	.word	3335
 	.byte	4,2,35,0,0,14,12
-	.word	452
+	.word	460
 	.byte	15,11,0,10
 	.byte	'_Ifx_P_PDISC_Bits',0,4,200,3,16,4,11
 	.byte	'PDIS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PDIS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PDIS2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PDIS3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PDIS4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PDIS5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PDIS6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PDIS7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PDIS8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'PDIS9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'PDIS10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'PDIS11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'PDIS12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'PDIS13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'PDIS14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'PDIS15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,214,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	3667
+	.word	3675
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_PCSR_Bits',0,4,183,3,16,4,11
 	.byte	'SEL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SEL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'SEL2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SEL3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'SEL4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'SEL5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'SEL6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,2
-	.word	469
+	.word	477
 	.byte	3,6,2,35,0,11
 	.byte	'SEL10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'SEL11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'reserved_12',0,4
-	.word	429
+	.word	437
 	.byte	19,1,2,35,0,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,206,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4033
+	.word	4041
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMSR0_Bits',0,4,224,2,16,4,11
 	.byte	'PS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PS2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PS3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,12,4,166,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4303
+	.word	4311
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMSR4_Bits',0,4,245,2,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'PS4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PS5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PS6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PS7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,12,4,182,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4450
+	.word	4458
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMSR8_Bits',0,4,128,3,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'PS8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'PS9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'PS10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'PS11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'reserved_12',0,4
-	.word	429
+	.word	437
 	.byte	20,0,2,35,0,0,12,4,190,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4619
+	.word	4627
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMSR12_Bits',0,4,234,2,16,4,11
 	.byte	'reserved_0',0,2
-	.word	469
+	.word	477
 	.byte	12,4,2,35,0,11
 	.byte	'PS12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'PS13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'PS14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'PS15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,174,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4791
+	.word	4799
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMCR0_Bits',0,4,250,1,16,4,11
 	.byte	'reserved_0',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,0,11
 	.byte	'PCL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'PCL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'PCL2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'PCL3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'reserved_20',0,2
-	.word	469
+	.word	477
 	.byte	12,0,2,35,2,0,12,4,246,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	4966
+	.word	4974
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMCR4_Bits',0,4,143,2,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	20,12,2,35,0,11
 	.byte	'PCL4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'PCL5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'PCL6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'PCL7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,12,4,134,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	5140
+	.word	5148
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMCR8_Bits',0,4,154,2,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	24,8,2,35,0,11
 	.byte	'PCL8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'PCL9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'PCL10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'PCL11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,12,4,142,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	5314
+	.word	5322
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMCR12_Bits',0,4,133,2,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	28,4,2,35,0,11
 	.byte	'PCL12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'PCL13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'PCL14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'PCL15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,254,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	5490
+	.word	5498
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMSR_Bits',0,4,139,3,16,4,11
 	.byte	'PS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PS2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PS3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PS4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PS5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PS6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PS7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PS8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'PS9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'PS10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'PS11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'PS12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'PS13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'PS14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'PS15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,158,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	5646
+	.word	5654
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_OMCR_Bits',0,4,165,2,16,4,11
 	.byte	'reserved_0',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,0,11
 	.byte	'PCL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'PCL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'PCL2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'PCL3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'PCL4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'PCL5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'PCL6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'PCL7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'PCL8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'PCL9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'PCL10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'PCL11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'PCL12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'PCL13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'PCL14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'PCL15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,238,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	5979
+	.word	5987
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_LPCR0_Bits',0,4,210,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,12,4,213,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	6327
+	.word	6335
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_LPCR1_Bits',0,4,218,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,10
 	.byte	'_Ifx_P_LPCR1_P21_Bits',0,4,226,1,16,4,11
 	.byte	'RDIS_CTRL',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'RX_DIS',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'TERM',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'LRXTERM',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,12,4,221,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	6451
+	.word	6459
 	.byte	4,2,35,0,13
 	.byte	'B_P21',0
-	.word	6535
+	.word	6543
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_LPCR2_Bits',0,4,236,1,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'LVDSR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'LVDSRL',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,1,11
 	.byte	'TDIS_CTRL',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'TX_DIS',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'TX_PD',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'TX_PWDPD',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,12,4,230,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	6715
+	.word	6723
 	.byte	4,2,35,0,0,14,76
-	.word	452
+	.word	460
 	.byte	15,75,0,10
 	.byte	'_Ifx_P_ACCEN1_Bits',0,4,100,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	32,0,2,35,0,0,12,4,149,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	6968
+	.word	6976
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P_ACCEN0_Bits',0,4,63,16,4,11
 	.byte	'EN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'EN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'EN2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'EN3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'EN4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'EN5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'EN6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'EN7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'EN8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'EN9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'EN10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'EN11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'EN12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'EN13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'EN14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'EN15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'EN16',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'EN17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'EN18',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'EN19',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'EN20',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'EN21',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'EN22',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'EN23',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'EN24',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'EN25',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'EN26',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'EN27',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'EN28',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'EN29',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'EN30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'EN31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,12,4,141,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	7055
+	.word	7063
 	.byte	4,2,35,0,0,10
 	.byte	'_Ifx_P',0,4,246,5,25,128,2,13
 	.byte	'OUT',0
-	.word	767
+	.word	775
 	.byte	4,2,35,0,13
 	.byte	'OMR',0
-	.word	1338
+	.word	1346
 	.byte	4,2,35,4,13
 	.byte	'ID',0
-	.word	1458
+	.word	1466
 	.byte	4,2,35,8,13
 	.byte	'reserved_C',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,12,13
 	.byte	'IOCR0',0
-	.word	1682
+	.word	1690
 	.byte	4,2,35,16,13
 	.byte	'IOCR4',0
-	.word	1897
+	.word	1905
 	.byte	4,2,35,20,13
 	.byte	'IOCR8',0
-	.word	2114
+	.word	2122
 	.byte	4,2,35,24,13
 	.byte	'IOCR12',0
-	.word	2334
+	.word	2342
 	.byte	4,2,35,28,13
 	.byte	'reserved_20',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,32,13
 	.byte	'IN',0
-	.word	2649
+	.word	2657
 	.byte	4,2,35,36,13
 	.byte	'reserved_28',0
-	.word	2689
+	.word	2697
 	.byte	24,2,35,40,13
 	.byte	'PDR0',0
-	.word	2962
+	.word	2970
 	.byte	4,2,35,64,13
 	.byte	'PDR1',0
-	.word	3278
+	.word	3286
 	.byte	4,2,35,68,13
 	.byte	'reserved_48',0
-	.word	3318
+	.word	3326
 	.byte	8,2,35,72,13
 	.byte	'ESR',0
-	.word	3618
+	.word	3626
 	.byte	4,2,35,80,13
 	.byte	'reserved_54',0
-	.word	3658
+	.word	3666
 	.byte	12,2,35,84,13
 	.byte	'PDISC',0
-	.word	3993
+	.word	4001
 	.byte	4,2,35,96,13
 	.byte	'PCSR',0
-	.word	4263
+	.word	4271
 	.byte	4,2,35,100,13
 	.byte	'reserved_68',0
-	.word	3318
+	.word	3326
 	.byte	8,2,35,104,13
 	.byte	'OMSR0',0
-	.word	4410
+	.word	4418
 	.byte	4,2,35,112,13
 	.byte	'OMSR4',0
-	.word	4579
+	.word	4587
 	.byte	4,2,35,116,13
 	.byte	'OMSR8',0
-	.word	4751
+	.word	4759
 	.byte	4,2,35,120,13
 	.byte	'OMSR12',0
-	.word	4926
+	.word	4934
 	.byte	4,2,35,124,13
 	.byte	'OMCR0',0
-	.word	5100
+	.word	5108
 	.byte	4,3,35,128,1,13
 	.byte	'OMCR4',0
-	.word	5274
+	.word	5282
 	.byte	4,3,35,132,1,13
 	.byte	'OMCR8',0
-	.word	5450
+	.word	5458
 	.byte	4,3,35,136,1,13
 	.byte	'OMCR12',0
-	.word	5606
+	.word	5614
 	.byte	4,3,35,140,1,13
 	.byte	'OMSR',0
-	.word	5939
+	.word	5947
 	.byte	4,3,35,144,1,13
 	.byte	'OMCR',0
-	.word	6287
+	.word	6295
 	.byte	4,3,35,148,1,13
 	.byte	'reserved_98',0
-	.word	3318
+	.word	3326
 	.byte	8,3,35,152,1,13
 	.byte	'LPCR0',0
-	.word	6411
+	.word	6419
 	.byte	4,3,35,160,1,13
 	.byte	'LPCR1',0
-	.word	6660
+	.word	6668
 	.byte	4,3,35,164,1,13
 	.byte	'LPCR2',0
-	.word	6919
+	.word	6927
 	.byte	4,3,35,168,1,13
 	.byte	'reserved_A4',0
-	.word	6959
+	.word	6967
 	.byte	76,3,35,172,1,13
 	.byte	'ACCEN1',0
-	.word	7015
+	.word	7023
 	.byte	4,3,35,248,1,13
 	.byte	'ACCEN0',0
-	.word	7582
+	.word	7590
 	.byte	4,3,35,252,1,0,16
-	.word	7622
+	.word	7630
 	.byte	3
-	.word	8225
+	.word	8233
 	.byte	17,3,170,1,9,4,18
 	.byte	'IfxPort_State_notChanged',0,0,18
 	.byte	'IfxPort_State_high',0,1,18
@@ -1485,1360 +1485,1360 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	'IfxPort_State_toggled',0,129,128,4,0,4
 	.byte	'IfxPort_setPinState',0,3,3,206,4,17,1,1,5
 	.byte	'port',0,3,206,4,44
-	.word	8230
+	.word	8238
 	.byte	5
 	.byte	'pinIndex',0,3,206,4,56
-	.word	452
+	.word	460
 	.byte	5
 	.byte	'action',0,3,206,4,80
-	.word	8235
+	.word	8243
 	.byte	6,0,19
-	.word	205
+	.word	213
 	.byte	20
-	.word	231
+	.word	239
 	.byte	6,0,19
-	.word	266
+	.word	274
 	.byte	20
-	.word	298
+	.word	306
 	.byte	6,0,19
-	.word	348
+	.word	356
 	.byte	20
-	.word	367
+	.word	375
 	.byte	6,0,19
-	.word	383
+	.word	391
 	.byte	20
-	.word	398
+	.word	406
 	.byte	20
-	.word	412
+	.word	420
 	.byte	6,0,19
-	.word	8338
+	.word	8346
 	.byte	20
-	.word	8366
+	.word	8374
 	.byte	20
-	.word	8380
+	.word	8388
 	.byte	20
-	.word	8398
+	.word	8406
 	.byte	6,0,7
 	.byte	'short int',0,2,5,21
 	.byte	'__wchar_t',0,5,1,1
-	.word	8491
+	.word	8499
 	.byte	21
 	.byte	'__size_t',0,5,1,1
-	.word	429
+	.word	437
 	.byte	21
 	.byte	'__ptrdiff_t',0,5,1,1
-	.word	445
+	.word	453
 	.byte	22,1,3
-	.word	8559
+	.word	8567
 	.byte	21
 	.byte	'__codeptr',0,5,1,1
-	.word	8561
+	.word	8569
 	.byte	10
 	.byte	'_Ifx_I2C_ACCEN0_Bits',0,6,63,16,4,11
 	.byte	'EN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'EN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'EN2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'EN3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'EN4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'EN5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'EN6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'EN7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'EN8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'EN9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'EN10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'EN11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'EN12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'EN13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'EN14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'EN15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'EN16',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'EN17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'EN18',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'EN19',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'EN20',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'EN21',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'EN22',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'EN23',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'EN24',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'EN25',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'EN26',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'EN27',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'EN28',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'EN29',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'EN30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'EN31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_I2C_ACCEN0_Bits',0,6,97,3
-	.word	8584
+	.word	8592
 	.byte	10
 	.byte	'_Ifx_I2C_ACCEN1_Bits',0,6,100,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	32,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ACCEN1_Bits',0,6,103,3
-	.word	9141
+	.word	9149
 	.byte	10
 	.byte	'_Ifx_I2C_ADDRCFG_Bits',0,6,106,16,4,11
 	.byte	'ADR',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,0,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	6,0,2,35,1,11
 	.byte	'TBAM',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'GCE',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'MCE',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'MnS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'SONA',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'SOPE',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'reserved_22',0,2
-	.word	469
+	.word	477
 	.byte	10,0,2,35,2,0,21
 	.byte	'Ifx_I2C_ADDRCFG_Bits',0,6,117,3
-	.word	9218
+	.word	9226
 	.byte	10
 	.byte	'_Ifx_I2C_BUSSTAT_Bits',0,6,120,16,4,11
 	.byte	'BS',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'RnW',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,4
-	.word	429
+	.word	437
 	.byte	29,0,2,35,0,0,21
 	.byte	'Ifx_I2C_BUSSTAT_Bits',0,6,125,3
-	.word	9429
+	.word	9437
 	.byte	10
 	.byte	'_Ifx_I2C_CLC1_Bits',0,6,128,1,16,4,11
 	.byte	'DISR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'DISS',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'SPEN',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'EDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'SBWE',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'FSOE',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'RMC',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_I2C_CLC1_Bits',0,6,139,1,3
-	.word	9537
+	.word	9545
 	.byte	10
 	.byte	'_Ifx_I2C_CLC_Bits',0,6,142,1,16,4,11
 	.byte	'DISR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'DISS',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_I2C_CLC_Bits',0,6,147,1,3
-	.word	9746
+	.word	9754
 	.byte	10
 	.byte	'_Ifx_I2C_ENDDCTRL_Bits',0,6,150,1,16,4,11
 	.byte	'SETRSC',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SETEND',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ENDDCTRL_Bits',0,6,155,1,3
-	.word	9851
+	.word	9859
 	.byte	10
 	.byte	'_Ifx_I2C_ERRIRQSC_Bits',0,6,158,1,16,4,11
 	.byte	'RXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'RXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'TXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'TXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSC_Bits',0,6,165,1,3
-	.word	9970
+	.word	9978
 	.byte	10
 	.byte	'_Ifx_I2C_ERRIRQSM_Bits',0,6,168,1,16,4,11
 	.byte	'RXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'RXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'TXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'TXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSM_Bits',0,6,175,1,3
-	.word	10129
+	.word	10137
 	.byte	10
 	.byte	'_Ifx_I2C_ERRIRQSS_Bits',0,6,178,1,16,4,11
 	.byte	'RXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'RXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'TXF_UFL',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'TXF_OFL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSS_Bits',0,6,185,1,3
-	.word	10288
+	.word	10296
 	.byte	10
 	.byte	'_Ifx_I2C_FDIVCFG_Bits',0,6,188,1,16,4,11
 	.byte	'DEC',0,2
-	.word	469
+	.word	477
 	.byte	11,5,2,35,0,11
 	.byte	'reserved_11',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'INC',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,21
 	.byte	'Ifx_I2C_FDIVCFG_Bits',0,6,194,1,3
-	.word	10447
+	.word	10455
 	.byte	10
 	.byte	'_Ifx_I2C_FDIVHIGHCFG_Bits',0,6,197,1,16,4,11
 	.byte	'DEC',0,2
-	.word	469
+	.word	477
 	.byte	11,5,2,35,0,11
 	.byte	'reserved_11',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,1,11
 	.byte	'INC',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,21
 	.byte	'Ifx_I2C_FDIVHIGHCFG_Bits',0,6,203,1,3
-	.word	10582
+	.word	10590
 	.byte	10
 	.byte	'_Ifx_I2C_FFSSTAT_Bits',0,6,206,1,16,4,11
 	.byte	'FFS',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_I2C_FFSSTAT_Bits',0,6,210,1,3
-	.word	10725
+	.word	10733
 	.byte	10
 	.byte	'_Ifx_I2C_FIFOCFG_Bits',0,6,213,1,16,4,11
 	.byte	'RXBS',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'TXBS',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,0,11
 	.byte	'reserved_6',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'RXFA',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,1,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,1,11
 	.byte	'TXFA',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,1,11
 	.byte	'reserved_14',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'RXFC',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'TXFC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'reserved_18',0,2
-	.word	469
+	.word	477
 	.byte	14,0,2,35,2,0,21
 	.byte	'Ifx_I2C_FIFOCFG_Bits',0,6,226,1,3
-	.word	10821
+	.word	10829
 	.byte	10
 	.byte	'_Ifx_I2C_GPCTL_Bits',0,6,229,1,16,4,11
 	.byte	'PISEL',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'reserved_3',0,4
-	.word	429
+	.word	437
 	.byte	29,0,2,35,0,0,21
 	.byte	'Ifx_I2C_GPCTL_Bits',0,6,233,1,3
-	.word	11089
+	.word	11097
 	.byte	10
 	.byte	'_Ifx_I2C_ICR_Bits',0,6,236,1,16,4,11
 	.byte	'LSREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'LBREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'BREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ICR_Bits',0,6,243,1,3
-	.word	11183
+	.word	11191
 	.byte	10
 	.byte	'_Ifx_I2C_ID_Bits',0,6,246,1,16,4,11
 	.byte	'MOD_REV',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'MODNUMBER',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_I2C_ID_Bits',0,6,251,1,3
-	.word	11338
+	.word	11346
 	.byte	10
 	.byte	'_Ifx_I2C_IMSC_Bits',0,6,254,1,16,4,11
 	.byte	'LSREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'LBREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'BREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'I2C_ERR_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'I2C_P_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_I2C_IMSC_Bits',0,6,135,2,3
-	.word	11450
+	.word	11458
 	.byte	10
 	.byte	'_Ifx_I2C_ISR_Bits',0,6,138,2,16,4,11
 	.byte	'LSREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'LBREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'BREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'I2C_ERR_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'I2C_P_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_I2C_ISR_Bits',0,6,147,2,3
-	.word	11651
+	.word	11659
 	.byte	10
 	.byte	'_Ifx_I2C_KRST0_Bits',0,6,150,2,16,4,11
 	.byte	'RST',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'RSTSTAT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_I2C_KRST0_Bits',0,6,155,2,3
-	.word	11850
+	.word	11858
 	.byte	10
 	.byte	'_Ifx_I2C_KRST1_Bits',0,6,158,2,16,4,11
 	.byte	'RST',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	429
+	.word	437
 	.byte	31,0,2,35,0,0,21
 	.byte	'Ifx_I2C_KRST1_Bits',0,6,162,2,3
-	.word	11961
+	.word	11969
 	.byte	10
 	.byte	'_Ifx_I2C_KRSTCLR_Bits',0,6,165,2,16,4,11
 	.byte	'CLR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	429
+	.word	437
 	.byte	31,0,2,35,0,0,21
 	.byte	'Ifx_I2C_KRSTCLR_Bits',0,6,169,2,3
-	.word	12053
+	.word	12061
 	.byte	10
 	.byte	'_Ifx_I2C_MIS_Bits',0,6,172,2,16,4,11
 	.byte	'LSREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'LBREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'BREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'I2C_ERR_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'I2C_P_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_I2C_MIS_Bits',0,6,181,2,3
-	.word	12149
+	.word	12157
 	.byte	10
 	.byte	'_Ifx_I2C_MODID_Bits',0,6,184,2,16,4,11
 	.byte	'MOD_REV',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'MOD_TYPE',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'MODNUMBER',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_I2C_MODID_Bits',0,6,189,2,3
-	.word	12348
+	.word	12356
 	.byte	10
 	.byte	'_Ifx_I2C_MRPSCTRL_Bits',0,6,192,2,16,4,11
 	.byte	'MRPS',0,2
-	.word	469
+	.word	477
 	.byte	14,2,2,35,0,11
 	.byte	'reserved_14',0,4
-	.word	429
+	.word	437
 	.byte	18,0,2,35,0,0,21
 	.byte	'Ifx_I2C_MRPSCTRL_Bits',0,6,196,2,3
-	.word	12463
+	.word	12471
 	.byte	10
 	.byte	'_Ifx_I2C_PIRQSC_Bits',0,6,199,2,16,4,11
 	.byte	'AM',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'GC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'MC',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'AL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'NACK',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'TX_END',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'RX',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,4
-	.word	429
+	.word	437
 	.byte	25,0,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSC_Bits',0,6,209,2,3
-	.word	12563
+	.word	12571
 	.byte	10
 	.byte	'_Ifx_I2C_PIRQSM_Bits',0,6,212,2,16,4,11
 	.byte	'AM',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'GC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'MC',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'AL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'NACK',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'TX_END',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'RX',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,4
-	.word	429
+	.word	437
 	.byte	25,0,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSM_Bits',0,6,222,2,3
-	.word	12746
+	.word	12754
 	.byte	10
 	.byte	'_Ifx_I2C_PIRQSS_Bits',0,6,225,2,16,4,11
 	.byte	'AM',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'GC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'MC',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'AL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'NACK',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'TX_END',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'RX',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,4
-	.word	429
+	.word	437
 	.byte	25,0,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSS_Bits',0,6,235,2,3
-	.word	12929
+	.word	12937
 	.byte	10
 	.byte	'_Ifx_I2C_RIS_Bits',0,6,238,2,16,4,11
 	.byte	'LSREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'LBREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'BREQ_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'I2C_ERR_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'I2C_P_INT',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_I2C_RIS_Bits',0,6,247,2,3
-	.word	13112
+	.word	13120
 	.byte	10
 	.byte	'_Ifx_I2C_RPSSTAT_Bits',0,6,250,2,16,4,11
 	.byte	'RPS',0,2
-	.word	469
+	.word	477
 	.byte	14,2,2,35,0,11
 	.byte	'reserved_14',0,4
-	.word	429
+	.word	437
 	.byte	18,0,2,35,0,0,21
 	.byte	'Ifx_I2C_RPSSTAT_Bits',0,6,254,2,3
-	.word	13311
+	.word	13319
 	.byte	10
 	.byte	'_Ifx_I2C_RUNCTRL_Bits',0,6,129,3,16,4,11
 	.byte	'RUN',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	429
+	.word	437
 	.byte	31,0,2,35,0,0,21
 	.byte	'Ifx_I2C_RUNCTRL_Bits',0,6,133,3,3
-	.word	13408
+	.word	13416
 	.byte	10
 	.byte	'_Ifx_I2C_RXD_Bits',0,6,136,3,16,4,11
 	.byte	'RXD',0,4
-	.word	429
+	.word	437
 	.byte	32,0,2,35,0,0,21
 	.byte	'Ifx_I2C_RXD_Bits',0,6,139,3,3
-	.word	13504
+	.word	13512
 	.byte	10
 	.byte	'_Ifx_I2C_TIMCFG_Bits',0,6,142,3,16,4,11
 	.byte	'SDA_DEL_HD_DAT',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'HS_SDA_DEL_HD_DAT',0,2
-	.word	469
+	.word	477
 	.byte	3,7,2,35,0,11
 	.byte	'SCL_DEL_HD_STA',0,1
-	.word	452
+	.word	460
 	.byte	3,4,2,35,1,11
 	.byte	'reserved_12',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,1,11
 	.byte	'EN_SCL_LOW_LEN',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'FS_SCL_LOW',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'HS_SDA_DEL',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,2,11
 	.byte	'reserved_19',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'SCL_LOW_LEN',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,21
 	.byte	'Ifx_I2C_TIMCFG_Bits',0,6,153,3,3
-	.word	13570
+	.word	13578
 	.byte	10
 	.byte	'_Ifx_I2C_TPSCTRL_Bits',0,6,156,3,16,4,11
 	.byte	'TPS',0,2
-	.word	469
+	.word	477
 	.byte	14,2,2,35,0,11
 	.byte	'reserved_14',0,4
-	.word	429
+	.word	437
 	.byte	18,0,2,35,0,0,21
 	.byte	'Ifx_I2C_TPSCTRL_Bits',0,6,160,3,3
-	.word	13847
+	.word	13855
 	.byte	10
 	.byte	'_Ifx_I2C_TXD_Bits',0,6,163,3,16,4,11
 	.byte	'TXD',0,4
-	.word	429
+	.word	437
 	.byte	32,0,2,35,0,0,21
 	.byte	'Ifx_I2C_TXD_Bits',0,6,166,3,3
-	.word	13944
+	.word	13952
 	.byte	12,6,174,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	8584
+	.word	8592
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ACCEN0',0,6,179,3,3
-	.word	14010
+	.word	14018
 	.byte	12,6,182,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9141
+	.word	9149
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ACCEN1',0,6,187,3,3
-	.word	14074
+	.word	14082
 	.byte	12,6,190,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9218
+	.word	9226
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ADDRCFG',0,6,195,3,3
-	.word	14138
+	.word	14146
 	.byte	12,6,198,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9429
+	.word	9437
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_BUSSTAT',0,6,203,3,3
-	.word	14203
+	.word	14211
 	.byte	12,6,206,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9746
+	.word	9754
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_CLC',0,6,211,3,3
-	.word	14268
+	.word	14276
 	.byte	12,6,214,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9537
+	.word	9545
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_CLC1',0,6,219,3,3
-	.word	14329
+	.word	14337
 	.byte	12,6,222,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9851
+	.word	9859
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ENDDCTRL',0,6,227,3,3
-	.word	14391
+	.word	14399
 	.byte	12,6,230,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	9970
+	.word	9978
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSC',0,6,235,3,3
-	.word	14457
+	.word	14465
 	.byte	12,6,238,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10129
+	.word	10137
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSM',0,6,243,3,3
-	.word	14523
+	.word	14531
 	.byte	12,6,246,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10288
+	.word	10296
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ERRIRQSS',0,6,251,3,3
-	.word	14589
+	.word	14597
 	.byte	12,6,254,3,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10447
+	.word	10455
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_FDIVCFG',0,6,131,4,3
-	.word	14655
+	.word	14663
 	.byte	12,6,134,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10582
+	.word	10590
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_FDIVHIGHCFG',0,6,139,4,3
-	.word	14720
+	.word	14728
 	.byte	12,6,142,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10725
+	.word	10733
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_FFSSTAT',0,6,147,4,3
-	.word	14789
+	.word	14797
 	.byte	12,6,150,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	10821
+	.word	10829
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_FIFOCFG',0,6,155,4,3
-	.word	14854
+	.word	14862
 	.byte	12,6,158,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11089
+	.word	11097
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_GPCTL',0,6,163,4,3
-	.word	14919
+	.word	14927
 	.byte	12,6,166,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11183
+	.word	11191
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ICR',0,6,171,4,3
-	.word	14982
+	.word	14990
 	.byte	12,6,174,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11338
+	.word	11346
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ID',0,6,179,4,3
-	.word	15043
+	.word	15051
 	.byte	12,6,182,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11450
+	.word	11458
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_IMSC',0,6,187,4,3
-	.word	15103
+	.word	15111
 	.byte	12,6,190,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11651
+	.word	11659
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_ISR',0,6,195,4,3
-	.word	15165
+	.word	15173
 	.byte	12,6,198,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11850
+	.word	11858
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_KRST0',0,6,203,4,3
-	.word	15226
+	.word	15234
 	.byte	12,6,206,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11961
+	.word	11969
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_KRST1',0,6,211,4,3
-	.word	15289
+	.word	15297
 	.byte	12,6,214,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12053
+	.word	12061
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_KRSTCLR',0,6,219,4,3
-	.word	15352
+	.word	15360
 	.byte	12,6,222,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12149
+	.word	12157
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_MIS',0,6,227,4,3
-	.word	15417
+	.word	15425
 	.byte	12,6,230,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12348
+	.word	12356
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_MODID',0,6,235,4,3
-	.word	15478
+	.word	15486
 	.byte	12,6,238,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12463
+	.word	12471
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_MRPSCTRL',0,6,243,4,3
-	.word	15541
+	.word	15549
 	.byte	12,6,246,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12563
+	.word	12571
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSC',0,6,251,4,3
-	.word	15607
+	.word	15615
 	.byte	12,6,254,4,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12746
+	.word	12754
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSM',0,6,131,5,3
-	.word	15671
+	.word	15679
 	.byte	12,6,134,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12929
+	.word	12937
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_PIRQSS',0,6,139,5,3
-	.word	15735
+	.word	15743
 	.byte	12,6,142,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13112
+	.word	13120
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_RIS',0,6,147,5,3
-	.word	15799
+	.word	15807
 	.byte	12,6,150,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13311
+	.word	13319
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_RPSSTAT',0,6,155,5,3
-	.word	15860
+	.word	15868
 	.byte	12,6,158,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13408
+	.word	13416
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_RUNCTRL',0,6,163,5,3
-	.word	15925
+	.word	15933
 	.byte	12,6,166,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13504
+	.word	13512
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_RXD',0,6,171,5,3
-	.word	15990
+	.word	15998
 	.byte	12,6,174,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13570
+	.word	13578
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_TIMCFG',0,6,179,5,3
-	.word	16051
+	.word	16059
 	.byte	12,6,182,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13847
+	.word	13855
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_TPSCTRL',0,6,187,5,3
-	.word	16115
+	.word	16123
 	.byte	12,6,190,5,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13944
+	.word	13952
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_I2C_TXD',0,6,195,5,3
-	.word	16180
+	.word	16188
 	.byte	14,28
-	.word	452
+	.word	460
 	.byte	15,27,0,14,236,254,1
-	.word	452
+	.word	460
 	.byte	15,235,254,1,0,14,252,127
-	.word	452
+	.word	460
 	.byte	15,251,127,0,14,224,1
-	.word	452
+	.word	460
 	.byte	15,223,1,0,10
 	.byte	'_Ifx_I2C',0,6,206,5,25,128,130,4,13
 	.byte	'CLC1',0
-	.word	14329
+	.word	14337
 	.byte	4,2,35,0,13
 	.byte	'reserved_4',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,4,13
 	.byte	'ID',0
-	.word	15043
+	.word	15051
 	.byte	4,2,35,8,13
 	.byte	'reserved_C',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,12,13
 	.byte	'RUNCTRL',0
-	.word	15925
+	.word	15933
 	.byte	4,2,35,16,13
 	.byte	'ENDDCTRL',0
-	.word	14391
+	.word	14399
 	.byte	4,2,35,20,13
 	.byte	'FDIVCFG',0
-	.word	14655
+	.word	14663
 	.byte	4,2,35,24,13
 	.byte	'FDIVHIGHCFG',0
-	.word	14720
+	.word	14728
 	.byte	4,2,35,28,13
 	.byte	'ADDRCFG',0
-	.word	14138
+	.word	14146
 	.byte	4,2,35,32,13
 	.byte	'BUSSTAT',0
-	.word	14203
+	.word	14211
 	.byte	4,2,35,36,13
 	.byte	'FIFOCFG',0
-	.word	14854
+	.word	14862
 	.byte	4,2,35,40,13
 	.byte	'MRPSCTRL',0
-	.word	15541
+	.word	15549
 	.byte	4,2,35,44,13
 	.byte	'RPSSTAT',0
-	.word	15860
+	.word	15868
 	.byte	4,2,35,48,13
 	.byte	'TPSCTRL',0
-	.word	16115
+	.word	16123
 	.byte	4,2,35,52,13
 	.byte	'FFSSTAT',0
-	.word	14789
+	.word	14797
 	.byte	4,2,35,56,13
 	.byte	'reserved_3C',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,60,13
 	.byte	'TIMCFG',0
-	.word	16051
+	.word	16059
 	.byte	4,2,35,64,13
 	.byte	'reserved_44',0
-	.word	16241
+	.word	16249
 	.byte	28,2,35,68,13
 	.byte	'ERRIRQSM',0
-	.word	14523
+	.word	14531
 	.byte	4,2,35,96,13
 	.byte	'ERRIRQSS',0
-	.word	14589
+	.word	14597
 	.byte	4,2,35,100,13
 	.byte	'ERRIRQSC',0
-	.word	14457
+	.word	14465
 	.byte	4,2,35,104,13
 	.byte	'reserved_6C',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,108,13
 	.byte	'PIRQSM',0
-	.word	15671
+	.word	15679
 	.byte	4,2,35,112,13
 	.byte	'PIRQSS',0
-	.word	15735
+	.word	15743
 	.byte	4,2,35,116,13
 	.byte	'PIRQSC',0
-	.word	15607
+	.word	15615
 	.byte	4,2,35,120,13
 	.byte	'reserved_7C',0
-	.word	1498
+	.word	1506
 	.byte	4,2,35,124,13
 	.byte	'RIS',0
-	.word	15799
+	.word	15807
 	.byte	4,3,35,128,1,13
 	.byte	'IMSC',0
-	.word	15103
+	.word	15111
 	.byte	4,3,35,132,1,13
 	.byte	'MIS',0
-	.word	15417
+	.word	15425
 	.byte	4,3,35,136,1,13
 	.byte	'ICR',0
-	.word	14982
+	.word	14990
 	.byte	4,3,35,140,1,13
 	.byte	'ISR',0
-	.word	15165
+	.word	15173
 	.byte	4,3,35,144,1,13
 	.byte	'reserved_94',0
-	.word	16250
+	.word	16258
 	.byte	236,254,1,3,35,148,1,13
 	.byte	'TXD',0
-	.word	16180
+	.word	16188
 	.byte	4,4,35,128,128,2,13
 	.byte	'reserved_8004',0
-	.word	16263
+	.word	16271
 	.byte	252,127,4,35,132,128,2,13
 	.byte	'RXD',0
-	.word	15990
+	.word	15998
 	.byte	4,4,35,128,128,3,13
 	.byte	'reserved_C004',0
-	.word	16263
+	.word	16271
 	.byte	252,127,4,35,132,128,3,13
 	.byte	'CLC',0
-	.word	14268
+	.word	14276
 	.byte	4,4,35,128,128,4,13
 	.byte	'MODID',0
-	.word	15478
+	.word	15486
 	.byte	4,4,35,132,128,4,13
 	.byte	'GPCTL',0
-	.word	14919
+	.word	14927
 	.byte	4,4,35,136,128,4,13
 	.byte	'ACCEN0',0
-	.word	14010
+	.word	14018
 	.byte	4,4,35,140,128,4,13
 	.byte	'ACCEN1',0
-	.word	14074
+	.word	14082
 	.byte	4,4,35,144,128,4,13
 	.byte	'KRST0',0
-	.word	15226
+	.word	15234
 	.byte	4,4,35,148,128,4,13
 	.byte	'KRST1',0
-	.word	15289
+	.word	15297
 	.byte	4,4,35,152,128,4,13
 	.byte	'KRSTCLR',0
-	.word	15352
+	.word	15360
 	.byte	4,4,35,156,128,4,13
 	.byte	'reserved_10020',0
-	.word	16274
+	.word	16282
 	.byte	224,1,4,35,160,128,4,0,16
-	.word	16285
+	.word	16293
 	.byte	21
 	.byte	'Ifx_I2C',0,6,253,5,3
-	.word	17106
+	.word	17114
 	.byte	21
 	.byte	'boolean',0,7,104,29
-	.word	452
+	.word	460
 	.byte	21
 	.byte	'uint8',0,7,108,29
-	.word	452
+	.word	460
 	.byte	21
 	.byte	'uint16',0,7,112,29
-	.word	469
+	.word	477
 	.byte	7
 	.byte	'unsigned long int',0,4,7,21
 	.byte	'uint32',0,7,116,29
-	.word	17173
+	.word	17181
 	.byte	21
 	.byte	'uint64',0,7,121,29
-	.word	311
+	.word	319
 	.byte	21
 	.byte	'sint16',0,7,129,1,29
-	.word	8491
+	.word	8499
 	.byte	7
 	.byte	'long int',0,4,5,21
 	.byte	'sint32',0,7,134,1,29
-	.word	17240
+	.word	17248
 	.byte	7
 	.byte	'long long int',0,8,5,21
 	.byte	'sint64',0,7,141,1,29
-	.word	17268
+	.word	17276
 	.byte	21
 	.byte	'float32',0,7,170,1,29
-	.word	257
+	.word	265
 	.byte	21
 	.byte	'pvoid',0,8,54,28
-	.word	343
+	.word	351
 	.byte	21
 	.byte	'Ifx_TickTime',0,8,76,28
-	.word	17268
+	.word	17276
 	.byte	17,8,127,9,1,18
 	.byte	'Ifx_RxSel_a',0,0,18
 	.byte	'Ifx_RxSel_b',0,1,18
@@ -2849,3759 +2849,3759 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	'Ifx_RxSel_g',0,6,18
 	.byte	'Ifx_RxSel_h',0,7,0,21
 	.byte	'Ifx_RxSel',0,8,137,1,3
-	.word	17353
+	.word	17361
 	.byte	21
 	.byte	'Ifx_P_ACCEN0_Bits',0,4,97,3
-	.word	7055
+	.word	7063
 	.byte	21
 	.byte	'Ifx_P_ACCEN1_Bits',0,4,103,3
-	.word	6968
+	.word	6976
 	.byte	21
 	.byte	'Ifx_P_ESR_Bits',0,4,125,3
-	.word	3327
+	.word	3335
 	.byte	21
 	.byte	'Ifx_P_ID_Bits',0,4,133,1,3
-	.word	1378
+	.word	1386
 	.byte	21
 	.byte	'Ifx_P_IN_Bits',0,4,155,1,3
-	.word	2374
+	.word	2382
 	.byte	21
 	.byte	'Ifx_P_IOCR0_Bits',0,4,168,1,3
-	.word	1507
+	.word	1515
 	.byte	21
 	.byte	'Ifx_P_IOCR12_Bits',0,4,181,1,3
-	.word	2154
+	.word	2162
 	.byte	21
 	.byte	'Ifx_P_IOCR4_Bits',0,4,194,1,3
-	.word	1722
+	.word	1730
 	.byte	21
 	.byte	'Ifx_P_IOCR8_Bits',0,4,207,1,3
-	.word	1937
+	.word	1945
 	.byte	21
 	.byte	'Ifx_P_LPCR0_Bits',0,4,215,1,3
-	.word	6327
+	.word	6335
 	.byte	21
 	.byte	'Ifx_P_LPCR1_Bits',0,4,223,1,3
-	.word	6451
+	.word	6459
 	.byte	21
 	.byte	'Ifx_P_LPCR1_P21_Bits',0,4,233,1,3
-	.word	6535
+	.word	6543
 	.byte	21
 	.byte	'Ifx_P_LPCR2_Bits',0,4,247,1,3
-	.word	6715
+	.word	6723
 	.byte	21
 	.byte	'Ifx_P_OMCR0_Bits',0,4,130,2,3
-	.word	4966
+	.word	4974
 	.byte	21
 	.byte	'Ifx_P_OMCR12_Bits',0,4,140,2,3
-	.word	5490
+	.word	5498
 	.byte	21
 	.byte	'Ifx_P_OMCR4_Bits',0,4,151,2,3
-	.word	5140
+	.word	5148
 	.byte	21
 	.byte	'Ifx_P_OMCR8_Bits',0,4,162,2,3
-	.word	5314
+	.word	5322
 	.byte	21
 	.byte	'Ifx_P_OMCR_Bits',0,4,184,2,3
-	.word	5979
+	.word	5987
 	.byte	21
 	.byte	'Ifx_P_OMR_Bits',0,4,221,2,3
-	.word	807
+	.word	815
 	.byte	21
 	.byte	'Ifx_P_OMSR0_Bits',0,4,231,2,3
-	.word	4303
+	.word	4311
 	.byte	21
 	.byte	'Ifx_P_OMSR12_Bits',0,4,242,2,3
-	.word	4791
+	.word	4799
 	.byte	21
 	.byte	'Ifx_P_OMSR4_Bits',0,4,253,2,3
-	.word	4450
+	.word	4458
 	.byte	21
 	.byte	'Ifx_P_OMSR8_Bits',0,4,136,3,3
-	.word	4619
+	.word	4627
 	.byte	21
 	.byte	'Ifx_P_OMSR_Bits',0,4,158,3,3
-	.word	5646
+	.word	5654
 	.byte	21
 	.byte	'Ifx_P_OUT_Bits',0,4,180,3,3
-	.word	491
+	.word	499
 	.byte	21
 	.byte	'Ifx_P_PCSR_Bits',0,4,197,3,3
-	.word	4033
+	.word	4041
 	.byte	21
 	.byte	'Ifx_P_PDISC_Bits',0,4,219,3,3
-	.word	3667
+	.word	3675
 	.byte	21
 	.byte	'Ifx_P_PDR0_Bits',0,4,240,3,3
-	.word	2698
+	.word	2706
 	.byte	21
 	.byte	'Ifx_P_PDR1_Bits',0,4,133,4,3
-	.word	3002
+	.word	3010
 	.byte	21
 	.byte	'Ifx_P_ACCEN0',0,4,146,4,3
-	.word	7582
+	.word	7590
 	.byte	21
 	.byte	'Ifx_P_ACCEN1',0,4,154,4,3
-	.word	7015
+	.word	7023
 	.byte	21
 	.byte	'Ifx_P_ESR',0,4,162,4,3
-	.word	3618
+	.word	3626
 	.byte	21
 	.byte	'Ifx_P_ID',0,4,170,4,3
-	.word	1458
+	.word	1466
 	.byte	21
 	.byte	'Ifx_P_IN',0,4,178,4,3
-	.word	2649
+	.word	2657
 	.byte	21
 	.byte	'Ifx_P_IOCR0',0,4,186,4,3
-	.word	1682
+	.word	1690
 	.byte	21
 	.byte	'Ifx_P_IOCR12',0,4,194,4,3
-	.word	2334
+	.word	2342
 	.byte	21
 	.byte	'Ifx_P_IOCR4',0,4,202,4,3
-	.word	1897
+	.word	1905
 	.byte	21
 	.byte	'Ifx_P_IOCR8',0,4,210,4,3
-	.word	2114
+	.word	2122
 	.byte	21
 	.byte	'Ifx_P_LPCR0',0,4,218,4,3
-	.word	6411
+	.word	6419
 	.byte	21
 	.byte	'Ifx_P_LPCR1',0,4,227,4,3
-	.word	6660
+	.word	6668
 	.byte	21
 	.byte	'Ifx_P_LPCR2',0,4,235,4,3
-	.word	6919
+	.word	6927
 	.byte	21
 	.byte	'Ifx_P_OMCR',0,4,243,4,3
-	.word	6287
+	.word	6295
 	.byte	21
 	.byte	'Ifx_P_OMCR0',0,4,251,4,3
-	.word	5100
+	.word	5108
 	.byte	21
 	.byte	'Ifx_P_OMCR12',0,4,131,5,3
-	.word	5606
+	.word	5614
 	.byte	21
 	.byte	'Ifx_P_OMCR4',0,4,139,5,3
-	.word	5274
+	.word	5282
 	.byte	21
 	.byte	'Ifx_P_OMCR8',0,4,147,5,3
-	.word	5450
+	.word	5458
 	.byte	21
 	.byte	'Ifx_P_OMR',0,4,155,5,3
-	.word	1338
+	.word	1346
 	.byte	21
 	.byte	'Ifx_P_OMSR',0,4,163,5,3
-	.word	5939
+	.word	5947
 	.byte	21
 	.byte	'Ifx_P_OMSR0',0,4,171,5,3
-	.word	4410
+	.word	4418
 	.byte	21
 	.byte	'Ifx_P_OMSR12',0,4,179,5,3
-	.word	4926
+	.word	4934
 	.byte	21
 	.byte	'Ifx_P_OMSR4',0,4,187,5,3
-	.word	4579
+	.word	4587
 	.byte	21
 	.byte	'Ifx_P_OMSR8',0,4,195,5,3
-	.word	4751
+	.word	4759
 	.byte	21
 	.byte	'Ifx_P_OUT',0,4,203,5,3
-	.word	767
+	.word	775
 	.byte	21
 	.byte	'Ifx_P_PCSR',0,4,211,5,3
-	.word	4263
+	.word	4271
 	.byte	21
 	.byte	'Ifx_P_PDISC',0,4,219,5,3
-	.word	3993
+	.word	4001
 	.byte	21
 	.byte	'Ifx_P_PDR0',0,4,227,5,3
-	.word	2962
+	.word	2970
 	.byte	21
 	.byte	'Ifx_P_PDR1',0,4,235,5,3
-	.word	3278
+	.word	3286
 	.byte	16
-	.word	7622
+	.word	7630
 	.byte	21
 	.byte	'Ifx_P',0,4,156,6,3
-	.word	18809
+	.word	18817
 	.byte	17,9,163,11,9,1,18
 	.byte	'IfxScu_WDTCON1_IR_divBy16384',0,0,18
 	.byte	'IfxScu_WDTCON1_IR_divBy256',0,1,18
 	.byte	'IfxScu_WDTCON1_IR_divBy64',0,2,0,21
 	.byte	'IfxScu_WDTCON1_IR',0,9,168,11,3
-	.word	18829
+	.word	18837
 	.byte	10
 	.byte	'_Ifx_SCU_ACCEN0_Bits',0,10,63,16,4,11
 	.byte	'EN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'EN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'EN2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'EN3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'EN4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'EN5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'EN6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'EN7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'EN8',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'EN9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'EN10',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'EN11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'EN12',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'EN13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'EN14',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'EN15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'EN16',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'EN17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'EN18',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'EN19',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'EN20',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'EN21',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'EN22',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'EN23',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'EN24',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'EN25',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'EN26',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'EN27',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'EN28',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'EN29',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'EN30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'EN31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_ACCEN0_Bits',0,10,97,3
-	.word	18951
+	.word	18959
 	.byte	10
 	.byte	'_Ifx_SCU_ACCEN1_Bits',0,10,100,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	32,0,2,35,0,0,21
 	.byte	'Ifx_SCU_ACCEN1_Bits',0,10,103,3
-	.word	19508
+	.word	19516
 	.byte	10
 	.byte	'_Ifx_SCU_ARSTDIS_Bits',0,10,106,16,4,11
 	.byte	'STM0DIS',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'STM1DIS',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'STM2DIS',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,4
-	.word	429
+	.word	437
 	.byte	29,0,2,35,0,0,21
 	.byte	'Ifx_SCU_ARSTDIS_Bits',0,10,112,3
-	.word	19585
+	.word	19593
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON0_Bits',0,10,115,16,4,11
 	.byte	'BAUD1DIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'BAUD2DIV',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,0,11
 	.byte	'SRIDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,1,11
 	.byte	'LPDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,1,11
 	.byte	'SPBDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,2,11
 	.byte	'FSI2DIV',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,2,11
 	.byte	'reserved_22',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,2,11
 	.byte	'FSIDIV',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,3,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,3,11
 	.byte	'CLKSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,3,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON0_Bits',0,10,129,1,3
-	.word	19721
+	.word	19729
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON1_Bits',0,10,132,1,16,4,11
 	.byte	'CANDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'ERAYDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,0,11
 	.byte	'STMDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,1,11
 	.byte	'GTMDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,1,11
 	.byte	'ETHDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,2,11
 	.byte	'ASCLINFDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,2,11
 	.byte	'ASCLINSDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,3,11
 	.byte	'INSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,3,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON1_Bits',0,10,144,1,3
-	.word	20002
+	.word	20010
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON2_Bits',0,10,147,1,16,4,11
 	.byte	'BBBDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	26,2,2,35,0,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON2_Bits',0,10,153,1,3
-	.word	20242
+	.word	20250
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON3_Bits',0,10,156,1,16,4,11
 	.byte	'PLLDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'PLLSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'PLLERAYDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,1,11
 	.byte	'PLLERAYSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'SRIDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,2,11
 	.byte	'SRISEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON3_Bits',0,10,168,1,3
-	.word	20370
+	.word	20378
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON4_Bits',0,10,171,1,16,4,11
 	.byte	'SPBDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'SPBSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'GTMDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,1,11
 	.byte	'GTMSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'STMDIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,2,11
 	.byte	'STMSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON4_Bits',0,10,183,1,3
-	.word	20613
+	.word	20621
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON5_Bits',0,10,186,1,16,4,11
 	.byte	'MAXDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	26,2,2,35,0,11
 	.byte	'UP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CCUCON5_Bits',0,10,192,1,3
-	.word	20848
+	.word	20856
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON6_Bits',0,10,195,1,16,4,11
 	.byte	'CPU0DIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON6_Bits',0,10,199,1,3
-	.word	20976
+	.word	20984
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON7_Bits',0,10,202,1,16,4,11
 	.byte	'CPU1DIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON7_Bits',0,10,206,1,3
-	.word	21076
+	.word	21084
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON8_Bits',0,10,209,1,16,4,11
 	.byte	'CPU2DIV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON8_Bits',0,10,213,1,3
-	.word	21176
+	.word	21184
 	.byte	10
 	.byte	'_Ifx_SCU_CHIPID_Bits',0,10,216,1,16,4,11
 	.byte	'CHREV',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,0,11
 	.byte	'CHTEC',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'CHID',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'EEA',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'UCODE',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,2,11
 	.byte	'FSIZE',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,3,11
 	.byte	'SP',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,3,11
 	.byte	'SEC',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'reserved_31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_CHIPID_Bits',0,10,227,1,3
-	.word	21276
+	.word	21284
 	.byte	10
 	.byte	'_Ifx_SCU_DTSCON_Bits',0,10,230,1,16,4,11
 	.byte	'PWD',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'START',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'CAL',0,4
-	.word	429
+	.word	437
 	.byte	22,6,2,35,0,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	5,1,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_DTSCON_Bits',0,10,238,1,3
-	.word	21484
+	.word	21492
 	.byte	10
 	.byte	'_Ifx_SCU_DTSLIM_Bits',0,10,241,1,16,4,11
 	.byte	'LOWER',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,0,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	5,1,2,35,1,11
 	.byte	'LLU',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'UPPER',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,2,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	4,2,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'UOF',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_DTSLIM_Bits',0,10,250,1,3
-	.word	21649
+	.word	21657
 	.byte	10
 	.byte	'_Ifx_SCU_DTSSTAT_Bits',0,10,253,1,16,4,11
 	.byte	'RESULT',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,0,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	4,2,2,35,1,11
 	.byte	'RDY',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'BUSY',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_DTSSTAT_Bits',0,10,132,2,3
-	.word	21832
+	.word	21840
 	.byte	10
 	.byte	'_Ifx_SCU_EICR_Bits',0,10,135,2,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'EXIS0',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,0,11
 	.byte	'reserved_7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'FEN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'REN0',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'LDEN0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'EIEN0',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'INP0',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,1,11
 	.byte	'reserved_15',0,4
-	.word	429
+	.word	437
 	.byte	5,12,2,35,0,11
 	.byte	'EXIS1',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,2,11
 	.byte	'reserved_23',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'FEN1',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'REN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'LDEN1',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'EIEN1',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'INP1',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,3,11
 	.byte	'reserved_31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EICR_Bits',0,10,154,2,3
-	.word	21986
+	.word	21994
 	.byte	10
 	.byte	'_Ifx_SCU_EIFR_Bits',0,10,157,2,16,4,11
 	.byte	'INTF0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'INTF1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'INTF2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'INTF3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'INTF4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'INTF5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'INTF6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'INTF7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,21
 	.byte	'Ifx_SCU_EIFR_Bits',0,10,168,2,3
-	.word	22350
+	.word	22358
 	.byte	10
 	.byte	'_Ifx_SCU_EMSR_Bits',0,10,171,2,16,4,11
 	.byte	'POL',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'MODE',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'ENON',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PSEL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,2
-	.word	469
+	.word	477
 	.byte	12,0,2,35,0,11
 	.byte	'EMSF',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'SEMSF',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'reserved_18',0,1
-	.word	452
+	.word	460
 	.byte	6,0,2,35,2,11
 	.byte	'EMSFM',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,3,11
 	.byte	'SEMSFM',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EMSR_Bits',0,10,184,2,3
-	.word	22561
+	.word	22569
 	.byte	10
 	.byte	'_Ifx_SCU_ESRCFG_Bits',0,10,187,2,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,0,11
 	.byte	'EDCON',0,2
-	.word	469
+	.word	477
 	.byte	2,7,2,35,0,11
 	.byte	'reserved_9',0,4
-	.word	429
+	.word	437
 	.byte	23,0,2,35,0,0,21
 	.byte	'Ifx_SCU_ESRCFG_Bits',0,10,192,2,3
-	.word	22813
+	.word	22821
 	.byte	10
 	.byte	'_Ifx_SCU_ESROCFG_Bits',0,10,195,2,16,4,11
 	.byte	'ARI',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ARC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_ESROCFG_Bits',0,10,200,2,3
-	.word	22931
+	.word	22939
 	.byte	10
 	.byte	'_Ifx_SCU_EVR13CON_Bits',0,10,203,2,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	28,4,2,35,0,11
 	.byte	'EVR13OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'BPEVR13OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVR13CON_Bits',0,10,210,2,3
-	.word	23042
+	.word	23050
 	.byte	10
 	.byte	'_Ifx_SCU_EVR33CON_Bits',0,10,213,2,16,4,11
 	.byte	'reserved_0',0,4
-	.word	429
+	.word	437
 	.byte	28,4,2,35,0,11
 	.byte	'EVR33OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'BPEVR33OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVR33CON_Bits',0,10,220,2,3
-	.word	23205
+	.word	23213
 	.byte	10
 	.byte	'_Ifx_SCU_EVRADCSTAT_Bits',0,10,223,2,16,4,11
 	.byte	'ADC13V',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'ADC33V',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'ADCSWDV',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'VAL',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRADCSTAT_Bits',0,10,230,2,3
-	.word	23368
+	.word	23376
 	.byte	10
 	.byte	'_Ifx_SCU_EVRDVSTAT_Bits',0,10,233,2,16,4,11
 	.byte	'DVS13TRIM',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'DVS33TRIM',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'VAL',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRDVSTAT_Bits',0,10,240,2,3
-	.word	23526
+	.word	23534
 	.byte	10
 	.byte	'_Ifx_SCU_EVRMONCTRL_Bits',0,10,243,2,16,4,11
 	.byte	'EVR13OVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'EVR13UVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,0,11
 	.byte	'reserved_6',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'EVR33OVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,1,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,1,11
 	.byte	'EVR33UVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,1,11
 	.byte	'reserved_14',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'SWDOVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,2,11
 	.byte	'reserved_18',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,2,11
 	.byte	'SWDUVMOD',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,2,11
 	.byte	'reserved_22',0,2
-	.word	469
+	.word	477
 	.byte	8,2,2,35,2,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'reserved_31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRMONCTRL_Bits',0,10,131,3,3
-	.word	23691
+	.word	23699
 	.byte	10
 	.byte	'_Ifx_SCU_EVROVMON_Bits',0,10,134,3,16,4,11
 	.byte	'EVR13OVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'EVR33OVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'SWDOVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVROVMON_Bits',0,10,142,3,3
-	.word	24059
+	.word	24067
 	.byte	10
 	.byte	'_Ifx_SCU_EVRRSTCON_Bits',0,10,145,3,16,4,11
 	.byte	'RST13TRIM',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	16,8,2,35,0,11
 	.byte	'RST13OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'BPRST13OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'RST33OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'BPRST33OFF',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'RSTSWDOFF',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'BPRSTSWDOFF',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRRSTCON_Bits',0,10,157,3,3
-	.word	24238
+	.word	24246
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF1_Bits',0,10,160,3,16,4,11
 	.byte	'SD5P',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SD5I',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'SD5D',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF1_Bits',0,10,167,3,3
-	.word	24503
+	.word	24511
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF2_Bits',0,10,170,3,16,4,11
 	.byte	'SD33P',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SD33I',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'SD33D',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF2_Bits',0,10,177,3,3
-	.word	24656
+	.word	24664
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF3_Bits',0,10,180,3,16,4,11
 	.byte	'CT5REG0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'CT5REG1',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'CT5REG2',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF3_Bits',0,10,187,3,3
-	.word	24812
+	.word	24820
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF4_Bits',0,10,190,3,16,4,11
 	.byte	'CT5REG3',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'CT5REG4',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	15,1,2,35,2,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF4_Bits',0,10,196,3,3
-	.word	24974
+	.word	24982
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF5_Bits',0,10,199,3,16,4,11
 	.byte	'CT33REG0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'CT33REG1',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'CT33REG2',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF5_Bits',0,10,206,3,3
-	.word	25117
+	.word	25125
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF6_Bits',0,10,209,3,16,4,11
 	.byte	'CT33REG3',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'CT33REG4',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	15,1,2,35,2,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF6_Bits',0,10,215,3,3
-	.word	25282
+	.word	25290
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL1_Bits',0,10,218,3,16,4,11
 	.byte	'SDFREQSPRD',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,0,11
 	.byte	'SDFREQ',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'SDSTEP',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,3,11
 	.byte	'SDSAMPLE',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL1_Bits',0,10,226,3,3
-	.word	25427
+	.word	25435
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL2_Bits',0,10,229,3,16,4,11
 	.byte	'DRVP',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SDMINMAXDC',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'DRVN',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'SDLUT',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL2_Bits',0,10,237,3,3
-	.word	25608
+	.word	25616
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL3_Bits',0,10,240,3,16,4,11
 	.byte	'SDPWMPRE',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SDPID',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'SDVOKLVL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL3_Bits',0,10,247,3,3
-	.word	25782
+	.word	25790
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL4_Bits',0,10,250,3,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SYNCDIV',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'reserved_11',0,4
-	.word	429
+	.word	437
 	.byte	20,1,2,35,0,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL4_Bits',0,10,128,4,3
-	.word	25942
+	.word	25950
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSTAT_Bits',0,10,131,4,16,4,11
 	.byte	'EVR13',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'OV13',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'EVR33',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'OV33',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'OVSWD',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'UV13',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'UV33',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'UVSWD',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'EXTPASS13',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'EXTPASS33',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'BGPROK',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'reserved_11',0,4
-	.word	429
+	.word	437
 	.byte	21,0,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSTAT_Bits',0,10,145,4,3
-	.word	26086
+	.word	26094
 	.byte	10
 	.byte	'_Ifx_SCU_EVRTRIM_Bits',0,10,148,4,16,4,11
 	.byte	'EVR13TRIM',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'SDVOUTSEL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	14,2,2,35,2,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRTRIM_Bits',0,10,155,4,3
-	.word	26360
+	.word	26368
 	.byte	10
 	.byte	'_Ifx_SCU_EVRUVMON_Bits',0,10,158,4,16,4,11
 	.byte	'EVR13UVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'EVR33UVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'SWDUVVAL',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	6,2,2,35,3,11
 	.byte	'SLCK',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EVRUVMON_Bits',0,10,166,4,3
-	.word	26515
+	.word	26523
 	.byte	10
 	.byte	'_Ifx_SCU_EXTCON_Bits',0,10,169,4,16,4,11
 	.byte	'EN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'SEL0',0,1
-	.word	452
+	.word	460
 	.byte	4,2,2,35,0,11
 	.byte	'reserved_6',0,2
-	.word	469
+	.word	477
 	.byte	10,0,2,35,0,11
 	.byte	'EN1',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'NSEL',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'SEL1',0,1
-	.word	452
+	.word	460
 	.byte	4,2,2,35,2,11
 	.byte	'reserved_22',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,2,11
 	.byte	'DIV1',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,21
 	.byte	'Ifx_SCU_EXTCON_Bits',0,10,180,4,3
-	.word	26694
+	.word	26702
 	.byte	10
 	.byte	'_Ifx_SCU_FDR_Bits',0,10,183,4,16,4,11
 	.byte	'STEP',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,0,11
 	.byte	'reserved_10',0,1
-	.word	452
+	.word	460
 	.byte	4,2,2,35,1,11
 	.byte	'DM',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'RESULT',0,2
-	.word	469
+	.word	477
 	.byte	10,6,2,35,2,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	5,1,2,35,3,11
 	.byte	'DISCLK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_FDR_Bits',0,10,191,4,3
-	.word	26912
+	.word	26920
 	.byte	10
 	.byte	'_Ifx_SCU_FMR_Bits',0,10,194,4,16,4,11
 	.byte	'FS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'FS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'FS2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'FS3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'FS4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'FS5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'FS6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'FS7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'FC0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'FC1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'FC2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'FC3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'FC4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'FC5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'FC6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'FC7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,3,0,21
 	.byte	'Ifx_SCU_FMR_Bits',0,10,214,4,3
-	.word	27075
+	.word	27083
 	.byte	10
 	.byte	'_Ifx_SCU_ID_Bits',0,10,217,4,16,4,11
 	.byte	'MODREV',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'MODTYPE',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'MODNUMBER',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_ID_Bits',0,10,222,4,3
-	.word	27411
+	.word	27419
 	.byte	10
 	.byte	'_Ifx_SCU_IGCR_Bits',0,10,225,4,16,4,11
 	.byte	'IPEN00',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'IPEN01',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'IPEN02',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'IPEN03',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'IPEN04',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'IPEN05',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'IPEN06',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'IPEN07',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,1,11
 	.byte	'GEEN0',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'IGP0',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'IPEN10',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'IPEN11',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'IPEN12',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'IPEN13',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'IPEN14',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'IPEN15',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'IPEN16',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'IPEN17',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,3,11
 	.byte	'GEEN1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'IGP1',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,3,0,21
 	.byte	'Ifx_SCU_IGCR_Bits',0,10,249,4,3
-	.word	27518
+	.word	27526
 	.byte	10
 	.byte	'_Ifx_SCU_IN_Bits',0,10,252,4,16,4,11
 	.byte	'P0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'P1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_IN_Bits',0,10,129,5,3
-	.word	27970
+	.word	27978
 	.byte	10
 	.byte	'_Ifx_SCU_IOCR_Bits',0,10,132,5,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,0,11
 	.byte	'PC0',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,1,11
 	.byte	'PC1',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_IOCR_Bits',0,10,139,5,3
-	.word	28069
+	.word	28077
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL0_Bits',0,10,142,5,16,4,11
 	.byte	'LBISTREQ',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'LBISTREQP',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PATTERNS',0,2
-	.word	469
+	.word	477
 	.byte	14,0,2,35,0,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_LBISTCTRL0_Bits',0,10,148,5,3
-	.word	28219
+	.word	28227
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL1_Bits',0,10,151,5,16,4,11
 	.byte	'SEED',0,4
-	.word	429
+	.word	437
 	.byte	23,9,2,35,0,11
 	.byte	'reserved_23',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'SPLITSH',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'BODY',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'LBISTFREQU',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_LBISTCTRL1_Bits',0,10,158,5,3
-	.word	28368
+	.word	28376
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL2_Bits',0,10,161,5,16,4,11
 	.byte	'SIGNATURE',0,4
-	.word	429
+	.word	437
 	.byte	24,8,2,35,0,11
 	.byte	'reserved_24',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,3,11
 	.byte	'LBISTDONE',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_LBISTCTRL2_Bits',0,10,166,5,3
-	.word	28529
+	.word	28537
 	.byte	10
 	.byte	'_Ifx_SCU_LCLCON_Bits',0,10,169,5,16,4,11
 	.byte	'reserved_0',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,0,11
 	.byte	'LS',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'reserved_17',0,2
-	.word	469
+	.word	477
 	.byte	14,1,2,35,2,11
 	.byte	'LSEN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_LCLCON_Bits',0,10,175,5,3
-	.word	28659
+	.word	28667
 	.byte	10
 	.byte	'_Ifx_SCU_LCLTEST_Bits',0,10,178,5,16,4,11
 	.byte	'LCLT0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'LCLT1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_LCLTEST_Bits',0,10,183,5,3
-	.word	28791
+	.word	28799
 	.byte	10
 	.byte	'_Ifx_SCU_MANID_Bits',0,10,186,5,16,4,11
 	.byte	'DEPT',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,0,11
 	.byte	'MANUF',0,2
-	.word	469
+	.word	477
 	.byte	11,0,2,35,0,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_MANID_Bits',0,10,191,5,3
-	.word	28906
+	.word	28914
 	.byte	10
 	.byte	'_Ifx_SCU_OMR_Bits',0,10,194,5,16,4,11
 	.byte	'PS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,2
-	.word	469
+	.word	477
 	.byte	14,0,2,35,0,11
 	.byte	'PCL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'PCL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'reserved_18',0,2
-	.word	469
+	.word	477
 	.byte	14,0,2,35,2,0,21
 	.byte	'Ifx_SCU_OMR_Bits',0,10,202,5,3
-	.word	29017
+	.word	29025
 	.byte	10
 	.byte	'_Ifx_SCU_OSCCON_Bits',0,10,205,5,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PLLLV',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'OSCRES',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'GAINSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,3,2,35,0,11
 	.byte	'MODE',0,1
-	.word	452
+	.word	460
 	.byte	2,1,2,35,0,11
 	.byte	'SHBY',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PLLHV',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'reserved_9',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'X1D',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'X1DEN',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'reserved_12',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,1,11
 	.byte	'OSCVAL',0,1
-	.word	452
+	.word	460
 	.byte	5,3,2,35,2,11
 	.byte	'reserved_21',0,1
-	.word	452
+	.word	460
 	.byte	2,1,2,35,2,11
 	.byte	'APREN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'CAP0EN',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'CAP1EN',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'CAP2EN',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,3,11
 	.byte	'CAP3EN',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_OSCCON_Bits',0,10,226,5,3
-	.word	29175
+	.word	29183
 	.byte	10
 	.byte	'_Ifx_SCU_OUT_Bits',0,10,229,5,16,4,11
 	.byte	'P0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'P1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_OUT_Bits',0,10,234,5,3
-	.word	29587
+	.word	29595
 	.byte	10
 	.byte	'_Ifx_SCU_OVCCON_Bits',0,10,237,5,16,4,11
 	.byte	'CSEL0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'CSEL1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'CSEL2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,2
-	.word	469
+	.word	477
 	.byte	13,0,2,35,0,11
 	.byte	'OVSTRT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'OVSTP',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'DCINVAL',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'reserved_19',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'OVCONF',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'POVCONF',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	6,0,2,35,3,0,21
 	.byte	'Ifx_SCU_OVCCON_Bits',0,10,250,5,3
-	.word	29688
+	.word	29696
 	.byte	10
 	.byte	'_Ifx_SCU_OVCENABLE_Bits',0,10,253,5,16,4,11
 	.byte	'OVEN0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'OVEN1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'OVEN2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,4
-	.word	429
+	.word	437
 	.byte	29,0,2,35,0,0,21
 	.byte	'Ifx_SCU_OVCENABLE_Bits',0,10,131,6,3
-	.word	29955
+	.word	29963
 	.byte	10
 	.byte	'_Ifx_SCU_PDISC_Bits',0,10,134,6,16,4,11
 	.byte	'PDIS0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PDIS1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PDISC_Bits',0,10,139,6,3
-	.word	30091
+	.word	30099
 	.byte	10
 	.byte	'_Ifx_SCU_PDR_Bits',0,10,142,6,16,4,11
 	.byte	'PD0',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,0,11
 	.byte	'PL0',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PD1',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,0,11
 	.byte	'PL1',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PDR_Bits',0,10,149,6,3
-	.word	30202
+	.word	30210
 	.byte	10
 	.byte	'_Ifx_SCU_PDRR_Bits',0,10,152,6,16,4,11
 	.byte	'PDR0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PDR1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PDR2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PDR3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PDR4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PDR5',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PDR6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PDR7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PDRR_Bits',0,10,163,6,3
-	.word	30335
+	.word	30343
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON0_Bits',0,10,166,6,16,4,11
 	.byte	'VCOBYP',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'VCOPWD',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'MODEN',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'SETFINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'CLRFINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'OSCDISCDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,2
-	.word	469
+	.word	477
 	.byte	2,7,2,35,0,11
 	.byte	'NDIV',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,1,11
 	.byte	'PLLPWD',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'reserved_17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'RESLD',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'reserved_19',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'PDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_PLLCON0_Bits',0,10,183,6,3
-	.word	30538
+	.word	30546
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON1_Bits',0,10,186,6,16,4,11
 	.byte	'K2DIV',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,0,11
 	.byte	'reserved_7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'K3DIV',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,1,11
 	.byte	'reserved_15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'K1DIV',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,2,11
 	.byte	'reserved_23',0,2
-	.word	469
+	.word	477
 	.byte	9,0,2,35,2,0,21
 	.byte	'Ifx_SCU_PLLCON1_Bits',0,10,194,6,3
-	.word	30894
+	.word	30902
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON2_Bits',0,10,197,6,16,4,11
 	.byte	'MODCFG',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,0,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_PLLCON2_Bits',0,10,201,6,3
-	.word	31072
+	.word	31080
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYCON0_Bits',0,10,204,6,16,4,11
 	.byte	'VCOBYP',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'VCOPWD',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'SETFINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'CLRFINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'OSCDISCDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'reserved_7',0,2
-	.word	469
+	.word	477
 	.byte	2,7,2,35,0,11
 	.byte	'NDIV',0,1
-	.word	452
+	.word	460
 	.byte	5,2,2,35,1,11
 	.byte	'reserved_14',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'PLLPWD',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'reserved_17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'RESLD',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'reserved_19',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,2,11
 	.byte	'PDIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_PLLERAYCON0_Bits',0,10,221,6,3
-	.word	31172
+	.word	31180
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYCON1_Bits',0,10,224,6,16,4,11
 	.byte	'K2DIV',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,0,11
 	.byte	'reserved_7',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'K3DIV',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,1,11
 	.byte	'reserved_12',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,1,11
 	.byte	'K1DIV',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,2,11
 	.byte	'reserved_23',0,2
-	.word	469
+	.word	477
 	.byte	9,0,2,35,2,0,21
 	.byte	'Ifx_SCU_PLLERAYCON1_Bits',0,10,232,6,3
-	.word	31542
+	.word	31550
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYSTAT_Bits',0,10,235,6,16,4,11
 	.byte	'VCOBYST',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'PWDSTAT',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'VCOLOCK',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'FINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'K1RDY',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'K2RDY',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,4
-	.word	429
+	.word	437
 	.byte	26,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLERAYSTAT_Bits',0,10,244,6,3
-	.word	31728
+	.word	31736
 	.byte	10
 	.byte	'_Ifx_SCU_PLLSTAT_Bits',0,10,247,6,16,4,11
 	.byte	'VCOBYST',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'VCOLOCK',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'FINDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'K1RDY',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'K2RDY',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'reserved_6',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'MODRUN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,4
-	.word	429
+	.word	437
 	.byte	24,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLSTAT_Bits',0,10,130,7,3
-	.word	31926
+	.word	31934
 	.byte	10
 	.byte	'_Ifx_SCU_PMCSR_Bits',0,10,133,7,16,4,11
 	.byte	'REQSLP',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'SMUSLP',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'reserved_3',0,1
-	.word	452
+	.word	460
 	.byte	5,0,2,35,0,11
 	.byte	'PMST',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'reserved_11',0,4
-	.word	429
+	.word	437
 	.byte	21,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PMCSR_Bits',0,10,140,7,3
-	.word	32159
+	.word	32167
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWCR0_Bits',0,10,143,7,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1WKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'PINAWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'PINBWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'ESR0DFEN',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'ESR0EDCON',0,1
-	.word	452
+	.word	460
 	.byte	2,1,2,35,0,11
 	.byte	'ESR1DFEN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'ESR1EDCON',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,1,11
 	.byte	'PINADFEN',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,1,11
 	.byte	'PINAEDCON',0,1
-	.word	452
+	.word	460
 	.byte	2,3,2,35,1,11
 	.byte	'PINBDFEN',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'PINBEDCON',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'STBYRAMSEL',0,1
-	.word	452
+	.word	460
 	.byte	2,5,2,35,2,11
 	.byte	'reserved_19',0,1
-	.word	452
+	.word	460
 	.byte	2,3,2,35,2,11
 	.byte	'TRISTEN',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'TRISTREQ',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'PORSTDF',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'PWRWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'DCDCSYNC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'BLNKFIL',0,1
-	.word	452
+	.word	460
 	.byte	3,3,2,35,3,11
 	.byte	'ESR0TRIST',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,3,11
 	.byte	'reserved_30',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,3,11
 	.byte	'LCK',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_PMSWCR0_Bits',0,10,169,7,3
-	.word	32311
+	.word	32319
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWCR1_Bits',0,10,172,7,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'CPUIDLSEL',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,1,11
 	.byte	'reserved_11',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,1,11
 	.byte	'IRADIS',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'reserved_13',0,4
-	.word	429
+	.word	437
 	.byte	11,8,2,35,0,11
 	.byte	'CPUSEL',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'STBYEVEN',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'STBYEV',0,1
-	.word	452
+	.word	460
 	.byte	3,1,2,35,3,11
 	.byte	'reserved_31',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,3,0,21
 	.byte	'Ifx_SCU_PMSWCR1_Bits',0,10,183,7,3
-	.word	32859
+	.word	32867
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWSTAT_Bits',0,10,186,7,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'ESR1WKP',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'ESR1OVRUN',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PINAWKP',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PINAOVRUN',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PINBWKP',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PINBOVRUN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PWRWKP',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'PORSTDF',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,1,11
 	.byte	'HWCFGEVR',0,1
-	.word	452
+	.word	460
 	.byte	3,3,2,35,1,11
 	.byte	'STBYRAM',0,1
-	.word	452
+	.word	460
 	.byte	2,1,2,35,1,11
 	.byte	'TRIST',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	4,4,2,35,2,11
 	.byte	'ESR1WKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'PINAWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,2,11
 	.byte	'PINBWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,2,11
 	.byte	'PWRWKEN',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'BLNKFIL',0,1
-	.word	452
+	.word	460
 	.byte	3,5,2,35,3,11
 	.byte	'ESR0TRIST',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,3,11
 	.byte	'reserved_28',0,1
-	.word	452
+	.word	460
 	.byte	4,0,2,35,3,0,21
 	.byte	'Ifx_SCU_PMSWSTAT_Bits',0,10,208,7,3
-	.word	33104
+	.word	33112
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWSTATCLR_Bits',0,10,211,7,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'ESR1WKPCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'ESR1OVRUNCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'PINAWKPCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'PINAOVRUNCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'PINBWKPCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PINBOVRUNCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'PWRWKPCLR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'reserved_9',0,4
-	.word	429
+	.word	437
 	.byte	23,0,2,35,0,0,21
 	.byte	'Ifx_SCU_PMSWSTATCLR_Bits',0,10,222,7,3
-	.word	33565
+	.word	33573
 	.byte	10
 	.byte	'_Ifx_SCU_RSTCON2_Bits',0,10,225,7,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'CLRC',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,2
-	.word	469
+	.word	477
 	.byte	10,4,2,35,0,11
 	.byte	'CSS0',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,1,11
 	.byte	'CSS1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,1,11
 	.byte	'CSS2',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,1,11
 	.byte	'reserved_15',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'USRINFO',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_RSTCON2_Bits',0,10,235,7,3
-	.word	33835
+	.word	33843
 	.byte	10
 	.byte	'_Ifx_SCU_RSTCON_Bits',0,10,238,7,16,4,11
 	.byte	'ESR0',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'ESR1',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'reserved_4',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,0,11
 	.byte	'SMU',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,0,11
 	.byte	'SW',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,1,11
 	.byte	'STM0',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,1,11
 	.byte	'STM1',0,1
-	.word	452
+	.word	460
 	.byte	2,2,2,35,1,11
 	.byte	'STM2',0,1
-	.word	452
+	.word	460
 	.byte	2,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_RSTCON_Bits',0,10,249,7,3
-	.word	34044
+	.word	34052
 	.byte	10
 	.byte	'_Ifx_SCU_RSTSTAT_Bits',0,10,252,7,16,4,11
 	.byte	'ESR0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SMU',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'SW',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'STM0',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'STM1',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'STM2',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'reserved_8',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,1,11
 	.byte	'PORST',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'reserved_17',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'CB0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'CB1',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'CB3',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'reserved_21',0,1
-	.word	452
+	.word	460
 	.byte	2,1,2,35,2,11
 	.byte	'EVR13',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,2,11
 	.byte	'EVR33',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'SWD',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,3,11
 	.byte	'reserved_26',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,3,11
 	.byte	'STBYR',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,3,11
 	.byte	'reserved_29',0,1
-	.word	452
+	.word	460
 	.byte	3,0,2,35,3,0,21
 	.byte	'Ifx_SCU_RSTSTAT_Bits',0,10,147,8,3
-	.word	34255
+	.word	34263
 	.byte	10
 	.byte	'_Ifx_SCU_SAFECON_Bits',0,10,150,8,16,4,11
 	.byte	'HBT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,4
-	.word	429
+	.word	437
 	.byte	31,0,2,35,0,0,21
 	.byte	'Ifx_SCU_SAFECON_Bits',0,10,154,8,3
-	.word	34687
+	.word	34695
 	.byte	10
 	.byte	'_Ifx_SCU_STSTAT_Bits',0,10,157,8,16,4,11
 	.byte	'HWCFG',0,1
-	.word	452
+	.word	460
 	.byte	8,0,2,35,0,11
 	.byte	'FTM',0,1
-	.word	452
+	.word	460
 	.byte	7,1,2,35,1,11
 	.byte	'MODE',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,1,11
 	.byte	'reserved_16',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,2,11
 	.byte	'LUDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,2,11
 	.byte	'reserved_18',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,2,11
 	.byte	'TRSTL',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,2,11
 	.byte	'SPDEN',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,2,11
 	.byte	'reserved_21',0,1
-	.word	452
+	.word	460
 	.byte	3,0,2,35,2,11
 	.byte	'RAMINT',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,3,11
 	.byte	'reserved_25',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,3,0,21
 	.byte	'Ifx_SCU_STSTAT_Bits',0,10,170,8,3
-	.word	34783
+	.word	34791
 	.byte	10
 	.byte	'_Ifx_SCU_SWRSTCON_Bits',0,10,173,8,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'SWRSTREQ',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,4
-	.word	429
+	.word	437
 	.byte	30,0,2,35,0,0,21
 	.byte	'Ifx_SCU_SWRSTCON_Bits',0,10,178,8,3
-	.word	35049
+	.word	35057
 	.byte	10
 	.byte	'_Ifx_SCU_SYSCON_Bits',0,10,181,8,16,4,11
 	.byte	'CCTRIG0',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'RAMINTM',0,1
-	.word	452
+	.word	460
 	.byte	2,4,2,35,0,11
 	.byte	'SETLUDIS',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'reserved_5',0,1
-	.word	452
+	.word	460
 	.byte	3,0,2,35,0,11
 	.byte	'DATM',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'reserved_9',0,4
-	.word	429
+	.word	437
 	.byte	23,0,2,35,0,0,21
 	.byte	'Ifx_SCU_SYSCON_Bits',0,10,190,8,3
-	.word	35174
+	.word	35182
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPCLR_Bits',0,10,193,8,16,4,11
 	.byte	'ESR0T',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1T',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SMUT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPCLR_Bits',0,10,200,8,3
-	.word	35371
+	.word	35379
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPDIS_Bits',0,10,203,8,16,4,11
 	.byte	'ESR0T',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1T',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SMUT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPDIS_Bits',0,10,210,8,3
-	.word	35524
+	.word	35532
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPSET_Bits',0,10,213,8,16,4,11
 	.byte	'ESR0T',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1T',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SMUT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPSET_Bits',0,10,220,8,3
-	.word	35677
+	.word	35685
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPSTAT_Bits',0,10,223,8,16,4,11
 	.byte	'ESR0T',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'ESR1T',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'reserved_2',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'SMUT',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,4
-	.word	429
+	.word	437
 	.byte	28,0,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPSTAT_Bits',0,10,230,8,3
-	.word	35830
+	.word	35838
 	.byte	7
 	.byte	'unsigned int',0,4,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON0_Bits',0,10,233,8,16,4,11
 	.byte	'ENDINIT',0,4
-	.word	35985
+	.word	35993
 	.byte	1,31,2,35,0,11
 	.byte	'LCK',0,4
-	.word	35985
+	.word	35993
 	.byte	1,30,2,35,0,11
 	.byte	'PW',0,4
-	.word	35985
+	.word	35993
 	.byte	14,16,2,35,0,11
 	.byte	'REL',0,4
-	.word	35985
+	.word	35993
 	.byte	16,0,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTCPU_CON0_Bits',0,10,239,8,3
-	.word	36001
+	.word	36009
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,10,242,8,16,4,11
 	.byte	'reserved_0',0,1
-	.word	452
+	.word	460
 	.byte	2,6,2,35,0,11
 	.byte	'IR0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'DR',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'IR1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'UR',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PAR',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'TCR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'TCTR',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_WDTCPU_CON1_Bits',0,10,254,8,3
-	.word	36131
+	.word	36139
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU_SR_Bits',0,10,129,9,16,4,11
 	.byte	'AE',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'OE',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'IS0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'DS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'TO',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'IS1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'US',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PAS',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'TCS',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'TCT',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,1,11
 	.byte	'TIM',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_WDTCPU_SR_Bits',0,10,142,9,3
-	.word	36369
+	.word	36377
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_CON0_Bits',0,10,145,9,16,4,11
 	.byte	'ENDINIT',0,4
-	.word	35985
+	.word	35993
 	.byte	1,31,2,35,0,11
 	.byte	'LCK',0,4
-	.word	35985
+	.word	35993
 	.byte	1,30,2,35,0,11
 	.byte	'PW',0,4
-	.word	35985
+	.word	35993
 	.byte	14,16,2,35,0,11
 	.byte	'REL',0,4
-	.word	35985
+	.word	35993
 	.byte	16,0,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTS_CON0_Bits',0,10,151,9,3
-	.word	36592
+	.word	36600
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_CON1_Bits',0,10,154,9,16,4,11
 	.byte	'CLRIRF',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'reserved_1',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'IR0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'DR',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'reserved_4',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'IR1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'UR',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PAR',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'TCR',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'TCTR',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,1,11
 	.byte	'reserved_16',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_WDTS_CON1_Bits',0,10,167,9,3
-	.word	36718
+	.word	36726
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_SR_Bits',0,10,170,9,16,4,11
 	.byte	'AE',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,0,11
 	.byte	'OE',0,1
-	.word	452
+	.word	460
 	.byte	1,6,2,35,0,11
 	.byte	'IS0',0,1
-	.word	452
+	.word	460
 	.byte	1,5,2,35,0,11
 	.byte	'DS',0,1
-	.word	452
+	.word	460
 	.byte	1,4,2,35,0,11
 	.byte	'TO',0,1
-	.word	452
+	.word	460
 	.byte	1,3,2,35,0,11
 	.byte	'IS1',0,1
-	.word	452
+	.word	460
 	.byte	1,2,2,35,0,11
 	.byte	'US',0,1
-	.word	452
+	.word	460
 	.byte	1,1,2,35,0,11
 	.byte	'PAS',0,1
-	.word	452
+	.word	460
 	.byte	1,0,2,35,0,11
 	.byte	'TCS',0,1
-	.word	452
+	.word	460
 	.byte	1,7,2,35,1,11
 	.byte	'TCT',0,1
-	.word	452
+	.word	460
 	.byte	7,0,2,35,1,11
 	.byte	'TIM',0,2
-	.word	469
+	.word	477
 	.byte	16,0,2,35,2,0,21
 	.byte	'Ifx_SCU_WDTS_SR_Bits',0,10,183,9,3
-	.word	36970
+	.word	36978
 	.byte	12,10,191,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18951
+	.word	18959
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ACCEN0',0,10,196,9,3
-	.word	37189
+	.word	37197
 	.byte	12,10,199,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19508
+	.word	19516
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ACCEN1',0,10,204,9,3
-	.word	37253
+	.word	37261
 	.byte	12,10,207,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19585
+	.word	19593
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ARSTDIS',0,10,212,9,3
-	.word	37317
+	.word	37325
 	.byte	12,10,215,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19721
+	.word	19729
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON0',0,10,220,9,3
-	.word	37382
+	.word	37390
 	.byte	12,10,223,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20002
+	.word	20010
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON1',0,10,228,9,3
-	.word	37447
+	.word	37455
 	.byte	12,10,231,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20242
+	.word	20250
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON2',0,10,236,9,3
-	.word	37512
+	.word	37520
 	.byte	12,10,239,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20370
+	.word	20378
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON3',0,10,244,9,3
-	.word	37577
+	.word	37585
 	.byte	12,10,247,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20613
+	.word	20621
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON4',0,10,252,9,3
-	.word	37642
+	.word	37650
 	.byte	12,10,255,9,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20848
+	.word	20856
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON5',0,10,132,10,3
-	.word	37707
+	.word	37715
 	.byte	12,10,135,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20976
+	.word	20984
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON6',0,10,140,10,3
-	.word	37772
+	.word	37780
 	.byte	12,10,143,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21076
+	.word	21084
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON7',0,10,148,10,3
-	.word	37837
+	.word	37845
 	.byte	12,10,151,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21176
+	.word	21184
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CCUCON8',0,10,156,10,3
-	.word	37902
+	.word	37910
 	.byte	12,10,159,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21276
+	.word	21284
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_CHIPID',0,10,164,10,3
-	.word	37967
+	.word	37975
 	.byte	12,10,167,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21484
+	.word	21492
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_DTSCON',0,10,172,10,3
-	.word	38031
+	.word	38039
 	.byte	12,10,175,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21649
+	.word	21657
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_DTSLIM',0,10,180,10,3
-	.word	38095
+	.word	38103
 	.byte	12,10,183,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21832
+	.word	21840
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_DTSSTAT',0,10,188,10,3
-	.word	38159
+	.word	38167
 	.byte	12,10,191,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21986
+	.word	21994
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EICR',0,10,196,10,3
-	.word	38224
+	.word	38232
 	.byte	12,10,199,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22350
+	.word	22358
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EIFR',0,10,204,10,3
-	.word	38286
+	.word	38294
 	.byte	12,10,207,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22561
+	.word	22569
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EMSR',0,10,212,10,3
-	.word	38348
+	.word	38356
 	.byte	12,10,215,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22813
+	.word	22821
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ESRCFG',0,10,220,10,3
-	.word	38410
+	.word	38418
 	.byte	12,10,223,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22931
+	.word	22939
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ESROCFG',0,10,228,10,3
-	.word	38474
+	.word	38482
 	.byte	12,10,231,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23042
+	.word	23050
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVR13CON',0,10,236,10,3
-	.word	38539
+	.word	38547
 	.byte	12,10,239,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23205
+	.word	23213
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVR33CON',0,10,244,10,3
-	.word	38605
+	.word	38613
 	.byte	12,10,247,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23368
+	.word	23376
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRADCSTAT',0,10,252,10,3
-	.word	38671
+	.word	38679
 	.byte	12,10,255,10,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23526
+	.word	23534
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRDVSTAT',0,10,132,11,3
-	.word	38739
+	.word	38747
 	.byte	12,10,135,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23691
+	.word	23699
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRMONCTRL',0,10,140,11,3
-	.word	38806
+	.word	38814
 	.byte	12,10,143,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24059
+	.word	24067
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVROVMON',0,10,148,11,3
-	.word	38874
+	.word	38882
 	.byte	12,10,151,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24238
+	.word	24246
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRRSTCON',0,10,156,11,3
-	.word	38940
+	.word	38948
 	.byte	12,10,159,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24503
+	.word	24511
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF1',0,10,164,11,3
-	.word	39007
+	.word	39015
 	.byte	12,10,167,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24656
+	.word	24664
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF2',0,10,172,11,3
-	.word	39076
+	.word	39084
 	.byte	12,10,175,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24812
+	.word	24820
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF3',0,10,180,11,3
-	.word	39145
+	.word	39153
 	.byte	12,10,183,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24974
+	.word	24982
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF4',0,10,188,11,3
-	.word	39214
+	.word	39222
 	.byte	12,10,191,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25117
+	.word	25125
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF5',0,10,196,11,3
-	.word	39283
+	.word	39291
 	.byte	12,10,199,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25282
+	.word	25290
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCOEFF6',0,10,204,11,3
-	.word	39352
+	.word	39360
 	.byte	12,10,207,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25427
+	.word	25435
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL1',0,10,212,11,3
-	.word	39421
+	.word	39429
 	.byte	12,10,215,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25608
+	.word	25616
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL2',0,10,220,11,3
-	.word	39489
+	.word	39497
 	.byte	12,10,223,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25782
+	.word	25790
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL3',0,10,228,11,3
-	.word	39557
+	.word	39565
 	.byte	12,10,231,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25942
+	.word	25950
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSDCTRL4',0,10,236,11,3
-	.word	39625
+	.word	39633
 	.byte	12,10,239,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26086
+	.word	26094
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRSTAT',0,10,244,11,3
-	.word	39693
+	.word	39701
 	.byte	12,10,247,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26360
+	.word	26368
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRTRIM',0,10,252,11,3
-	.word	39758
+	.word	39766
 	.byte	12,10,255,11,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26515
+	.word	26523
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EVRUVMON',0,10,132,12,3
-	.word	39823
+	.word	39831
 	.byte	12,10,135,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26694
+	.word	26702
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_EXTCON',0,10,140,12,3
-	.word	39889
+	.word	39897
 	.byte	12,10,143,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26912
+	.word	26920
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_FDR',0,10,148,12,3
-	.word	39953
+	.word	39961
 	.byte	12,10,151,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27075
+	.word	27083
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_FMR',0,10,156,12,3
-	.word	40014
+	.word	40022
 	.byte	12,10,159,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27411
+	.word	27419
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_ID',0,10,164,12,3
-	.word	40075
+	.word	40083
 	.byte	12,10,167,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27518
+	.word	27526
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_IGCR',0,10,172,12,3
-	.word	40135
+	.word	40143
 	.byte	12,10,175,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27970
+	.word	27978
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_IN',0,10,180,12,3
-	.word	40197
+	.word	40205
 	.byte	12,10,183,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28069
+	.word	28077
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_IOCR',0,10,188,12,3
-	.word	40257
+	.word	40265
 	.byte	12,10,191,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28219
+	.word	28227
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_LBISTCTRL0',0,10,196,12,3
-	.word	40319
+	.word	40327
 	.byte	12,10,199,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28368
+	.word	28376
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_LBISTCTRL1',0,10,204,12,3
-	.word	40387
+	.word	40395
 	.byte	12,10,207,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28529
+	.word	28537
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_LBISTCTRL2',0,10,212,12,3
-	.word	40455
+	.word	40463
 	.byte	12,10,215,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28659
+	.word	28667
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_LCLCON',0,10,220,12,3
-	.word	40523
+	.word	40531
 	.byte	12,10,223,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28791
+	.word	28799
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_LCLTEST',0,10,228,12,3
-	.word	40587
+	.word	40595
 	.byte	12,10,231,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28906
+	.word	28914
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_MANID',0,10,236,12,3
-	.word	40652
+	.word	40660
 	.byte	12,10,239,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29017
+	.word	29025
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_OMR',0,10,244,12,3
-	.word	40715
+	.word	40723
 	.byte	12,10,247,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29175
+	.word	29183
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_OSCCON',0,10,252,12,3
-	.word	40776
+	.word	40784
 	.byte	12,10,255,12,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29587
+	.word	29595
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_OUT',0,10,132,13,3
-	.word	40840
+	.word	40848
 	.byte	12,10,135,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29688
+	.word	29696
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_OVCCON',0,10,140,13,3
-	.word	40901
+	.word	40909
 	.byte	12,10,143,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29955
+	.word	29963
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_OVCENABLE',0,10,148,13,3
-	.word	40965
+	.word	40973
 	.byte	12,10,151,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	30091
+	.word	30099
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PDISC',0,10,156,13,3
-	.word	41032
+	.word	41040
 	.byte	12,10,159,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	30202
+	.word	30210
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PDR',0,10,164,13,3
-	.word	41095
+	.word	41103
 	.byte	12,10,167,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	30335
+	.word	30343
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PDRR',0,10,172,13,3
-	.word	41156
+	.word	41164
 	.byte	12,10,175,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	30538
+	.word	30546
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLCON0',0,10,180,13,3
-	.word	41218
+	.word	41226
 	.byte	12,10,183,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	30894
+	.word	30902
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLCON1',0,10,188,13,3
-	.word	41283
+	.word	41291
 	.byte	12,10,191,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	31072
+	.word	31080
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLCON2',0,10,196,13,3
-	.word	41348
+	.word	41356
 	.byte	12,10,199,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	31172
+	.word	31180
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLERAYCON0',0,10,204,13,3
-	.word	41413
+	.word	41421
 	.byte	12,10,207,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	31542
+	.word	31550
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLERAYCON1',0,10,212,13,3
-	.word	41482
+	.word	41490
 	.byte	12,10,215,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	31728
+	.word	31736
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLERAYSTAT',0,10,220,13,3
-	.word	41551
+	.word	41559
 	.byte	12,10,223,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	31926
+	.word	31934
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PLLSTAT',0,10,228,13,3
-	.word	41620
+	.word	41628
 	.byte	12,10,231,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	32159
+	.word	32167
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PMCSR',0,10,236,13,3
-	.word	41685
+	.word	41693
 	.byte	12,10,239,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	32311
+	.word	32319
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PMSWCR0',0,10,244,13,3
-	.word	41748
+	.word	41756
 	.byte	12,10,247,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	32859
+	.word	32867
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PMSWCR1',0,10,252,13,3
-	.word	41813
+	.word	41821
 	.byte	12,10,255,13,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	33104
+	.word	33112
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PMSWSTAT',0,10,132,14,3
-	.word	41878
+	.word	41886
 	.byte	12,10,135,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	33565
+	.word	33573
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_PMSWSTATCLR',0,10,140,14,3
-	.word	41944
+	.word	41952
 	.byte	12,10,143,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	34044
+	.word	34052
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_RSTCON',0,10,148,14,3
-	.word	42013
+	.word	42021
 	.byte	12,10,151,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	33835
+	.word	33843
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_RSTCON2',0,10,156,14,3
-	.word	42077
+	.word	42085
 	.byte	12,10,159,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	34255
+	.word	34263
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_RSTSTAT',0,10,164,14,3
-	.word	42142
+	.word	42150
 	.byte	12,10,167,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	34687
+	.word	34695
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_SAFECON',0,10,172,14,3
-	.word	42207
+	.word	42215
 	.byte	12,10,175,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	34783
+	.word	34791
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_STSTAT',0,10,180,14,3
-	.word	42272
+	.word	42280
 	.byte	12,10,183,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35049
+	.word	35057
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_SWRSTCON',0,10,188,14,3
-	.word	42336
+	.word	42344
 	.byte	12,10,191,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35174
+	.word	35182
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_SYSCON',0,10,196,14,3
-	.word	42402
+	.word	42410
 	.byte	12,10,199,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35371
+	.word	35379
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPCLR',0,10,204,14,3
-	.word	42466
+	.word	42474
 	.byte	12,10,207,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35524
+	.word	35532
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPDIS',0,10,212,14,3
-	.word	42531
+	.word	42539
 	.byte	12,10,215,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35677
+	.word	35685
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPSET',0,10,220,14,3
-	.word	42596
+	.word	42604
 	.byte	12,10,223,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	35830
+	.word	35838
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_TRAPSTAT',0,10,228,14,3
-	.word	42661
+	.word	42669
 	.byte	12,10,231,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36001
+	.word	36009
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTCPU_CON0',0,10,236,14,3
-	.word	42727
+	.word	42735
 	.byte	12,10,239,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36131
+	.word	36139
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTCPU_CON1',0,10,244,14,3
-	.word	42796
+	.word	42804
 	.byte	12,10,247,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36369
+	.word	36377
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTCPU_SR',0,10,252,14,3
-	.word	42865
+	.word	42873
 	.byte	12,10,255,14,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36592
+	.word	36600
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTS_CON0',0,10,132,15,3
-	.word	42932
+	.word	42940
 	.byte	12,10,135,15,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36718
+	.word	36726
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTS_CON1',0,10,140,15,3
-	.word	42999
+	.word	43007
 	.byte	12,10,143,15,9,4,13
 	.byte	'U',0
-	.word	429
+	.word	437
 	.byte	4,2,35,0,13
 	.byte	'I',0
-	.word	445
+	.word	453
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	36970
+	.word	36978
 	.byte	4,2,35,0,0,21
 	.byte	'Ifx_SCU_WDTS_SR',0,10,148,15,3
-	.word	43066
+	.word	43074
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU',0,10,159,15,25,12,13
 	.byte	'CON0',0
-	.word	42727
+	.word	42735
 	.byte	4,2,35,0,13
 	.byte	'CON1',0
-	.word	42796
+	.word	42804
 	.byte	4,2,35,4,13
 	.byte	'SR',0
-	.word	42865
+	.word	42873
 	.byte	4,2,35,8,0,16
-	.word	43131
+	.word	43139
 	.byte	21
 	.byte	'Ifx_SCU_WDTCPU',0,10,164,15,3
-	.word	43194
+	.word	43202
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS',0,10,167,15,25,12,13
 	.byte	'CON0',0
-	.word	42932
+	.word	42940
 	.byte	4,2,35,0,13
 	.byte	'CON1',0
-	.word	42999
+	.word	43007
 	.byte	4,2,35,4,13
 	.byte	'SR',0
-	.word	43066
+	.word	43074
 	.byte	4,2,35,8,0,16
-	.word	43223
+	.word	43231
 	.byte	21
 	.byte	'Ifx_SCU_WDTS',0,10,172,15,3
-	.word	43284
+	.word	43292
 	.byte	17,3,80,9,1,18
 	.byte	'IfxPort_InputMode_undefined',0,127,18
 	.byte	'IfxPort_InputMode_noPullDevice',0,0,18
 	.byte	'IfxPort_InputMode_pullDown',0,8,18
 	.byte	'IfxPort_InputMode_pullUp',0,16,0,21
 	.byte	'IfxPort_InputMode',0,3,86,3
-	.word	43311
+	.word	43319
 	.byte	17,3,117,9,1,18
 	.byte	'IfxPort_OutputIdx_general',0,128,1,18
 	.byte	'IfxPort_OutputIdx_alt1',0,136,1,18
@@ -6612,13 +6612,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	'IfxPort_OutputIdx_alt6',0,176,1,18
 	.byte	'IfxPort_OutputIdx_alt7',0,184,1,0,21
 	.byte	'IfxPort_OutputIdx',0,3,127,3
-	.word	43462
+	.word	43470
 	.byte	17,3,131,1,9,1,18
 	.byte	'IfxPort_OutputMode_none',0,0,18
 	.byte	'IfxPort_OutputMode_pushPull',0,128,1,18
 	.byte	'IfxPort_OutputMode_openDrain',0,192,1,0,21
 	.byte	'IfxPort_OutputMode',0,3,136,1,3
-	.word	43705
+	.word	43713
 	.byte	17,3,142,1,9,1,18
 	.byte	'IfxPort_PadDriver_cmosAutomotiveSpeed1',0,0,18
 	.byte	'IfxPort_PadDriver_cmosAutomotiveSpeed2',0,1,18
@@ -6633,95 +6633,95 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.byte	'IfxPort_PadDriver_ttlSpeed3',0,10,18
 	.byte	'IfxPort_PadDriver_ttlSpeed4',0,11,0,21
 	.byte	'IfxPort_PadDriver',0,3,156,1,3
-	.word	43829
+	.word	43837
 	.byte	21
 	.byte	'IfxPort_State',0,3,176,1,3
-	.word	8235
+	.word	8243
 	.byte	23,3,188,1,9,8,13
 	.byte	'port',0
-	.word	8230
+	.word	8238
 	.byte	4,2,35,0,13
 	.byte	'pinIndex',0
-	.word	452
+	.word	460
 	.byte	1,2,35,4,0,21
 	.byte	'IfxPort_Pin',0,3,192,1,3
-	.word	44294
+	.word	44302
 	.byte	16
-	.word	16285
+	.word	16293
 	.byte	3
-	.word	44354
+	.word	44362
 	.byte	23,11,56,15,16,13
 	.byte	'module',0
-	.word	44359
+	.word	44367
 	.byte	4,2,35,0,13
 	.byte	'pin',0
-	.word	44294
+	.word	44302
 	.byte	8,2,35,4,13
 	.byte	'inSelect',0
-	.word	17353
+	.word	17361
 	.byte	1,2,35,12,13
 	.byte	'outSelect',0
-	.word	43462
+	.word	43470
 	.byte	1,2,35,13,0,24
-	.word	44364
+	.word	44372
 	.byte	21
 	.byte	'IfxI2c_Scl_InOut',0,11,62,3
-	.word	44436
+	.word	44444
 	.byte	23,11,65,15,16,13
 	.byte	'module',0
-	.word	44359
+	.word	44367
 	.byte	4,2,35,0,13
 	.byte	'pin',0
-	.word	44294
+	.word	44302
 	.byte	8,2,35,4,13
 	.byte	'inSelect',0
-	.word	17353
+	.word	17361
 	.byte	1,2,35,12,13
 	.byte	'outSelect',0
-	.word	43462
+	.word	43470
 	.byte	1,2,35,13,0,24
-	.word	44466
+	.word	44474
 	.byte	21
 	.byte	'IfxI2c_Sda_InOut',0,11,71,3
-	.word	44538
+	.word	44546
 .L22:
 	.byte	24
-	.word	44364
+	.word	44372
 .L23:
 	.byte	24
-	.word	44364
+	.word	44372
 .L24:
 	.byte	24
-	.word	44364
+	.word	44372
 .L25:
 	.byte	24
-	.word	44466
+	.word	44474
 .L26:
 	.byte	24
-	.word	44466
+	.word	44474
 .L27:
 	.byte	24
-	.word	44466
+	.word	44474
 	.byte	24
-	.word	44364
+	.word	44372
 	.byte	3
-	.word	44598
+	.word	44606
 	.byte	14,12
-	.word	44603
+	.word	44611
 	.byte	15,2,0
 .L28:
 	.byte	14,12
-	.word	44608
+	.word	44616
 	.byte	15,0,0,24
-	.word	44466
+	.word	44474
 	.byte	3
-	.word	44626
+	.word	44634
 	.byte	14,12
-	.word	44631
+	.word	44639
 	.byte	15,2,0
 .L29:
 	.byte	14,12
-	.word	44636
+	.word	44644
 	.byte	15,0,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -6742,19 +6742,22 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.word	.L33-.L32
 .L32:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
 	.byte	0,0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0,0,0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0
+	.byte	0,0,0
 	.byte	'IfxPort_regdef.h',0,1,0,0
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0,0,0,0
 	.byte	'IfxI2c_regdef.h',0,1,0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'C:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0
 	.byte	0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0,0,0,0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0,0,0
 	.byte	'IfxScu_regdef.h',0,1,0,0
 	.byte	'..\\Libraries\\iLLD\\TC27D\\Tricore\\_PinMap\\IfxI2c_PinMap.h',0,0,0,0,0
 .L33:
@@ -6762,13 +6765,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SCL_P02_5_INOUT')
 	.sect	'.debug_info'
 .L6:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L7
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SCL_P02_5_INOUT',0,5,45,18
@@ -6784,13 +6787,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SCL_P13_1_INOUT')
 	.sect	'.debug_info'
 .L8:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L9
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SCL_P13_1_INOUT',0,5,46,18
@@ -6806,13 +6809,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SCL_P15_4_INOUT')
 	.sect	'.debug_info'
 .L10:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L11
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SCL_P15_4_INOUT',0,5,47,18
@@ -6828,13 +6831,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SDA_P02_4_INOUT')
 	.sect	'.debug_info'
 .L12:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L13
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SDA_P02_4_INOUT',0,5,48,18
@@ -6850,13 +6853,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SDA_P13_2_INOUT')
 	.sect	'.debug_info'
 .L14:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L15
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SDA_P13_2_INOUT',0,5,49,18
@@ -6872,13 +6875,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c0_SDA_P15_5_INOUT')
 	.sect	'.debug_info'
 .L16:
-	.word	234
+	.word	242
 	.half	3
 	.word	.L17
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c0_SDA_P15_5_INOUT',0,5,50,18
@@ -6894,13 +6897,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c_Scl_InOut_pinTable')
 	.sect	'.debug_info'
 .L18:
-	.word	236
+	.word	244
 	.half	3
 	.word	.L19
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c_Scl_InOut_pinTable',0,5,53,25
@@ -6916,13 +6919,13 @@ IfxI2c_Sda_InOut_pinTable:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxI2c_Sda_InOut_pinTable')
 	.sect	'.debug_info'
 .L20:
-	.word	236
+	.word	244
 	.half	3
 	.word	.L21
 	.byte	4,1
 	.byte	'../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxI2c_Sda_InOut_pinTable',0,5,61,25

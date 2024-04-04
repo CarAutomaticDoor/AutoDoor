@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc17100a --dep-file=Configurations/Debug/sync_on_halt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Configurations/Debug/sync_on_halt.src ../Configurations/Debug/sync_on_halt.c"
+	.compiler_invocation	"ctc -f cc14908a --dep-file=Configurations/Debug/sync_on_halt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\gitRepo_autoDoor\\\\AutoDoor -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Configurations -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\gitRepo_autoDoor\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Configurations/Debug/sync_on_halt.src ../Configurations/Debug/sync_on_halt.c"
 	.compiler_name		"ctc"
 	;source	'../Configurations/Debug/sync_on_halt.c'
 
@@ -125,7 +125,7 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L11:
-	.word	448
+	.word	456
 	.half	3
 	.word	.L12
 	.byte	4
@@ -133,30 +133,30 @@ _sync_on_halt_ucx:	.type	object
 	.byte	1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L13
 	.byte	2
 	.byte	'unsigned char',0,1,8
 .L30:
 	.byte	3
-	.word	180
+	.word	188
 	.byte	4
 	.byte	'__cacheiwi',0,1,1,1,1,5
 	.byte	'p',0
-	.word	197
+	.word	205
 	.byte	0,2
 	.byte	'int',0,4,5,4
 	.byte	'__mtcr',0,1,1,1,1,6
-	.word	226
+	.word	234
 	.byte	6
-	.word	226
+	.word	234
 	.byte	0,7
-	.word	226
+	.word	234
 	.byte	8
 	.byte	'__mfcr',0
-	.word	256
+	.word	264
 	.byte	1,1,1,1,6
-	.word	226
+	.word	234
 	.byte	0,9
 	.byte	'__debug',0,1,1,1,1,9
 	.byte	'__nop',0,1,1,1,1,9
@@ -167,21 +167,21 @@ _sync_on_halt_ucx:	.type	object
 	.byte	'unsigned int',0,4,7,2
 	.byte	'short int',0,2,5,10
 	.byte	'__wchar_t',0,1,1,1
-	.word	349
+	.word	357
 	.byte	10
 	.byte	'__size_t',0,1,1,1
-	.word	333
+	.word	341
 	.byte	10
 	.byte	'__ptrdiff_t',0,1,1,1
-	.word	226
+	.word	234
 	.byte	11,1,3
-	.word	417
+	.word	425
 	.byte	10
 	.byte	'__codeptr',0,1,1,1
-	.word	419
+	.word	427
 .L35:
 	.byte	12,64
-	.word	333
+	.word	341
 	.byte	13,15,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -205,13 +205,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_end')
 	.sect	'.debug_info'
 .L14:
-	.word	233
+	.word	241
 	.half	3
 	.word	.L15
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L17,.L16
 	.byte	2
 	.word	.L10
@@ -254,13 +254,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt')
 	.sect	'.debug_info'
 .L19:
-	.word	300
+	.word	308
 	.half	3
 	.word	.L20
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
 	.word	.L22,.L21
 	.byte	2
 	.word	.L10
@@ -358,13 +358,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_lcx')
 	.sect	'.debug_info'
 .L24:
-	.word	211
+	.word	219
 	.half	3
 	.word	.L25
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L10
 	.byte	3
 	.byte	'_sync_on_halt_lcx',0,1,94,41
@@ -380,13 +380,13 @@ _sync_on_halt_ucx:	.type	object
 	.sdecl	'.debug_info',debug,cluster('_sync_on_halt_ucx')
 	.sect	'.debug_info'
 .L26:
-	.word	211
+	.word	219
 	.half	3
 	.word	.L27
 	.byte	4,1
 	.byte	'../Configurations/Debug/sync_on_halt.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.byte	'C:\\gitRepo_autoDoor\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L10
 	.byte	3
 	.byte	'_sync_on_halt_ucx',0,1,95,41
