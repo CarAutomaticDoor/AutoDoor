@@ -72,6 +72,8 @@ void Start_Get_Distance(){
 //    fdistance1 = 0.0;
 //    fdistance2 = 0.0;
 
+    // 여러번 디버거를 찍어보니 deadzone 에서는 fdistacne 가 == 0 이 되는 경우가 있었다.
+    // 따라서, 이후 초음파 센서 값으로 코딩을 할때 조건문을 => if(3 <= fdistance <= 10)와 같이 작성한다.
     fdistance1 = getUltraSonicDistance(0);
     fdistance2 = getUltraSonicDistance(1);
 
