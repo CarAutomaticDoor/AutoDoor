@@ -39,6 +39,8 @@
 #include "In_Module.h"
 #include "Out_Module.h"
 
+#include "Out_Module_Ultrasonic_foot.h"
+
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -81,20 +83,8 @@ void ECU_Module_Init(){
     return;
 }
 
-void reveive_raspberry_digtalpin_input_set(){
-    // input setting (인피니언 Digital 49번 핀 사용). <Digital pin 49 / XIO.30 / P21.0 >
-
-    return;
-}
 
 void Race_Start(){
-
-    // App에서 송신한 데이터를 받는다.
-    // 현재는 그냥 true로 (1)로 해둔 것. 이후에 수정해야함.
-    /*switch(Security_State){
-        case LOCK:
-
-    }*/
 
 //    Play_DoorOpen_Sound(); // 부저 1개만 출력.
 
@@ -102,6 +92,12 @@ void Race_Start(){
 
 //    test_led();
 
+    return;
+}
+
+void Ultrasonic_Start(){
+
+    Start_Get_Distance();
 
     return;
 }
