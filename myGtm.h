@@ -1,5 +1,5 @@
 /**********************************************************************************************************************
- * \file myPwm.h
+ * \file myGtm.h
  * \copyright Copyright (C) Infineon Technologies AG 2019
  * 
  * Use of this file is subject to the terms of use agreed between (i) you or the company in which ordinary course of 
@@ -25,54 +25,17 @@
  * IN THE SOFTWARE.
  *********************************************************************************************************************/
 
-#ifndef MYPWM_H_
-#define MYPWM_H_
+#ifndef MYGTM_H_
+#define MYGTM_H_
 
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
-#include "IfxPort.h"
-
-#include "Ifx_Types.h"
 
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-//#define PWML_1  IfxGtm_TOM1_6_TOUT74_P15_3_OUT
-//#define PWML_2  IfxGtm_TOM2_13_TOUT73_P15_2_OUT
-//#define PWML_3  IfxGtm_TOM0_8_TOUT0_P02_0_OUT
-//#define PWML_4  IfxGtm_TOM0_9_TOUT1_P02_1_OUT
-//#define PWML_5  IfxGtm_TOM0_6_TOUT106_P10_4_OUT
-//#define PWML_6  IfxGtm_TOM0_11_TOUT3_P02_3_OUT
-//#define PWML_7  IfxGtm_TOM0_12_TOUT4_P02_4_OUT
-//#define PWML_8  IfxGtm_TOM0_13_TOUT5_P02_5_OUT
-//
-//#define PWMH_1  IfxGtm_TOM0_14_TOUT6_P02_6_OUT
-//#define PWMH_2  IfxGtm_TOM0_15_TOUT7_P02_7_OUT
-//#define PWMH_3  IfxGtm_TOM0_2_TOUT107_P10_5_OUT
-//#define PWMH_4  IfxGtm_TOM0_3_TOUT105_P10_3_OUT
-//#define PWMH_5  IfxGtm_TOM0_1_TOUT103_P10_1_OUT
-//#define PWMH_6  IfxGtm_TOM0_2_TOUT104_P10_2_OUT
-//#define PWMH_7  IfxGtm_TOM0_7_TOUT93_P13_2_OUT
-//#define PWMH_8  IfxGtm_TOM0_6_TOUT92_P13_1_OUT
 
-#define PWML1 0
-#define PWML2 1
-#define PWML3 2
-#define PWML4 3
-#define PWML5 4
-#define PWML6 5
-#define PWML7 6
-#define PWML8 7
-
-#define PWMH1 8
-#define PWMH2 9
-#define PWMH3 10
-#define PWMH4 11
-#define PWMH5 12
-#define PWMH6 13
-#define PWMH7 14
-#define PWMH8 15
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -88,14 +51,9 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-//void setPinModePwm(uint8 port, uint8 pin);
-//void setPwmPriod(uint32 period);
-//void setDutyCycle(uint32 dutyCycle);
-//void setDutyRatio(uint8 ratio);
+/**
+ * TODO : get CMU CLKEN info via parameter (void initGtm(uint8 clken))
+ */
+void initGtm(void);
 
-void initGtmTomPwm(uint8 pwmNumber);
-void setDutyCycle(uint8 pwmNumber, uint32 dutyCycle);
-void setDutyRatio(uint8 pwmNumber, uint8 dutyRatio);
-void setPwmPeriod(uint8 pwmNumber, uint32 period);
-
-#endif /* MYPWM_H_ */
+#endif /* MYGTM_H_ */

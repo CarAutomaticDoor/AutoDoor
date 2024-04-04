@@ -77,6 +77,7 @@ void ECU_Module_Init(){
     In_Module_init();
     Out_Module_init();
 
+//    test_led_init();
     return;
 }
 
@@ -95,7 +96,12 @@ void Race_Start(){
 
     }*/
 
-    Play_DoorOpen_Sound();
+//    Play_DoorOpen_Sound(); // 부저 1개만 출력.
+
+    Play_DoorOpen_Sound_two_buzzer(); // 부저 2개를 다른 Period로 출력.
+
+//    test_led();
+
 
     return;
 }
