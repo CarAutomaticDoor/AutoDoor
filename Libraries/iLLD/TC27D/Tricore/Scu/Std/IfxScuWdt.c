@@ -231,7 +231,6 @@ void IfxScuWdt_enableCpuWatchdog(uint16 password)
     IfxScuWdt_setCpuEndinitInline(wdt, password);
 }
 
-
 void IfxScuWdt_enableSafetyWatchdog(uint16 password)
 {
     IfxScuWdt_clearSafetyEndinitInline(password);

@@ -1,5 +1,5 @@
 /**********************************************************************************************************************
- * \file Piezos.c
+ * \file Buttons.c
  * \copyright Copyright (C) Infineon Technologies AG 2019
  * 
  * Use of this file is subject to the terms of use agreed between (i) you or the company in which ordinary course of 
@@ -29,8 +29,7 @@
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
-#include "Piezos.h"
-
+#include <myButtons.h>
 #include "IfxPort.h"
 
 #include "Pin_Map.h"
@@ -53,14 +52,16 @@
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void initPiezos(void)
+void initButtons(void)
 {
-    // init vadc
+    // set door open/close button as input/pushpull
+    // set kids lock button as input/pushpull
+    // set auto door lock button as input/pushpull
 }
 
-uint16 readForce(IfxPort_Pin pin)
+boolean getButtonState(IfxPort_Pin pin)
 {
-    // read A/D converted value from 'pin'
+    // read digital input from 'pin'
 
     // return value
 }

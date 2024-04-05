@@ -40,7 +40,7 @@
 #define PIN_BTN_DOOR_OPCL       // PIN44    XIO26   P33_3
 
 #define PIN_TOUCH_SENSOR        // AD0      ADCL1   SAR4_7  P32_3
-#define PIN_FINGER_SENSOR       // AD1      ADCL2   P32_4
+#define PIN_FINGER_SENSOR       // AD1      ADCL2   SAR4_8  P32_4
 
 #define PIN_FOOT_SENSOR         // PIN27    XIO7    P00_1
 #define PIN_OBSTACLE_SENSOR     // PIN33    XIO13   P00_4

@@ -39,10 +39,9 @@ void systemInit()
     // initButtons() initialize internal buttons
     // initPiezos()
     // initUltraSonic()
-
+    //
     // initMotor()
     // initAudio()
-    // initBuzzor()
 }
 
 void core0_main(void)
