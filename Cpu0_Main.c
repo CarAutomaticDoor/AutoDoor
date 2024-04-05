@@ -32,6 +32,19 @@
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
+void systemInit()
+{
+    // initGtm()
+
+    // initButtons() initialize internal buttons
+    // initPiezos()
+    // initUltraSonic()
+
+    // initMotor()
+    // initAudio()
+    // initBuzzor()
+}
+
 void core0_main(void)
 {
     IfxCpu_enableInterrupts();
@@ -47,11 +60,6 @@ void core0_main(void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
         
     // 전체 모듈 초기 세팅
-    ECU_Module_Init();
-
-    while(1)
-    {
-//        Race_Start();
-        Ultrasonic_Start();
-    }
+    // systemInit();
+    // Application();
 }
