@@ -33,19 +33,57 @@
 #include "IfxPort.h"
 #include "IfxGtm_Tom_Pwm.h"
 
+#include "Ifx_Types.h"
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define PWM_PERIOD 50000
-#define FADE_STEP           PWM_PERIOD / 100
+
+//#define PWM_PERIOD 50000
+//#define FADE_STEP           PWM_PERIOD / 100
+
+#define TOM_PWML1           {IfxGtm_Tom_1, IfxGtm_Tom_Ch_6,  IfxGtm_ToutSel_a,  74, {&MODULE_P15, 3}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML2           {IfxGtm_Tom_1, IfxGtm_Tom_Ch_5,  IfxGtm_ToutSel_a,  73, {&MODULE_P15, 2}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML3           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_8,  IfxGtm_ToutSel_a,   0, {&MODULE_P02, 0}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML4           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_9,  IfxGtm_ToutSel_a,   1, {&MODULE_P02, 1}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML5           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_6,  IfxGtm_ToutSel_a, 106, {&MODULE_P10, 4}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML6           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_11, IfxGtm_ToutSel_a,   3, {&MODULE_P02, 3}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML7           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_12, IfxGtm_ToutSel_a,   4, {&MODULE_P02, 4}, IfxPort_OutputIdx_alt1}
+#define TOM_PWML8           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_13, IfxGtm_ToutSel_a,   5, {&MODULE_P02, 5}, IfxPort_OutputIdx_alt1}
+
+#define TOM_PWMH1           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_14, IfxGtm_ToutSel_a,   6, {&MODULE_P02, 6}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH2           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_15, IfxGtm_ToutSel_a,   7, {&MODULE_P02, 7}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH3           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_2,  IfxGtm_ToutSel_a, 107, {&MODULE_P10, 5}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH4           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_3,  IfxGtm_ToutSel_a, 105, {&MODULE_P10, 3}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH5           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_1,  IfxGtm_ToutSel_a, 103, {&MODULE_P10, 1}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH6           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_2,  IfxGtm_ToutSel_a, 104, {&MODULE_P10, 2}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH7           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_7,  IfxGtm_ToutSel_a,  93, {&MODULE_P13, 2}, IfxPort_OutputIdx_alt1}
+#define TOM_PWMH8           {IfxGtm_Tom_0, IfxGtm_Tom_Ch_6,  IfxGtm_ToutSel_a,  92, {&MODULE_P13, 1}, IfxPort_OutputIdx_alt1}
+
+#define MAX_PWM_NUMBER      16                                   /* PWML 1~8, PWMH 1~8                               */
+#define CLK_FREQ            1000000.0f                           /* CMU clock frequency, in Hertz                    */
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-IfxGtm_Tom_Pwm_Config g_tomConfig;
-IfxGtm_Tom_Pwm_Driver g_tomDriver;
+//IfxGtm_Tom_Pwm_Config g_tomConfig;
+//IfxGtm_Tom_Pwm_Driver g_tomDriver;
+//
+//uint32 g_fadeValue = 0;
+//sint8 g_fadeDir = 1;
 
-uint32 g_fadeValue = 0;
-sint8 g_fadeDir = 1;
+IfxGtm_Tom_ToutMap g_tomMap[MAX_PWM_NUMBER] = {
+                                                TOM_PWML1, TOM_PWML2, TOM_PWML3, TOM_PWML4,
+                                                TOM_PWML5, TOM_PWML6, TOM_PWML7, TOM_PWML8,
+                                                TOM_PWMH1, TOM_PWMH2, TOM_PWMH3, TOM_PWMH4,
+                                                TOM_PWMH5, TOM_PWMH6, TOM_PWMH7, TOM_PWMH8
+                                              };
+IfxGtm_Tom_Pwm_Config g_tomConfig[MAX_PWM_NUMBER];
+IfxGtm_Tom_Pwm_Config g_tomDriver[MAX_PWM_NUMBER];
+uint32 g_pwmPeriod[MAX_PWM_NUMBER] = {50000, 50000, 50000, 50000, 50000, 50000, 50000, 50000,
+                                      50000, 50000, 50000, 50000, 50000, 50000, 50000, 50000};
+
+uint32 g_pwmDutyCycle[MAX_PWM_NUMBER] = {25000, 25000, 25000, 25000, 25000, 25000, 25000, 25000,
+                                         25000, 25000, 25000, 25000, 25000, 25000, 25000, 25000};
+
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
@@ -53,154 +91,204 @@ sint8 g_fadeDir = 1;
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-void setTomConfig(uint8 port, uint8 pin);
+//void setTomConfig(uint8 port, uint8 pin);
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void setPinModePWM(uint8 port, uint8 pin)
+void initGtmTomPwm(uint8 pwmNumber)
 {
-    IfxGtm_enable(&MODULE_GTM);                                     /* Enable GTM                                   */
+//    IfxGtm_enable(&MODULE_GTM);                                     /* Enable GTM                                   */
 
-    IfxGtm_Cmu_enableClocks(&MODULE_GTM, IFXGTM_CMU_CLKEN_FXCLK);   /* Enable the FXU clock                         */
+    //IfxGtm_Cmu_enableClocks(&MODULE_GTM, IFXGTM_CMU_CLKEN_FXCLK);   /* Enable the FXU clock                         */
+
+//    IfxGtm_Cmu_setClkFrequency(&MODULE_GTM, IfxGtm_Cmu_Clk_0, CLK_FREQ);        /* Set the CMU clock 0 frequency    */
+//    IfxGtm_Cmu_enableClocks(&MODULE_GTM, IFXGTM_CMU_CLKEN_CLK0);                /* Enable the CMU clock 0           */
 
     /* Initialize the configuration structure with default parameters */
-    // default period 20, cycle 10, ratio 50%
-    IfxGtm_Tom_Pwm_initConfig(&g_tomConfig, &MODULE_GTM);
+    IfxGtm_Tom_Pwm_initConfig(&g_tomConfig[pwmNumber], &MODULE_GTM);
 
-    setTomConfig(port, pin);
+    g_tomConfig[pwmNumber].tom = g_tomMap[pwmNumber].tom;                                      /* Select the TOM depending on the LED          */
+    g_tomConfig[pwmNumber].tomChannel = g_tomMap[pwmNumber].channel;                           /* Select the channel depending on the LED      */
+    g_tomConfig[pwmNumber].period = g_pwmPeriod[pwmNumber];                                    /* Set the pwm period                           */
+    g_tomConfig[pwmNumber].dutyCycle = g_pwmDutyCycle[pwmNumber];                              /* Set the pwm duty cycle                       */
+    g_tomConfig[pwmNumber].pin.outputPin = &g_tomMap[pwmNumber];                               /* Set the LED port pin as output               */
+    g_tomConfig[pwmNumber].synchronousUpdateEnabled = TRUE;                                    /* Enable synchronous update                    */
 
-    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
-    IfxGtm_Tom_Pwm_start(&g_tomDriver, TRUE);
+    IfxGtm_Tom_Pwm_init(&g_tomDriver[pwmNumber], &g_tomConfig[pwmNumber]);                /* Initialize the GTM TOM                       */
+
+    IfxGtm_Tom_Pwm_start(&g_tomDriver[pwmNumber], TRUE);                       /* Start the PWM                                */
 }
 
-void setTomConfig(uint8 port, uint8 pin)
+void setDutyCycle(uint8 pwmNumber, uint32 dutyCycle)
 {
-    g_tomConfig.period = PWM_PERIOD;
-    g_tomConfig.synchronousUpdateEnabled = TRUE;
-
-    if (port == 15 && pin == 3)
-    {
-        g_tomConfig.tom = PWML_1.tom;
-        g_tomConfig.tomChannel = PWML_1.channel;
-        g_tomConfig.pin.outputPin = &PWML_1;         /* Set the port pin as output               */
-    }
-    else if (port == 15 && pin == 2)
-    {
-        g_tomConfig.tom = PWML_2.tom;
-        g_tomConfig.tomChannel = PWML_2.channel;
-        g_tomConfig.pin.outputPin = &PWML_2;   /* Set the port pin as output               */
-    }
-    else if (port == 2 && pin == 0)
-    {
-        g_tomConfig.tom = PWML_3.tom;
-        g_tomConfig.tomChannel = PWML_3.channel;
-        g_tomConfig.pin.outputPin = &PWML_3;   /* Set the port pin as output               */
-    }
-    else if (port == 2 && pin == 1)
-    {
-        g_tomConfig.tom = PWML_4.tom;
-        g_tomConfig.tomChannel = PWML_4.channel;
-        g_tomConfig.pin.outputPin = &PWML_4;
-    }
-    else if (port == 10 && pin == 4)
-    {
-        g_tomConfig.tom = PWML_5.tom;
-        g_tomConfig.tomChannel = PWML_5.channel;
-        g_tomConfig.pin.outputPin = &PWML_5;
-    }
-    else if (port == 2 && pin == 3)
-    {
-        g_tomConfig.tom = PWML_6.tom;
-        g_tomConfig.tomChannel = PWML_6.channel;
-        g_tomConfig.pin.outputPin = &PWML_6;
-    }
-    else if (port == 2 && pin == 4)
-    {
-        g_tomConfig.tom = PWML_7.tom;
-        g_tomConfig.tomChannel = PWML_7.channel;
-        g_tomConfig.pin.outputPin = &PWML_7;
-    }
-    else if (port == 2 && pin == 5)
-    {
-        g_tomConfig.tom = PWML_8.tom;
-        g_tomConfig.tomChannel = PWML_8.channel;
-        g_tomConfig.pin.outputPin = &PWML_8;
-    }
-    else if (port == 2 && pin == 6)
-    {
-        g_tomConfig.tom = PWMH_1.tom;
-        g_tomConfig.tomChannel = PWMH_1.channel;
-        g_tomConfig.pin.outputPin = &PWMH_1;
-    }
-    else if (port == 2 && pin == 7)
-    {
-        g_tomConfig.tom = PWMH_2.tom;
-        g_tomConfig.tomChannel = PWMH_2.channel;
-        g_tomConfig.pin.outputPin = &PWMH_2;
-    }
-    else if (port == 10 && pin == 5)
-    {
-        g_tomConfig.tom = PWMH_3.tom;
-        g_tomConfig.tomChannel = PWMH_3.channel;
-        g_tomConfig.pin.outputPin = &PWMH_3;
-    }
-    else if (port == 10 && pin == 3)
-    {
-        g_tomConfig.tom = PWMH_4.tom;
-        g_tomConfig.tomChannel = PWMH_4.channel;
-        g_tomConfig.pin.outputPin = &PWMH_4;
-    }
-    else if (port == 10 && pin == 1)
-    {
-        g_tomConfig.tom = PWMH_5.tom;
-        g_tomConfig.tomChannel = PWMH_5.channel;
-        g_tomConfig.pin.outputPin = &PWMH_5;
-    }
-    else if (port == 10 && pin == 2)
-    {
-        g_tomConfig.tom = PWMH_6.tom;
-        g_tomConfig.tomChannel = PWMH_6.channel;
-        g_tomConfig.pin.outputPin = &PWMH_5;
-    }
-    else if (port == 13 && pin == 2)
-    {
-        g_tomConfig.tom = PWMH_7.tom;
-        g_tomConfig.tomChannel = PWMH_7.channel;
-        g_tomConfig.pin.outputPin = &PWMH_7;
-    }
-    else if (port == 13 && pin == 1)
-    {
-        g_tomConfig.tom = PWMH_8.tom;
-        g_tomConfig.tomChannel = PWMH_8.channel;
-        g_tomConfig.pin.outputPin = &PWMH_8;
-    }
+    g_tomConfig[pwmNumber].dutyCycle = dutyCycle;
+    IfxGtm_Tom_Pwm_init(&g_tomDriver[pwmNumber], &g_tomConfig[pwmNumber]);                /* Initialize the GTM TOM                       */
 }
 
-/* This function sets the duty cycle of the PWM */
-void setDutyCycle(uint32 dutyCycle)
+void setDutyPeriod(uint8 pwmNumber, uint32 period)
 {
-    g_tomConfig.dutyCycle = dutyCycle;                              /* Change the value of the duty cycle           */
-    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
+    g_tomConfig[pwmNumber].period = period;                              /* Change the period           */
+    IfxGtm_Tom_Pwm_init(&g_tomDriver[pwmNumber], &g_tomConfig[pwmNumber]);                /* Re-initialize the PWM                        */
 }
 
-void setDutyPeriod(uint32 period)
+void setDutyRatio(uint8 pwmNumber, uint8 dutyRatio)
 {
-    g_tomConfig.period = period;                              /* Change the value of the duty cycle           */
-    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
+    uint32 dutyCycle = (uint32)(0.01f * dutyRatio * g_pwmPeriod[pwmNumber]);
+    setDutyCycle(pwmNumber, dutyCycle);
 }
 
-void setDutyRatio(uint8 ratio)
-{
-    // 듀티비 설정하기.
-    g_tomConfig.dutyCycle = g_tomConfig.period * ratio / 100;
-    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
-}
-
-void setPwmPriod(uint32 period)
-{
+void setPwmPeriod(uint8 pwmNumber, uint32 period) {
     // 듀티비는 유지하되, ticks 수만을 늘리는것.
-    g_tomConfig.period = period;
-    g_tomConfig.dutyCycle = period * g_tomConfig.dutyCycle / g_tomConfig.period;
-    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
+    float32 ratio = (float32)g_pwmDutyCycle[pwmNumber] / g_pwmPeriod[pwmNumber];
+    g_tomConfig[pwmNumber].period = period;
+    g_tomConfig[pwmNumber].dutyCycle = (uint32)(period * ratio);
+    IfxGtm_Tom_Pwm_init(&g_tomDriver[pwmNumber], &g_tomConfig[pwmNumber]);                /* Initialize the GTM TOM                       */
 }
+
+//void setPinModePWM(uint8 port, uint8 pin)
+//{
+//    IfxGtm_enable(&MODULE_GTM);                                     /* Enable GTM                                   */
+//
+//    IfxGtm_Cmu_enableClocks(&MODULE_GTM, IFXGTM_CMU_CLKEN_FXCLK);   /* Enable the FXU clock                         */
+//
+//    /* Initialize the configuration structure with default parameters */
+//    // default period 20, cycle 10, ratio 50%
+//    IfxGtm_Tom_Pwm_initConfig(&g_tomConfig, &MODULE_GTM);
+//
+//    setTomConfig(port, pin);
+//
+//    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
+//    IfxGtm_Tom_Pwm_start(&g_tomDriver, TRUE);
+//}
+//
+//void setTomConfig(uint8 port, uint8 pin)
+//{
+//    g_tomConfig.period = PWM_PERIOD;
+//    g_tomConfig.synchronousUpdateEnabled = TRUE;
+//
+//    if (port == 15 && pin == 3)
+//    {
+//        g_tomConfig.tom = PWML_1.tom;
+//        g_tomConfig.tomChannel = PWML_1.channel;
+//        g_tomConfig.pin.outputPin = &PWML_1;         /* Set the port pin as output               */
+//    }
+//    else if (port == 15 && pin == 2)
+//    {
+//        g_tomConfig.tom = PWML_2.tom;
+//        g_tomConfig.tomChannel = PWML_2.channel;
+//        g_tomConfig.pin.outputPin = &PWML_2;   /* Set the port pin as output               */
+//    }
+//    else if (port == 2 && pin == 0)
+//    {
+//        g_tomConfig.tom = PWML_3.tom;
+//        g_tomConfig.tomChannel = PWML_3.channel;
+//        g_tomConfig.pin.outputPin = &PWML_3;   /* Set the port pin as output               */
+//    }
+//    else if (port == 2 && pin == 1)
+//    {
+//        g_tomConfig.tom = PWML_4.tom;
+//        g_tomConfig.tomChannel = PWML_4.channel;
+//        g_tomConfig.pin.outputPin = &PWML_4;
+//    }
+//    else if (port == 10 && pin == 4)
+//    {
+//        g_tomConfig.tom = PWML_5.tom;
+//        g_tomConfig.tomChannel = PWML_5.channel;
+//        g_tomConfig.pin.outputPin = &PWML_5;
+//    }
+//    else if (port == 2 && pin == 3)
+//    {
+//        g_tomConfig.tom = PWML_6.tom;
+//        g_tomConfig.tomChannel = PWML_6.channel;
+//        g_tomConfig.pin.outputPin = &PWML_6;
+//    }
+//    else if (port == 2 && pin == 4)
+//    {
+//        g_tomConfig.tom = PWML_7.tom;
+//        g_tomConfig.tomChannel = PWML_7.channel;
+//        g_tomConfig.pin.outputPin = &PWML_7;
+//    }
+//    else if (port == 2 && pin == 5)
+//    {
+//        g_tomConfig.tom = PWML_8.tom;
+//        g_tomConfig.tomChannel = PWML_8.channel;
+//        g_tomConfig.pin.outputPin = &PWML_8;
+//    }
+//    else if (port == 2 && pin == 6)
+//    {
+//        g_tomConfig.tom = PWMH_1.tom;
+//        g_tomConfig.tomChannel = PWMH_1.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_1;
+//    }
+//    else if (port == 2 && pin == 7)
+//    {
+//        g_tomConfig.tom = PWMH_2.tom;
+//        g_tomConfig.tomChannel = PWMH_2.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_2;
+//    }
+//    else if (port == 10 && pin == 5)
+//    {
+//        g_tomConfig.tom = PWMH_3.tom;
+//        g_tomConfig.tomChannel = PWMH_3.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_3;
+//    }
+//    else if (port == 10 && pin == 3)
+//    {
+//        g_tomConfig.tom = PWMH_4.tom;
+//        g_tomConfig.tomChannel = PWMH_4.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_4;
+//    }
+//    else if (port == 10 && pin == 1)
+//    {
+//        g_tomConfig.tom = PWMH_5.tom;
+//        g_tomConfig.tomChannel = PWMH_5.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_5;
+//    }
+//    else if (port == 10 && pin == 2)
+//    {
+//        g_tomConfig.tom = PWMH_6.tom;
+//        g_tomConfig.tomChannel = PWMH_6.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_5;
+//    }
+//    else if (port == 13 && pin == 2)
+//    {
+//        g_tomConfig.tom = PWMH_7.tom;
+//        g_tomConfig.tomChannel = PWMH_7.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_7;
+//    }
+//    else if (port == 13 && pin == 1)
+//    {
+//        g_tomConfig.tom = PWMH_8.tom;
+//        g_tomConfig.tomChannel = PWMH_8.channel;
+//        g_tomConfig.pin.outputPin = &PWMH_8;
+//    }
+//}
+//
+///* This function sets the duty cycle of the PWM */
+//void setDutyCycle(uint32 dutyCycle)
+//{
+//    g_tomConfig.dutyCycle = dutyCycle;                              /* Change the value of the duty cycle           */
+//    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
+//}
+//
+//void setDutyPeriod(uint32 period)
+//{
+//    g_tomConfig.period = period;                              /* Change the period           */
+//    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);                /* Re-initialize the PWM                        */
+//}
+//
+//void setDutyRatio(uint8 ratio)
+//{
+//    // 듀티비 설정하기.
+//    g_tomConfig.dutyCycle = g_tomConfig.period * ratio / 100;
+//    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
+//}
+//
+//void setPwmPriod(uint32 period)
+//{
+//    // 듀티비는 유지하되, ticks 수만을 늘리는것.
+//    g_tomConfig.period = period;
+//    g_tomConfig.dutyCycle = period * g_tomConfig.dutyCycle / g_tomConfig.period;
+//    IfxGtm_Tom_Pwm_init(&g_tomDriver, &g_tomConfig);
+//}

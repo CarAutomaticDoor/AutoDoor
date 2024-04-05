@@ -32,8 +32,6 @@
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
-
-
 void core0_main(void)
 {
     IfxCpu_enableInterrupts();
@@ -53,7 +51,7 @@ void core0_main(void)
 
     while(1)
     {
-        Race_Start();
-
+//        Race_Start();
+        Ultrasonic_Start();
     }
 }

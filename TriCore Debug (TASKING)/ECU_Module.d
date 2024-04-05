@@ -108,3 +108,5 @@ ECU_Module.o :	../In_Module.h
 ../In_Module.h :
 ECU_Module.o :	../Out_Module.h
 ../Out_Module.h :
+ECU_Module.o :	../Out_Module_Ultrasonic_foot.h
+../Out_Module_Ultrasonic_foot.h :

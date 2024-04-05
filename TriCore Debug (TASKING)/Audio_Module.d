@@ -110,3 +110,5 @@ Audio_Module.o :	../myPwm.h
 ../myPwm.h :
 Audio_Module.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+Audio_Module.o :	../myGtm.h
+../myGtm.h :

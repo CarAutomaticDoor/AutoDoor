@@ -35,6 +35,8 @@
 
 #include "Audio_Module.h"
 #include "myPwm.h"
+#include "myGtm.h"
+
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -54,12 +56,25 @@
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
+void Audio_Module_init(){
+
+    // PWM 사용을 위한 세팅
+//    setPinModePWM(2, 7); // PWMH 9번 사용.
+    initGtm();
+
+    // 부저 2개 사용 -> 2개 Setting
+    initGtmTomPwm(PWMH2); // 부저1 PWM pin 9 연결
+    initGtmTomPwm(PWMH3); // 부저2 PWM pin 10 연결
+
+    return;
+}
+
 void Make_sound(unsigned int idx){
-    float buzzer[2] = {261.686f, 100.262f};
+    float buzzer[2] = {261.686f, 500.262f};
     unsigned int uPeriod = (unsigned int)(100000000/buzzer[idx]);
 
-    setDutyPeriod(uPeriod);
-    setDutyRatio(50);
+    setDutyPeriod(PWMH2, uPeriod);
+    setDutyRatio(PWMH2, 30);
 }
 
 void Play_DoorOpen_Sound(){
@@ -71,12 +86,52 @@ void Play_DoorOpen_Sound(){
     Make_sound(1);
     waitTime(ticksFor10ms * 100);
 }
-void Audio_Module_init(){
 
-    // PWM 사용을 위한 세팅
-    setPinModePWM(2, 7); // PWMH 9번 사용.
+// ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
+void Make_sound_two_buzzer(unsigned int idx1, unsigned int idx2){
+    float buzzer[2] = {261.686f, 100.262f};
+    unsigned int uPeriod1 = (unsigned int)(100000000/buzzer[idx1]);
+    unsigned int uPeriod2 = (unsigned int)(100000000/buzzer[idx2]);
 
-    return;
+    setDutyPeriod(PWMH2, uPeriod1);
+    setDutyPeriod(PWMH3, uPeriod2);
+
+    setDutyRatio(PWMH2, 50);
+    setDutyRatio(PWMH3, 50);
 }
 
+void Play_DoorOpen_Sound_two_buzzer(){
+    /* Initialize a time variable */
+    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
+    Make_sound_two_buzzer(0, 1);
+    waitTime(ticksFor10ms * 100);
+    Make_sound_two_buzzer(1, 0);
+    waitTime(ticksFor10ms * 100);
+}
+// ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
+
+// ------------------------- LED 2개로 주기는 동일하게하고 듀티비를 다르게해서 테스트한 코드 ----------------------------
+void test_led_init(){
+    initGtm();
+    initGtmTomPwm(PWML7); // PWM PIN 6
+    initGtmTomPwm(PWML8); // PWM PIN 7
+}
+
+void test_led(){
+
+    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+
+    unsigned int uPeriod1 = (unsigned int)(100000000/200);
+    unsigned int uPeriod2 = (unsigned int)(100000000/200);
+    setDutyPeriod(PWML7, uPeriod1);
+    setDutyPeriod(PWML8, uPeriod2);
+    for(int i=1; i<100;i++){
+        setDutyRatio(PWML7, i);
+        setDutyRatio(PWML8, 100-i);
+
+        waitTime(ticksFor10ms * 10);
+    }
+    return;
+}
+// ------------------------- LED 2개로 주기는 동일하게하고 듀티비를 다르게해서 테스트한 코드 ----------------------------

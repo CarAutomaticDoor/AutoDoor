@@ -96,5 +96,17 @@ Out_Module_Ultrasonic_foot.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_R
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_reg.h :
 Out_Module_Ultrasonic_foot.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_regdef.h
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_regdef.h :
+Out_Module_Ultrasonic_foot.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+Out_Module_Ultrasonic_foot.o :	../myPWM.h
+../myPWM.h :
+Out_Module_Ultrasonic_foot.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+Out_Module_Ultrasonic_foot.o :	../myUltrasonic.h
+../myUltrasonic.h :
+Out_Module_Ultrasonic_foot.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+Out_Module_Ultrasonic_foot.o :	../myDelay.h
+../myDelay.h :
 Out_Module_Ultrasonic_foot.o :	../Out_Module_Ultrasonic_foot.h
 ../Out_Module_Ultrasonic_foot.h :

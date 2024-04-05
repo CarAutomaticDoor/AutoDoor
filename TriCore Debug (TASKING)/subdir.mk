@@ -22,7 +22,10 @@ C_SRCS += \
 ../Out_Module_Pressure_touch.c \
 ../Out_Module_TactSwitch.c \
 ../Out_Module_Ultrasonic_foot.c \
-../myPwm.c 
+../myDelay.c \
+../myGtm.c \
+../myPwm.c \
+../myUltraSonic.c 
 
 COMPILED_SRCS += \
 ./App_Module.src \
@@ -43,7 +46,10 @@ COMPILED_SRCS += \
 ./Out_Module_Pressure_touch.src \
 ./Out_Module_TactSwitch.src \
 ./Out_Module_Ultrasonic_foot.src \
-./myPwm.src 
+./myDelay.src \
+./myGtm.src \
+./myPwm.src \
+./myUltraSonic.src 
 
 C_DEPS += \
 ./App_Module.d \
@@ -64,7 +70,10 @@ C_DEPS += \
 ./Out_Module_Pressure_touch.d \
 ./Out_Module_TactSwitch.d \
 ./Out_Module_Ultrasonic_foot.d \
-./myPwm.d 
+./myDelay.d \
+./myGtm.d \
+./myPwm.d \
+./myUltraSonic.d 
 
 OBJS += \
 ./App_Module.o \
@@ -85,7 +94,10 @@ OBJS += \
 ./Out_Module_Pressure_touch.o \
 ./Out_Module_TactSwitch.o \
 ./Out_Module_Ultrasonic_foot.o \
-./myPwm.o 
+./myDelay.o \
+./myGtm.o \
+./myPwm.o \
+./myUltraSonic.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -223,7 +235,28 @@ Out_Module_Ultrasonic_foot.o: ./Out_Module_Ultrasonic_foot.src subdir.mk
 	@echo 'Finished building: $<'
 	@echo ' '
 
+myDelay.o: ./myDelay.src subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: TASKING Assembler'
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+myGtm.o: ./myGtm.src subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: TASKING Assembler'
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
 myPwm.o: ./myPwm.src subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: TASKING Assembler'
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+myUltraSonic.o: ./myUltraSonic.src subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: TASKING Assembler'
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
@@ -234,7 +267,7 @@ myPwm.o: ./myPwm.src subdir.mk
 clean: clean--2e-
 
 clean--2e-:
-	-$(RM) ./App_Module.d ./App_Module.o ./App_Module.src ./Audio_Module.d ./Audio_Module.o ./Audio_Module.src ./Cpu0_Main.d ./Cpu0_Main.o ./Cpu0_Main.src ./Cpu1_Main.d ./Cpu1_Main.o ./Cpu1_Main.src ./Cpu2_Main.d ./Cpu2_Main.o ./Cpu2_Main.src ./Door_Module.d ./Door_Module.o ./Door_Module.src ./Door_Module_Pressure_HandProtect.d ./Door_Module_Pressure_HandProtect.o ./Door_Module_Pressure_HandProtect.src ./Door_Module_Servo_Door.d ./Door_Module_Servo_Door.o ./Door_Module_Servo_Door.src ./Door_Module_Servo_Lock.d ./Door_Module_Servo_Lock.o ./Door_Module_Servo_Lock.src ./Door_Module_Ultrasonic_ObjectDetection.d ./Door_Module_Ultrasonic_ObjectDetection.o ./Door_Module_Ultrasonic_ObjectDetection.src ./ECU_Module.d ./ECU_Module.o ./ECU_Module.src ./In_Module.d ./In_Module.o ./In_Module.src ./In_Module_Switch_Door.d ./In_Module_Switch_Door.o ./In_Module_Switch_Door.src ./In_Module_Switch_KidLock.d ./In_Module_Switch_KidLock.o ./In_Module_Switch_KidLock.src ./Out_Module.d ./Out_Module.o ./Out_Module.src ./Out_Module_Pressure_touch.d ./Out_Module_Pressure_touch.o ./Out_Module_Pressure_touch.src ./Out_Module_TactSwitch.d ./Out_Module_TactSwitch.o ./Out_Module_TactSwitch.src ./Out_Module_Ultrasonic_foot.d ./Out_Module_Ultrasonic_foot.o ./Out_Module_Ultrasonic_foot.src ./myPwm.d ./myPwm.o ./myPwm.src
+	-$(RM) ./App_Module.d ./App_Module.o ./App_Module.src ./Audio_Module.d ./Audio_Module.o ./Audio_Module.src ./Cpu0_Main.d ./Cpu0_Main.o ./Cpu0_Main.src ./Cpu1_Main.d ./Cpu1_Main.o ./Cpu1_Main.src ./Cpu2_Main.d ./Cpu2_Main.o ./Cpu2_Main.src ./Door_Module.d ./Door_Module.o ./Door_Module.src ./Door_Module_Pressure_HandProtect.d ./Door_Module_Pressure_HandProtect.o ./Door_Module_Pressure_HandProtect.src ./Door_Module_Servo_Door.d ./Door_Module_Servo_Door.o ./Door_Module_Servo_Door.src ./Door_Module_Servo_Lock.d ./Door_Module_Servo_Lock.o ./Door_Module_Servo_Lock.src ./Door_Module_Ultrasonic_ObjectDetection.d ./Door_Module_Ultrasonic_ObjectDetection.o ./Door_Module_Ultrasonic_ObjectDetection.src ./ECU_Module.d ./ECU_Module.o ./ECU_Module.src ./In_Module.d ./In_Module.o ./In_Module.src ./In_Module_Switch_Door.d ./In_Module_Switch_Door.o ./In_Module_Switch_Door.src ./In_Module_Switch_KidLock.d ./In_Module_Switch_KidLock.o ./In_Module_Switch_KidLock.src ./Out_Module.d ./Out_Module.o ./Out_Module.src ./Out_Module_Pressure_touch.d ./Out_Module_Pressure_touch.o ./Out_Module_Pressure_touch.src ./Out_Module_TactSwitch.d ./Out_Module_TactSwitch.o ./Out_Module_TactSwitch.src ./Out_Module_Ultrasonic_foot.d ./Out_Module_Ultrasonic_foot.o ./Out_Module_Ultrasonic_foot.src ./myDelay.d ./myDelay.o ./myDelay.src ./myGtm.d ./myGtm.o ./myGtm.src ./myPwm.d ./myPwm.o ./myPwm.src ./myUltraSonic.d ./myUltraSonic.o ./myUltraSonic.src
 
 .PHONY: clean--2e-
 
