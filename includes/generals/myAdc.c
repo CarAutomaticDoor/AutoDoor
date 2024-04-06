@@ -28,7 +28,7 @@
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
-#include "ADC_Background_Scan.h"
+#include "myAdc.h"
 #include "IfxVadc_Adc.h"
 
 /*********************************************************************************************************************/
@@ -113,8 +113,8 @@ void Init_Vadc_Channels(void) {
 
         /* Add the channel to background scan */
         unsigned chn_enable_bit = (1 << adc_channel_config[i].channelId);   /* Set the the corresponding input channel  */
-        unsigned mask = chn_enableBit;                                   /* of the respective group to be added in   */
-        IfxVadc_Adc_setBackgroundScan(&g_vadc, &g_vadc_group, chnEnableBit, mask); /* the background scan sequence.  */
+        unsigned mask = chn_enable_bit;                                   /* of the respective group to be added in   */
+        IfxVadc_Adc_setBackgroundScan(&g_vadc, &g_vadc_group, chn_enable_bit, mask); /* the background scan sequence.  */
     }
 }
 

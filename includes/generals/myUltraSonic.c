@@ -41,11 +41,11 @@
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
 
+#define TIMEOUT     23529
+
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-
-Ultra_struct g_ultra[2];
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -54,73 +54,58 @@ Ultra_struct g_ultra[2];
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-uint32 pulseIn(IfxPort_Pin pin, uint8 state, uint32 timeout);
+uint32 Pulse_In(IfxPort_Pin pin, uint8 state, uint32 timeout);
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void initUltraSonic(int num, IfxPort_Pin trig, IfxPort_Pin echo)
-{
-    g_ultra[num].trig = trig;
-    g_ultra[num].echo = echo;
-    IfxPort_setPinModeOutput(g_ultra[num].trig.port, g_ultra[num].trig.pinIndex, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-    IfxPort_setPinModeInput(g_ultra[num].echo.port, g_ultra[num].echo.pinIndex, IfxPort_InputMode_pullUp);
-//    g_pinTrigger = trig;
-//    g_pinEcho    = echo;
-//    IfxPort_setPinModeOutput(g_pinTrigger.port, g_pinTrigger.pinIndex, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
-//    IfxPort_setPinModeInput(g_pinEcho.port, g_pinEcho.pinIndex, IfxPort_InputMode_pullUp);
+void Init_Ultrasonic(Ultrasonic *config) {
+    IfxPort_setPinModeOutput(config->trig.port, config->trig.pinIndex, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
+    IfxPort_setPinModeInput(config->echo.port, config->echo.pinIndex, IfxPort_InputMode_pullUp);
 }
 
-float32 getUltraSonicDistance(uint8 num))
-{
+float32 Get_Ultrasonic_Distance(Ultrasonic *config) {
 
-    IfxPort_setPinLow(g_ultra[num].trig.port, g_ultra[num].trig.pinIndex);
+    IfxPort_setPinLow(config->trig.port, config->trig.pinIndex);
     delayUs(2);
-    IfxPort_setPinHigh(g_ultra[num].trig.port, g_ultra[num].trig.pinIndex);
+    IfxPort_setPinHigh(config->trig.port, config->trig.pinIndex);
     delayUs(10);
-    IfxPort_setPinLow(g_ultra[num].trig.port, g_ultra[num].trig.pinIndex);
+    IfxPort_setPinLow(config->trig.port, config->trig.pinIndex);
 
-    boolean interruptState = IfxCpu_disableInterrupts();
+    boolean interrupt_state = IfxCpu_disableInterrupts();
 
-    uint32 micros = pulseIn(g_ultra[num].echo, 1, 23529);
+    uint32 micros = Pulse_In(config->echo, TRUE, TIMEOUT);
 
-    IfxCpu_restoreInterrupts(interruptState);
+    IfxCpu_restoreInterrupts(interrupt_state);
 
     return (float32)micros / 58.8235f;
 }
 
-uint32 pulseIn(IfxPort_Pin pin, uint8 state, uint32 timeout)
-{
-    uint32 startMicros = getCurMicros();
+uint32 Pulse_In(IfxPort_Pin pin, boolean state, uint32 timeout) {
+    uint32 start_micros = getCurMicros();
 
     // wait for any previous pulse to end
-    while (__getbit(&pin.port->IN.U, pin.pinIndex) == state)
-    {
-        if (getCurMicros() - startMicros >= timeout)
-        {
+    while (__getbit(&pin.port->IN.U, pin.pinIndex) == state) {
+        if (getCurMicros() - start_micros >= timeout) {
             return 0;
         }
     }
 
     // wait for the pulse to start
-    while (__getbit(&pin.port->IN.U, pin.pinIndex) != state)
-    {
-        if (getCurMicros() - startMicros >= timeout)
-        {
+    while (__getbit(&pin.port->IN.U, pin.pinIndex) != state) {
+        if (getCurMicros() - start_micros >= timeout) {
             return 0;
         }
     }
 
     // wait for the pulse to stop
-    uint32 estimationStart = getCurMicros();
-    while (__getbit(&pin.port->IN.U, pin.pinIndex) == state)
-    {
-        if (getCurMicros() - startMicros >= timeout)
-        {
+    uint32 estimation_start = getCurMicros();
+    while (__getbit(&pin.port->IN.U, pin.pinIndex) == state) {
+        if (getCurMicros() - start_micros >= timeout) {
             return 0;
         }
     }
-    uint32 estimationEnd = getCurMicros();
+    uint32 estimation_end = getCurMicros();
 
-    return estimationEnd - estimationStart;
+    return estimation_end - estimation_start;
 }
