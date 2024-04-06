@@ -29,17 +29,20 @@
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
-#include <myButtons.h>
+#include "myButtons.h"
 #include "IfxPort.h"
 
 #include "Pin_Map.h"
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
+#define NUM_BUTTON   2 // 현재는 키즈락 안쓴다고 가정해서 (2)로 설정. -> 키즈락을 쓰게된다면 (3)으로 변경.
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
+boolean g_prev[NUM_BUTTON] = { TRUE, TRUE };
+//boolean g_prev[Buttons_num] = {TRUE, TRUE, TRUE}; // 키즈락 사용할 경우는 배열크기 3.
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -52,16 +55,50 @@
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void initButtons(void)
+void Init_Buttons(void) // 버튼으로 사용되는 디지털 핀을 입력으로 설정.
 {
-    // set door open/close button as input/pushpull
-    // set kids lock button as input/pushpull
-    // set auto door lock button as input/pushpull
+    // set door open/close button as input/inputPullUp
+    IfxPort_setPinModeInput(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
+
+
+    // set auto door lock button as input/inputPullUp
+    IfxPort_setPinModeInput(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex, IfxPort_Mode_inputPullUp);
+
+    // 키즈락 기능은 우선 없는 걸로 생각. <- 주석처리.
+    // set kids lock button as input/inputPullUp
+//    IfxPort_setPinModeInput(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
 }
 
-boolean getButtonState(IfxPort_Pin pin)
-{
-    // read digital input from 'pin'
 
-    // return value
+boolean Get_Button_State(IfxPort_Pin pin_num)
+{
+    /*
+         pin_num : 3가지(잠금, Open/Close, 키즈락) 중 읽고자하는 값의 입력핀 -> Pin_Map.h 에서 확인.
+    */
+
+    // pin_num에 따라 인덱스가 매핑 -> if ~ else로 구현
+
+    // TODO: 구조체 비교 함수를 통해 핀 인덱스 분배
+    uint8 idx = 0;
+    if(pin_num == PIN_BTN_AUTO_LOCK) {
+        idx = 0;
+    }
+    else if(pin_num == PIN_BTN_DOOR_OPCL) {
+        idx = 1;
+    }
+    // 키즈락 사용하면 주석 해제.
+    /*else if(pin_num == PIN_BTN_KIDS_LOCK){
+        idx = 2;
+    }*/
+
+    // 초기값 : OFF -> FALSE 를 리턴. 스위치가 눌리면 ON : TRUE 리턴.
+
+    boolean temp_SW = IfxPort_getPinState(pin_num.port, pin_num.pinIndex); /*Close Btn(Switch) 값 읽어와 tempSW에 저장  */
+
+    if(g_prev[idx] && !(temp_SW)){ // 스위치가 눌렸으면 temp_SW : 0
+        return TRUE;
+    }
+
+    g_prev[idx] = temp_SW;
+    return FALSE;
 }

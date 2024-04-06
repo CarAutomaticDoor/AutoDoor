@@ -36,12 +36,12 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define PIN_BTN_AUTO_LOCK       // PIN40    XIO22   P33_0
-#define PIN_BTN_KIDS_LOCK       // PIN42    XIO24   P11_10
-#define PIN_BTN_DOOR_OPCL       // PIN44    XIO26   P33_3
+#define PIN_BTN_AUTO_LOCK               IfxPort_P33_0       // PIN40    XIO22   P33_0
+#define PIN_BTN_DOOR_OPCL               IfxPort_P11_10      // PIN42    XIO24   P11_10
+#define PIN_BTN_KIDS_LOCK               IfxPort_P33_3       // PIN44    XIO26   P33_3
 
-#define PIN_TOUCH_SENSOR        // AD0      ADCL1   SAR4_7  P32_3
-#define PIN_FINGER_SENSOR       // AD1      ADCL2   SAR4_8  P32_4
+#define PIN_TOUCH_SENSOR                                    // AD0      ADCL1   SAR4_7  P32_3
+#define PIN_FINGER_SENSOR                                   // AD1      ADCL2   SAR4_8  P32_4
 
 #define PIN_FOOT_DETECTOR_TRIG          IfxPort_P00_0       // PIN25    XIO5    P00_0
 #define PIN_FOOT_DETECTOR_ECHO          IfxPort_P00_1       // PIN27    XIO7    P00_1
@@ -49,14 +49,14 @@
 #define PIN_OBSTACLE_DETECTOR_TRIG      IfxPort_P00_3       // PIN31    XIO11   P00_3
 #define PIN_OBSTACLE_DETECTOR_ECHO      IfxPort_P00_4       // PIN33    XIO13   P00_4
 
-#define PIN_DOOR_CTRL           // PWM8     PWMH1   P02_6
-#define PIN_LOCK_CTRL           // PWM9     PWMH2   P02_7
+#define PIN_DOOR_CTRL                                       // PWM8     PWMH1   P02_6
+#define PIN_LOCK_CTRL                                       // PWM9     PWMH2   P02_7
 
-#define PIN_AUDIO               // PWM10    PWMH3   P10_5
+#define PIN_AUDIO                                           // PWM10    PWMH3   P10_5
 
-#define PIN_AMBIENT_1           // PIN39    XIO19   P00_7
-#define PIN_AMBIENT_2           // PIN41    XIO21   P11_9
-#define PIN_AMBIENT_3           // PIN43    XIO23   P11_11
+#define PIN_AMBIENT_1                                       // PIN39    XIO19   P00_7
+#define PIN_AMBIENT_2                                       // PIN41    XIO21   P11_9
+#define PIN_AMBIENT_3                                       // PIN43    XIO23   P11_11
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
