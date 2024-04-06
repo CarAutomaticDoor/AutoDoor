@@ -51,6 +51,13 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-void Door_Module_Ultrasonic_ObjectDetection_init(void);
+// set ultrasonic trigger/echo pins' mode
+void Init_Obstacle_Detector(void);
+
+// return distance between door and obstacle
+float32 Read_Obstacle_Distance(void);
+
+// return TRUE if obstacle detected
+boolean Read_Obstacle_State(void);
 
 #endif /* DOOR_MODULE_ULTRASONIC_OBJECTDETECTION_H_ */

@@ -39,97 +39,92 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-void initVADCModule(void);                      /* Function to initialize the VADC module with default parameters   */
-void initVADCGroup(void);                       /* Function to initialize the VADC group                            */
-void initVADCChannels(void);                    /* Function to initialize the VADC used channels                    */
+void Init_Vadc_Module(void);                      /* Function to initialize the Vadc module with default parameters   */
+void Init_Vadc_Group(void);                       /* Function to initialize the Vadc group                            */
+void Init_Vadc_Channels(void);                    /* Function to initialize the Vadc used channels                    */
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-IfxVadc_Adc g_vadc;                                           /* Global variable for configuring the VADC module    */
-IfxVadc_Adc_Group g_vadcGroup;                                /* Global variable for configuring the VADC group     */
-IfxVadc_Adc_Channel g_vadcChannel[CHANNELS_NUM];              /* Global variable for configuring the VADC channels  */
+IfxVadc_Adc g_vadc;                                           /* Global variable for configuring the Vadc module    */
+IfxVadc_Adc_Group g_vadc_group;                                /* Global variable for configuring the Vadc group     */
+IfxVadc_Adc_Channel g_vadc_channel[CHANNELS_NUM];              /* Global variable for configuring the Vadc channels  */
+
 /* Define the used channels */
-IfxVadc_ChannelId g_vadcChannelIDs[] = {IfxVadc_ChannelId_4,  /* AN36: channel 4 of group 4                         */
-                                        IfxVadc_ChannelId_5,  /* AN37: channel 5 of group 4                         */
-                                        IfxVadc_ChannelId_6,  /* AN38: channel 6 of group 4                         */
-                                        IfxVadc_ChannelId_7}; /* AN39: channel 7 of group 4                         */
+IfxVadc_ChannelId g_vadc_channel_ids[] = {IfxVadc_ChannelId_4,  /* AN36: channel 4 of group 4                         */
+                                          IfxVadc_ChannelId_5,  /* AN37: channel 5 of group 4                         */
+                                          IfxVadc_ChannelId_6,  /* AN38: channel 6 of group 4                         */
+                                          IfxVadc_ChannelId_7}; /* AN39: channel 7 of group 4                         */
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-/* Function to initialize the VADC module */
-void initADC(void)
-{
-    initVADCModule();                                                   /* Initialize the VADC module               */
-    initVADCGroup();                                                    /* Initialize the VADC group                */
-    initVADCChannels();                                                 /* Initialize the used channels             */
+/* Function to initialize the Vadc module */
+void Init_Vadc(void) {
+    Init_Vadc_Module();                                                   /* Initialize the Vadc module               */
+    Init_Vadc_Group();                                                    /* Initialize the Vadc group                */
+    Init_Vadc_Channels();                                                 /* Initialize the used channels             */
 
     /* Start the scan */
     IfxVadc_Adc_startBackgroundScan(&g_vadc);
 }
 
-/* Function to initialize the VADC module with default parameters */
-void initVADCModule(void)
-{
-    IfxVadc_Adc_Config adcConf;                                         /* Define a configuration structure         */
-    IfxVadc_Adc_initModuleConfig(&adcConf, &MODULE_VADC);               /* Fill it with default values              */
-    IfxVadc_Adc_initModule(&g_vadc, &adcConf);                          /* Apply the configuration                  */
+/* Function to initialize the Vadc module with default parameters */
+void Init_Vadc_Module(void) {
+    IfxVadc_Adc_Config adc_config;                                         /* Define a configuration structure         */
+    IfxVadc_Adc_Init_Module_Config(&adc_config, &MODULE_VADC);               /* Fill it with default values              */
+    IfxVadc_Adc_initModule(&g_vadc, &adc_config);                          /* Apply the configuration                  */
 }
 
-/* Function to initialize the VADC group */
-void initVADCGroup(void)
-{
-    IfxVadc_Adc_GroupConfig adcGroupConf;                               /* Define a configuration structure         */
-    IfxVadc_Adc_initGroupConfig(&adcGroupConf, &g_vadc);                /* Fill it with default values              */
+/* Function to initialize the Vadc group */
+void Init_Vadc_Group(void) {
+    IfxVadc_Adc_GroupConfig adc_group_config;                               /* Define a configuration structure         */
+    IfxVadc_Adc_initGroupConfig(&adc_group_config, &g_vadc);                /* Fill it with default values              */
 
-    adcGroupConf.groupId = IfxVadc_GroupId_4;                           /* Select the Group 4                       */
-    adcGroupConf.master = adcGroupConf.groupId;                         /* Set the same group as master group       */
+    adc_group_config.groupId = IfxVadc_GroupId_4;                           /* Select the Group 4                       */
+    adc_group_config.master = adc_group_config.groupId;                         /* Set the same group as master group       */
 
     /* Enable the background scan source and the background auto scan functionality */
-    adcGroupConf.arbiter.requestSlotBackgroundScanEnabled = TRUE;
-    adcGroupConf.backgroundScanRequest.autoBackgroundScanEnabled = TRUE;
+    adc_group_config.arbiter.requestSlotBackgroundScanEnabled = TRUE;
+    adc_group_config.backgroundScanRequest.autoBackgroundScanEnabled = TRUE;
 
     /* Enable the gate in "always" mode (no edge detection) */
-    adcGroupConf.backgroundScanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always;
+    adc_group_config.backgroundScanRequest.triggerConfig.gatingMode = IfxVadc_GatingMode_always;
 
-    IfxVadc_Adc_initGroup(&g_vadcGroup, &adcGroupConf);                 /* Apply the configuration                  */
+    IfxVadc_Adc_initGroup(&g_vadc_group, &adc_group_config);                 /* Apply the configuration                  */
 }
 
-/* Function to initialize the VADC used channels */
-void initVADCChannels(void)
-{
-    IfxVadc_Adc_ChannelConfig adcChannelConf[CHANNELS_NUM];             /* Array of configuration structures        */
+/* Function to initialize the Vadc used channels */
+void Init_Vadc_Channels(void) {
+    IfxVadc_Adc_ChannelConfig adc_channel_config[CHANNELS_NUM];             /* Array of configuration structures        */
 
-    uint16 chn;
-    for(chn = 0; chn < CHANNELS_NUM; chn++)                             /* Initialize all the channels in a loop    */
-    {
+    size_t i;
+    for(i = 0; i < CHANNELS_NUM; i++) {                            /* Initialize all the channels in a loop    */
         /* Fill the configuration with default values */
-        IfxVadc_Adc_initChannelConfig(&adcChannelConf[chn], &g_vadcGroup);
+        IfxVadc_Adc_initChannelConfig(&adc_channel_config[i], &g_vadc_group);
 
         /* Set the channel ID and the corresponding result register */
-        adcChannelConf[chn].channelId = g_vadcChannelIDs[chn];          /* The channels 4..7 are initialized        */
-        adcChannelConf[chn].resultRegister = (IfxVadc_ChannelResult)(chn);
-        adcChannelConf[chn].backgroundChannel = TRUE;                   /* Enable background scan for the channel   */
+        adc_channel_config[i].channelId = g_vadc_channel_ids[i];          /* The channels 4..7 are initialized        */
+        adc_channel_config[i].resultRegister = (IfxVadc_ChannelResult)(i);
+        adc_channel_config[i].backgroundChannel = TRUE;                   /* Enable background scan for the channel   */
 
         /* Apply the channel configuration */
-        IfxVadc_Adc_initChannel(&g_vadcChannel[chn], &adcChannelConf[chn]);
+        IfxVadc_Adc_initChannel(&g_vadc_channel[i], &adc_channel_config[i]);
 
         /* Add the channel to background scan */
-        unsigned chnEnableBit = (1 << adcChannelConf[chn].channelId);   /* Set the the corresponding input channel  */
-        unsigned mask = chnEnableBit;                                   /* of the respective group to be added in   */
-        IfxVadc_Adc_setBackgroundScan(&g_vadc, &g_vadcGroup, chnEnableBit, mask); /* the background scan sequence.  */
+        unsigned chn_enable_bit = (1 << adc_channel_config[i].channelId);   /* Set the the corresponding input channel  */
+        unsigned mask = chn_enableBit;                                   /* of the respective group to be added in   */
+        IfxVadc_Adc_setBackgroundScan(&g_vadc, &g_vadc_group, chnEnableBit, mask); /* the background scan sequence.  */
     }
 }
 
-/* Function to read the VADC measurement */
-uint16 readADCValue(uint8 channel)
+/* Function to read the Vadc measurement */
+uint16 Read_Vadc_Value(uint8 channel)
 {
-    Ifx_VADC_RES conversionResult;
-    do
-    {
-        conversionResult = IfxVadc_Adc_getResult(&g_vadcChannel[channel]);
-    } while(!conversionResult.B.VF);
+    Ifx_VADC_RES conversion_result;
+    do {
+        conversion_result = IfxVadc_Adc_getResult(&g_vadc_channel[channel]);
+    } while(!conversion_result.B.VF);
 
-    return conversionResult.B.RESULT;
+    return conversion_result.B.RESULT;
 }

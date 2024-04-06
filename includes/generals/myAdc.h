@@ -44,7 +44,7 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
-void initADC(void);                         /* Function to initialize the VADC module                               */
-uint16 readADCValue(uint8 channel);         /* Function to read the VADC measurement                                */
-
+void Init_Vadc(void);                         /* Function to initialize the VADC module                               */
+uint16 Read_Vadc_Value(uint8 channel);         /* Function to read the VADC measurement                                */
+d
 #endif /* ADC_BACKGROUND_SCAN_H_ */
