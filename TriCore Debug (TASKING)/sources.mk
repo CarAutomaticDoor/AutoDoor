@@ -38,6 +38,10 @@ Libraries/iLLD/TC27D/Tricore/Port/Std \
 Libraries/iLLD/TC27D/Tricore/Scu/Std \
 Libraries/iLLD/TC27D/Tricore/Src/Std \
 Libraries/iLLD/TC27D/Tricore/Stm/Std \
+Libraries/iLLD/TC27D/Tricore/Vadc/Adc \
+Libraries/iLLD/TC27D/Tricore/Vadc/Std \
 Libraries/iLLD/TC27D/Tricore/_Impl \
 Libraries/iLLD/TC27D/Tricore/_PinMap \
+includes/application \
+includes/general \
 

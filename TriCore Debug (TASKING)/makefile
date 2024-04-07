@@ -8,8 +8,12 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include includes/general/subdir.mk
+-include includes/application/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_PinMap/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/_Impl/subdir.mk
+-include Libraries/iLLD/TC27D/Tricore/Vadc/Std/subdir.mk
+-include Libraries/iLLD/TC27D/Tricore/Vadc/Adc/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Stm/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Src/Std/subdir.mk
 -include Libraries/iLLD/TC27D/Tricore/Scu/Std/subdir.mk
@@ -53,33 +57,33 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := AutoDoor
+BUILD_ARTIFACT_NAME := no_error
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-AutoDoor.siz \
+no_error.siz \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: AutoDoor.elf secondary-outputs
+main-build: no_error.elf secondary-outputs
 
 # Tool invocations
-AutoDoor.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
+no_error.elf: $(OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: TASKING Linker'
-	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="AutoDoor.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc27xd -o"AutoDoor.elf" -Wl-o"AutoDoor.hex:IHEX" $(OBJS)
+	cctc --lsl-file="../Lcf_Tasking_Tricore_Tc.lsl" -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="no_error.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --fp-model=3 -lrt --lsl-core=vtc --exceptions --strict --anachronisms --force-c++ -Ctc27xd -o"no_error.elf" -Wl-o"no_error.hex:IHEX" $(OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-AutoDoor.siz: AutoDoor.elf makefile $(OPTIONAL_TOOL_DEPS)
+no_error.siz: no_error.elf makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Invoking: Print Size'
-	elfsize  "AutoDoor.elf"
+	elfsize  "no_error.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
