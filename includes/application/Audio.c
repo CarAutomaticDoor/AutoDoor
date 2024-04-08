@@ -75,8 +75,8 @@ uint8 g_hz_idx = 0;
 
 void Init_Audio(void) {
     // 초기값 세팅 필요
-    uint16 period;
-    uint16 duty_cycle;
+    uint16 period = 50000;
+    uint16 duty_cycle = 25000;
 
     // 부저 2개 사용 -> 2개 Setting
     Init_Pwm(&g_audio, &g_tom_audio, period, duty_cycle); // 부저1 PWM pin 9 연결

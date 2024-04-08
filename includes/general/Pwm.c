@@ -62,7 +62,9 @@ void Init_Pwm(Pwm *pwm, IfxGtm_Tom_ToutMap *tom, uint16 period, uint16 duty_cycl
     pwm->config.tomChannel = tom->channel;                           /* Select the channel depending on the LED      */
     pwm->config.period = period;                                    /* Set the pwm period                           */
     pwm->config.dutyCycle = duty_cycle;                              /* Set the pwm duty cycle                       */
-    pwm->config.pin.outputPin = &tom;                               /* Set the LED port pin as output               */
+    pwm->config.pin.outputPin = tom;     // 디버그시 bus error 발생해서 찾아보니 ... &tom -> tom 으로 변경....     /* Set the LED port pin as output               */
+    // tom 자체가 주소로 받아왔는데,  &tom 으로 받아오니  <주소에 주소> 투포인터가 쓰인 문법인 것 같음.
+    // -> 문법적 에러는 없지만 임의의 주소를 참조해서 bus error가 발생한 걸로 추정..
     pwm->config.synchronousUpdateEnabled = TRUE;                                    /* Enable synchronous update                    */
 
     IfxGtm_Tom_Pwm_init(&pwm->driver, &pwm->config);                /* Initialize the GTM TOM                       */

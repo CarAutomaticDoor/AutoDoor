@@ -70,13 +70,17 @@ void Setup(void) {
     Init_Buttons();
     Init_Side_Door();
     Init_Foot_Sensor();
+
+    Init_Audio();
 }
 
 void Auto_Door_Start() {
     while(1) {
-        Sensors();
-        Change_State();
-        Actuators();
+//        Sensors();
+//        Change_State();
+//        Actuators();
+        Play_Door_CloseOpen_Sound();
+
     }
 }
 
