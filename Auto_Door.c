@@ -39,10 +39,18 @@
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
+uint8 Audio_Mode = 0;
+boolean Switch_Lock_Unlock_Flag = FALSE;
+boolean Switch_Open_Close_Flag = FALSE;
+
+//boolean Switch_Kidslock_Flag = FALSE;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
+uint64 Time_Diff = 0;
+uint64 Time_Limit = 0;
+uint64 Time_Start = 0;
 
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
@@ -57,6 +65,8 @@ void Actuators(void);
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
 void Auto_Door(void) {
+    Time_Diff = Get_Cur_Millis(); // 처음 시작하고 시간 저장.
+
     Setup();
     Auto_Door_Start();
 }
@@ -72,6 +82,7 @@ void Setup(void) {
     Init_Foot_Sensor();
 
     Init_Audio();
+    Init_Side_Door();
 }
 
 void Auto_Door_Start() {
@@ -79,8 +90,44 @@ void Auto_Door_Start() {
 //        Sensors();
 //        Change_State();
 //        Actuators();
-//        Play_Door_CloseOpen_Sound();
-        Play_Audio_Case_Of_Situation(1);
+
+        Open_Door();
+        Delay_Ms(000);
+        Close_Door();
+
+        // pin_num : 3가지(잠금, Open/Close, 키즈락) 중 읽고자하는 값의 입력핀 -> Pin_Map.h 에서 확인.
+        Switch_Lock_Unlock_Flag = Get_Button_State(PIN_BTN_AUTO_LOCK);
+        Switch_Open_Close_Flag = Get_Button_State(PIN_BTN_DOOR_OPCL);
+
+        if(Switch_Open_Close_Flag){
+            Time_Limit = 1000;
+            Audio_Mode = OPEN_CLOSE_SOUND;
+            Time_Start = Get_Cur_Millis();
+        }
+        else if(Switch_Lock_Unlock_Flag){
+            Time_Limit = 500;
+            Audio_Mode = WELCOME_SOUND;
+            Time_Start = Get_Cur_Millis();
+        }
+
+
+        // 시간 초기화 문제 이후에 고래해주어야 함. (Get_Cur_Millis() - Time_Diff < 0  오버플로우 되서 음수가 되면 일단 그냥 초기화.. <- 수정 필요.
+        if((Get_Cur_Millis() - Time_Diff > Time_Limit) || (Get_Cur_Millis() - Time_Diff < 0)){
+            Time_Diff = Get_Cur_Millis();
+            if(1 && (Get_Cur_Millis() - Time_Start < 5000)){  // if 조건은 :  UNLOCK 상태이면서 &&  (손 끼임 || 문 열기 || 닫기)
+                Play_Audio_Case_Of_Situation(Audio_Mode); // (1) : 파라미터 정해야함. 정하는 IF~ELSE 필요.
+                /*
+                   #define DANGER_SOUND 1       :   손 끼임 소리 출력
+                   #define OPEN_CLOSE_SOUND 2   :   문 열고 닫힐 때, 소리 출력
+                   #define WELCOME_SOUND 3      :   웰컴 사운드 출력.
+                */
+            }
+            else{
+                Audio_Mode = 0;
+                Play_Audio_Case_Of_Situation(Audio_Mode);
+                Time_Start = 0;
+            }
+        }
 
     }
 }

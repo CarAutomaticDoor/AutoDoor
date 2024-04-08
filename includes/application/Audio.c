@@ -46,10 +46,6 @@
 
 #define WAIT_TIME 10
 
-#define DANGER_SOUND 1
-#define OPEN_CLOSE_SOUND 2
-#define WELCOME_SOUND 3
-
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -61,6 +57,8 @@ uint8 g_hz_idx = 0;
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
+uint8 Door_CloseOpen_Idx = 0;
+uint8 Welcome_Sound_IDX = 0;
 
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
@@ -76,7 +74,7 @@ uint8 g_hz_idx = 0;
 void Init_Audio(void) {
     // 초기값 세팅 필요
     uint16 period = 50000;
-    uint16 duty_cycle = 25000;
+    uint16 duty_cycle = 0; // 0으로 안하면 Init_Audio 를 하면 beep ~~ 소리가 나난다. 0으로 해서 초기 세팅에서는 소리 안나게 한다.
 
     // 부저 2개 사용 -> 2개 Setting
     Init_Pwm(&g_audio, &g_tom_audio, period, duty_cycle); // 부저1 PWM pin 9 연결
@@ -85,18 +83,24 @@ void Init_Audio(void) {
 }
 
 void Make_Sound(uint32 idx) {
-    float32 buzzer[2] = {261.686f, 500.262f};
+    float32 buzzer[5] = {261.63f, 329.63f, 392.00f, 329.63f, 261.63f};
     uint32 uPeriod = (uint32)(100000000/buzzer[idx]);
 
     Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 50);
+    Set_Duty_Ratio(&g_audio, 30);
 }
 
 void Play_Door_CloseOpen_Sound(void) {
     /* Initialize a time variable */
-    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
-    Make_Sound(0);
+    // 2음계만 출력하는 것이므로, 0과 1 인덱스만 구현하면 되기에 xor 연산으로 구현했다.
+    Door_CloseOpen_Idx ^= 1;
+    Make_Sound(Door_CloseOpen_Idx);
+
+
+    //    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+//
+//    Make_Sound(0);
 //    waitTime(ticksFor10ms * 100);
 //    Make_Sound(1);
 //    waitTime(ticksFor10ms * 100);
@@ -104,63 +108,76 @@ void Play_Door_CloseOpen_Sound(void) {
 
 void Play_Danger_Sound(void) {
     // "삐~~~~" 출력은 한가지 음계만 쭉 출력.
-    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+//    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
     Make_Sound(0);
-    waitTime(ticksFor10ms * 100);
+//    waitTime(ticksFor10ms * 100);
 
     return;
 }
 
-void Play_Open_Close_Sound(void) {
-    // 주기만 변경해주면서 소리 출력.
-    float buzzer[2] = {261.686f, 500.262f};
+void Play_Welcome_Sound(void){
+    Welcome_Sound_IDX++;
+    if(Welcome_Sound_IDX >= 5) Welcome_Sound_IDX = 0;
+    Make_Sound(Welcome_Sound_IDX);
 
-    // TODO: idx 미 선언으로 인한 빌드 에러
-//    unsigned int uPeriod = (unsigned int)(100000000/buzzer[idx]);
-
-    // TODO: uPeriod 미 선언으로 인한 빌드 에러
-//    Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 50);
     return;
 }
-// ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
-void Make_sound_two_buzzer(uint32 idx1, uint32 idx2) {
-    float buzzer[2] = {261.686f, 100.262f};
-    unsigned int uPeriod1 = (unsigned int)(100000000/buzzer[idx1]);
-    unsigned int uPeriod2 = (unsigned int)(100000000/buzzer[idx2]);
-
-    Set_Duty_Period(&g_audio, uPeriod1);
-    Set_Duty_Period(&g_audio, uPeriod2);
-
-    Set_Duty_Ratio(&g_audio, 50);
-    Set_Duty_Ratio(&g_audio, 50);
-}
-
-void Play_DoorOpen_Sound_two_buzzer(void){
-    /* Initialize a time variable */
-    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
-
-    Make_sound_two_buzzer(0, 1);
-    waitTime(ticksFor10ms * 100);
-    Make_sound_two_buzzer(1, 0);
-    waitTime(ticksFor10ms * 100);
-}
-
 void Play_Audio_Case_Of_Situation(uint8 num){
     switch(num){
         case DANGER_SOUND:
-            Play_Door_CloseOpen_Sound();
-            break;
-        case OPEN_CLOSE_SOUND:
             Play_Danger_Sound();
             break;
+        case OPEN_CLOSE_SOUND:
+            Play_Door_CloseOpen_Sound();
+            break;
         case WELCOME_SOUND:
-            // 웰텀 사운드 출력.
+            Play_Welcome_Sound();
+            break;
+        default:
+            Set_Duty_Ratio(&g_audio, 0);
             break;
     }
     return;
 }
+
+// ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
+//void Make_sound_two_buzzer(uint32 idx1, uint32 idx2) {
+//    float buzzer[2] = {261.686f, 100.262f};
+//    unsigned int uPeriod1 = (unsigned int)(100000000/buzzer[idx1]);
+//    unsigned int uPeriod2 = (unsigned int)(100000000/buzzer[idx2]);
+//
+//    Set_Duty_Period(&g_audio, uPeriod1);
+//    Set_Duty_Period(&g_audio, uPeriod2);
+//
+//    Set_Duty_Ratio(&g_audio, 50);
+//    Set_Duty_Ratio(&g_audio, 50);
+//}
+
+//void Play_Open_Close_Sound(void) {
+//    // 주기만 변경해주면서 소리 출력.
+//    float buzzer[2] = {261.686f, 500.262f};
+//
+//    // TODO: idx 미 선언으로 인한 빌드 에러
+////    unsigned int uPeriod = (unsigned int)(100000000/buzzer[idx]);
+//
+//    // TODO: uPeriod 미 선언으로 인한 빌드 에러
+////    Set_Duty_Period(&g_audio, uPeriod);
+//    Set_Duty_Ratio(&g_audio, 50);
+//    return;
+//}
+
+//void Play_DoorOpen_Sound_two_buzzer(void){
+//    /* Initialize a time variable */
+//    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+//
+//    Make_sound_two_buzzer(0, 1);
+//    waitTime(ticksFor10ms * 100);
+//    Make_sound_two_buzzer(1, 0);
+//    waitTime(ticksFor10ms * 100);
+//}
+
+
 // ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
 
 // ------------------------- LED 2개로 주기는 동일하게하고 듀티비를 다르게해서 테스트한 코드 ----------------------------

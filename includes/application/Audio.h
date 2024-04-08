@@ -36,6 +36,9 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
+#define DANGER_SOUND 1
+#define OPEN_CLOSE_SOUND 2
+#define WELCOME_SOUND 3
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
@@ -56,10 +59,12 @@ void Init_Audio(void);
 void Make_Sound(uint32 idx);
 void Play_Door_CloseOpen_Sound(void);
 void Play_Danger_Sound(void);
-void Play_Open_Close_Sound(void);
-void Make_sound_two_buzzer(uint32 idx1, uint32 idx2);
-void Play_DoorOpen_Sound_two_buzzer(void);
+void Play_Welcome_Sound(void);
 void Play_Audio_Case_Of_Situation(uint8 num);
 
-void test_led_init();
+//void test_led_init();
+//void Play_Open_Close_Sound(void);
+//void Make_sound_two_buzzer(uint32 idx1, uint32 idx2);
+//void Play_DoorOpen_Sound_two_buzzer(void);
+
 #endif /* INCLUDES_APPLICATION_AUDIO_H_ */

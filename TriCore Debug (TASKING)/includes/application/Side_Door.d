@@ -2,22 +2,14 @@ includes/application/Side_Door.o :	../includes/application/Side_Door.c
 ../includes/application/Side_Door.c :
 includes/application/Side_Door.o :	../includes/application/Side_Door.h
 ../includes/application/Side_Door.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/includes/general/Pwm.h
-c:/git_repo/AutoDoor/includes/general/Pwm.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_reg.h
-c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_reg.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_regdef.h
-c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_regdef.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/Ifx_TypesReg.h
-c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/Ifx_TypesReg.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.h :
+includes/application/Side_Door.o :	../includes/application/Pin_Map.h
+../includes/application/Pin_Map.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu_Intrinsics.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu_Intrinsics.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
@@ -30,18 +22,18 @@ includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Platform
 c:/git_repo/AutoDoor/Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.h :
 includes/application/Side_Door.o :	c:/Infineon/AURIX-Studio-1.9.20/tools/Compilers/Tasking_1.1r8/ctc/include/stddef.h
 c:/Infineon/AURIX-Studio-1.9.20/tools/Compilers/Tasking_1.1r8/ctc/include/stddef.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu_IntrinsicsTasking.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu_IntrinsicsTasking.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
-includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_reg.h
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_reg.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_regdef.h
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxPort_regdef.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/Ifx_TypesReg.h
+c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/Ifx_TypesReg.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.h
@@ -60,6 +52,20 @@ includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tri
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/includes/general/Pwm.h
+c:/git_repo/AutoDoor/includes/general/Pwm.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_reg.h
+c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_reg.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_regdef.h
+c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxGtm_regdef.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.h

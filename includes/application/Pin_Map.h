@@ -49,10 +49,10 @@
 #define PIN_OBSTACLE_DETECTOR_TRIG      IfxPort_P00_3       // PIN31    XIO11   P00_3
 #define PIN_OBSTACLE_DETECTOR_ECHO      IfxPort_P00_4       // PIN33    XIO13   P00_4
 
-#define PIN_DOOR_CTRL                                       // PWM8     PWMH1   P02_6
-#define PIN_LOCK_CTRL                                       // PWM9     PWMH2   P02_7
+#define PIN_AUDIO                                           // PWM9     PWMH2   P02_7
 
-#define PIN_AUDIO                                           // PWM10    PWMH3   P10_5
+#define PIN_LOCK_CTRL                                       // PWM8     PWMH1   P02_6
+#define PIN_DOOR_CTRL                   IfxPort_P10_5       // PWM10    PWMH3   P10_5
 
 #define PIN_AMBIENT_1                                       // PIN39    XIO19   P00_7
 #define PIN_AMBIENT_2                                       // PIN41    XIO21   P11_9
