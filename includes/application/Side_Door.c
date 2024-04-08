@@ -32,8 +32,11 @@
 #include "Side_Door.h"
 
 #include "Pin_Map.h"
+#include "Delay.h"
 #include "Pwm.h"
 
+#include "IfxPort.h"
+#include "Platform_Types.h"
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -60,7 +63,7 @@ Pwm g_servo;
 void Init_Side_Door() {
 //    IfxPort_setPinModeOutput(PIN_DOOR_CTRL.port, PIN_DOOR_CTRL.pinIndex, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     // 초기값 세팅 필요
-    uint16 period = 20000;
+    uint16 period = 20;
     uint16 duty_cycle = 0; // 0으로 안하면 Init_Audio 를 하면 beep ~~ 소리가 나난다. 0으로 해서 초기 세팅에서는 소리 안나게 한다.
 
     // 부저 2개 사용 -> 2개 Setting
@@ -69,10 +72,16 @@ void Init_Side_Door() {
 }
 
 void Open_Door(){
-    Set_Duty_Ratio(&g_servo, 5);
+    for(int i = 0; i<10;i++){
+        Set_Duty_Cycle(&g_servo, i);
+        Delay_Ms(100);
+    }
     return;
 }
 void Close_Door(){
-    Set_Duty_Ratio(&g_servo, 10);
+    for(int i = 10; i>0;i--){
+        Set_Duty_Cycle(&g_servo, i);
+        Delay_Ms(100);
+    }
     return;
 }

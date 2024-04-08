@@ -53,5 +53,6 @@
 /*********************************************************************************************************************/
 void Init_Side_Door(void);
 void Open_Door(void);
+void Close_Door(void);
 
 #endif /* INCLUDES_APPLICATION_SIDE_DOOR_H_ */

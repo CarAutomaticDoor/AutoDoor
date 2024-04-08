@@ -52,6 +52,8 @@ includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tri
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/includes/general/Delay.h
+c:/git_repo/AutoDoor/includes/general/Delay.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/includes/general/Pwm.h
 c:/git_repo/AutoDoor/includes/general/Pwm.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Gtm/Tom/Pwm/IfxGtm_Tom_Pwm.h
@@ -146,5 +148,7 @@ includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxFlash_regdef.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.h :
+includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 includes/application/Side_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :

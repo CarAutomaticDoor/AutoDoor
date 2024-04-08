@@ -118,7 +118,7 @@ void Play_Danger_Sound(void) {
 
 void Play_Welcome_Sound(void){
     Welcome_Sound_IDX++;
-    if(Welcome_Sound_IDX >= 5) Welcome_Sound_IDX = 0;
+    if(Welcome_Sound_IDX >= 5) Welcome_Sound_IDX = 1;
     Make_Sound(Welcome_Sound_IDX);
 
     return;
