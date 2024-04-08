@@ -97,17 +97,17 @@ void Play_Door_CloseOpen_Sound(void) {
     Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
     Make_Sound(0);
-    waitTime(ticksFor10ms * 100);
-    Make_Sound(1);
-    waitTime(ticksFor10ms * 100);
+//    waitTime(ticksFor10ms * 100);
+//    Make_Sound(1);
+//    waitTime(ticksFor10ms * 100);
 }
 
 void Play_Danger_Sound(void) {
-    // "삐~~~~" 출력은 주기에 관계없이 듀티비 100이기만 하면되기에 임의의 262.686Hz인가 시킴
-    unsigned int uPeriod = (unsigned int)(100000000/262.686f);
+    // "삐~~~~" 출력은 한가지 음계만 쭉 출력.
+    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
-    Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 100);
+    Make_Sound(0);
+    waitTime(ticksFor10ms * 100);
 
     return;
 }
@@ -145,6 +145,21 @@ void Play_DoorOpen_Sound_two_buzzer(void){
     waitTime(ticksFor10ms * 100);
     Make_sound_two_buzzer(1, 0);
     waitTime(ticksFor10ms * 100);
+}
+
+void Play_Audio_Case_Of_Situation(uint8 num){
+    switch(num){
+        case DANGER_SOUND:
+            Play_Door_CloseOpen_Sound();
+            break;
+        case OPEN_CLOSE_SOUND:
+            Play_Danger_Sound();
+            break;
+        case WELCOME_SOUND:
+            // 웰텀 사운드 출력.
+            break;
+    }
+    return;
 }
 // ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
 

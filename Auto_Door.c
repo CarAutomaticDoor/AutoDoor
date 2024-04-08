@@ -79,7 +79,8 @@ void Auto_Door_Start() {
 //        Sensors();
 //        Change_State();
 //        Actuators();
-        Play_Door_CloseOpen_Sound();
+//        Play_Door_CloseOpen_Sound();
+        Play_Audio_Case_Of_Situation(1);
 
     }
 }
