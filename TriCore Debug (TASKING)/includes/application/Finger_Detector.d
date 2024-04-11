@@ -2,6 +2,8 @@ includes/application/Finger_Detector.o :	../includes/application/Finger_Detector
 ../includes/application/Finger_Detector.c :
 includes/application/Finger_Detector.o :	../includes/application/Finger_Detector.h
 ../includes/application/Finger_Detector.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h :
 includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h :
 includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.h
@@ -108,9 +110,25 @@ includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sf
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCcu6_regdef.h :
 includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCcu6_bf.h
 c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCcu6_bf.h :
-includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h :
-includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h
-c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h :
 includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/Service/CpuGeneric/_Utilities/Ifx_Assert.h
 c:/git_repo/AutoDoor/Libraries/Service/CpuGeneric/_Utilities/Ifx_Assert.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_reg.h
+c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_reg.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_regdef.h
+c:/git_repo/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxCbs_regdef.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/includes/general/Adc.h
+c:/git_repo/AutoDoor/includes/general/Adc.h :
+includes/application/Finger_Detector.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h
+c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h :
