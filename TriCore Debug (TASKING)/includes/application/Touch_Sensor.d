@@ -114,3 +114,11 @@ includes/application/Touch_Sensor.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/
 c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Std/IfxVadc.h :
 includes/application/Touch_Sensor.o :	c:/git-repo/AutoDoor/Libraries/Service/CpuGeneric/_Utilities/Ifx_Assert.h
 c:/git-repo/AutoDoor/Libraries/Service/CpuGeneric/_Utilities/Ifx_Assert.h :
+includes/application/Touch_Sensor.o :	../includes/application/Pin_Map.h
+../includes/application/Pin_Map.h :
+includes/application/Touch_Sensor.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+includes/application/Touch_Sensor.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+includes/application/Touch_Sensor.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :

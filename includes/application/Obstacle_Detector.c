@@ -66,5 +66,7 @@ float32 Read_Obstacle_Distance(void) {
     // 여러번 디버거를 찍어보니 TimeOut 일 때, == 0 이 되는 경우가 있었다.
     // 따라서, 이후 초음파 센서 값으로 코딩을 할때 조건문을 => if(3 <= distance <= 10s)와 같이 작성한다.
     g_obstacle_distance = Get_Ultrasonic_Distance(&g_obstacle_config);
+
+
     return g_obstacle_distance;
 }

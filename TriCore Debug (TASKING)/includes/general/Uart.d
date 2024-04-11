@@ -132,3 +132,13 @@ includes/general/Uart.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/
 c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h :
 includes/general/Uart.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h
 c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.h :
+includes/general/Uart.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+includes/general/Uart.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
+includes/general/Uart.o :	c:/git-repo/AutoDoor/includes/application/Pin_Map.h
+c:/git-repo/AutoDoor/includes/application/Pin_Map.h :
+includes/general/Uart.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+includes/general/Uart.o :	../includes/general/Servo.h
+../includes/general/Servo.h :

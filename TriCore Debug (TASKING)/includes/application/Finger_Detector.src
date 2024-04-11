@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc1432a --dep-file=includes/application/Finger_Detector.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git-repo\\\\AutoDoor -IC:\\\\git-repo\\\\AutoDoor\\\\Configurations -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git-repo\\\\AutoDoor\\\\includes -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Finger_Detector.src ../includes/application/Finger_Detector.c"
+	.compiler_invocation	"ctc -f cc9852a --dep-file=includes/application/Finger_Detector.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git-repo\\\\AutoDoor -IC:\\\\git-repo\\\\AutoDoor\\\\Configurations -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git-repo\\\\AutoDoor\\\\includes -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Finger_Detector.src ../includes/application/Finger_Detector.c"
 	.compiler_name		"ctc"
 	;source	'../includes/application/Finger_Detector.c'
 
@@ -13,18 +13,18 @@ $TC16X
 	
 	.global	Init_Finger_Detector
 ; Function Init_Finger_Detector
-.L5:
+.L3:
 Init_Finger_Detector:	.type	func
 	movh.a	a4,#@his(g_finger_detector)
 	lea	a4,[a4]@los(g_finger_detector)
 	call	Init_Vadc_Channel
-.L49:
+.L36:
 	ret
-.L26:
+.L24:
 	
 __Init_Finger_Detector_function_end:
 	.size	Init_Finger_Detector,__Init_Finger_Detector_function_end-Init_Finger_Detector
-.L16:
+.L14:
 	; End of function
 	
 	.sdecl	'.text.Finger_Detector.Read_Finger_Detector',code,cluster('Read_Finger_Detector')
@@ -33,57 +33,23 @@ __Init_Finger_Detector_function_end:
 	
 	.global	Read_Finger_Detector
 ; Function Read_Finger_Detector
-.L7:
+.L5:
 Read_Finger_Detector:	.type	func
 	movh.a	a15,#@his(val2)
 	lea	a15,[a15]@los(val2)
-.L54:
+.L41:
 	movh.a	a4,#@his(g_finger_detector)
 	lea	a4,[a4]@los(g_finger_detector)
 	call	Read_Adc_Value
-.L55:
+.L42:
 	st.h	[a15],d2
-.L56:
-	movh.a	a15,#@his(val2)
-	lea	a15,[a15]@los(val2)
-	ld.hu	d0,[a15]0
-.L57:
-	mov	d15,#20
-.L58:
-	jge.u	d0,d15,.L2
-.L59:
-	movh.a	a15,#@his(IfxPort_P10_2)
-	lea	a15,[a15]@los(IfxPort_P10_2)
-	ld.a	a15,[a15]
-	movh.a	a2,#@his(IfxPort_P10_2)
-	lea	a2,[a2]@los(IfxPort_P10_2)
-	ld.bu	d15,[a2]4
-	mov	d0,#1
-.L30:
-	sha	d0,d0,d15
-.L60:
-	st.w	[a15]4,d0
-.L31:
-	j	.L3
-.L2:
-	movh.a	a15,#@his(IfxPort_P10_2)
-	lea	a15,[a15]@los(IfxPort_P10_2)
-	ld.a	a15,[a15]
-	movh.a	a2,#@his(IfxPort_P10_2)
-	lea	a2,[a2]@los(IfxPort_P10_2)
-	ld.bu	d15,[a2]4
-	movh	d0,#1
-.L39:
-	sha	d0,d0,d15
-.L61:
-	st.w	[a15]4,d0
-.L3:
+.L43:
 	ret
-.L28:
+.L26:
 	
 __Read_Finger_Detector_function_end:
 	.size	Read_Finger_Detector,__Read_Finger_Detector_function_end-Read_Finger_Detector
-.L21:
+.L19:
 	; End of function
 	
 	.sdecl	'.data.Finger_Detector.g_finger_detector',data,cluster('g_finger_detector')
@@ -104,23 +70,22 @@ val2:	.type	object
 	.calls	'Init_Finger_Detector','Init_Vadc_Channel'
 	.calls	'Read_Finger_Detector','Read_Adc_Value'
 	.calls	'Init_Finger_Detector','',0
-	.extern	IfxPort_P10_2
 	.extern	Init_Vadc_Channel
 	.extern	Read_Adc_Value
 	.calls	'Read_Finger_Detector','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L9:
-	.word	119610
+.L7:
+	.word	119586
 	.half	3
-	.word	.L10
+	.word	.L8
 	.byte	4
-.L8:
+.L6:
 	.byte	1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L11
+	.word	.L9
 	.byte	2,1,1,3
 	.word	183
 	.byte	4
@@ -243,7 +208,7 @@ val2:	.type	object
 	.byte	'B',0
 	.word	885
 	.byte	4,2,35,0,0
-.L27:
+.L25:
 	.byte	7
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,6,242,8,16,4,11
@@ -1733,23 +1698,16 @@ val2:	.type	object
 	.byte	'IfxPort_State_notChanged',0,0,18
 	.byte	'IfxPort_State_high',0,1,18
 	.byte	'IfxPort_State_low',0,128,128,4,18
-	.byte	'IfxPort_State_toggled',0,129,128,4,0
-.L29:
-	.byte	4
-	.byte	'IfxPort_setPinState',0,3,7,206,4,17,1,1
-.L32:
-	.byte	5
+	.byte	'IfxPort_State_toggled',0,129,128,4,0,4
+	.byte	'IfxPort_setPinState',0,3,7,206,4,17,1,1,5
 	.byte	'port',0,7,206,4,44
 	.word	9555
-.L34:
 	.byte	5
 	.byte	'pinIndex',0,7,206,4,56
 	.word	470
-.L36:
 	.byte	5
 	.byte	'action',0,7,206,4,80
 	.word	9969
-.L38:
 	.byte	6,0,17,10,155,1,9,1,18
 	.byte	'IfxCpu_ResourceCpu_0',0,0,18
 	.byte	'IfxCpu_ResourceCpu_1',0,1,18
@@ -17262,7 +17220,7 @@ val2:	.type	object
 	.word	118796
 	.byte	3
 	.word	119281
-.L40:
+.L27:
 	.byte	26,25,212,3,9,8,13
 	.byte	'channel',0
 	.word	28213
@@ -17301,13 +17259,10 @@ val2:	.type	object
 	.byte	1,2,35,29,0,24
 	.byte	'IfxVadc_Adc_Config',0,25,129,4,3
 	.word	119387
-	.byte	28
-	.byte	'IfxPort_P10_2',0,26,86,24
-	.word	67487
-	.byte	1,1,0
+	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L10:
+.L8:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -17315,22 +17270,20 @@ val2:	.type	object
 	.byte	0,3,8,73,19,11,15,56,9,0,0,14,53,0,73,19,0,0,15,1,1,11,15,73,19,0,0,16,33,0,47,15,0,0,17,4,1,58,15,59
 	.byte	15,57,15,11,15,0,0,18,40,0,3,8,28,13,0,0,19,11,1,0,0,20,13,0,73,19,11,15,56,9,0,0,21,46,1,49,19,0,0,22
 	.byte	5,0,49,19,0,0,23,46,0,3,8,58,15,59,15,57,15,73,19,54,15,63,12,60,12,0,0,24,22,0,3,8,58,15,59,15,57,15
-	.byte	73,19,0,0,25,21,0,54,15,0,0,26,19,1,58,15,59,15,57,15,11,15,0,0,27,38,0,73,19,0,0,28,52,0,3,8,58,15,59
-	.byte	15,57,15,73,19,63,12,60,12,0,0,0
+	.byte	73,19,0,0,25,21,0,54,15,0,0,26,19,1,58,15,59,15,57,15,11,15,0,0,27,38,0,73,19,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L11:
-	.word	.L42-.L41
-.L41:
+.L9:
+	.word	.L29-.L28
+.L28:
 	.half	3
-	.word	.L44-.L43
-.L43:
+	.word	.L31-.L30
+.L30:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std',0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
-	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc',0
-	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap',0,0
+	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc',0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
 	.byte	0,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
@@ -17358,219 +17311,170 @@ val2:	.type	object
 	.byte	'IfxFlash_regdef.h',0,1,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Scu\\Std\\IfxScuCcu.h',0,0,0,0
 	.byte	'IfxCcu6_regdef.h',0,1,0,0
-	.byte	'IfxVadc_Adc.h',0,4,0,0
-	.byte	'IfxPort_PinMap.h',0,5,0,0,0
-.L44:
-.L42:
+	.byte	'IfxVadc_Adc.h',0,4,0,0,0
+.L31:
+.L29:
 	.sdecl	'.debug_info',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_info'
-.L12:
+.L10:
 	.word	239
 	.half	3
-	.word	.L13
+	.word	.L11
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L15,.L14
+	.word	.L13,.L12
 	.byte	2
-	.word	.L8
+	.word	.L6
 	.byte	3
 	.byte	'Init_Finger_Detector',0,1,60,6,1,1,1
-	.word	.L5,.L26,.L4
+	.word	.L3,.L24,.L2
 	.byte	4
-	.word	.L5,.L26
+	.word	.L3,.L24
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_abbrev'
-.L13:
+.L11:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_line'
-.L14:
-	.word	.L46-.L45
-.L45:
+.L12:
+	.word	.L33-.L32
+.L32:
 	.half	3
-	.word	.L48-.L47
-.L47:
+	.word	.L35-.L34
+.L34:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Finger_Detector.c',0,0,0,0,0
-.L48:
+.L35:
 	.byte	5,24,7,0,5,2
-	.word	.L5
+	.word	.L3
 	.byte	3,60,1,5,1,9
-	.half	.L49-.L5
+	.half	.L36-.L3
 	.byte	3,1,1,7,9
-	.half	.L16-.L49
+	.half	.L14-.L36
 	.byte	0,1,1
-.L46:
+.L33:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_ranges'
-.L15:
-	.word	-1,.L5,0,.L16-.L5,0,0
+.L13:
+	.word	-1,.L3,0,.L14-.L3,0,0
 	.sdecl	'.debug_info',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_info'
-.L17:
-	.word	352
+.L15:
+	.word	243
 	.half	3
-	.word	.L18
+	.word	.L16
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L20,.L19
+	.word	.L18,.L17
 	.byte	2
-	.word	.L8
+	.word	.L6
 	.byte	3
 	.byte	'Read_Finger_Detector',0,1,64,8
-	.word	.L27
+	.word	.L25
 	.byte	1,1,1
-	.word	.L7,.L28,.L6
+	.word	.L5,.L26,.L4
 	.byte	4
-	.word	.L7,.L28
-	.byte	5
-	.word	.L29,.L30,.L31
-	.byte	6
-	.word	.L32,.L33
-	.byte	6
-	.word	.L34,.L35
-	.byte	6
-	.word	.L36,.L37
-	.byte	7
-	.word	.L38,.L30,.L31
-	.byte	0,5
-	.word	.L29,.L39,.L3
-	.byte	6
-	.word	.L32,.L33
-	.byte	6
-	.word	.L34,.L35
-	.byte	6
-	.word	.L36,.L37
-	.byte	7
-	.word	.L38,.L39,.L3
-	.byte	0,0,0,0
+	.word	.L5,.L26
+	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_abbrev'
-.L18:
+.L16:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0
-	.byte	0,7,11,0,49,16,17,1,18,1,0,0,0
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_line'
-.L19:
-	.word	.L51-.L50
-.L50:
+.L17:
+	.word	.L38-.L37
+.L37:
 	.half	3
-	.word	.L53-.L52
-.L52:
+	.word	.L40-.L39
+.L39:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/application/Finger_Detector.c',0,0,0,0
-	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Port\\Std\\IfxPort.h',0,0,0,0,0
-.L53:
+	.byte	'../includes/application/Finger_Detector.c',0,0,0,0,0
+.L40:
 	.byte	5,5,7,0,5,2
-	.word	.L7
+	.word	.L5
 	.byte	3,192,0,1,5,28,9
-	.half	.L54-.L7
+	.half	.L41-.L5
 	.byte	1,5,10,9
-	.half	.L55-.L54
-	.byte	1,5,9,9
-	.half	.L56-.L55
-	.byte	3,1,1,5,16,9
-	.half	.L57-.L56
-	.byte	1,5,5,9
-	.half	.L58-.L57
-	.byte	1,5,9,7,9
-	.half	.L59-.L58
-	.byte	3,1,1,4,2,5,26,9
-	.half	.L30-.L59
-	.byte	3,141,4,1,5,17,9
-	.half	.L60-.L30
-	.byte	1,4,1,5,37,9
-	.half	.L31-.L60
-	.byte	3,243,123,1,5,9,9
-	.half	.L2-.L31
-	.byte	3,2,1,4,2,5,26,9
-	.half	.L39-.L2
-	.byte	3,139,4,1,5,17,9
-	.half	.L61-.L39
-	.byte	1,4,1,5,1,9
-	.half	.L3-.L61
-	.byte	3,247,123,1,7,9
-	.half	.L21-.L3
+	.half	.L42-.L41
+	.byte	1,5,1,9
+	.half	.L43-.L42
+	.byte	3,1,1,7,9
+	.half	.L19-.L43
 	.byte	0,1,1
-.L51:
+.L38:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_ranges'
-.L20:
-	.word	-1,.L7,0,.L21-.L7,0,0
+.L18:
+	.word	-1,.L5,0,.L19-.L5,0,0
 	.sdecl	'.debug_info',debug,cluster('g_finger_detector')
 	.sect	'.debug_info'
-.L22:
+.L20:
 	.word	214
+	.half	3
+	.word	.L21
+	.byte	4,1
+	.byte	'../includes/application/Finger_Detector.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L6
+	.byte	3
+	.byte	'g_finger_detector',0,14,47,21
+	.word	.L27
+	.byte	1,5,3
+	.word	g_finger_detector
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_finger_detector')
+	.sect	'.debug_abbrev'
+.L21:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('val2')
+	.sect	'.debug_info'
+.L22:
+	.word	201
 	.half	3
 	.word	.L23
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L8
-	.byte	3
-	.byte	'g_finger_detector',0,14,47,21
-	.word	.L40
-	.byte	1,5,3
-	.word	g_finger_detector
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_finger_detector')
-	.sect	'.debug_abbrev'
-.L23:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
-	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('val2')
-	.sect	'.debug_info'
-.L24:
-	.word	201
-	.half	3
-	.word	.L25
-	.byte	4,1
-	.byte	'../includes/application/Finger_Detector.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L8
+	.word	.L6
 	.byte	3
 	.byte	'val2',0,14,48,8
-	.word	.L27
+	.word	.L25
 	.byte	1,5,3
 	.word	val2
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('val2')
 	.sect	'.debug_abbrev'
-.L25:
+.L23:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Finger_Detector')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L24-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_loc'
 .L4:
 	.word	-1,.L5,0,.L26-.L5
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L28-.L7
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L37:
-	.word	0,0
-.L35:
-	.word	0,0
-.L33:
-	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L62:
+.L44:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -17578,9 +17482,9 @@ val2:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L62,.L5,.L26-.L5
+	.word	.L44,.L3,.L24-.L3
 	.sdecl	'.debug_frame',debug,cluster('Read_Finger_Detector')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L62,.L7,.L28-.L7
+	.word	.L44,.L5,.L26-.L5
 	; Module end

@@ -63,9 +63,4 @@ void Init_Finger_Detector(void) {
 
 uint16 Read_Finger_Detector(void) {
     val2 = Read_Adc_Value(&g_finger_detector);
-    if (val2 < 20) {
-        SET_PIN(IfxPort_P10_2, HIGH);
-    } else {
-        SET_PIN(IfxPort_P10_2, LOW);
-    }
 }

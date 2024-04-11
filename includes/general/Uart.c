@@ -31,6 +31,9 @@
 /*********************************************************************************************************************/
 #include "IfxAsclin_Asc.h"
 #include "IfxCpu_Irq.h"
+#include "IfxPort_PinMap.h"
+#include "Pin_Map.h"
+#include "Servo.h"
 
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
@@ -46,7 +49,7 @@
 
 #define RX_BUFFER_SIZE     64                                      /* Definition of the receive buffer size    */
 #define TX_BUFFER_SIZE     64                                      /* Definition of the transmit buffer size   */
-
+#define SIZE               13
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -56,6 +59,8 @@ static IfxAsclin_Asc g_uart_handler;
 /* Declaration of the FIFOs parameters */
 static uint8 g_tx_buffer[TX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];
 static uint8 g_rx_buffer[RX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];
+
+uint32 g_rx_data;
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
@@ -74,7 +79,14 @@ void TxISR(void) {
 
 IFX_INTERRUPT(RxISR, 0, INTPRIO_RX);
 void RxISR(void) {
-    IfxAsclin_Asc_isrReceive(&g_uart_handler);
+    g_rx_data = g_uart_handler.asclin->RXDATA.U;
+    if (g_rx_data == '1') {
+        setOnTime(5);
+    } else if (g_rx_data == '2') {
+        setOnTime(20);
+    } else if (g_rx_data == '3') {
+        setOnTime(30);
+    }
 }
 
 /* This function initializes the ASCLIN UART module */
