@@ -38,12 +38,12 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define NUM_BUTTON   2 // 현재는 키즈락 안쓴다고 가정해서 (2)로 설정. -> 키즈락을 쓰게된다면 (3)으로 변경.
+#define NUM_BUTTON   3 // 현재는 키즈락 안쓴다고 가정해서 (2)로 설정. -> 키즈락을 쓰게된다면 (3)으로 변경.
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-boolean g_prev[NUM_BUTTON] = { TRUE, TRUE };
+boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE };
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -58,6 +58,8 @@ boolean g_prev[NUM_BUTTON] = { TRUE, TRUE };
 /*********************************************************************************************************************/
 void Init_Buttons(void) // 버튼으로 사용되는 디지털 핀을 입력으로 설정.
 {
+    PIN_MODE(IfxPort_P10_2, OUTPUT_MODE);
+    SET_PIN(IfxPort_P10_2, LOW);
     // set door open/close button as input/inputPullUp
     IfxPort_setPinModeInput(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
 
@@ -66,9 +68,19 @@ void Init_Buttons(void) // 버튼으로 사용되는 디지털 핀을 입력으�
 
     // 키즈락 기능은 우선 없는 걸로 생각. <- 주석처리.
     // set kids lock button as input/inputPullUp
-//    IfxPort_setPinModeInput(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
+    IfxPort_setPinModeInput(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
 }
 
+void Read_Buttons() {
+    g_prev[0] = IfxPort_getPinState(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex);
+    g_prev[1] = IfxPort_getPinState(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex);
+    g_prev[2] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+    if (g_prev[0] == FALSE || g_prev[1] == FALSE || g_prev[2] == FALSE) {
+        SET_PIN(IfxPort_P10_2, HIGH);
+    } else if (g_prev[0] == TRUE && g_prev[1] == TRUE && g_prev[2] == TRUE) {
+        SET_PIN(IfxPort_P10_2, LOW);
+    }
+}
 
 boolean Get_Button_State(IfxPort_Pin pin_num)
 {

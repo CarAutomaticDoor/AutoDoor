@@ -63,14 +63,16 @@ void Auto_Door(void) {
 
 void Setup(void) {
     Init_Gtm();
-    Init_Vadc();
-    Init_Finger_Detector();
-    Init_Touch_Sensor();
-    Start_Adc_Scan();
-    Init_Buttons();
     Init_Side_Door();
-    Init_Foot_Sensor();
-    Init_Uart();
+//    Init_Vadc();
+//    Init_Finger_Detector();
+//    Init_Touch_Sensor();
+//    Init_Buttons();
+
+//    Init_Foot_Sensor();
+//    Init_Obstacle_Sensor();
+//    Init_Uart();
+//    Start_Adc_Scan();
 }
 
 void Auto_Door_Start() {
@@ -82,7 +84,13 @@ void Auto_Door_Start() {
 }
 
 void Sensors(void) {
-
+//    Read_Touch_Sensor();
+//    Read_Finger_Detector();
+//    Read_Buttons();
+//    Delay_Ms(10);
+//    Read_Foot_Distance();
+//    Read_Obstacle_Distance();
+//    Delay_Ms(10);
 }
 
 void Change_State(void) {

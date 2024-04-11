@@ -44,7 +44,7 @@
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-Ultrasonic g_foot_config;
+Ultrasonic g_foot_config = {.trig = {&MODULE_P00, 0}, .echo = {&MODULE_P00, 1}} ;
 float32 g_foot_distance = 0.0f;
 
 /*********************************************************************************************************************/
@@ -60,8 +60,6 @@ float32 g_foot_distance = 0.0f;
 /*********************************************************************************************************************/
 void Init_Foot_Sensor(){
     // 초기 설정. trig, echo pin 입출력 세팅.
-    g_foot_config.trig = PIN_FOOT_DETECTOR_TRIG;
-    g_foot_config.echo = PIN_FOOT_DETECTOR_ECHO;
     Init_Ultrasonic(&g_foot_config);
 }
 
@@ -70,7 +68,8 @@ float32 Read_Foot_Distance(void) {
 
     // 여러번 디버거를 찍어보니 TimeOut 일 때, == 0 이 되는 경우가 있었다.
     // 따라서, 이후 초음파 센서 값으로 코딩을 할때 조건문을 => if(3 <= distance <= 10s)와 같이 작성한다.
-    return Get_Ultrasonic_Distance(&g_foot_config);
+    g_foot_distance = Get_Ultrasonic_Distance(&g_foot_config);
+    return g_foot_distance;
 }
 
 // return TRUE if obstacle detected
