@@ -6,6 +6,7 @@
 C_SRCS += \
 ../includes/application/Audio.c \
 ../includes/application/BT_Interface.c \
+../includes/application/Door_Sensor.c \
 ../includes/application/Finger_Detector.c \
 ../includes/application/Foot_Sensor.c \
 ../includes/application/Obstacle_Detector.c \
@@ -15,6 +16,7 @@ C_SRCS += \
 COMPILED_SRCS += \
 ./includes/application/Audio.src \
 ./includes/application/BT_Interface.src \
+./includes/application/Door_Sensor.src \
 ./includes/application/Finger_Detector.src \
 ./includes/application/Foot_Sensor.src \
 ./includes/application/Obstacle_Detector.src \
@@ -24,6 +26,7 @@ COMPILED_SRCS += \
 C_DEPS += \
 ./includes/application/Audio.d \
 ./includes/application/BT_Interface.d \
+./includes/application/Door_Sensor.d \
 ./includes/application/Finger_Detector.d \
 ./includes/application/Foot_Sensor.d \
 ./includes/application/Obstacle_Detector.d \
@@ -33,6 +36,7 @@ C_DEPS += \
 OBJS += \
 ./includes/application/Audio.o \
 ./includes/application/BT_Interface.o \
+./includes/application/Door_Sensor.o \
 ./includes/application/Finger_Detector.o \
 ./includes/application/Foot_Sensor.o \
 ./includes/application/Obstacle_Detector.o \
@@ -57,6 +61,13 @@ includes/application/Audio.o: ./includes/application/Audio.src includes/applicat
 	@echo ' '
 
 includes/application/BT_Interface.o: ./includes/application/BT_Interface.src includes/application/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: TASKING Assembler'
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+includes/application/Door_Sensor.o: ./includes/application/Door_Sensor.src includes/application/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: TASKING Assembler'
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
@@ -102,7 +113,7 @@ includes/application/Touch_Sensor.o: ./includes/application/Touch_Sensor.src inc
 clean: clean-includes-2f-application
 
 clean-includes-2f-application:
-	-$(RM) ./includes/application/Audio.d ./includes/application/Audio.o ./includes/application/Audio.src ./includes/application/BT_Interface.d ./includes/application/BT_Interface.o ./includes/application/BT_Interface.src ./includes/application/Finger_Detector.d ./includes/application/Finger_Detector.o ./includes/application/Finger_Detector.src ./includes/application/Foot_Sensor.d ./includes/application/Foot_Sensor.o ./includes/application/Foot_Sensor.src ./includes/application/Obstacle_Detector.d ./includes/application/Obstacle_Detector.o ./includes/application/Obstacle_Detector.src ./includes/application/Side_Door.d ./includes/application/Side_Door.o ./includes/application/Side_Door.src ./includes/application/Touch_Sensor.d ./includes/application/Touch_Sensor.o ./includes/application/Touch_Sensor.src
+	-$(RM) ./includes/application/Audio.d ./includes/application/Audio.o ./includes/application/Audio.src ./includes/application/BT_Interface.d ./includes/application/BT_Interface.o ./includes/application/BT_Interface.src ./includes/application/Door_Sensor.d ./includes/application/Door_Sensor.o ./includes/application/Door_Sensor.src ./includes/application/Finger_Detector.d ./includes/application/Finger_Detector.o ./includes/application/Finger_Detector.src ./includes/application/Foot_Sensor.d ./includes/application/Foot_Sensor.o ./includes/application/Foot_Sensor.src ./includes/application/Obstacle_Detector.d ./includes/application/Obstacle_Detector.o ./includes/application/Obstacle_Detector.src ./includes/application/Side_Door.d ./includes/application/Side_Door.o ./includes/application/Side_Door.src ./includes/application/Touch_Sensor.d ./includes/application/Touch_Sensor.o ./includes/application/Touch_Sensor.src
 
 .PHONY: clean-includes-2f-application
 

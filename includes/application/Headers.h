@@ -38,14 +38,16 @@
 #include "Touch_Sensor.h"
 #include "Buttons.h"
 #include "Ultrasonic.h"
-#include "Foot_Sensor.h"
 #include "Audio.h"
 
 #include "BT_Interface.h"
 #include "Obstacle_Detector.h"
 #include "Side_Door.h"
 #include "Pin_Map.h"
+#include "GTM_TOM_Interrupt.h"
 
+#include "Foot_Sensor.h"
+#include "Door_Sensor.h"
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/

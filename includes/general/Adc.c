@@ -56,6 +56,7 @@ IfxVadc_Adc_Group g_vadc_group;                                /* Global variabl
 void Init_Vadc(void) {
     Init_Vadc_Module();                                                   /* Initialize the VADC module               */
     Init_Vadc_Group();                                                    /* Initialize the VADC group                */
+
 }
 
 /* Function to initialize the VADC module with default parameters */

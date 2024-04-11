@@ -46,8 +46,8 @@
 #define PIN_FOOT_DETECTOR_TRIG          IfxPort_P00_0       // PIN25    XIO5    P00_0
 #define PIN_FOOT_DETECTOR_ECHO          IfxPort_P00_1       // PIN27    XIO7    P00_1
 
-#define PIN_OBSTACLE_DETECTOR_TRIG      IfxPort_P00_3       // PIN31    XIO11   P00_3
-#define PIN_OBSTACLE_DETECTOR_ECHO      IfxPort_P00_4       // PIN33    XIO13   P00_4
+#define PIN_OBSTACLE_DETECTOR_TRIG      IfxPort_P00_5       // PIN35    XIO11   P00_3
+#define PIN_OBSTACLE_DETECTOR_ECHO      IfxPort_P00_6       // PIN37    XIO13   P00_4
 
 #define PIN_AUDIO                                           // PWM9     PWMH2   P02_7
 

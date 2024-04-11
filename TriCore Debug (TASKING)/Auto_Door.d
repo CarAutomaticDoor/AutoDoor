@@ -116,8 +116,6 @@ Auto_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 Auto_Door.o :	c:/git_repo/AutoDoor/includes/general/Ultrasonic.h
 c:/git_repo/AutoDoor/includes/general/Ultrasonic.h :
-Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/Foot_Sensor.h
-c:/git_repo/AutoDoor/includes/application/Foot_Sensor.h :
 Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/Audio.h
 c:/git_repo/AutoDoor/includes/application/Audio.h :
 Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/BT_Interface.h
@@ -130,3 +128,9 @@ Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/Pin_Map.h
 c:/git_repo/AutoDoor/includes/application/Pin_Map.h :
 Auto_Door.o :	c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
 c:/git_repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
+Auto_Door.o :	c:/git_repo/AutoDoor/includes/general/GTM_TOM_Interrupt.h
+c:/git_repo/AutoDoor/includes/general/GTM_TOM_Interrupt.h :
+Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/Foot_Sensor.h
+c:/git_repo/AutoDoor/includes/application/Foot_Sensor.h :
+Auto_Door.o :	c:/git_repo/AutoDoor/includes/application/Door_Sensor.h
+c:/git_repo/AutoDoor/includes/application/Door_Sensor.h :

@@ -7,6 +7,7 @@ C_SRCS += \
 ../includes/general/Adc.c \
 ../includes/general/Buttons.c \
 ../includes/general/Delay.c \
+../includes/general/GTM_TOM_Interrupt.c \
 ../includes/general/Gtm.c \
 ../includes/general/Pwm.c \
 ../includes/general/Ultrasonic.c 
@@ -15,6 +16,7 @@ COMPILED_SRCS += \
 ./includes/general/Adc.src \
 ./includes/general/Buttons.src \
 ./includes/general/Delay.src \
+./includes/general/GTM_TOM_Interrupt.src \
 ./includes/general/Gtm.src \
 ./includes/general/Pwm.src \
 ./includes/general/Ultrasonic.src 
@@ -23,6 +25,7 @@ C_DEPS += \
 ./includes/general/Adc.d \
 ./includes/general/Buttons.d \
 ./includes/general/Delay.d \
+./includes/general/GTM_TOM_Interrupt.d \
 ./includes/general/Gtm.d \
 ./includes/general/Pwm.d \
 ./includes/general/Ultrasonic.d 
@@ -31,6 +34,7 @@ OBJS += \
 ./includes/general/Adc.o \
 ./includes/general/Buttons.o \
 ./includes/general/Delay.o \
+./includes/general/GTM_TOM_Interrupt.o \
 ./includes/general/Gtm.o \
 ./includes/general/Pwm.o \
 ./includes/general/Ultrasonic.o 
@@ -66,6 +70,13 @@ includes/general/Delay.o: ./includes/general/Delay.src includes/general/subdir.m
 	@echo 'Finished building: $<'
 	@echo ' '
 
+includes/general/GTM_TOM_Interrupt.o: ./includes/general/GTM_TOM_Interrupt.src includes/general/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: TASKING Assembler'
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
 includes/general/Gtm.o: ./includes/general/Gtm.src includes/general/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: TASKING Assembler'
@@ -91,7 +102,7 @@ includes/general/Ultrasonic.o: ./includes/general/Ultrasonic.src includes/genera
 clean: clean-includes-2f-general
 
 clean-includes-2f-general:
-	-$(RM) ./includes/general/Adc.d ./includes/general/Adc.o ./includes/general/Adc.src ./includes/general/Buttons.d ./includes/general/Buttons.o ./includes/general/Buttons.src ./includes/general/Delay.d ./includes/general/Delay.o ./includes/general/Delay.src ./includes/general/Gtm.d ./includes/general/Gtm.o ./includes/general/Gtm.src ./includes/general/Pwm.d ./includes/general/Pwm.o ./includes/general/Pwm.src ./includes/general/Ultrasonic.d ./includes/general/Ultrasonic.o ./includes/general/Ultrasonic.src
+	-$(RM) ./includes/general/Adc.d ./includes/general/Adc.o ./includes/general/Adc.src ./includes/general/Buttons.d ./includes/general/Buttons.o ./includes/general/Buttons.src ./includes/general/Delay.d ./includes/general/Delay.o ./includes/general/Delay.src ./includes/general/GTM_TOM_Interrupt.d ./includes/general/GTM_TOM_Interrupt.o ./includes/general/GTM_TOM_Interrupt.src ./includes/general/Gtm.d ./includes/general/Gtm.o ./includes/general/Gtm.src ./includes/general/Pwm.d ./includes/general/Pwm.o ./includes/general/Pwm.src ./includes/general/Ultrasonic.d ./includes/general/Ultrasonic.o ./includes/general/Ultrasonic.src
 
 .PHONY: clean-includes-2f-general
 

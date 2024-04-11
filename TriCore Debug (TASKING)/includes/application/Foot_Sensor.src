@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc18252a --dep-file=includes/application/Foot_Sensor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git_repo\\\\AutoDoor\\\\includes -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Foot_Sensor.src ../includes/application/Foot_Sensor.c"
+	.compiler_invocation	"ctc -f cc19712a --dep-file=includes/application/Foot_Sensor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git_repo\\\\AutoDoor\\\\includes -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Foot_Sensor.src ../includes/application/Foot_Sensor.c"
 	.compiler_name		"ctc"
 	;source	'../includes/application/Foot_Sensor.c'
 
@@ -15,28 +15,10 @@ $TC16X
 ; Function Init_Foot_Sensor
 .L9:
 Init_Foot_Sensor:	.type	func
-	movh.a	a15,#@his(g_foot_config)
-	lea	a15,[a15]@los(g_foot_config)
-.L54:
-	movh.a	a2,#@his(IfxPort_P00_0)
-	lea	a2,[a2]@los(IfxPort_P00_0)
-	ld.da	a2/a3,[a2]0
-.L55:
-	st.da	[a15]0,a2/a3
-.L56:
-	movh.a	a15,#@his(g_foot_config)
-	lea	a15,[a15]@los(g_foot_config)
-.L57:
-	movh.a	a2,#@his(IfxPort_P00_1)
-	lea	a2,[a2]@los(IfxPort_P00_1)
-	ld.da	a2/a3,[a2]0
-.L58:
-	st.da	[a15]8,a2/a3
-.L59:
 	movh.a	a4,#@his(g_foot_config)
 	lea	a4,[a4]@los(g_foot_config)
 	call	Init_Ultrasonic
-.L60:
+.L54:
 	ret
 .L37:
 	
@@ -56,7 +38,7 @@ Read_Foot_Distance:	.type	func
 	movh.a	a4,#@his(g_foot_config)
 	lea	a4,[a4]@los(g_foot_config)
 	call	Get_Ultrasonic_Distance
-.L65:
+.L59:
 	j	.L2
 .L2:
 	ret
@@ -79,52 +61,52 @@ Read_Foot_Detection_State:	.type	func
 .L45:
 	movh.a	a15,#@his(g_foot_distance)
 	lea	a15,[a15]@los(g_foot_distance)
-.L70:
+.L64:
 	movh.a	a4,#@his(g_foot_config)
 	lea	a4,[a4]@los(g_foot_config)
 	call	Get_Ultrasonic_Distance
 .L44:
 	st.w	[a15],d2
-.L71:
+.L65:
 	movh.a	a15,#@his(g_foot_distance)
 	lea	a15,[a15]@los(g_foot_distance)
 	ld.w	d15,[a15]
-.L72:
+.L66:
 	mov.u	d0,#50604
 	addih	d0,d0,#14119
-.L73:
+.L67:
 	cmp.f	d15,d15,d0
 	extr.u	d15,d15,#0,#1
-.L74:
+.L68:
 	jeq	d15,#0,.L3
-.L75:
+.L69:
 	mov	d2,#0
-.L76:
+.L70:
 	j	.L4
 .L3:
 	movh.a	a15,#@his(g_foot_distance)
 	lea	a15,[a15]@los(g_foot_distance)
 	ld.w	d15,[a15]
-.L77:
+.L71:
 	mov.u	d0,#50604
 	addih	d0,d0,#14119
-.L78:
+.L72:
 	cmp.f	d15,d15,d0
 	extr.u	d15,d15,#2,#1
 	utof	d15,d15
-.L79:
+.L73:
 	cmp.f	d15,d15,d8
 	and	d15,#3
 	ne	d15,d15,#0
-.L80:
+.L74:
 	jeq	d15,#0,.L5
-.L81:
+.L75:
 	mov	d2,#1
-.L82:
+.L76:
 	j	.L6
 .L5:
 	mov	d2,#0
-.L83:
+.L77:
 	j	.L7
 .L7:
 .L6:
@@ -137,13 +119,18 @@ __Read_Foot_Detection_State_function_end:
 .L32:
 	; End of function
 	
-	.sdecl	'.bss.Foot_Sensor.g_foot_config',data,cluster('g_foot_config')
-	.sect	'.bss.Foot_Sensor.g_foot_config'
+	.sdecl	'.data.Foot_Sensor.g_foot_config',data,cluster('g_foot_config')
+	.sect	'.data.Foot_Sensor.g_foot_config'
 	.global	g_foot_config
 	.align	4
 g_foot_config:	.type	object
 	.size	g_foot_config,16
-	.space	16
+	.word	-268197888
+	.byte	5
+	.space	3
+	.word	-268197888
+	.byte	6
+	.space	3
 	.sdecl	'.data.Foot_Sensor.g_foot_distance',data,cluster('g_foot_distance')
 	.sect	'.data.Foot_Sensor.g_foot_distance'
 	.global	g_foot_distance
@@ -158,13 +145,11 @@ g_foot_distance:	.type	object
 	.calls	'Read_Foot_Distance','',0
 	.extern	Init_Ultrasonic
 	.extern	Get_Ultrasonic_Distance
-	.extern	IfxPort_P00_0
-	.extern	IfxPort_P00_1
 	.calls	'Read_Foot_Detection_State','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L15:
-	.word	35862
+	.word	35814
 	.half	3
 	.word	.L16
 	.byte	4
@@ -5467,13 +5452,7 @@ g_foot_distance:	.type	object
 	.byte	24
 	.byte	'Ultrasonic',0,5,51,3
 	.word	8512
-	.byte	26
-	.byte	'IfxPort_P00_0',0,11,54,24
-	.word	8473
-	.byte	1,1,26
-	.byte	'IfxPort_P00_1',0,11,55,24
-	.word	8473
-	.byte	1,1,0
+	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
 .L16:
@@ -5484,8 +5463,7 @@ g_foot_distance:	.type	object
 	.byte	0,3,8,73,19,11,15,56,9,0,0,14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,16,53,0,73,19,0,0,17,4,1,58,15,59
 	.byte	15,57,15,11,15,0,0,18,40,0,3,8,28,13,0,0,19,46,1,49,19,0,0,20,5,0,49,19,0,0,21,19,1,58,15,59,15,57,15
 	.byte	11,15,0,0,22,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,23,46,1,3,8,58,15,59,15,57,15,73,19
-	.byte	54,15,39,12,63,12,60,12,0,0,24,22,0,3,8,58,15,59,15,57,15,73,19,0,0,25,21,0,54,15,0,0,26,52,0,3,8,58,15
-	.byte	59,15,57,15,73,19,63,12,60,12,0,0,0
+	.byte	54,15,39,12,63,12,60,12,0,0,24,22,0,3,8,58,15,59,15,57,15,73,19,0,0,25,21,0,54,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
 .L17:
@@ -5498,8 +5476,7 @@ g_foot_distance:	.type	object
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\includes\\\\general',0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
-	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap',0,0
+	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0,0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_IntrinsicsTasking.h',0
 	.byte	0,0,0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu_Intrinsics.h',0
@@ -5511,8 +5488,7 @@ g_foot_distance:	.type	object
 	.byte	'Platform_Types.h',0,4,0,0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0,0,0,0
 	.byte	'C:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0,0,0
-	.byte	'IfxScu_regdef.h',0,2,0,0
-	.byte	'IfxPort_PinMap.h',0,5,0,0,0
+	.byte	'IfxScu_regdef.h',0,2,0,0,0
 .L49:
 .L47:
 	.sdecl	'.debug_info',debug,cluster('Init_Foot_Sensor')
@@ -5529,7 +5505,7 @@ g_foot_distance:	.type	object
 	.byte	2
 	.word	.L14
 	.byte	3
-	.byte	'Init_Foot_Sensor',0,1,61,6,1,1,1
+	.byte	'Init_Foot_Sensor',0,1,62,6,1,1,1
 	.word	.L9,.L37,.L8
 	.byte	4
 	.word	.L9,.L37
@@ -5550,24 +5526,12 @@ g_foot_distance:	.type	object
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Foot_Sensor.c',0,0,0,0,0
 .L53:
-	.byte	5,5,7,0,5,2
+	.byte	5,22,7,0,5,2
 	.word	.L9
-	.byte	3,62,1,5,26,9
+	.byte	3,193,0,1,5,1,9
 	.half	.L54-.L9
-	.byte	1,5,24,9
-	.half	.L55-.L54
-	.byte	1,5,5,9
-	.half	.L56-.L55
-	.byte	3,1,1,5,26,9
-	.half	.L57-.L56
-	.byte	1,5,24,9
-	.half	.L58-.L57
-	.byte	1,5,22,9
-	.half	.L59-.L58
-	.byte	3,1,1,5,1,9
-	.half	.L60-.L59
 	.byte	3,1,1,7,9
-	.half	.L22-.L60
+	.half	.L22-.L54
 	.byte	0,1,1
 .L51:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Foot_Sensor')
@@ -5588,7 +5552,7 @@ g_foot_distance:	.type	object
 	.byte	2
 	.word	.L14
 	.byte	3
-	.byte	'Read_Foot_Distance',0,1,68,9
+	.byte	'Read_Foot_Distance',0,1,69,9
 	.word	.L38
 	.byte	1,1,1
 	.word	.L11,.L39,.L10
@@ -5603,24 +5567,24 @@ g_foot_distance:	.type	object
 	.sdecl	'.debug_line',debug,cluster('Read_Foot_Distance')
 	.sect	'.debug_line'
 .L25:
-	.word	.L62-.L61
-.L61:
+	.word	.L56-.L55
+.L55:
 	.half	3
-	.word	.L64-.L63
-.L63:
+	.word	.L58-.L57
+.L57:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Foot_Sensor.c',0,0,0,0,0
-.L64:
+.L58:
 	.byte	5,37,7,0,5,2
 	.word	.L11
-	.byte	3,200,0,1,5,5,9
-	.half	.L65-.L11
+	.byte	3,201,0,1,5,5,9
+	.half	.L59-.L11
 	.byte	1,5,1,9
-	.half	.L2-.L65
+	.half	.L2-.L59
 	.byte	3,1,1,7,9
 	.half	.L27-.L2
 	.byte	0,1,1
-.L62:
+.L56:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Foot_Distance')
 	.sect	'.debug_ranges'
 .L26:
@@ -5639,12 +5603,12 @@ g_foot_distance:	.type	object
 	.byte	2
 	.word	.L14
 	.byte	3
-	.byte	'Read_Foot_Detection_State',0,1,77,9
+	.byte	'Read_Foot_Detection_State',0,1,78,9
 	.word	.L40
 	.byte	1,1,1
 	.word	.L13,.L41,.L12
 	.byte	4
-	.byte	'threshold_dist',0,1,77,43
+	.byte	'threshold_dist',0,1,78,43
 	.word	.L38,.L42
 	.byte	5
 	.word	.L13,.L41
@@ -5657,58 +5621,58 @@ g_foot_distance:	.type	object
 	.sdecl	'.debug_line',debug,cluster('Read_Foot_Detection_State')
 	.sect	'.debug_line'
 .L30:
-	.word	.L67-.L66
-.L66:
+	.word	.L61-.L60
+.L60:
 	.half	3
-	.word	.L69-.L68
-.L68:
+	.word	.L63-.L62
+.L62:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Foot_Sensor.c',0,0,0,0,0
-.L69:
+.L63:
 	.byte	5,9,7,0,5,2
 	.word	.L13
-	.byte	3,204,0,1,5,5,9
+	.byte	3,205,0,1,5,5,9
 	.half	.L45-.L13
 	.byte	3,8,1,5,48,9
-	.half	.L70-.L45
+	.half	.L64-.L45
 	.byte	1,5,21,9
-	.half	.L44-.L70
+	.half	.L44-.L64
 	.byte	1,5,8,9
-	.half	.L71-.L44
+	.half	.L65-.L44
 	.byte	3,2,1,5,26,9
-	.half	.L72-.L71
+	.half	.L66-.L65
 	.byte	1,5,24,9
-	.half	.L73-.L72
+	.half	.L67-.L66
 	.byte	1,5,5,9
-	.half	.L74-.L73
+	.half	.L68-.L67
 	.byte	1,5,43,7,9
-	.half	.L75-.L74
+	.half	.L69-.L68
 	.byte	1,5,36,9
-	.half	.L76-.L75
+	.half	.L70-.L69
 	.byte	1,5,24,9
-	.half	.L3-.L76
+	.half	.L3-.L70
 	.byte	3,1,1,5,13,9
-	.half	.L77-.L3
+	.half	.L71-.L3
 	.byte	1,5,22,9
-	.half	.L78-.L77
+	.half	.L72-.L71
 	.byte	1,5,40,9
-	.half	.L79-.L78
+	.half	.L73-.L72
 	.byte	1,5,10,9
-	.half	.L80-.L79
+	.half	.L74-.L73
 	.byte	1,5,66,7,9
-	.half	.L81-.L80
+	.half	.L75-.L74
 	.byte	1,5,59,9
-	.half	.L82-.L81
+	.half	.L76-.L75
 	.byte	1,5,17,9
-	.half	.L5-.L82
+	.half	.L5-.L76
 	.byte	3,1,1,5,10,9
-	.half	.L83-.L5
+	.half	.L77-.L5
 	.byte	1,5,1,9
-	.half	.L4-.L83
+	.half	.L4-.L77
 	.byte	3,1,1,7,9
 	.half	.L32-.L4
 	.byte	0,1,1
-.L67:
+.L61:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Foot_Detection_State')
 	.sect	'.debug_ranges'
 .L31:
@@ -5788,7 +5752,7 @@ g_foot_distance:	.type	object
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L84:
+.L78:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -5796,13 +5760,13 @@ g_foot_distance:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Foot_Sensor')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L84,.L9,.L37-.L9
+	.word	.L78,.L9,.L37-.L9
 	.sdecl	'.debug_frame',debug,cluster('Read_Foot_Distance')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L84,.L11,.L39-.L11
+	.word	.L78,.L11,.L39-.L11
 	.sdecl	'.debug_frame',debug,cluster('Read_Foot_Detection_State')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L84,.L13,.L41-.L13
+	.word	.L78,.L13,.L41-.L13
 	; Module end
