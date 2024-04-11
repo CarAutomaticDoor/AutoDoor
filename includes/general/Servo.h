@@ -32,5 +32,8 @@
 /*-----------------------------------------------Function Prototypes-------------------------------------------------*/
 /*********************************************************************************************************************/
 void initGtmTom(void);      /* Function to initialize the TOM */
-void setOnTime(uint32 n);
+void setOnTime1(uint32 n);
+uint32 getOnTime1(void);
+void setOnTime2(uint32 n);
+uint32 getOnTime2(void);
 #endif /* GTM_TOM_INTERRUPT_H_ */

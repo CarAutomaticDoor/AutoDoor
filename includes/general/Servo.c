@@ -37,12 +37,15 @@
 #define ISR_PRIORITY_TOM    1                       /* Interrupt priority number                                    */
 #define TOM_FREQ            10000.0f                    /* TOM frequency                                                */
 #define LED                 &MODULE_P00, 5          /* LED which will be toggled in Interrupt Service Routine (ISR) */
+//#define LED2                &MODULE_P00, 4
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
 IfxGtm_Tom_Timer g_timerDriver;                     /* TOM driver                                                   */
-uint32 g_on_time = 20;
+uint32 g_on_time_1 = 20;
+uint32 g_on_time_2 = 20;
+
 /*********************************************************************************************************************/
 /*--------------------------------------------Function Implementations-----------------------------------------------*/
 /*********************************************************************************************************************/
@@ -56,9 +59,15 @@ void interruptGtmTom(void)
     IfxGtm_Tom_Timer_acknowledgeTimerIrq(&g_timerDriver);                       /* Clear the timer event            */
     if (counter == 0) {
         IfxPort_setPinHigh(LED);
-    } else if (counter == g_on_time) {
+//        IfxPort_setPinHigh(LED2);
+    }
+    if (counter == g_on_time_1) {
         IfxPort_setPinLow(LED);
     }
+//    if (counter == g_on_time_2) {
+//        IfxPort_setPinLow(LED2);
+//    }
+
     if (counter >= (uint32)200 - 1) {
         counter = 0;
     } else {
@@ -82,10 +91,22 @@ void initGtmTom(void)
     IfxGtm_Tom_Timer_init(&g_timerDriver, &timerConfig);                        /* Initialize the TOM               */
 
     IfxPort_setPinModeOutput(LED, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);  /* Set pin mode         */
-
+//    IfxPort_setPinModeOutput(LED2, IfxPort_OutputMode_pushPull, IfxPort_OutputIdx_general);
     IfxGtm_Tom_Timer_run(&g_timerDriver); /* Start the TOM */
 }
 
-void setOnTime(uint32 n) {
-    g_on_time = n;
+void setOnTime1(uint32 n) {
+    g_on_time_1 = n;
+}
+
+uint32 getOnTime1(void) {
+    return g_on_time_1;
+}
+
+void setOnTime2(uint32 n) {
+    g_on_time_2 = n;
+}
+
+uint32 getOnTime2(void) {
+    return g_on_time_2;
 }

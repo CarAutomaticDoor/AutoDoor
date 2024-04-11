@@ -1,5 +1,5 @@
 /**********************************************************************************************************************
- * \file Obstacle_Detector.c
+ * \file Side_Door.c
  * \copyright Copyright (C) Infineon Technologies AG 2019
  * 
  * Use of this file is subject to the terms of use agreed between (i) you or the company in which ordinary course of 
@@ -29,23 +29,21 @@
 /*********************************************************************************************************************/
 /*-----------------------------------------------------Includes------------------------------------------------------*/
 /*********************************************************************************************************************/
-#include "Obstacle_Detector.h"
+#include "Lock.h"
 
-#include "Ultrasonic.h"
-#include "Pin_Map.h"
+#include "Servo.h"
+#include "Delay.h"
 
-#include "Platform_Types.h"
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define TIME_OUT    0.00001f
-#define THRESHOLD   30.0f
+#define DUTY_LOCK       30
+#define DUTY_UNLOCK     20
 
+#define DELAY           2000        // ms
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-Ultrasonic g_obstacle_config = {.trig = {&MODULE_P00, 3}, .echo = {&MODULE_P00, 4}} ;
-float32 g_obstacle_distance = 0.0f;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -58,31 +56,25 @@ float32 g_obstacle_distance = 0.0f;
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void Init_Obstacle_Sensor(){
-    // 초기 설정. trig, echo pin 입출력 세팅.
-    Init_Ultrasonic(&g_obstacle_config);
-}
-
-float32 Read_Obstacle_Distance(void) {
-    // read ultrasonic distance
-
-    // 여러번 디버거를 찍어보니 TimeOut 일 때, == 0 이 되는 경우가 있었다.
-    // 따라서, 이후 초음파 센서 값으로 코딩을 할때 조건문을 => if(3 <= distance <= 10s)와 같이 작성한다.
-    g_obstacle_distance = Get_Ultrasonic_Distance(&g_obstacle_config);
-
-    return g_obstacle_distance;
-}
-
-// return TRUE if obstacle detected
-boolean Read_Obstacle_Detection_State(void) {
-
-    /*
-     * 초기값은 return : FALSE  (감지 X), 감지가 된다면 return : TRUE (감지 O)
-     * 매개변수 threshold_dist : 임계값 거리
-     */
-
-    // float32 foot_distance = Get_Ultrasonic_Distance(&g_Foot_Config);
-    g_obstacle_distance = Get_Ultrasonic_Distance(&g_obstacle_config);
-
-    return ((TIME_OUT < g_obstacle_distance) && (g_obstacle_distance <= THRESHOLD));
+void Control_Lock(uint8 *state) {
+    switch(*state) {
+        case LOCK:
+            setOnTime2(DUTY_LOCK);
+            break;
+        case UNLOCK:
+            setOnTime2(DUTY_UNLOCK);
+            break;
+        case LOCKING:
+            setOnTime2(DUTY_LOCK);
+            DelayMs(DELAY);
+            *state = LOCK;
+            break;
+        case UNLOCKING:
+            setOnTime2(DUTY_UNLOCK);
+            DelayMs(DELAY);
+            *state = UNLOCK;
+            break;
+        default:
+            break;
+    }
 }

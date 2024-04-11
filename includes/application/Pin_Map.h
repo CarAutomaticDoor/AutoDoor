@@ -66,6 +66,7 @@
 
 #define PIN_MODE(pin, mode)     IfxPort_setPinMode(pin.port, pin.pinIndex, mode)
 #define SET_PIN(pin, state)     IfxPort_setPinState(pin.port, pin.pinIndex, state)
+#define GET_PIN(pin)            IfxPort_getPinState(pin.port, pin.pinIndex)
 #define TOGGLE_PIN(pin)         IfxPort_togglePin(pin.port, pin.pinIndex)
 #define CMP_PINS(pin1, pin2)            (((pin1.port) == (pin2.port) && (pin1.pinIndex == pin2.pinIndex)))
 /*********************************************************************************************************************/

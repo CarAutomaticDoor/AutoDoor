@@ -128,6 +128,8 @@ Auto_Door.o :	c:/git-repo/AutoDoor/includes/application/Obstacle_Detector.h
 c:/git-repo/AutoDoor/includes/application/Obstacle_Detector.h :
 Auto_Door.o :	c:/git-repo/AutoDoor/includes/application/Side_Door.h
 c:/git-repo/AutoDoor/includes/application/Side_Door.h :
+Auto_Door.o :	c:/git-repo/AutoDoor/includes/general/Servo.h
+c:/git-repo/AutoDoor/includes/general/Servo.h :
 Auto_Door.o :	c:/git-repo/AutoDoor/includes/application/Pin_Map.h
 c:/git-repo/AutoDoor/includes/application/Pin_Map.h :
 Auto_Door.o :	c:/git-repo/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h

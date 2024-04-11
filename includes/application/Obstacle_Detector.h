@@ -54,5 +54,6 @@
 /*********************************************************************************************************************/
 void Init_Obstacle_Sensor(void); // 초음파 센서 초기 세팅.
 float32 Read_Obstacle_Distance(void); // 초음파 센서의 거리를 받아온다.
+boolean Read_Obstacle_Detection_State(void);
 
 #endif /* INCLUDES_APPLICATION_OBSTACLE_DETECTOR_H_ */

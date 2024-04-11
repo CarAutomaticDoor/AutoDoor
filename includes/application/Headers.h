@@ -41,11 +41,12 @@
 #include "Foot_Sensor.h"
 #include "Audio.h"
 #include "Uart.h"
-
+#include "Servo.h"
 #include "BT_Interface.h"
 #include "Obstacle_Detector.h"
 #include "Side_Door.h"
 #include "Pin_Map.h"
+#include "Lock.h"
 
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/

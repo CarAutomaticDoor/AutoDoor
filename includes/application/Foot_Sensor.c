@@ -39,7 +39,8 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define TIME_OUT 0.00001f
+#define TIME_OUT    0.00001f
+#define THRESHOLD   20.0f
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
@@ -74,7 +75,7 @@ float32 Read_Foot_Distance(void) {
 }
 
 // return TRUE if obstacle detected
-boolean Read_Foot_Detection_State(float32 threshold_dist) {
+boolean Read_Foot_Detection_State() {
 
     /*
      * 초기값은 return : FALSE  (감지 X), 감지가 된다면 return : TRUE (감지 O)
@@ -84,7 +85,5 @@ boolean Read_Foot_Detection_State(float32 threshold_dist) {
     // float32 foot_distance = Get_Ultrasonic_Distance(&g_Foot_Config);
     g_foot_distance = Get_Ultrasonic_Distance(&g_foot_config);
 
-    if(g_foot_distance < TIME_OUT) return FALSE;  // TIMEOUT 발생 시 FALSE 반환.
-    else if(TIME_OUT < g_foot_distance <= threshold_dist) return TRUE; // 장애물 감지 TRUE 반환.
-    else return FALSE;
+    return ((TIME_OUT < g_foot_distance) && (g_foot_distance <= THRESHOLD));
 }

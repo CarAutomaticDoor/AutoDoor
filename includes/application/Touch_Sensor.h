@@ -54,5 +54,6 @@
 /*********************************************************************************************************************/
 void Init_Touch_Sensor(void);
 uint32 Read_Touch_Sensor(void);
+boolean Read_Touch_State(void);
 
 #endif /* INCLUDES_APPLICATION_TOUCH_SENSOR_H_ */

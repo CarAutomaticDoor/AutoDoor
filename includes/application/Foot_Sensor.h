@@ -54,6 +54,6 @@
 /*********************************************************************************************************************/
 void Init_Foot_Sensor(void); // 초음파 센서 초기 세팅.
 float32 Read_Foot_Distance(void); // 초음파 센서의 거리를 받아온다.
-boolean Read_Foot_Detection_State(float32 threshold_dist); // 발 감지되었는지의 상태값을 얻어온다.
+boolean Read_Foot_Detection_State(); // 발 감지되었는지의 상태값을 얻어온다.
 
 #endif /* INCLUDES_APPLICATION_FOOT_SENSOR_H_ */
