@@ -43,6 +43,13 @@
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
+float32 Foot_Dist = 0.0f;
+float32 Door_Dist = 0.0f;
+
+boolean Switch_Lock_Unlock_Flag = FALSE;        // 키즈락 = 걸쇠 버튼.
+boolean Switch_Open_Close_Flag = FALSE;         // 문 열고, 닫기
+boolean Switch_Fucn_Lock_Flag = FALSE;          // 기능 잠금
+boolean Switch_Emergency_Stop_Flag = FALSE;     // 비상정지 버튼
 
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
@@ -67,12 +74,13 @@ void Setup(void) {
 //    Init_Vadc();
 //    Init_Finger_Detector();
 //    Init_Touch_Sensor();
-//    Init_Buttons();
+    Init_Buttons();
 
 //    Init_Foot_Sensor();
 //    Init_Obstacle_Sensor();
 //    Init_Uart();
 //    Start_Adc_Scan();
+    Init_Audio();
 }
 
 void Auto_Door_Start() {
@@ -87,9 +95,15 @@ void Sensors(void) {
 //    Read_Touch_Sensor();
 //    Read_Finger_Detector();
 //    Read_Buttons();
+
+    Switch_Open_Close_Flag = Get_Button_State(PIN_BTN_DOOR_OPCL);  // 열고 닫기 버튼
+    Switch_Fucn_Lock_Flag = Get_Button_State(PIN_BTN_AUTO_LOCK);  // 기능 잠금 버튼
+    Switch_Lock_Unlock_Flag = Get_Button_State(PIN_BTN_KIDS_LOCK);  // 키즈락 - 수동 잠금
+    Switch_Emergency_Stop_Flag = Get_Button_State(PIN_BTN_EMERGENCY_STOP);  // 비상 정지 버튼
+
 //    Delay_Ms(10);
-//    Read_Foot_Distance();
-//    Read_Obstacle_Distance();
+    Foot_Dist = Read_Foot_Distance();
+    Door_Dist = Read_Obstacle_Distance();
 //    Delay_Ms(10);
 }
 
@@ -98,5 +112,6 @@ void Change_State(void) {
 }
 
 void Actuators(void) {
-
+    // 수정 필요 -> 넘겨줄 파라미터가 : 스위치(버튼)들의 값, 초음파 거리 값, 압전센서 값.
+    Play_Buzzer(Switch_Open_Close_Flag, Switch_Fucn_Lock_Flag, Door_Dist);
 }

@@ -46,6 +46,7 @@
 
 #define WAIT_TIME 10
 
+#define NO_SOUND 0
 #define DANGER_SOUND 1
 #define OPEN_CLOSE_SOUND 2
 #define WELCOME_SOUND 3
@@ -53,6 +54,7 @@
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
+uint8 Audio_Mode = 0;
 
 IfxGtm_Tom_ToutMap g_tom_audio = TOM_AUDIO;
 Pwm g_audio;
@@ -61,7 +63,12 @@ uint8 g_hz_idx = 0;
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
+uint64 Time_Diff = 0;
+uint64 Time_Limit = 0;
+uint64 Time_Start = 0;
 
+uint8 Door_CloseOpen_Idx = 0;
+uint8 Welcome_Sound_IDX = 0;
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -75,8 +82,8 @@ uint8 g_hz_idx = 0;
 
 void Init_Audio(void) {
     // 초기값 세팅 필요
-    uint16 period;
-    uint16 duty_cycle;
+    uint16 period = 50000;
+    uint16 duty_cycle = 0; // 0으로 안하면 Init_Audio 를 하면 beep ~~ 소리가 나난다. 0으로 해서 초기 세팅에서는 소리 안나게 한다.
 
     // 부저 2개 사용 -> 2개 Setting
     Init_Pwm(&g_audio, &g_tom_audio, period, duty_cycle); // 부저1 PWM pin 9 연결
@@ -85,67 +92,137 @@ void Init_Audio(void) {
 }
 
 void Make_Sound(uint32 idx) {
-    float32 buzzer[2] = {261.686f, 500.262f};
+    float32 buzzer[5] = {261.63f, 329.63f, 392.00f, 329.63f, 261.63f};
     uint32 uPeriod = (uint32)(100000000/buzzer[idx]);
 
     Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 50);
+    Set_Duty_Ratio(&g_audio, 30);
 }
 
 void Play_Door_CloseOpen_Sound(void) {
     /* Initialize a time variable */
-    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
-    Make_Sound(0);
-    waitTime(ticksFor10ms * 100);
-    Make_Sound(1);
-    waitTime(ticksFor10ms * 100);
+    // 2음계만 출력하는 것이므로, 0과 1 인덱스만 구현하면 되기에 xor 연산으로 구현했다.
+    Door_CloseOpen_Idx ^= 1;
+    Make_Sound(Door_CloseOpen_Idx);
+
+
+    //    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+//
+//    Make_Sound(0);
+//    waitTime(ticksFor10ms * 100);
+//    Make_Sound(1);
+//    waitTime(ticksFor10ms * 100);
 }
 
 void Play_Danger_Sound(void) {
-    // "삐~~~~" 출력은 주기에 관계없이 듀티비 100이기만 하면되기에 임의의 262.686Hz인가 시킴
-    unsigned int uPeriod = (unsigned int)(100000000/262.686f);
+    // "삐~~~~" 출력은 한가지 음계만 쭉 출력.
+//    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
-    Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 100);
+    Make_Sound(0);
+//    waitTime(ticksFor10ms * 100);
 
     return;
 }
 
-void Play_Open_Close_Sound(void) {
-    // 주기만 변경해주면서 소리 출력.
-    float buzzer[2] = {261.686f, 500.262f};
+void Play_Welcome_Sound(void){
+    Welcome_Sound_IDX++;
+    if(Welcome_Sound_IDX >= 5) Welcome_Sound_IDX = 1;
+    Make_Sound(Welcome_Sound_IDX);
 
-    // TODO: idx 미 선언으로 인한 빌드 에러
-//    unsigned int uPeriod = (unsigned int)(100000000/buzzer[idx]);
-
-    // TODO: uPeriod 미 선언으로 인한 빌드 에러
-//    Set_Duty_Period(&g_audio, uPeriod);
-    Set_Duty_Ratio(&g_audio, 50);
     return;
 }
+void Play_Audio_Case_Of_Situation(uint8 num){
+    switch(num){
+        case DANGER_SOUND:
+            Play_Danger_Sound();
+            break;
+        case OPEN_CLOSE_SOUND:
+            Play_Door_CloseOpen_Sound();
+            break;
+        case WELCOME_SOUND:
+            Play_Welcome_Sound();
+            break;
+        default:
+            Set_Duty_Ratio(&g_audio, 0);
+            break;
+    }
+    return;
+}
+
+void Play_Buzzer(boolean SW_OpenClose_Flag, boolean SW_Lock_Unlcok_Flag, float32 Door_dist){
+
+    /*---------------------------------------- 부저 관련 코드 ------------------------------------------------------*/
+    if(SW_OpenClose_Flag && (Door_dist == 0 || Door_dist > 10.0)){
+        Time_Limit = 1000;
+        Audio_Mode = OPEN_CLOSE_SOUND;
+        Time_Start = Get_Cur_Millis();
+//            interruptGtmTom();
+    }
+    else if(SW_Lock_Unlcok_Flag){
+        Time_Limit = 500;
+        Audio_Mode = WELCOME_SOUND;
+        Time_Start = Get_Cur_Millis();
+    }
+
+
+    // 시간 초기화 문제 이후에 고래해주어야 함. (Get_Cur_Millis() - Time_Diff < 0  오버플로우 되서 음수가 되면 일단 그냥 초기화.. <- 수정 필요.
+    if((Get_Cur_Millis() - Time_Diff > Time_Limit) || (Get_Cur_Millis() - Time_Diff < 0)){
+        Time_Diff = Get_Cur_Millis();
+        if(1 && (Get_Cur_Millis() - Time_Start < 5000)){  // if 조건은 :  UNLOCK 상태이면서 &&  (손 끼임 || 문 열기 || 닫기)
+            Play_Audio_Case_Of_Situation(Audio_Mode); // (1) : 파라미터 정해야함. 정하는 IF~ELSE 필요.
+            /*
+               #define DANGER_SOUND 1       :   손 끼임 소리 출력
+               #define OPEN_CLOSE_SOUND 2   :   문 열고 닫힐 때, 소리 출력
+               #define WELCOME_SOUND 3      :   웰컴 사운드 출력.
+            */
+        }
+        else{
+            Audio_Mode = NO_SOUND;
+            Play_Audio_Case_Of_Situation(Audio_Mode);
+            Time_Start = 0;
+        }
+    }
+    /*---------------------------------------- 부저 관련 코드 ------------------------------------------------------*/
+}
+
 // ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
-void Make_sound_two_buzzer(uint32 idx1, uint32 idx2) {
-    float buzzer[2] = {261.686f, 100.262f};
-    unsigned int uPeriod1 = (unsigned int)(100000000/buzzer[idx1]);
-    unsigned int uPeriod2 = (unsigned int)(100000000/buzzer[idx2]);
+//void Make_sound_two_buzzer(uint32 idx1, uint32 idx2) {
+//    float buzzer[2] = {261.686f, 100.262f};
+//    unsigned int uPeriod1 = (unsigned int)(100000000/buzzer[idx1]);
+//    unsigned int uPeriod2 = (unsigned int)(100000000/buzzer[idx2]);
+//
+//    Set_Duty_Period(&g_audio, uPeriod1);
+//    Set_Duty_Period(&g_audio, uPeriod2);
+//
+//    Set_Duty_Ratio(&g_audio, 50);
+//    Set_Duty_Ratio(&g_audio, 50);
+//}
 
-    Set_Duty_Period(&g_audio, uPeriod1);
-    Set_Duty_Period(&g_audio, uPeriod2);
+//void Play_Open_Close_Sound(void) {
+//    // 주기만 변경해주면서 소리 출력.
+//    float buzzer[2] = {261.686f, 500.262f};
+//
+//    // TODO: idx 미 선언으로 인한 빌드 에러
+////    unsigned int uPeriod = (unsigned int)(100000000/buzzer[idx]);
+//
+//    // TODO: uPeriod 미 선언으로 인한 빌드 에러
+////    Set_Duty_Period(&g_audio, uPeriod);
+//    Set_Duty_Ratio(&g_audio, 50);
+//    return;
+//}
 
-    Set_Duty_Ratio(&g_audio, 50);
-    Set_Duty_Ratio(&g_audio, 50);
-}
+//void Play_DoorOpen_Sound_two_buzzer(void){
+//    /* Initialize a time variable */
+//    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
+//
+//    Make_sound_two_buzzer(0, 1);
+//    waitTime(ticksFor10ms * 100);
+//    Make_sound_two_buzzer(1, 0);
+//    waitTime(ticksFor10ms * 100);
+//}
 
-void Play_DoorOpen_Sound_two_buzzer(void){
-    /* Initialize a time variable */
-    Ifx_TickTime ticksFor10ms = IfxStm_getTicksFromMilliseconds(BSP_DEFAULT_TIMER, WAIT_TIME);
 
-    Make_sound_two_buzzer(0, 1);
-    waitTime(ticksFor10ms * 100);
-    Make_sound_two_buzzer(1, 0);
-    waitTime(ticksFor10ms * 100);
-}
 // ------------------------- 부저 2개 각기 다른 period 인가가 되는지 확인하는 코드 ---------------------------------
 
 // ------------------------- LED 2개로 주기는 동일하게하고 듀티비를 다르게해서 테스트한 코드 ----------------------------
