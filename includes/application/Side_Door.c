@@ -68,14 +68,18 @@ void Control_Door(uint8 *state) {
         g_duty = DUTY_CLOSE;
         break;
     case DOOR_OPENING:
-        g_duty -= DUTY_STEP;
-        if (g_duty == DUTY_OPEN) {
+        if (g_duty > DUTY_OPEN) {
+            g_duty -= DUTY_STEP;
+        }
+        if (g_duty <= DUTY_OPEN) {
             *state = DOOR_OPEN;
         }
         break;
     case DOOR_CLOSING:
-        g_duty += DUTY_STEP;
-        if (g_duty == DUTY_CLOSE) {
+        if (g_duty < DUTY_CLOSE) {
+            g_duty += DUTY_STEP;
+        }
+        if (g_duty >= DUTY_CLOSE) {
             *state = DOOR_CLOSE;
         }
         break;
