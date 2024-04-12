@@ -43,12 +43,12 @@
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE, TRUE };
 uint8 idx = 0;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
+boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE, TRUE };
 
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
@@ -111,13 +111,19 @@ boolean Get_Button_State(IfxPort_Pin pin_num)
 
 void Read_Buttons(boolean dst[]) {
 //    g_prev[0] = IfxPort_getPinState(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex);
-//    g_prev[3] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
 //    g_prev[1] = IfxPort_getPinState(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex);
 //    g_prev[2] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+//    g_prev[3] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
 
     dst[0] = Get_Button_State(PIN_BTN_AUTO_LOCK);
     dst[1] = Get_Button_State(PIN_BTN_DOOR_OPCL);
     dst[2] = Get_Button_State(PIN_BTN_KIDS_LOCK);
     dst[3] = Get_Button_State(PIN_BTN_EMERGENCY_STOP);
+
+//    dst[0] = IfxPort_getPinState(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex);
+//    dst[1] = IfxPort_getPinState(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex);
+//    dst[2] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+//    dst[3] = IfxPort_getPinState(PIN_BTN_EMERGENCY_STOP.port, PIN_BTN_EMERGENCY_STOP.pinIndex);
+
 }
 

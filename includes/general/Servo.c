@@ -35,7 +35,7 @@
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
 #define ISR_PRIORITY_TOM    1                       /* Interrupt priority number                                    */
-#define TOM_FREQ            10000.0f                    /* TOM frequency                                                */
+#define TOM_FREQ            100000.0f                    /* TOM frequency                                                */
 #define LED                 &MODULE_P00, 5          /* LED which will be toggled in Interrupt Service Routine (ISR) */
 //#define LED2                &MODULE_P00, 4
 
@@ -43,8 +43,8 @@
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
 IfxGtm_Tom_Timer g_timerDriver;                     /* TOM driver                                                   */
-uint32 g_on_time_1 = 20;
-uint32 g_on_time_2 = 20;
+uint32 g_on_time_1 = 200;
+uint32 g_on_time_2 = 200;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Function Implementations-----------------------------------------------*/
@@ -68,7 +68,7 @@ void interruptGtmTom(void)
 //        IfxPort_setPinLow(LED2);
 //    }
 
-    if (counter >= (uint32)200 - 1) {
+    if (counter >= (uint32)2000 - 1) {
         counter = 0;
     } else {
         counter++;

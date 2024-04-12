@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc20084a --dep-file=includes/general/Buttons.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git_repo\\\\AutoDoor\\\\includes -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Buttons.src ../includes/general/Buttons.c"
+	.compiler_invocation	"ctc -f cc3056a --dep-file=includes/general/Buttons.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git_repo\\\\AutoDoor -IC:\\\\git_repo\\\\AutoDoor\\\\Configurations -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git_repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git_repo\\\\AutoDoor\\\\includes -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git_repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Buttons.src ../includes/general/Buttons.c"
 	.compiler_name		"ctc"
 	;source	'../includes/general/Buttons.c'
 
@@ -278,18 +278,18 @@ __Read_Buttons_function_end:
 .L44:
 	; End of function
 	
-	.sdecl	'.data.Buttons.g_prev',data,cluster('g_prev')
-	.sect	'.data.Buttons.g_prev'
-	.global	g_prev
-g_prev:	.type	object
-	.size	g_prev,4
-	.byte	1,1,1,1
 	.sdecl	'.data.Buttons.idx',data,cluster('idx')
 	.sect	'.data.Buttons.idx'
 	.global	idx
 idx:	.type	object
 	.size	idx,1
 	.space	1
+	.sdecl	'.data.Buttons.g_prev',data,cluster('g_prev')
+	.sect	'.data.Buttons.g_prev'
+	.global	g_prev
+g_prev:	.type	object
+	.size	g_prev,4
+	.byte	1,1,1,1
 	.calls	'Init_Buttons','IfxPort_setPinMode'
 	.calls	'Read_Buttons','Get_Button_State'
 	.calls	'Init_Buttons','',0
@@ -6083,7 +6083,7 @@ idx:	.type	object
 	.half	.L152-.L151
 	.byte	1,5,1,9
 	.half	.L153-.L152
-	.byte	3,1,1,7,9
+	.byte	3,7,1,7,9
 	.half	.L44-.L153
 	.byte	0,1,1
 .L144:
@@ -6091,10 +6091,10 @@ idx:	.type	object
 	.sect	'.debug_ranges'
 .L43:
 	.word	-1,.L25,0,.L44-.L25,0,0
-	.sdecl	'.debug_info',debug,cluster('g_prev')
+	.sdecl	'.debug_info',debug,cluster('idx')
 	.sect	'.debug_info'
 .L45:
-	.word	191
+	.word	188
 	.half	3
 	.word	.L46
 	.byte	4,1
@@ -6103,20 +6103,20 @@ idx:	.type	object
 	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L26
 	.byte	3
-	.byte	'g_prev',0,5,46,9
-	.word	.L86
+	.byte	'idx',0,5,46,7
+	.word	.L66
 	.byte	1,5,3
-	.word	g_prev
+	.word	idx
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_prev')
+	.sdecl	'.debug_abbrev',debug,cluster('idx')
 	.sect	'.debug_abbrev'
 .L46:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
-	.sdecl	'.debug_info',debug,cluster('idx')
+	.sdecl	'.debug_info',debug,cluster('g_prev')
 	.sect	'.debug_info'
 .L47:
-	.word	188
+	.word	191
 	.half	3
 	.word	.L48
 	.byte	4,1
@@ -6125,12 +6125,12 @@ idx:	.type	object
 	.byte	'C:\\git_repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
 	.word	.L26
 	.byte	3
-	.byte	'idx',0,5,47,7
-	.word	.L66
+	.byte	'g_prev',0,5,51,9
+	.word	.L86
 	.byte	1,5,3
-	.word	idx
+	.word	g_prev
 	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('idx')
+	.sdecl	'.debug_abbrev',debug,cluster('g_prev')
 	.sect	'.debug_abbrev'
 .L48:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9

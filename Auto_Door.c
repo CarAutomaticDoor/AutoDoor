@@ -84,8 +84,11 @@ void Auto_Door(void) {
 }
 
 void Setup(void) {
-//    PIN_MODE(IfxPort_P10_2, OUTPUT_MODE);
 //    PIN_MODE(IfxPort_P00_4, INPUT_MODE);
+    PIN_MODE(IfxPort_P14_0, OUTPUT_MODE);
+    PIN_MODE(IfxPort_P15_6, OUTPUT_MODE);
+    PIN_MODE(IfxPort_P00_8, OUTPUT_MODE);
+
     Init_Gtm();
     initGtmTom();
     Init_Vadc();
@@ -97,6 +100,8 @@ void Setup(void) {
     Init_Obstacle_Sensor();
 //    Init_Uart();
     Start_Adc_Scan();
+
+//    IfxPort_setPinModeOutput(IfxPort_P14_0, IfxPort_P14_0.pinIndex, mode, index);
 }
 
 void Auto_Door_Start() {
@@ -115,25 +120,54 @@ void Sensors(void) {
     // 오토락이 해제되어 있고, 터치 모듈을 눌러서 문을 열때.
     if ((g_auto_lock == FALSE) && (g_door == DOOR_CLOSE)) {
         g_touch = Read_Touch_Sensor();
-    } else {
+    }
+    else {
         g_touch = FALSE;
     }
 
     // 손끼임 검사
     if ((g_door == DOOR_CLOSING) || (g_door == DOOR_CLOSE)) {
         g_finger = Read_Finger_Detector();
-    } else {
+    }
+    else {
         g_finger = FALSE;
     }
 
-    Read_Buttons(g_btns);
+    Read_Buttons(g_btns);   // 스위치값들 읽어오기.
+
+//    g_btns[btn_auto_lock_idx]       = Get_Button_State(PIN_BTN_AUTO_LOCK);
+//    g_btns[btn_door_opcl_idx]       = Get_Button_State(PIN_BTN_DOOR_OPCL);
+//    g_btns[btn_kids_lock_idx]       = Get_Button_State(PIN_BTN_KIDS_LOCK);
+//    g_btns[btn_emergency_stop_idx]  = Get_Button_State(PIN_BTN_EMERGENCY_STOP);
+
+    if(g_btns[0] && !g_btns[1] && !g_btns[2]){
+        IfxPort_setPinHigh(IfxPort_P14_0.port, IfxPort_P14_0.pinIndex);
+        IfxPort_setPinLow(IfxPort_P15_6.port, IfxPort_P15_6.pinIndex);
+        IfxPort_setPinLow(IfxPort_P00_8.port, IfxPort_P00_8.pinIndex);
+    }
+    else if(!g_btns[0] && g_btns[1] && !g_btns[2]){
+        IfxPort_setPinLow(IfxPort_P14_0.port, IfxPort_P14_0.pinIndex);
+        IfxPort_setPinHigh(IfxPort_P15_6.port, IfxPort_P15_6.pinIndex);
+        IfxPort_setPinLow(IfxPort_P00_8.port, IfxPort_P00_8.pinIndex);
+    }
+    else if(!g_btns[0] && !g_btns[1] && g_btns[2]){
+        IfxPort_setPinLow(IfxPort_P14_0.port, IfxPort_P14_0.pinIndex);
+        IfxPort_setPinLow(IfxPort_P15_6.port, IfxPort_P15_6.pinIndex);
+        IfxPort_setPinHigh(IfxPort_P00_8.port, IfxPort_P00_8.pinIndex);
+    }
+    else{
+        IfxPort_setPinLow(IfxPort_P14_0.port, IfxPort_P14_0.pinIndex);
+        IfxPort_setPinLow(IfxPort_P15_6.port, IfxPort_P15_6.pinIndex);
+        IfxPort_setPinLow(IfxPort_P00_8.port, IfxPort_P00_8.pinIndex);
+    }
 
     Delay_Ms(10);
 
     // 발 감지 초음파
     if ((g_door == DOOR_CLOSE) && (g_auto_lock == FALSE)) {
         g_foot = Read_Foot_Detection_State();
-    } else {
+    }
+    else {
         g_foot = FALSE;
     }
 
@@ -141,7 +175,8 @@ void Sensors(void) {
     // g_door == DOOR_CLOSE 또는 g_door == DOOR_OPEN일 때?
     if ((g_door == DOOR_OPENING)) {
         g_obstacle = Read_Obstacle_Detection_State();
-    } else {
+    }
+    else {
         g_obstacle = FALSE;
     }
 
@@ -162,6 +197,7 @@ void Change_Auto_Lock_State(void) {
     }
 
     // if (버튼 기능 잠금 해제) || (uart 기능 잠금 해제)
+    if(g_btns[btn_auto_lock_idx])
     {g_auto_lock = (g_auto_lock == TRUE) ? FALSE : TRUE;}
 }
 
@@ -174,10 +210,12 @@ void Change_Door_Lock_State(void) {
     switch (g_door_lock) {
         case LOCK:
             // if (버튼 잠금 해제) || g_auto_lock == FALSE)
+            if(g_auto_lock == FALSE && g_btns[btn_kids_lock_idx])
             {g_door_lock = UNLOCKING;}
             break;
         case UNLOCK:
             // if (버튼 잠금)
+            if(g_btns[btn_kids_lock_idx])
             {g_door_lock = LOCKING;}
             break;
         case LOCKING:
@@ -201,30 +239,33 @@ void Change_Door_State(void) {
     switch (g_door) {
         case DOOR_OPEN:
             // if (uart 닫기 || 버튼 닫기)
+            if(g_btns[btn_door_opcl_idx])
             {g_door = DOOR_CLOSING; g_state_change = TRUE;}
             break;
         case DOOR_CLOSE:
             // 문이 잠긴 상황에서 열기 버튼을 누르면 자동 잠금 해제 후 열기?
             // if (uart 열기 || 버튼 열기) && 기능 가능 && 문 잠기지 않음
+            if(g_btns[btn_door_opcl_idx] && (g_auto_lock == FALSE) && (g_door_lock == UNLOCK))
             {g_door = DOOR_OPENING; g_state_change = TRUE;}
             break;
         case DOOR_OPENING:
-            // if ((장애물 && 손안끼임) || 버튼 멈춤)
+            // if ((장애물 && 손안끼임) || 비상 정지 버튼 멈춤)
+            if((g_obstacle && (!g_finger)) || g_btns[btn_emergency_stop_idx])
             {g_door = DOOR_STOP; g_state_change = TRUE;}
-            // else if (끝까지 도달)
-            {g_door = DOOR_OPEN; g_state_change = TRUE;}
+            // 문이 완전히 닫힌경우의 상태 천이는 Side_Door.c 에 정의되어 있음.
             break;
         case DOOR_CLOSING:
-            // if (손가락)
+            if(g_finger) //(손가락)
             {g_door = DOOR_OPENING; g_state_change = TRUE;}
-            // else if (버튼 멈춤)
+            else if(g_btns[btn_emergency_stop_idx]) //(버튼 멈춤)
             {g_door = DOOR_STOP; g_state_change = TRUE;}
-            // else if (끝까지 도달)
-            {g_door = DOOR_CLOSE; g_state_change = TRUE;}
+//            // else if //(끝까지 도달)
+//            {g_door = DOOR_CLOSE; g_state_change = TRUE;}
             break;
         case DOOR_STOP:
             // 문 버튼으로 닫고 싶은 경우?
             // if (문 버튼 || uart 열기)
+            if(g_btns[btn_door_opcl_idx])
             {g_door = DOOR_OPENING; g_state_change = TRUE;}
             // else if (uart 닫기)
             {g_door = DOOR_CLOSING; g_state_change = TRUE;}
