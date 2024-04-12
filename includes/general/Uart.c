@@ -84,8 +84,8 @@ void RxISR(void) {
 }
 
 /* This function initializes the ASCLIN UART module */
-void Init_Uart(uint32 **g_main) {
-    *g_main = &g_rx_data;
+void Init_Uart() {
+//    *g_main = &g_rx_data;
     /* Initialize an instance of IfxAsclin_Asc_Config with default values */
     IfxAsclin_Asc_Config asc_config;
     IfxAsclin_Asc_initModuleConfig(&asc_config, &MODULE_ASCLIN0);

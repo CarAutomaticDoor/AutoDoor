@@ -55,6 +55,6 @@
 /*********************************************************************************************************************/
 void Init_Buttons(void); // 버튼으로 사용되는 디지털 핀을 입력으로 설정.
 boolean Get_Button_State(IfxPort_Pin pin_num); // 읽고자 하는 버튼의 pin 상태를 읽는다.
-void Read_Buttons(void);
+void Read_Buttons(boolean dst[]);
 
 #endif /* BUTTONS_H_ */

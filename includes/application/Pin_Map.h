@@ -39,6 +39,7 @@
 #define PIN_BTN_AUTO_LOCK               IfxPort_P33_0       // PIN40    XIO22   P33_0
 #define PIN_BTN_DOOR_OPCL               IfxPort_P11_10      // PIN42    XIO24   P11_10
 #define PIN_BTN_KIDS_LOCK               IfxPort_P33_3       // PIN44    XIO26   P33_3
+#define PIN_BTN_EMERGENCY_STOP          IfxPort_P11_3
 
 #define PIN_TOUCH_SENSOR                                    // AD0      ADCL1   SAR4_7  P32_3
 #define PIN_FINGER_SENSOR                                   // AD1      ADCL2   SAR4_8  P32_4

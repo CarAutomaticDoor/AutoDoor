@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc6580a --dep-file=includes/general/Servo.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Servo.src ../includes/general/Servo.c"
+	.compiler_invocation	"ctc -f cc432a --dep-file=includes/general/Servo.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Servo.src ../includes/general/Servo.c"
 	.compiler_name		"ctc"
 	;source	'../includes/general/Servo.c'
 
@@ -18,83 +18,113 @@ $TC16X
 	
 	.global	interruptGtmTom
 ; Function interruptGtmTom
-.L9:
+.L10:
 interruptGtmTom:	.type	func
 	svlcx
-.L117:
+.L125:
 	movh.a	a4,#@his(g_timerDriver)
 	lea	a4,[a4]@los(g_timerDriver)
 	call	IfxGtm_Tom_Timer_acknowledgeTimerIrq
-.L118:
+.L126:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
 	ld.w	d15,[a15]
-.L119:
+.L127:
 	jne	d15,#0,.L2
-.L120:
+.L128:
 	movh.a	a15,#61444
 	lea	a15,[a15]@los(0xf003a000)
 	mov	d8,#5
-.L63:
+.L64:
 	mov	d15,#1
-.L70:
+.L72:
 	sha	d15,d15,d8
-.L121:
+.L129:
+	st.w	[a15]4,d15
+.L65:
+	movh.a	a15,#61444
+	lea	a15,[a15]@los(0xf003a000)
+	mov	d8,#4
+.L80:
+	mov	d15,#1
+.L81:
+	sha	d15,d15,d8
+.L130:
 	st.w	[a15]4,d15
 .L2:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
 	ld.w	d15,[a15]
-.L122:
+.L131:
 	movh.a	a15,#@his(g_on_time_1)
 	lea	a15,[a15]@los(g_on_time_1)
 	ld.w	d8,[a15]
-.L123:
+.L132:
 	jne	d15,d8,.L3
-.L124:
+.L133:
 	movh.a	a15,#61444
 	lea	a15,[a15]@los(0xf003a000)
 	mov	d8,#5
-.L79:
+.L83:
 	movh	d15,#1
-.L85:
+.L89:
 	sha	d15,d15,d8
-.L125:
+.L134:
 	st.w	[a15]4,d15
 .L3:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
 	ld.w	d15,[a15]
-.L126:
-	mov	d8,#1999
-.L127:
-	jlt.u	d15,d8,.L4
-.L128:
+.L135:
+	movh.a	a15,#@his(g_on_time_2)
+	lea	a15,[a15]@los(g_on_time_2)
+	ld.w	d8,[a15]
+.L136:
+	jne	d15,d8,.L4
+.L137:
+	movh.a	a15,#61444
+	lea	a15,[a15]@los(0xf003a000)
+	mov	d8,#4
+.L90:
+	movh	d15,#1
+.L91:
+	sha	d15,d15,d8
+.L138:
+	st.w	[a15]4,d15
+.L4:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
-.L129:
+	ld.w	d8,[a15]
+.L139:
+	mov	d15,#199
+.L140:
+	jlt.u	d8,d15,.L5
+.L141:
+	movh.a	a15,#@his(_999001_counter)
+	lea	a15,[a15]@los(_999001_counter)
+.L142:
 	mov	d15,#0
-.L130:
+.L143:
 	st.w	[a15],d15
-.L131:
-	j	.L5
-.L4:
+.L144:
+	j	.L6
+.L5:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
 	movh.a	a12,#@his(_999001_counter)
 	lea	a12,[a12]@los(_999001_counter)
 	ld.w	d15,[a12]
-.L132:
+.L145:
 	add	d15,#1
 	st.w	[a15],d15
-.L5:
+.L6:
 	rslcx
 	rfe
-.L60:
+.L61:
 	
 __interruptGtmTom_function_end:
 	.size	interruptGtmTom,__interruptGtmTom_function_end-interruptGtmTom
-.L28:
+.L29:
 	; End of function
 	
 	.sdecl	'.text.Servo.initGtmTom',code,cluster('initGtmTom')
@@ -103,68 +133,80 @@ __interruptGtmTom_function_end:
 	
 	.global	initGtmTom
 ; Function initGtmTom
-.L11:
+.L12:
 initGtmTom:	.type	func
 	sub.a	a10,#56
-.L108:
+.L116:
 	lea	a4,[a10]0
-.L137:
+.L150:
 	movh.a	a5,#61456
 	call	IfxGtm_Tom_Timer_initConfig
-.L138:
-	mov	d15,#20480
-	addih	d15,d15,#18371
-.L139:
+.L151:
+	mov	d15,#16384
+	addih	d15,d15,#17948
+.L152:
 	st.w	[a10],d15
-.L140:
+.L153:
 	mov	d15,#1
-.L141:
+.L154:
 	st.h	[a10]4,d15
-.L142:
+.L155:
 	mov	d15,#0
-.L143:
+.L156:
 	st.b	[a10]6,d15
-.L144:
+.L157:
 	mov	d15,#1
-.L145:
+.L158:
 	st.b	[a10]40,d15
-.L146:
+.L159:
 	mov	d15,#0
-.L147:
+.L160:
 	st.b	[a10]41,d15
-.L148:
+.L161:
 	mov	d15,#3
-.L149:
+.L162:
 	st.b	[a10]48,d15
-.L150:
+.L163:
 	movh.a	a4,#@his(g_timerDriver)
 	lea	a4,[a4]@los(g_timerDriver)
-.L151:
+.L164:
 	lea	a5,[a10]0
 	call	IfxGtm_Tom_Timer_init
-.L152:
+.L165:
 	movh.a	a4,#61444
 	lea	a4,[a4]@los(0xf003a000)
 	mov	d4,#5
-.L153:
+.L166:
 	mov	d15,#128
-.L154:
+.L167:
 	mov	d5,#128
-.L90:
+.L96:
 	or	d5,d15
-.L155:
+.L168:
 	call	IfxPort_setPinMode
-.L91:
+.L97:
+	movh.a	a4,#61444
+	lea	a4,[a4]@los(0xf003a000)
+	mov	d4,#4
+.L169:
+	mov	d15,#128
+.L170:
+	mov	d5,#128
+.L107:
+	or	d5,d15
+.L171:
+	call	IfxPort_setPinMode
+.L108:
 	movh.a	a4,#@his(g_timerDriver)
 	lea	a4,[a4]@los(g_timerDriver)
 	call	IfxGtm_Tom_Timer_run
-.L156:
+.L172:
 	ret
-.L86:
+.L92:
 	
 __initGtmTom_function_end:
 	.size	initGtmTom,__initGtmTom_function_end-initGtmTom
-.L33:
+.L34:
 	; End of function
 	
 	.sdecl	'.text.Servo.setOnTime1',code,cluster('setOnTime1')
@@ -173,19 +215,19 @@ __initGtmTom_function_end:
 	
 	.global	setOnTime1
 ; Function setOnTime1
-.L13:
+.L14:
 setOnTime1:	.type	func
 	movh.a	a15,#@his(g_on_time_1)
 	lea	a15,[a15]@los(g_on_time_1)
-.L161:
+.L177:
 	st.w	[a15],d4
-.L162:
+.L178:
 	ret
-.L101:
+.L109:
 	
 __setOnTime1_function_end:
 	.size	setOnTime1,__setOnTime1_function_end-setOnTime1
-.L38:
+.L39:
 	; End of function
 	
 	.sdecl	'.text.Servo.getOnTime1',code,cluster('getOnTime1')
@@ -194,20 +236,20 @@ __setOnTime1_function_end:
 	
 	.global	getOnTime1
 ; Function getOnTime1
-.L15:
+.L16:
 getOnTime1:	.type	func
 	movh.a	a15,#@his(g_on_time_1)
 	lea	a15,[a15]@los(g_on_time_1)
 	ld.w	d2,[a15]
-.L167:
-	j	.L6
-.L6:
+.L183:
+	j	.L7
+.L7:
 	ret
-.L103:
+.L111:
 	
 __getOnTime1_function_end:
 	.size	getOnTime1,__getOnTime1_function_end-getOnTime1
-.L43:
+.L44:
 	; End of function
 	
 	.sdecl	'.text.Servo.setOnTime2',code,cluster('setOnTime2')
@@ -216,19 +258,19 @@ __getOnTime1_function_end:
 	
 	.global	setOnTime2
 ; Function setOnTime2
-.L17:
+.L18:
 setOnTime2:	.type	func
 	movh.a	a15,#@his(g_on_time_2)
 	lea	a15,[a15]@los(g_on_time_2)
-.L172:
+.L188:
 	st.w	[a15],d4
-.L173:
+.L189:
 	ret
-.L104:
+.L112:
 	
 __setOnTime2_function_end:
 	.size	setOnTime2,__setOnTime2_function_end-setOnTime2
-.L48:
+.L49:
 	; End of function
 	
 	.sdecl	'.text.Servo.getOnTime2',code,cluster('getOnTime2')
@@ -237,20 +279,20 @@ __setOnTime2_function_end:
 	
 	.global	getOnTime2
 ; Function getOnTime2
-.L19:
+.L20:
 getOnTime2:	.type	func
 	movh.a	a15,#@his(g_on_time_2)
 	lea	a15,[a15]@los(g_on_time_2)
 	ld.w	d2,[a15]
-.L178:
-	j	.L7
-.L7:
+.L194:
+	j	.L8
+.L8:
 	ret
-.L106:
+.L114:
 	
 __getOnTime2_function_end:
 	.size	getOnTime2,__getOnTime2_function_end-getOnTime2
-.L53:
+.L54:
 	; End of function
 	
 	.sdecl	'.bss.Servo.g_timerDriver',data,cluster('g_timerDriver')
@@ -266,14 +308,14 @@ g_timerDriver:	.type	object
 	.align	2
 g_on_time_1:	.type	object
 	.size	g_on_time_1,4
-	.word	200
+	.word	20
 	.sdecl	'.data.Servo.g_on_time_2',data,cluster('g_on_time_2')
 	.sect	'.data.Servo.g_on_time_2'
 	.global	g_on_time_2
 	.align	2
 g_on_time_2:	.type	object
 	.size	g_on_time_2,4
-	.word	200
+	.word	20
 	.sdecl	'.data.Servo._999001_counter',data,cluster('_999001_counter')
 	.sect	'.data.Servo._999001_counter'
 	.align	2
@@ -298,17 +340,17 @@ _999001_counter:	.type	object
 	.calls	'getOnTime2','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L21:
+.L22:
 	.word	163881
 	.half	3
-	.word	.L22
+	.word	.L23
 	.byte	4
-.L20:
+.L21:
 	.byte	1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L23
+	.word	.L24
 	.byte	2,1,1,3
 	.word	169
 	.byte	4
@@ -320,7 +362,7 @@ _999001_counter:	.type	object
 	.word	217
 	.byte	3
 	.word	223
-.L61:
+.L62:
 	.byte	9
 	.byte	'unsigned long int',0,4,7,4
 	.byte	'Ifx__ldmstAsm',0,3,1,138,2,17,1,1,5
@@ -1713,31 +1755,31 @@ _999001_counter:	.type	object
 	.word	7753
 	.byte	3
 	.word	8356
-.L62:
+.L63:
 	.byte	4
 	.byte	'IfxPort_setPinHigh',0,3,3,182,4,17,1,1
-.L64:
+.L66:
 	.byte	5
 	.byte	'port',0,3,182,4,43
 	.word	8361
-.L66:
+.L68:
 	.byte	5
 	.byte	'pinIndex',0,3,182,4,55
 	.word	583
-.L68:
+.L70:
 	.byte	17,6,0,0
-.L78:
+.L82:
 	.byte	4
 	.byte	'IfxPort_setPinLow',0,3,3,188,4,17,1,1
-.L80:
+.L84:
 	.byte	5
 	.byte	'port',0,3,188,4,42
 	.word	8361
-.L82:
+.L86:
 	.byte	5
 	.byte	'pinIndex',0,3,188,4,54
 	.word	583
-.L84:
+.L88:
 	.byte	17,6,0,0,18,3,131,1,9,1,19
 	.byte	'IfxPort_OutputMode_none',0,0,19
 	.byte	'IfxPort_OutputMode_pushPull',0,128,1,19
@@ -1750,47 +1792,47 @@ _999001_counter:	.type	object
 	.byte	'IfxPort_OutputIdx_alt5',0,168,1,19
 	.byte	'IfxPort_OutputIdx_alt6',0,176,1,19
 	.byte	'IfxPort_OutputIdx_alt7',0,184,1,0
-.L89:
+.L95:
 	.byte	4
 	.byte	'IfxPort_setPinModeOutput',0,3,3,200,4,17,1,1
-.L92:
+.L98:
 	.byte	5
 	.byte	'port',0,3,200,4,49
 	.word	8361
-.L94:
+.L100:
 	.byte	5
 	.byte	'pinIndex',0,3,200,4,61
 	.word	583
-.L96:
+.L102:
 	.byte	5
 	.byte	'mode',0,3,200,4,90
 	.word	8491
-.L98:
+.L104:
 	.byte	5
 	.byte	'index',0,3,200,4,114
 	.word	8587
-.L100:
+.L106:
 	.byte	6,0,18,3,170,1,9,4,19
 	.byte	'IfxPort_State_notChanged',0,0,19
 	.byte	'IfxPort_State_high',0,1,19
 	.byte	'IfxPort_State_low',0,128,128,4,19
 	.byte	'IfxPort_State_toggled',0,129,128,4,0
-.L69:
+.L71:
 	.byte	4
 	.byte	'IfxPort_setPinState',0,3,3,206,4,17,1,1
-.L71:
+.L73:
 	.byte	5
 	.byte	'port',0,3,206,4,44
 	.word	8361
-.L73:
+.L75:
 	.byte	5
 	.byte	'pinIndex',0,3,206,4,56
 	.word	583
-.L75:
+.L77:
 	.byte	5
 	.byte	'action',0,3,206,4,80
 	.word	8900
-.L77:
+.L79:
 	.byte	6,0,11
 	.byte	'_Ifx_SRC_SRCR_Bits',0,6,63,16,4,12
 	.byte	'SRPN',0,1
@@ -15542,7 +15584,7 @@ _999001_counter:	.type	object
 	.byte	16,1,0,15,8
 	.word	233
 	.byte	16,1,0
-.L107:
+.L115:
 	.byte	30,13,162,1,9,56,14
 	.byte	'base',0
 	.word	27124
@@ -15677,7 +15719,7 @@ _999001_counter:	.type	object
 	.byte	'IfxGtm_IrqMode_pulse',0,1,19
 	.byte	'IfxGtm_IrqMode_pulseNotify',0,2,19
 	.byte	'IfxGtm_IrqMode_singlePulse',0,3,0
-.L87:
+.L93:
 	.byte	30,13,179,1,9,52,14
 	.byte	'base',0
 	.word	104648
@@ -23034,7 +23076,7 @@ _999001_counter:	.type	object
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L22:
+.L23:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,59,0,3,8,0,0,8,53
 	.byte	0,73,19,0,0,9,36,0,3,8,11,15,62,15,0,0,10,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,11,19
@@ -23047,12 +23089,12 @@ _999001_counter:	.type	object
 	.byte	54,15,39,12,63,12,60,12,0,0,33,21,0,54,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L23:
-	.word	.L110-.L109
-.L109:
+.L24:
+	.word	.L118-.L117
+.L117:
 	.half	3
-	.word	.L112-.L111
-.L111:
+	.word	.L120-.L119
+.L119:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
@@ -23084,614 +23126,694 @@ _999001_counter:	.type	object
 	.byte	'IfxScu_regdef.h',0,2,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Gtm\\Std\\IfxGtm_Tbu.h',0,0,0,0
 	.byte	0
-.L112:
-.L110:
+.L120:
+.L118:
 	.sdecl	'.debug_info',debug,cluster('interruptGtmTom')
 	.sect	'.debug_info'
-.L24:
-	.word	443
+.L25:
+	.word	643
 	.half	3
-	.word	.L25
+	.word	.L26
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L27,.L26
+	.word	.L28,.L27
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'interruptGtmTom',0,1,56,6,1,1,1
-	.word	.L9,.L60,.L8
+	.word	.L10,.L61,.L9
 	.byte	4
-	.word	.L9,.L60
+	.word	.L10,.L61
 	.byte	5
 	.byte	'counter',0,1,58,19
-	.word	.L61
+	.word	.L62
 	.byte	5,3
 	.word	_999001_counter
 	.byte	6
-	.word	.L62,.L63,.L2
-	.byte	7
-	.word	.L64,.L65
+	.word	.L63,.L64,.L65
 	.byte	7
 	.word	.L66,.L67
-	.byte	8
-	.word	.L68,.L63,.L2
-	.byte	6
-	.word	.L69,.L70,.L2
 	.byte	7
-	.word	.L71,.L72
+	.word	.L68,.L69
+	.byte	8
+	.word	.L70,.L64,.L65
+	.byte	6
+	.word	.L71,.L72,.L65
 	.byte	7
 	.word	.L73,.L74
 	.byte	7
 	.word	.L75,.L76
+	.byte	7
+	.word	.L77,.L78
 	.byte	9
-	.word	.L77,.L70,.L2
+	.word	.L79,.L72,.L65
 	.byte	0,0,0,6
-	.word	.L78,.L79,.L3
+	.word	.L63,.L80,.L2
 	.byte	7
-	.word	.L80,.L81
+	.word	.L66,.L67
 	.byte	7
-	.word	.L82,.L83
+	.word	.L68,.L69
 	.byte	8
-	.word	.L84,.L79,.L3
+	.word	.L70,.L80,.L2
 	.byte	6
-	.word	.L69,.L85,.L3
-	.byte	7
-	.word	.L71,.L72
+	.word	.L71,.L81,.L2
 	.byte	7
 	.word	.L73,.L74
 	.byte	7
 	.word	.L75,.L76
+	.byte	7
+	.word	.L77,.L78
 	.byte	9
-	.word	.L77,.L85,.L3
+	.word	.L79,.L81,.L2
+	.byte	0,0,0,6
+	.word	.L82,.L83,.L3
+	.byte	7
+	.word	.L84,.L85
+	.byte	7
+	.word	.L86,.L87
+	.byte	8
+	.word	.L88,.L83,.L3
+	.byte	6
+	.word	.L71,.L89,.L3
+	.byte	7
+	.word	.L73,.L74
+	.byte	7
+	.word	.L75,.L76
+	.byte	7
+	.word	.L77,.L78
+	.byte	9
+	.word	.L79,.L89,.L3
+	.byte	0,0,0,6
+	.word	.L82,.L90,.L4
+	.byte	7
+	.word	.L84,.L85
+	.byte	7
+	.word	.L86,.L87
+	.byte	8
+	.word	.L88,.L90,.L4
+	.byte	6
+	.word	.L71,.L91,.L4
+	.byte	7
+	.word	.L73,.L74
+	.byte	7
+	.word	.L75,.L76
+	.byte	7
+	.word	.L77,.L78
+	.byte	9
+	.word	.L79,.L91,.L4
 	.byte	0,0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('interruptGtmTom')
 	.sect	'.debug_abbrev'
-.L25:
+.L26:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,6,29,1
 	.byte	49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,1,49,16,17,1,18,1,0,0,9,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('interruptGtmTom')
 	.sect	'.debug_line'
-.L26:
-	.word	.L114-.L113
-.L113:
+.L27:
+	.word	.L122-.L121
+.L121:
 	.half	3
-	.word	.L116-.L115
-.L115:
+	.word	.L124-.L123
+.L123:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0,0
 	.byte	'../includes/general/Servo.c',0,0,0,0
 	.byte	'IfxPort.h',0,1,0,0,0
-.L116:
+.L124:
 	.byte	5,6,7,0,5,2
-	.word	.L9
+	.word	.L10
 	.byte	3,55,1,5,43,9
-	.half	.L117-.L9
+	.half	.L125-.L10
 	.byte	3,3,1,5,9,9
-	.half	.L118-.L117
+	.half	.L126-.L125
 	.byte	3,1,1,5,5,9
-	.half	.L119-.L118
-	.byte	1,5,28,7,9
-	.half	.L120-.L119
-	.byte	3,1,1,4,2,5,41,9
-	.half	.L63-.L120
-	.byte	3,251,3,1,5,26,9
-	.half	.L70-.L63
-	.byte	3,24,1,5,17,9
-	.half	.L121-.L70
-	.byte	1,4,1,5,9,9
-	.half	.L2-.L121
-	.byte	3,240,123,1,5,20,9
-	.half	.L122-.L2
-	.byte	1,5,5,9
-	.half	.L123-.L122
-	.byte	1,5,27,7,9
-	.half	.L124-.L123
-	.byte	3,1,1,4,2,5,41,9
-	.half	.L79-.L124
-	.byte	3,253,3,1,5,26,9
-	.half	.L85-.L79
-	.byte	3,18,1,5,17,9
-	.half	.L125-.L85
-	.byte	1,4,1,5,9,9
-	.half	.L3-.L125
-	.byte	3,247,123,1,5,33,9
-	.half	.L126-.L3
-	.byte	1,5,5,9
 	.half	.L127-.L126
-	.byte	1,5,9,7,9
+	.byte	1,5,28,7,9
 	.half	.L128-.L127
+	.byte	3,1,1,4,2,5,41,9
+	.half	.L64-.L128
+	.byte	3,251,3,1,5,26,9
+	.half	.L72-.L64
+	.byte	3,24,1,5,17,9
+	.half	.L129-.L72
+	.byte	1,4,1,5,28,9
+	.half	.L65-.L129
+	.byte	3,238,123,1,4,2,5,41,9
+	.half	.L80-.L65
+	.byte	3,250,3,1,5,26,9
+	.half	.L81-.L80
+	.byte	3,24,1,5,17,9
+	.half	.L130-.L81
+	.byte	1,4,1,5,9,9
+	.half	.L2-.L130
+	.byte	3,240,123,1,5,20,9
+	.half	.L131-.L2
+	.byte	1,5,5,9
+	.half	.L132-.L131
+	.byte	1,5,27,7,9
+	.half	.L133-.L132
+	.byte	3,1,1,4,2,5,41,9
+	.half	.L83-.L133
+	.byte	3,253,3,1,5,26,9
+	.half	.L89-.L83
+	.byte	3,18,1,5,17,9
+	.half	.L134-.L89
+	.byte	1,4,1,5,9,9
+	.half	.L3-.L134
+	.byte	3,243,123,1,5,20,9
+	.half	.L135-.L3
+	.byte	1,5,5,9
+	.half	.L136-.L135
+	.byte	1,5,27,7,9
+	.half	.L137-.L136
+	.byte	3,1,1,4,2,5,41,9
+	.half	.L90-.L137
+	.byte	3,250,3,1,5,26,9
+	.half	.L91-.L90
+	.byte	3,18,1,5,17,9
+	.half	.L138-.L91
+	.byte	1,4,1,5,9,9
+	.half	.L4-.L138
+	.byte	3,247,123,1,5,32,9
+	.half	.L139-.L4
+	.byte	1,5,5,9
+	.half	.L140-.L139
+	.byte	1,5,9,7,9
+	.half	.L141-.L140
 	.byte	3,1,1,5,19,9
-	.half	.L129-.L128
+	.half	.L142-.L141
 	.byte	1,5,17,9
-	.half	.L130-.L129
+	.half	.L143-.L142
 	.byte	1,5,20,9
-	.half	.L131-.L130
+	.half	.L144-.L143
 	.byte	1,5,9,9
-	.half	.L4-.L131
+	.half	.L5-.L144
 	.byte	3,2,1,5,16,9
-	.half	.L132-.L4
+	.half	.L145-.L5
 	.byte	1,5,1,9
-	.half	.L5-.L132
+	.half	.L6-.L145
 	.byte	3,2,1,9
-	.half	.L28-.L5
+	.half	.L29-.L6
 	.byte	0,1,1
-.L114:
+.L122:
 	.sdecl	'.debug_ranges',debug,cluster('interruptGtmTom')
 	.sect	'.debug_ranges'
-.L27:
-	.word	-1,.L9,0,.L28-.L9,0,0
+.L28:
+	.word	-1,.L10,0,.L29-.L10,0,0
 	.sdecl	'.debug_info',debug,cluster('initGtmTom')
 	.sect	'.debug_info'
-.L29:
-	.word	303
+.L30:
+	.word	366
 	.half	3
-	.word	.L30
+	.word	.L31
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L32,.L31
+	.word	.L33,.L32
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'initGtmTom',0,1,79,6,1,1,1
-	.word	.L11,.L86,.L10
+	.word	.L12,.L92,.L11
 	.byte	4
-	.word	.L11,.L86
+	.word	.L12,.L92
 	.byte	5
 	.byte	'timerConfig',0,1,82,29
-	.word	.L87,.L88
+	.word	.L93,.L94
 	.byte	6
-	.word	.L89,.L90,.L91
-	.byte	7
-	.word	.L92,.L93
-	.byte	7
-	.word	.L94,.L95
-	.byte	7
-	.word	.L96,.L97
+	.word	.L95,.L96,.L97
 	.byte	7
 	.word	.L98,.L99
+	.byte	7
+	.word	.L100,.L101
+	.byte	7
+	.word	.L102,.L103
+	.byte	7
+	.word	.L104,.L105
 	.byte	8
-	.word	.L100,.L90,.L91
+	.word	.L106,.L96,.L97
+	.byte	0,6
+	.word	.L95,.L107,.L108
+	.byte	7
+	.word	.L98,.L99
+	.byte	7
+	.word	.L100,.L101
+	.byte	7
+	.word	.L102,.L103
+	.byte	7
+	.word	.L104,.L105
+	.byte	8
+	.word	.L106,.L107,.L108
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('initGtmTom')
 	.sect	'.debug_abbrev'
-.L30:
+.L31:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1
 	.byte	49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('initGtmTom')
 	.sect	'.debug_line'
-.L31:
-	.word	.L134-.L133
-.L133:
+.L32:
+	.word	.L147-.L146
+.L146:
 	.half	3
-	.word	.L136-.L135
-.L135:
+	.word	.L149-.L148
+.L148:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0,0
 	.byte	'../includes/general/Servo.c',0,0,0,0
 	.byte	'IfxPort.h',0,1,0,0,0
-.L136:
+.L149:
 	.byte	5,6,7,0,5,2
-	.word	.L11
+	.word	.L12
 	.byte	3,206,0,1,5,34,9
-	.half	.L108-.L11
+	.half	.L116-.L12
 	.byte	3,4,1,5,48,9
-	.half	.L137-.L108
+	.half	.L150-.L116
 	.byte	1,5,40,9
-	.half	.L138-.L137
-	.byte	3,2,1,5,38,9
-	.half	.L139-.L138
-	.byte	1,5,40,9
-	.half	.L140-.L139
-	.byte	3,1,1,5,38,9
-	.half	.L141-.L140
-	.byte	1,5,40,9
-	.half	.L142-.L141
-	.byte	3,1,1,5,38,9
-	.half	.L143-.L142
-	.byte	1,5,40,9
-	.half	.L144-.L143
-	.byte	3,1,1,5,38,9
-	.half	.L145-.L144
-	.byte	1,5,40,9
-	.half	.L146-.L145
-	.byte	3,1,1,5,38,9
-	.half	.L147-.L146
-	.byte	1,5,40,9
-	.half	.L148-.L147
-	.byte	3,1,1,5,38,9
-	.half	.L149-.L148
-	.byte	1,5,28,9
-	.half	.L150-.L149
-	.byte	3,1,1,5,44,9
 	.half	.L151-.L150
-	.byte	1,5,30,9
+	.byte	3,2,1,5,38,9
 	.half	.L152-.L151
-	.byte	3,2,1,5,35,9
+	.byte	1,5,40,9
 	.half	.L153-.L152
-	.byte	1,5,64,9
+	.byte	3,1,1,5,38,9
 	.half	.L154-.L153
+	.byte	1,5,40,9
+	.half	.L155-.L154
+	.byte	3,1,1,5,38,9
+	.half	.L156-.L155
+	.byte	1,5,40,9
+	.half	.L157-.L156
+	.byte	3,1,1,5,38,9
+	.half	.L158-.L157
+	.byte	1,5,40,9
+	.half	.L159-.L158
+	.byte	3,1,1,5,38,9
+	.half	.L160-.L159
+	.byte	1,5,40,9
+	.half	.L161-.L160
+	.byte	3,1,1,5,38,9
+	.half	.L162-.L161
+	.byte	1,5,28,9
+	.half	.L163-.L162
+	.byte	3,1,1,5,44,9
+	.half	.L164-.L163
+	.byte	1,5,30,9
+	.half	.L165-.L164
+	.byte	3,2,1,5,35,9
+	.half	.L166-.L165
+	.byte	1,5,64,9
+	.half	.L167-.L166
 	.byte	1,4,2,5,61,9
-	.half	.L90-.L154
+	.half	.L96-.L167
 	.byte	3,237,3,1,5,40,9
-	.half	.L155-.L90
+	.half	.L168-.L96
+	.byte	1,4,1,5,30,9
+	.half	.L97-.L168
+	.byte	3,148,124,1,5,36,9
+	.half	.L169-.L97
+	.byte	1,5,65,9
+	.half	.L170-.L169
+	.byte	1,4,2,5,61,9
+	.half	.L107-.L170
+	.byte	3,236,3,1,5,40,9
+	.half	.L171-.L107
 	.byte	1,4,1,5,27,9
-	.half	.L91-.L155
+	.half	.L108-.L171
 	.byte	3,149,124,1,5,1,9
-	.half	.L156-.L91
+	.half	.L172-.L108
 	.byte	3,1,1,7,9
-	.half	.L33-.L156
+	.half	.L34-.L172
 	.byte	0,1,1
-.L134:
+.L147:
 	.sdecl	'.debug_ranges',debug,cluster('initGtmTom')
 	.sect	'.debug_ranges'
-.L32:
-	.word	-1,.L11,0,.L33-.L11,0,0
+.L33:
+	.word	-1,.L12,0,.L34-.L12,0,0
 	.sdecl	'.debug_info',debug,cluster('setOnTime1')
 	.sect	'.debug_info'
-.L34:
+.L35:
 	.word	229
 	.half	3
-	.word	.L35
+	.word	.L36
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L37,.L36
+	.word	.L38,.L37
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'setOnTime1',0,1,98,6,1,1,1
-	.word	.L13,.L101,.L12
+	.word	.L14,.L109,.L13
 	.byte	4
 	.byte	'n',0,1,98,24
-	.word	.L61,.L102
+	.word	.L62,.L110
 	.byte	5
-	.word	.L13,.L101
+	.word	.L14,.L109
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('setOnTime1')
 	.sect	'.debug_abbrev'
-.L35:
+.L36:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('setOnTime1')
 	.sect	'.debug_line'
-.L36:
-	.word	.L158-.L157
-.L157:
+.L37:
+	.word	.L174-.L173
+.L173:
 	.half	3
-	.word	.L160-.L159
-.L159:
+	.word	.L176-.L175
+.L175:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Servo.c',0,0,0,0,0
-.L160:
+.L176:
 	.byte	5,5,7,0,5,2
-	.word	.L13
+	.word	.L14
 	.byte	3,226,0,1,5,17,9
-	.half	.L161-.L13
+	.half	.L177-.L14
 	.byte	1,5,1,9
-	.half	.L162-.L161
+	.half	.L178-.L177
 	.byte	3,1,1,7,9
-	.half	.L38-.L162
+	.half	.L39-.L178
 	.byte	0,1,1
-.L158:
+.L174:
 	.sdecl	'.debug_ranges',debug,cluster('setOnTime1')
 	.sect	'.debug_ranges'
-.L37:
-	.word	-1,.L13,0,.L38-.L13,0,0
+.L38:
+	.word	-1,.L14,0,.L39-.L14,0,0
 	.sdecl	'.debug_info',debug,cluster('getOnTime1')
 	.sect	'.debug_info'
-.L39:
+.L40:
 	.word	219
 	.half	3
-	.word	.L40
+	.word	.L41
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L42,.L41
+	.word	.L43,.L42
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'getOnTime1',0,1,102,8
-	.word	.L61
+	.word	.L62
 	.byte	1,1,1
-	.word	.L15,.L103,.L14
+	.word	.L16,.L111,.L15
 	.byte	4
-	.word	.L15,.L103
+	.word	.L16,.L111
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('getOnTime1')
 	.sect	'.debug_abbrev'
-.L40:
+.L41:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('getOnTime1')
 	.sect	'.debug_line'
-.L41:
-	.word	.L164-.L163
-.L163:
+.L42:
+	.word	.L180-.L179
+.L179:
 	.half	3
-	.word	.L166-.L165
-.L165:
+	.word	.L182-.L181
+.L181:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Servo.c',0,0,0,0,0
-.L166:
+.L182:
 	.byte	5,12,7,0,5,2
-	.word	.L15
+	.word	.L16
 	.byte	3,230,0,1,5,5,9
-	.half	.L167-.L15
+	.half	.L183-.L16
 	.byte	1,5,1,9
-	.half	.L6-.L167
+	.half	.L7-.L183
 	.byte	3,1,1,7,9
-	.half	.L43-.L6
+	.half	.L44-.L7
 	.byte	0,1,1
-.L164:
+.L180:
 	.sdecl	'.debug_ranges',debug,cluster('getOnTime1')
 	.sect	'.debug_ranges'
-.L42:
-	.word	-1,.L15,0,.L43-.L15,0,0
+.L43:
+	.word	-1,.L16,0,.L44-.L16,0,0
 	.sdecl	'.debug_info',debug,cluster('setOnTime2')
 	.sect	'.debug_info'
-.L44:
+.L45:
 	.word	229
 	.half	3
-	.word	.L45
+	.word	.L46
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L47,.L46
+	.word	.L48,.L47
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'setOnTime2',0,1,106,6,1,1,1
-	.word	.L17,.L104,.L16
+	.word	.L18,.L112,.L17
 	.byte	4
 	.byte	'n',0,1,106,24
-	.word	.L61,.L105
+	.word	.L62,.L113
 	.byte	5
-	.word	.L17,.L104
+	.word	.L18,.L112
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('setOnTime2')
 	.sect	'.debug_abbrev'
-.L45:
+.L46:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('setOnTime2')
 	.sect	'.debug_line'
-.L46:
-	.word	.L169-.L168
-.L168:
+.L47:
+	.word	.L185-.L184
+.L184:
 	.half	3
-	.word	.L171-.L170
-.L170:
+	.word	.L187-.L186
+.L186:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Servo.c',0,0,0,0,0
-.L171:
+.L187:
 	.byte	5,5,7,0,5,2
-	.word	.L17
+	.word	.L18
 	.byte	3,234,0,1,5,17,9
-	.half	.L172-.L17
+	.half	.L188-.L18
 	.byte	1,5,1,9
-	.half	.L173-.L172
+	.half	.L189-.L188
 	.byte	3,1,1,7,9
-	.half	.L48-.L173
+	.half	.L49-.L189
 	.byte	0,1,1
-.L169:
+.L185:
 	.sdecl	'.debug_ranges',debug,cluster('setOnTime2')
 	.sect	'.debug_ranges'
-.L47:
-	.word	-1,.L17,0,.L48-.L17,0,0
+.L48:
+	.word	-1,.L18,0,.L49-.L18,0,0
 	.sdecl	'.debug_info',debug,cluster('getOnTime2')
 	.sect	'.debug_info'
-.L49:
+.L50:
 	.word	219
 	.half	3
-	.word	.L50
+	.word	.L51
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L52,.L51
+	.word	.L53,.L52
 	.byte	2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'getOnTime2',0,1,110,8
-	.word	.L61
+	.word	.L62
 	.byte	1,1,1
-	.word	.L19,.L106,.L18
+	.word	.L20,.L114,.L19
 	.byte	4
-	.word	.L19,.L106
+	.word	.L20,.L114
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('getOnTime2')
 	.sect	'.debug_abbrev'
-.L50:
+.L51:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('getOnTime2')
 	.sect	'.debug_line'
-.L51:
-	.word	.L175-.L174
-.L174:
+.L52:
+	.word	.L191-.L190
+.L190:
 	.half	3
-	.word	.L177-.L176
-.L176:
+	.word	.L193-.L192
+.L192:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Servo.c',0,0,0,0,0
-.L177:
+.L193:
 	.byte	5,12,7,0,5,2
-	.word	.L19
+	.word	.L20
 	.byte	3,238,0,1,5,5,9
-	.half	.L178-.L19
+	.half	.L194-.L20
 	.byte	1,5,1,9
-	.half	.L7-.L178
+	.half	.L8-.L194
 	.byte	3,1,1,7,9
-	.half	.L53-.L7
+	.half	.L54-.L8
 	.byte	0,1,1
-.L175:
+.L191:
 	.sdecl	'.debug_ranges',debug,cluster('getOnTime2')
 	.sect	'.debug_ranges'
-.L52:
-	.word	-1,.L19,0,.L53-.L19,0,0
+.L53:
+	.word	-1,.L20,0,.L54-.L20,0,0
 	.sdecl	'.debug_info',debug,cluster('g_timerDriver')
 	.sect	'.debug_info'
-.L54:
+.L55:
 	.word	196
 	.half	3
-	.word	.L55
+	.word	.L56
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'g_timerDriver',0,17,45,18
-	.word	.L107
+	.word	.L115
 	.byte	1,5,3
 	.word	g_timerDriver
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_timerDriver')
 	.sect	'.debug_abbrev'
-.L55:
+.L56:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('g_on_time_1')
 	.sect	'.debug_info'
-.L56:
+.L57:
 	.word	194
 	.half	3
-	.word	.L57
+	.word	.L58
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'g_on_time_1',0,17,46,8
-	.word	.L61
+	.word	.L62
 	.byte	1,5,3
 	.word	g_on_time_1
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_on_time_1')
 	.sect	'.debug_abbrev'
-.L57:
+.L58:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('g_on_time_2')
 	.sect	'.debug_info'
-.L58:
+.L59:
 	.word	194
 	.half	3
-	.word	.L59
+	.word	.L60
 	.byte	4,1
 	.byte	'../includes/general/Servo.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L20
+	.word	.L21
 	.byte	3
 	.byte	'g_on_time_2',0,17,47,8
-	.word	.L61
+	.word	.L62
 	.byte	1,5,3
 	.word	g_on_time_2
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_on_time_2')
 	.sect	'.debug_abbrev'
-.L59:
+.L60:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('getOnTime1')
 	.sect	'.debug_loc'
-.L14:
-	.word	-1,.L15,0,.L103-.L15
+.L15:
+	.word	-1,.L16,0,.L111-.L16
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('getOnTime2')
 	.sect	'.debug_loc'
-.L18:
-	.word	-1,.L19,0,.L106-.L19
+.L19:
+	.word	-1,.L20,0,.L114-.L20
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('initGtmTom')
 	.sect	'.debug_loc'
-.L99:
+.L105:
 	.word	0,0
-.L10:
-	.word	-1,.L11,0,.L108-.L11
+.L11:
+	.word	-1,.L12,0,.L116-.L12
 	.half	2
 	.byte	138,0
-	.word	.L108-.L11,.L86-.L11
+	.word	.L116-.L12,.L92-.L12
 	.half	2
 	.byte	138,56
-	.word	.L86-.L11,.L86-.L11
+	.word	.L92-.L12,.L92-.L12
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L97:
+.L103:
 	.word	0,0
-.L95:
+.L101:
 	.word	0,0
-.L93:
+.L99:
 	.word	0,0
-.L88:
-	.word	-1,.L11,0,.L86-.L11
+.L94:
+	.word	-1,.L12,0,.L92-.L12
 	.half	2
 	.byte	145,72
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('interruptGtmTom')
 	.sect	'.debug_loc'
-.L76:
+.L78:
 	.word	0,0
-.L8:
-	.word	-1,.L9,0,.L60-.L9
+.L9:
+	.word	-1,.L10,0,.L61-.L10
 	.half	2
 	.byte	138,0
 	.word	0,0
+.L69:
+	.word	0,0
+.L87:
+	.word	0,0
+.L76:
+	.word	0,0
 .L67:
 	.word	0,0
-.L83:
+.L85:
 	.word	0,0
 .L74:
 	.word	0,0
-.L65:
-	.word	0,0
-.L81:
-	.word	0,0
-.L72:
-	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('setOnTime1')
 	.sect	'.debug_loc'
-.L102:
-	.word	-1,.L13,0,.L101-.L13
+.L110:
+	.word	-1,.L14,0,.L109-.L14
 	.half	1
 	.byte	84
 	.word	0,0
-.L12:
-	.word	-1,.L13,0,.L101-.L13
+.L13:
+	.word	-1,.L14,0,.L109-.L14
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('setOnTime2')
 	.sect	'.debug_loc'
-.L105:
-	.word	-1,.L17,0,.L104-.L17
+.L113:
+	.word	-1,.L18,0,.L112-.L18
 	.half	1
 	.byte	84
 	.word	0,0
-.L16:
-	.word	-1,.L17,0,.L104-.L17
+.L17:
+	.word	-1,.L18,0,.L112-.L18
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L179:
+.L195:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -23699,34 +23821,34 @@ _999001_counter:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('interruptGtmTom')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L179,.L9,.L60-.L9
+	.word	.L195,.L10,.L61-.L10
 	.sdecl	'.debug_frame',debug,cluster('initGtmTom')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L179,.L11,.L86-.L11
+	.word	.L195,.L12,.L92-.L12
 	.byte	4
-	.word	(.L108-.L11)/2
+	.word	(.L116-.L12)/2
 	.byte	19,56,22,26,3,19,138,56,4
-	.word	(.L86-.L108)/2
+	.word	(.L92-.L116)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('setOnTime1')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L179,.L13,.L101-.L13
+	.word	.L195,.L14,.L109-.L14
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('getOnTime1')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L179,.L15,.L103-.L15
+	.word	.L195,.L16,.L111-.L16
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('setOnTime2')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L179,.L17,.L104-.L17
+	.word	.L195,.L18,.L112-.L18
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	.sdecl	'.debug_frame',debug,cluster('getOnTime2')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L179,.L19,.L106-.L19
+	.word	.L195,.L20,.L114-.L20
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

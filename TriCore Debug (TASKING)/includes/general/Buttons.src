@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc21916a --dep-file=includes/general/Buttons.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Buttons.src ../includes/general/Buttons.c"
+	.compiler_invocation	"ctc -f cc7040a --dep-file=includes/general/Buttons.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Buttons.src ../includes/general/Buttons.c"
 	.compiler_name		"ctc"
 	;source	'../includes/general/Buttons.c'
 
@@ -13,168 +13,70 @@ $TC16X
 	
 	.global	Init_Buttons
 ; Function Init_Buttons
-.L24:
+.L21:
 Init_Buttons:	.type	func
-	movh.a	a15,#@his(IfxPort_P10_2)
-	lea	a15,[a15]@los(IfxPort_P10_2)
-	ld.a	a15,[a15]
-	movh.a	a2,#@his(IfxPort_P10_2)
-	lea	a2,[a2]@los(IfxPort_P10_2)
-	ld.bu	d15,[a2]4
-	movh	d0,#1
-.L52:
-	sha	d0,d0,d15
-.L118:
-	st.w	[a15]4,d0
-.L53:
 	movh.a	a15,#@his(IfxPort_P33_0)
 	lea	a15,[a15]@los(IfxPort_P33_0)
-.L119:
+.L97:
 	ld.a	a4,[a15]
-.L120:
+.L98:
 	movh.a	a15,#@his(IfxPort_P33_0)
 	lea	a15,[a15]@los(IfxPort_P33_0)
-.L121:
+.L99:
 	ld.bu	d4,[a15]4
-.L122:
+.L100:
+	mov	d5,#16
+.L51:
+	call	IfxPort_setPinMode
+.L52:
+	movh.a	a15,#@his(IfxPort_P11_10)
+	lea	a15,[a15]@los(IfxPort_P11_10)
+.L101:
+	ld.a	a4,[a15]
+.L102:
+	movh.a	a15,#@his(IfxPort_P11_10)
+	lea	a15,[a15]@los(IfxPort_P11_10)
+.L103:
+	ld.bu	d4,[a15]4
+.L104:
+	mov	d5,#16
+.L60:
+	call	IfxPort_setPinMode
+.L61:
+	movh.a	a15,#@his(IfxPort_P33_3)
+	lea	a15,[a15]@los(IfxPort_P33_3)
+.L105:
+	ld.a	a4,[a15]
+.L106:
+	movh.a	a15,#@his(IfxPort_P33_3)
+	lea	a15,[a15]@los(IfxPort_P33_3)
+.L107:
+	ld.bu	d4,[a15]4
+.L108:
 	mov	d5,#16
 .L62:
 	call	IfxPort_setPinMode
 .L63:
-	movh.a	a15,#@his(IfxPort_P11_10)
-	lea	a15,[a15]@los(IfxPort_P11_10)
-.L123:
+	movh.a	a15,#@his(IfxPort_P11_3)
+	lea	a15,[a15]@los(IfxPort_P11_3)
+.L109:
 	ld.a	a4,[a15]
-.L124:
-	movh.a	a15,#@his(IfxPort_P11_10)
-	lea	a15,[a15]@los(IfxPort_P11_10)
-.L125:
+.L110:
+	movh.a	a15,#@his(IfxPort_P11_3)
+	lea	a15,[a15]@los(IfxPort_P11_3)
+.L111:
 	ld.bu	d4,[a15]4
-.L126:
+.L112:
 	mov	d5,#16
-.L71:
+.L64:
 	call	IfxPort_setPinMode
-.L72:
-	movh.a	a15,#@his(IfxPort_P33_3)
-	lea	a15,[a15]@los(IfxPort_P33_3)
-.L127:
-	ld.a	a4,[a15]
-.L128:
-	movh.a	a15,#@his(IfxPort_P33_3)
-	lea	a15,[a15]@los(IfxPort_P33_3)
-.L129:
-	ld.bu	d4,[a15]4
-.L130:
-	mov	d5,#16
-.L73:
-	call	IfxPort_setPinMode
-.L74:
+.L65:
 	ret
-.L50:
+.L49:
 	
 __Init_Buttons_function_end:
 	.size	Init_Buttons,__Init_Buttons_function_end-Init_Buttons
-.L37:
-	; End of function
-	
-	.sdecl	'.text.Buttons.Read_Buttons',code,cluster('Read_Buttons')
-	.sect	'.text.Buttons.Read_Buttons'
-	.align	2
-	
-	.global	Read_Buttons
-; Function Read_Buttons
-.L26:
-Read_Buttons:	.type	func
-	movh.a	a15,#@his(IfxPort_P33_0)
-	lea	a15,[a15]@los(IfxPort_P33_0)
-.L151:
-	ld.a	a15,[a15]
-.L152:
-	movh.a	a2,#@his(IfxPort_P33_0)
-	lea	a2,[a2]@los(IfxPort_P33_0)
-.L153:
-	ld.bu	d15,[a2]4
-.L94:
-	ld.w	d0,[a15]36
-	extr.u	d15,d0,d15,#1
-.L154:
-	jeq	d15,#0,.L2
-.L155:
-	mov	d15,#1
-.L156:
-	j	.L3
-.L2:
-	mov	d15,#0
-.L3:
-	j	.L4
-.L4:
-	movh.a	a15,#@his(g_prev)
-	lea	a15,[a15]@los(g_prev)
-.L98:
-	st.b	[a15],d15
-.L99:
-	movh.a	a15,#@his(IfxPort_P11_10)
-	lea	a15,[a15]@los(IfxPort_P11_10)
-.L157:
-	ld.a	a15,[a15]
-.L158:
-	movh.a	a2,#@his(IfxPort_P11_10)
-	lea	a2,[a2]@los(IfxPort_P11_10)
-.L159:
-	ld.bu	d15,[a2]4
-.L100:
-	ld.w	d0,[a15]36
-	extr.u	d15,d0,d15,#1
-.L160:
-	jeq	d15,#0,.L5
-.L161:
-	mov	d15,#1
-.L162:
-	j	.L6
-.L5:
-	mov	d15,#0
-.L6:
-	j	.L7
-.L7:
-	movh.a	a15,#@his(g_prev)
-	lea	a15,[a15]@los(g_prev)
-.L102:
-	st.b	[a15]1,d15
-.L103:
-	movh.a	a15,#@his(IfxPort_P33_3)
-	lea	a15,[a15]@los(IfxPort_P33_3)
-.L163:
-	ld.a	a15,[a15]
-.L164:
-	movh.a	a2,#@his(IfxPort_P33_3)
-	lea	a2,[a2]@los(IfxPort_P33_3)
-.L165:
-	ld.bu	d15,[a2]4
-.L104:
-	ld.w	d0,[a15]36
-	extr.u	d15,d0,d15,#1
-.L166:
-	jeq	d15,#0,.L8
-.L167:
-	mov	d15,#1
-.L168:
-	j	.L9
-.L8:
-	mov	d15,#0
-.L9:
-	j	.L10
-.L10:
-	movh.a	a15,#@his(g_prev)
-	lea	a15,[a15]@los(g_prev)
-.L106:
-	st.b	[a15]2,d15
-.L107:
-	ret
-.L93:
-	
-__Read_Buttons_function_end:
-	.size	Read_Buttons,__Read_Buttons_function_end-Read_Buttons
-.L47:
+.L34:
 	; End of function
 	
 	.sdecl	'.text.Buttons.Get_Button_State',code,cluster('Get_Button_State')
@@ -183,122 +85,234 @@ __Read_Buttons_function_end:
 	
 	.global	Get_Button_State
 ; Function Get_Button_State
-.L28:
+.L23:
 Get_Button_State:	.type	func
-	mov	d1,#0
-.L109:
-	mov	d0,d4
+	mov	d15,d4
 	movh.a	a15,#@his(IfxPort_P33_0)
 	lea	a15,[a15]@los(IfxPort_P33_0)
-	ld.w	d15,[a15]
+	ld.w	d0,[a15]
+	jne	d15,d0,.L2
+	extr.u	d0,d5,#0,#8
+	movh.a	a15,#@his(IfxPort_P33_0)
+	lea	a15,[a15]@los(IfxPort_P33_0)
+	ld.bu	d15,[a15]4
+	jne	d15,d0,.L3
+.L117:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
+.L118:
+	mov	d15,#0
+.L119:
+	st.b	[a15],d15
+.L120:
+	j	.L4
+.L3:
+.L2:
+	mov	d15,d4
+	movh.a	a15,#@his(IfxPort_P11_10)
+	lea	a15,[a15]@los(IfxPort_P11_10)
+	ld.w	d0,[a15]
+	jne	d15,d0,.L5
+	extr.u	d0,d5,#0,#8
+	movh.a	a15,#@his(IfxPort_P11_10)
+	lea	a15,[a15]@los(IfxPort_P11_10)
+	ld.bu	d15,[a15]4
+	jne	d15,d0,.L6
+.L121:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
+.L122:
+	mov	d15,#1
+.L123:
+	st.b	[a15],d15
+.L124:
+	j	.L7
+.L6:
+.L5:
+	mov	d15,d4
+	movh.a	a15,#@his(IfxPort_P33_3)
+	lea	a15,[a15]@los(IfxPort_P33_3)
+	ld.w	d0,[a15]
+	jne	d15,d0,.L8
+	extr.u	d0,d5,#0,#8
+	movh.a	a15,#@his(IfxPort_P33_3)
+	lea	a15,[a15]@los(IfxPort_P33_3)
+	ld.bu	d15,[a15]4
+	jne	d15,d0,.L9
+.L125:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
+.L126:
+	mov	d15,#2
+.L127:
+	st.b	[a15],d15
+.L128:
+	j	.L10
+.L9:
+.L8:
+	mov	d15,d4
+	movh.a	a15,#@his(IfxPort_P11_3)
+	lea	a15,[a15]@los(IfxPort_P11_3)
+	ld.w	d0,[a15]
 	jne	d15,d0,.L11
 	extr.u	d0,d5,#0,#8
-	movh.a	a15,#@his(IfxPort_P33_0)
-	lea	a15,[a15]@los(IfxPort_P33_0)
+	movh.a	a15,#@his(IfxPort_P11_3)
+	lea	a15,[a15]@los(IfxPort_P11_3)
 	ld.bu	d15,[a15]4
 	jne	d15,d0,.L12
-.L135:
-	mov	d1,#0
-.L136:
-	j	.L13
+.L129:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
+.L130:
+	mov	d15,#3
+.L131:
+	st.b	[a15],d15
 .L12:
 .L11:
-	mov	d0,d4
-	movh.a	a15,#@his(IfxPort_P11_10)
-	lea	a15,[a15]@los(IfxPort_P11_10)
-	ld.w	d15,[a15]
-	jne	d15,d0,.L14
+.L10:
+.L7:
+.L4:
+	mov.a	a15,d4
+.L132:
 	extr.u	d0,d5,#0,#8
-	movh.a	a15,#@his(IfxPort_P11_10)
-	lea	a15,[a15]@los(IfxPort_P11_10)
-	ld.bu	d15,[a15]4
-	jne	d15,d0,.L15
-.L137:
-	mov	d1,#1
-.L15:
-.L14:
-.L13:
-	mov	d0,d4
-	mov.a	a15,d0
-.L138:
-	extr.u	d0,d5,#0,#8
-.L82:
+.L72:
 	ld.w	d15,[a15]36
 	extr.u	d15,d15,d0,#1
-.L139:
-	jeq	d15,#0,.L16
-.L140:
+.L133:
+	jeq	d15,#0,.L13
+.L134:
 	mov	d0,#1
-.L141:
-	j	.L17
-.L16:
+.L135:
+	j	.L14
+.L13:
 	mov	d0,#0
-.L17:
-	j	.L18
-.L18:
-	movh.a	a15,#@his(g_prev)
-	lea	a15,[a15]@los(g_prev)
-.L142:
-	addsc.a	a15,a15,d1,#0
+.L14:
+	j	.L15
+.L15:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
 	ld.bu	d15,[a15]
-.L143:
-	jeq	d15,#0,.L19
-.L89:
-	jne	d0,#0,.L20
-.L90:
-	mov	d2,#1
-.L144:
-	j	.L21
-.L20:
-.L19:
+.L136:
 	movh.a	a15,#@his(g_prev)
 	lea	a15,[a15]@los(g_prev)
-.L145:
-	addsc.a	a15,a15,d1,#0
-.L91:
+.L137:
+	addsc.a	a15,a15,d15,#0
+	ld.bu	d15,[a15]
+.L138:
+	jeq	d15,#0,.L16
+.L79:
+	jne	d0,#0,.L17
+.L80:
+	mov	d2,#1
+.L139:
+	j	.L18
+.L17:
+.L16:
+	movh.a	a15,#@his(idx)
+	lea	a15,[a15]@los(idx)
+	ld.bu	d15,[a15]
+.L140:
+	movh.a	a15,#@his(g_prev)
+	lea	a15,[a15]@los(g_prev)
+.L141:
+	addsc.a	a15,a15,d15,#0
+.L81:
 	st.b	[a15],d0
-.L92:
+.L82:
 	mov	d2,#0
-.L146:
-	j	.L22
-.L22:
-.L21:
+.L142:
+	j	.L19
+.L19:
+.L18:
 	ret
-.L76:
+.L67:
 	
 __Get_Button_State_function_end:
 	.size	Get_Button_State,__Get_Button_State_function_end-Get_Button_State
-.L42:
+.L39:
 	; End of function
 	
+	.sdecl	'.text.Buttons.Read_Buttons',code,cluster('Read_Buttons')
+	.sect	'.text.Buttons.Read_Buttons'
+	.align	2
+	
+	.global	Read_Buttons
+; Function Read_Buttons
+.L25:
+Read_Buttons:	.type	func
+	mov.aa	a15,a4
+.L88:
+	movh.a	a2,#@his(IfxPort_P33_0)
+	lea	a2,[a2]@los(IfxPort_P33_0)
+	ld.d	e4,[a2]0
+	call	Get_Button_State
+.L87:
+	st.b	[a15],d2
+.L147:
+	movh.a	a2,#@his(IfxPort_P11_10)
+	lea	a2,[a2]@los(IfxPort_P11_10)
+	ld.d	e4,[a2]0
+	call	Get_Button_State
+.L148:
+	st.b	[a15]1,d2
+.L149:
+	movh.a	a2,#@his(IfxPort_P33_3)
+	lea	a2,[a2]@los(IfxPort_P33_3)
+	ld.d	e4,[a2]0
+	call	Get_Button_State
+.L150:
+	st.b	[a15]2,d2
+.L151:
+	movh.a	a2,#@his(IfxPort_P11_3)
+	lea	a2,[a2]@los(IfxPort_P11_3)
+	ld.d	e4,[a2]0
+	call	Get_Button_State
+.L152:
+	st.b	[a15]3,d2
+.L153:
+	ret
+.L83:
+	
+__Read_Buttons_function_end:
+	.size	Read_Buttons,__Read_Buttons_function_end-Read_Buttons
+.L44:
+	; End of function
+	
+	.sdecl	'.data.Buttons.idx',data,cluster('idx')
+	.sect	'.data.Buttons.idx'
+	.global	idx
+idx:	.type	object
+	.size	idx,1
+	.space	1
 	.sdecl	'.data.Buttons.g_prev',data,cluster('g_prev')
 	.sect	'.data.Buttons.g_prev'
 	.global	g_prev
 g_prev:	.type	object
-	.size	g_prev,3
-	.byte	1,1,1
+	.size	g_prev,4
+	.byte	1,1,1,1
 	.calls	'Init_Buttons','IfxPort_setPinMode'
+	.calls	'Read_Buttons','Get_Button_State'
 	.calls	'Init_Buttons','',0
-	.calls	'Read_Buttons','',0
+	.calls	'Get_Button_State','',0
 	.extern	IfxPort_setPinMode
-	.extern	IfxPort_P10_2
 	.extern	IfxPort_P11_10
+	.extern	IfxPort_P11_3
 	.extern	IfxPort_P33_0
 	.extern	IfxPort_P33_3
-	.calls	'Get_Button_State','',0
+	.calls	'Read_Buttons','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L30:
-	.word	36735
+.L27:
+	.word	36740
 	.half	3
-	.word	.L31
+	.word	.L28
 	.byte	4
-.L29:
+.L26:
 	.byte	1
 	.byte	'../includes/general/Buttons.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L32
+	.word	.L29
 	.byte	2,1,1,3
 	.word	171
 	.byte	4
@@ -331,7 +345,7 @@ g_prev:	.type	object
 	.byte	'value',0,2,143,1,43
 	.word	285
 	.byte	6,0
-.L75:
+.L66:
 	.byte	7
 	.byte	'unsigned char',0,1,8,7
 	.byte	'unsigned int',0,4,7,7
@@ -1679,62 +1693,55 @@ g_prev:	.type	object
 	.word	7596
 	.byte	3
 	.word	8199
-.L81:
+.L71:
 	.byte	8
 	.byte	'IfxPort_getPinState',0,3,3,170,4,20
 	.word	403
 	.byte	1,1
-.L83:
+.L73:
 	.byte	5
 	.byte	'port',0,3,170,4,47
 	.word	8204
-.L85:
+.L75:
 	.byte	5
 	.byte	'pinIndex',0,3,170,4,59
 	.word	403
-.L87:
+.L77:
 	.byte	6,0,17,3,80,9,1,18
 	.byte	'IfxPort_InputMode_undefined',0,127,18
 	.byte	'IfxPort_InputMode_noPullDevice',0,0,18
 	.byte	'IfxPort_InputMode_pullDown',0,8,18
 	.byte	'IfxPort_InputMode_pullUp',0,16,0
-.L61:
+.L50:
 	.byte	4
 	.byte	'IfxPort_setPinModeInput',0,3,3,194,4,17,1,1
-.L64:
+.L53:
 	.byte	5
 	.byte	'port',0,3,194,4,48
 	.word	8204
-.L66:
+.L55:
 	.byte	5
 	.byte	'pinIndex',0,3,194,4,60
 	.word	403
-.L68:
+.L57:
 	.byte	5
 	.byte	'mode',0,3,194,4,88
 	.word	8275
-.L70:
+.L59:
 	.byte	6,0,17,3,170,1,9,4,18
 	.byte	'IfxPort_State_notChanged',0,0,18
 	.byte	'IfxPort_State_high',0,1,18
 	.byte	'IfxPort_State_low',0,128,128,4,18
-	.byte	'IfxPort_State_toggled',0,129,128,4,0
-.L51:
-	.byte	4
-	.byte	'IfxPort_setPinState',0,3,3,206,4,17,1,1
-.L54:
-	.byte	5
+	.byte	'IfxPort_State_toggled',0,129,128,4,0,4
+	.byte	'IfxPort_setPinState',0,3,3,206,4,17,1,1,5
 	.byte	'port',0,3,206,4,44
 	.word	8204
-.L56:
 	.byte	5
 	.byte	'pinIndex',0,3,206,4,56
 	.word	403
-.L58:
 	.byte	5
 	.byte	'action',0,3,206,4,80
 	.word	8480
-.L60:
 	.byte	6,0,19
 	.byte	'__extru',0
 	.word	420
@@ -1814,17 +1821,21 @@ g_prev:	.type	object
 	.byte	'mode',0,3,245,2,78
 	.word	8808
 	.byte	0
-.L77:
+.L68:
 	.byte	24,3,188,1,9,8,13
 	.byte	'port',0
 	.word	8204
 	.byte	4,2,35,0,13
 	.byte	'pinIndex',0
 	.word	403
-	.byte	1,2,35,4,0,7
+	.byte	1,2,35,4,0
+.L84:
+	.byte	3
+	.word	403
+	.byte	7
 	.byte	'short int',0,2,5,25
 	.byte	'__wchar_t',0,5,1,1
-	.word	9591
+	.word	9596
 	.byte	25
 	.byte	'__size_t',0,5,1,1
 	.word	420
@@ -1832,10 +1843,10 @@ g_prev:	.type	object
 	.byte	'__ptrdiff_t',0,5,1,1
 	.word	436
 	.byte	26,1,3
-	.word	9659
+	.word	9664
 	.byte	25
 	.byte	'__codeptr',0,5,1,1
-	.word	9661
+	.word	9666
 	.byte	25
 	.byte	'boolean',0,6,104,29
 	.word	403
@@ -1848,21 +1859,21 @@ g_prev:	.type	object
 	.byte	7
 	.byte	'unsigned long int',0,4,7,25
 	.byte	'uint32',0,6,116,29
-	.word	9729
+	.word	9734
 	.byte	25
 	.byte	'uint64',0,6,121,29
 	.word	285
 	.byte	25
 	.byte	'sint16',0,6,129,1,29
-	.word	9591
+	.word	9596
 	.byte	7
 	.byte	'long int',0,4,5,25
 	.byte	'sint32',0,6,134,1,29
-	.word	9796
+	.word	9801
 	.byte	7
 	.byte	'long long int',0,8,5,25
 	.byte	'sint64',0,6,141,1,29
-	.word	9824
+	.word	9829
 	.byte	25
 	.byte	'float32',0,6,170,1,29
 	.word	231
@@ -1871,7 +1882,7 @@ g_prev:	.type	object
 	.word	317
 	.byte	25
 	.byte	'Ifx_TickTime',0,7,76,28
-	.word	9824
+	.word	9829
 	.byte	25
 	.byte	'Ifx_P_ACCEN0_Bits',0,4,97,3
 	.word	7029
@@ -2047,13 +2058,13 @@ g_prev:	.type	object
 	.word	7596
 	.byte	25
 	.byte	'Ifx_P',0,4,156,6,3
-	.word	11228
+	.word	11233
 	.byte	17,8,163,11,9,1,18
 	.byte	'IfxScu_WDTCON1_IR_divBy16384',0,0,18
 	.byte	'IfxScu_WDTCON1_IR_divBy256',0,1,18
 	.byte	'IfxScu_WDTCON1_IR_divBy64',0,2,0,25
 	.byte	'IfxScu_WDTCON1_IR',0,8,168,11,3
-	.word	11248
+	.word	11253
 	.byte	10
 	.byte	'_Ifx_SCU_ACCEN0_Bits',0,9,63,16,4,11
 	.byte	'EN0',0,1
@@ -2153,14 +2164,14 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_ACCEN0_Bits',0,9,97,3
-	.word	11370
+	.word	11375
 	.byte	10
 	.byte	'_Ifx_SCU_ACCEN1_Bits',0,9,100,16,4,11
 	.byte	'reserved_0',0,4
 	.word	420
 	.byte	32,0,2,35,0,0,25
 	.byte	'Ifx_SCU_ACCEN1_Bits',0,9,103,3
-	.word	11927
+	.word	11932
 	.byte	10
 	.byte	'_Ifx_SCU_ARSTDIS_Bits',0,9,106,16,4,11
 	.byte	'STM0DIS',0,1
@@ -2176,7 +2187,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	29,0,2,35,0,0,25
 	.byte	'Ifx_SCU_ARSTDIS_Bits',0,9,112,3
-	.word	12004
+	.word	12009
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON0_Bits',0,9,115,16,4,11
 	.byte	'BAUD1DIV',0,1
@@ -2216,7 +2227,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON0_Bits',0,9,129,1,3
-	.word	12140
+	.word	12145
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON1_Bits',0,9,132,1,16,4,11
 	.byte	'CANDIV',0,1
@@ -2250,7 +2261,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON1_Bits',0,9,144,1,3
-	.word	12421
+	.word	12426
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON2_Bits',0,9,147,1,16,4,11
 	.byte	'BBBDIV',0,1
@@ -2266,7 +2277,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON2_Bits',0,9,153,1,3
-	.word	12661
+	.word	12666
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON3_Bits',0,9,156,1,16,4,11
 	.byte	'PLLDIV',0,1
@@ -2300,7 +2311,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON3_Bits',0,9,168,1,3
-	.word	12789
+	.word	12794
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON4_Bits',0,9,171,1,16,4,11
 	.byte	'SPBDIV',0,1
@@ -2334,7 +2345,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON4_Bits',0,9,183,1,3
-	.word	13032
+	.word	13037
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON5_Bits',0,9,186,1,16,4,11
 	.byte	'MAXDIV',0,1
@@ -2350,7 +2361,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CCUCON5_Bits',0,9,192,1,3
-	.word	13267
+	.word	13272
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON6_Bits',0,9,195,1,16,4,11
 	.byte	'CPU0DIV',0,1
@@ -2360,7 +2371,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	26,0,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON6_Bits',0,9,199,1,3
-	.word	13395
+	.word	13400
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON7_Bits',0,9,202,1,16,4,11
 	.byte	'CPU1DIV',0,1
@@ -2370,7 +2381,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	26,0,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON7_Bits',0,9,206,1,3
-	.word	13495
+	.word	13500
 	.byte	10
 	.byte	'_Ifx_SCU_CCUCON8_Bits',0,9,209,1,16,4,11
 	.byte	'CPU2DIV',0,1
@@ -2380,7 +2391,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	26,0,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON8_Bits',0,9,213,1,3
-	.word	13595
+	.word	13600
 	.byte	10
 	.byte	'_Ifx_SCU_CHIPID_Bits',0,9,216,1,16,4,11
 	.byte	'CHREV',0,1
@@ -2411,7 +2422,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_CHIPID_Bits',0,9,227,1,3
-	.word	13695
+	.word	13700
 	.byte	10
 	.byte	'_Ifx_SCU_DTSCON_Bits',0,9,230,1,16,4,11
 	.byte	'PWD',0,1
@@ -2433,7 +2444,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_DTSCON_Bits',0,9,238,1,3
-	.word	13903
+	.word	13908
 	.byte	10
 	.byte	'_Ifx_SCU_DTSLIM_Bits',0,9,241,1,16,4,11
 	.byte	'LOWER',0,2
@@ -2458,7 +2469,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_DTSLIM_Bits',0,9,250,1,3
-	.word	14068
+	.word	14073
 	.byte	10
 	.byte	'_Ifx_SCU_DTSSTAT_Bits',0,9,253,1,16,4,11
 	.byte	'RESULT',0,2
@@ -2477,7 +2488,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_DTSSTAT_Bits',0,9,132,2,3
-	.word	14251
+	.word	14256
 	.byte	10
 	.byte	'_Ifx_SCU_EICR_Bits',0,9,135,2,16,4,11
 	.byte	'reserved_0',0,1
@@ -2532,7 +2543,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EICR_Bits',0,9,154,2,3
-	.word	14405
+	.word	14410
 	.byte	10
 	.byte	'_Ifx_SCU_EIFR_Bits',0,9,157,2,16,4,11
 	.byte	'INTF0',0,1
@@ -2563,7 +2574,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	24,0,2,35,0,0,25
 	.byte	'Ifx_SCU_EIFR_Bits',0,9,168,2,3
-	.word	14769
+	.word	14774
 	.byte	10
 	.byte	'_Ifx_SCU_EMSR_Bits',0,9,171,2,16,4,11
 	.byte	'POL',0,1
@@ -2600,7 +2611,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EMSR_Bits',0,9,184,2,3
-	.word	14980
+	.word	14985
 	.byte	10
 	.byte	'_Ifx_SCU_ESRCFG_Bits',0,9,187,2,16,4,11
 	.byte	'reserved_0',0,1
@@ -2613,7 +2624,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	23,0,2,35,0,0,25
 	.byte	'Ifx_SCU_ESRCFG_Bits',0,9,192,2,3
-	.word	15232
+	.word	15237
 	.byte	10
 	.byte	'_Ifx_SCU_ESROCFG_Bits',0,9,195,2,16,4,11
 	.byte	'ARI',0,1
@@ -2626,7 +2637,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_ESROCFG_Bits',0,9,200,2,3
-	.word	15350
+	.word	15355
 	.byte	10
 	.byte	'_Ifx_SCU_EVR13CON_Bits',0,9,203,2,16,4,11
 	.byte	'reserved_0',0,4
@@ -2645,7 +2656,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVR13CON_Bits',0,9,210,2,3
-	.word	15461
+	.word	15466
 	.byte	10
 	.byte	'_Ifx_SCU_EVR33CON_Bits',0,9,213,2,16,4,11
 	.byte	'reserved_0',0,4
@@ -2664,7 +2675,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVR33CON_Bits',0,9,220,2,3
-	.word	15624
+	.word	15629
 	.byte	10
 	.byte	'_Ifx_SCU_EVRADCSTAT_Bits',0,9,223,2,16,4,11
 	.byte	'ADC13V',0,1
@@ -2683,7 +2694,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRADCSTAT_Bits',0,9,230,2,3
-	.word	15787
+	.word	15792
 	.byte	10
 	.byte	'_Ifx_SCU_EVRDVSTAT_Bits',0,9,233,2,16,4,11
 	.byte	'DVS13TRIM',0,1
@@ -2702,7 +2713,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRDVSTAT_Bits',0,9,240,2,3
-	.word	15945
+	.word	15950
 	.byte	10
 	.byte	'_Ifx_SCU_EVRMONCTRL_Bits',0,9,243,2,16,4,11
 	.byte	'EVR13OVMOD',0,1
@@ -2748,7 +2759,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRMONCTRL_Bits',0,9,131,3,3
-	.word	16110
+	.word	16115
 	.byte	10
 	.byte	'_Ifx_SCU_EVROVMON_Bits',0,9,134,3,16,4,11
 	.byte	'EVR13OVVAL',0,1
@@ -2770,7 +2781,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVROVMON_Bits',0,9,142,3,3
-	.word	16478
+	.word	16483
 	.byte	10
 	.byte	'_Ifx_SCU_EVRRSTCON_Bits',0,9,145,3,16,4,11
 	.byte	'RST13TRIM',0,1
@@ -2804,7 +2815,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRRSTCON_Bits',0,9,157,3,3
-	.word	16657
+	.word	16662
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF1_Bits',0,9,160,3,16,4,11
 	.byte	'SD5P',0,1
@@ -2823,7 +2834,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF1_Bits',0,9,167,3,3
-	.word	16922
+	.word	16927
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF2_Bits',0,9,170,3,16,4,11
 	.byte	'SD33P',0,1
@@ -2842,7 +2853,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF2_Bits',0,9,177,3,3
-	.word	17075
+	.word	17080
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF3_Bits',0,9,180,3,16,4,11
 	.byte	'CT5REG0',0,1
@@ -2861,7 +2872,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF3_Bits',0,9,187,3,3
-	.word	17231
+	.word	17236
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF4_Bits',0,9,190,3,16,4,11
 	.byte	'CT5REG3',0,1
@@ -2877,7 +2888,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF4_Bits',0,9,196,3,3
-	.word	17393
+	.word	17398
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF5_Bits',0,9,199,3,16,4,11
 	.byte	'CT33REG0',0,1
@@ -2896,7 +2907,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF5_Bits',0,9,206,3,3
-	.word	17536
+	.word	17541
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCOEFF6_Bits',0,9,209,3,16,4,11
 	.byte	'CT33REG3',0,1
@@ -2912,7 +2923,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF6_Bits',0,9,215,3,3
-	.word	17701
+	.word	17706
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL1_Bits',0,9,218,3,16,4,11
 	.byte	'SDFREQSPRD',0,2
@@ -2934,7 +2945,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL1_Bits',0,9,226,3,3
-	.word	17846
+	.word	17851
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL2_Bits',0,9,229,3,16,4,11
 	.byte	'DRVP',0,1
@@ -2956,7 +2967,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL2_Bits',0,9,237,3,3
-	.word	18027
+	.word	18032
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL3_Bits',0,9,240,3,16,4,11
 	.byte	'SDPWMPRE',0,1
@@ -2975,7 +2986,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL3_Bits',0,9,247,3,3
-	.word	18201
+	.word	18206
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSDCTRL4_Bits',0,9,250,3,16,4,11
 	.byte	'reserved_0',0,1
@@ -2991,7 +3002,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL4_Bits',0,9,128,4,3
-	.word	18361
+	.word	18366
 	.byte	10
 	.byte	'_Ifx_SCU_EVRSTAT_Bits',0,9,131,4,16,4,11
 	.byte	'EVR13',0,1
@@ -3031,7 +3042,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	21,0,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSTAT_Bits',0,9,145,4,3
-	.word	18505
+	.word	18510
 	.byte	10
 	.byte	'_Ifx_SCU_EVRTRIM_Bits',0,9,148,4,16,4,11
 	.byte	'EVR13TRIM',0,1
@@ -3050,7 +3061,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRTRIM_Bits',0,9,155,4,3
-	.word	18779
+	.word	18784
 	.byte	10
 	.byte	'_Ifx_SCU_EVRUVMON_Bits',0,9,158,4,16,4,11
 	.byte	'EVR13UVVAL',0,1
@@ -3072,7 +3083,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EVRUVMON_Bits',0,9,166,4,3
-	.word	18934
+	.word	18939
 	.byte	10
 	.byte	'_Ifx_SCU_EXTCON_Bits',0,9,169,4,16,4,11
 	.byte	'EN0',0,1
@@ -3103,7 +3114,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	8,0,2,35,3,0,25
 	.byte	'Ifx_SCU_EXTCON_Bits',0,9,180,4,3
-	.word	19113
+	.word	19118
 	.byte	10
 	.byte	'_Ifx_SCU_FDR_Bits',0,9,183,4,16,4,11
 	.byte	'STEP',0,2
@@ -3125,7 +3136,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_FDR_Bits',0,9,191,4,3
-	.word	19331
+	.word	19336
 	.byte	10
 	.byte	'_Ifx_SCU_FMR_Bits',0,9,194,4,16,4,11
 	.byte	'FS0',0,1
@@ -3183,7 +3194,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	8,0,2,35,3,0,25
 	.byte	'Ifx_SCU_FMR_Bits',0,9,214,4,3
-	.word	19494
+	.word	19499
 	.byte	10
 	.byte	'_Ifx_SCU_ID_Bits',0,9,217,4,16,4,11
 	.byte	'MODREV',0,1
@@ -3196,7 +3207,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_ID_Bits',0,9,222,4,3
-	.word	19830
+	.word	19835
 	.byte	10
 	.byte	'_Ifx_SCU_IGCR_Bits',0,9,225,4,16,4,11
 	.byte	'IPEN00',0,1
@@ -3266,7 +3277,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	2,0,2,35,3,0,25
 	.byte	'Ifx_SCU_IGCR_Bits',0,9,249,4,3
-	.word	19937
+	.word	19942
 	.byte	10
 	.byte	'_Ifx_SCU_IN_Bits',0,9,252,4,16,4,11
 	.byte	'P0',0,1
@@ -3279,7 +3290,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_IN_Bits',0,9,129,5,3
-	.word	20389
+	.word	20394
 	.byte	10
 	.byte	'_Ifx_SCU_IOCR_Bits',0,9,132,5,16,4,11
 	.byte	'reserved_0',0,1
@@ -3298,7 +3309,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_IOCR_Bits',0,9,139,5,3
-	.word	20488
+	.word	20493
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL0_Bits',0,9,142,5,16,4,11
 	.byte	'LBISTREQ',0,1
@@ -3314,7 +3325,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_LBISTCTRL0_Bits',0,9,148,5,3
-	.word	20638
+	.word	20643
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL1_Bits',0,9,151,5,16,4,11
 	.byte	'SEED',0,4
@@ -3333,7 +3344,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_LBISTCTRL1_Bits',0,9,158,5,3
-	.word	20787
+	.word	20792
 	.byte	10
 	.byte	'_Ifx_SCU_LBISTCTRL2_Bits',0,9,161,5,16,4,11
 	.byte	'SIGNATURE',0,4
@@ -3346,7 +3357,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_LBISTCTRL2_Bits',0,9,166,5,3
-	.word	20948
+	.word	20953
 	.byte	10
 	.byte	'_Ifx_SCU_LCLCON_Bits',0,9,169,5,16,4,11
 	.byte	'reserved_0',0,2
@@ -3362,7 +3373,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_LCLCON_Bits',0,9,175,5,3
-	.word	21078
+	.word	21083
 	.byte	10
 	.byte	'_Ifx_SCU_LCLTEST_Bits',0,9,178,5,16,4,11
 	.byte	'LCLT0',0,1
@@ -3375,7 +3386,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_LCLTEST_Bits',0,9,183,5,3
-	.word	21210
+	.word	21215
 	.byte	10
 	.byte	'_Ifx_SCU_MANID_Bits',0,9,186,5,16,4,11
 	.byte	'DEPT',0,1
@@ -3388,7 +3399,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_MANID_Bits',0,9,191,5,3
-	.word	21325
+	.word	21330
 	.byte	10
 	.byte	'_Ifx_SCU_OMR_Bits',0,9,194,5,16,4,11
 	.byte	'PS0',0,1
@@ -3410,7 +3421,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	14,0,2,35,2,0,25
 	.byte	'Ifx_SCU_OMR_Bits',0,9,202,5,3
-	.word	21436
+	.word	21441
 	.byte	10
 	.byte	'_Ifx_SCU_OSCCON_Bits',0,9,205,5,16,4,11
 	.byte	'reserved_0',0,1
@@ -3471,7 +3482,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_OSCCON_Bits',0,9,226,5,3
-	.word	21594
+	.word	21599
 	.byte	10
 	.byte	'_Ifx_SCU_OUT_Bits',0,9,229,5,16,4,11
 	.byte	'P0',0,1
@@ -3484,7 +3495,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_OUT_Bits',0,9,234,5,3
-	.word	22006
+	.word	22011
 	.byte	10
 	.byte	'_Ifx_SCU_OVCCON_Bits',0,9,237,5,16,4,11
 	.byte	'CSEL0',0,1
@@ -3521,7 +3532,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	6,0,2,35,3,0,25
 	.byte	'Ifx_SCU_OVCCON_Bits',0,9,250,5,3
-	.word	22107
+	.word	22112
 	.byte	10
 	.byte	'_Ifx_SCU_OVCENABLE_Bits',0,9,253,5,16,4,11
 	.byte	'OVEN0',0,1
@@ -3537,7 +3548,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	29,0,2,35,0,0,25
 	.byte	'Ifx_SCU_OVCENABLE_Bits',0,9,131,6,3
-	.word	22374
+	.word	22379
 	.byte	10
 	.byte	'_Ifx_SCU_PDISC_Bits',0,9,134,6,16,4,11
 	.byte	'PDIS0',0,1
@@ -3550,7 +3561,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PDISC_Bits',0,9,139,6,3
-	.word	22510
+	.word	22515
 	.byte	10
 	.byte	'_Ifx_SCU_PDR_Bits',0,9,142,6,16,4,11
 	.byte	'PD0',0,1
@@ -3569,7 +3580,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	24,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PDR_Bits',0,9,149,6,3
-	.word	22621
+	.word	22626
 	.byte	10
 	.byte	'_Ifx_SCU_PDRR_Bits',0,9,152,6,16,4,11
 	.byte	'PDR0',0,1
@@ -3600,7 +3611,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	24,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PDRR_Bits',0,9,163,6,3
-	.word	22754
+	.word	22759
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON0_Bits',0,9,166,6,16,4,11
 	.byte	'VCOBYP',0,1
@@ -3649,7 +3660,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_PLLCON0_Bits',0,9,183,6,3
-	.word	22957
+	.word	22962
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON1_Bits',0,9,186,6,16,4,11
 	.byte	'K2DIV',0,1
@@ -3671,7 +3682,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	9,0,2,35,2,0,25
 	.byte	'Ifx_SCU_PLLCON1_Bits',0,9,194,6,3
-	.word	23313
+	.word	23318
 	.byte	10
 	.byte	'_Ifx_SCU_PLLCON2_Bits',0,9,197,6,16,4,11
 	.byte	'MODCFG',0,2
@@ -3681,7 +3692,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_PLLCON2_Bits',0,9,201,6,3
-	.word	23491
+	.word	23496
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYCON0_Bits',0,9,204,6,16,4,11
 	.byte	'VCOBYP',0,1
@@ -3730,7 +3741,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_PLLERAYCON0_Bits',0,9,221,6,3
-	.word	23591
+	.word	23596
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYCON1_Bits',0,9,224,6,16,4,11
 	.byte	'K2DIV',0,1
@@ -3752,7 +3763,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	9,0,2,35,2,0,25
 	.byte	'Ifx_SCU_PLLERAYCON1_Bits',0,9,232,6,3
-	.word	23961
+	.word	23966
 	.byte	10
 	.byte	'_Ifx_SCU_PLLERAYSTAT_Bits',0,9,235,6,16,4,11
 	.byte	'VCOBYST',0,1
@@ -3777,7 +3788,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	26,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLERAYSTAT_Bits',0,9,244,6,3
-	.word	24147
+	.word	24152
 	.byte	10
 	.byte	'_Ifx_SCU_PLLSTAT_Bits',0,9,247,6,16,4,11
 	.byte	'VCOBYST',0,1
@@ -3808,7 +3819,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	24,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLSTAT_Bits',0,9,130,7,3
-	.word	24345
+	.word	24350
 	.byte	10
 	.byte	'_Ifx_SCU_PMCSR_Bits',0,9,133,7,16,4,11
 	.byte	'REQSLP',0,1
@@ -3827,7 +3838,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	21,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PMCSR_Bits',0,9,140,7,3
-	.word	24578
+	.word	24583
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWCR0_Bits',0,9,143,7,16,4,11
 	.byte	'reserved_0',0,1
@@ -3903,7 +3914,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_PMSWCR0_Bits',0,9,169,7,3
-	.word	24730
+	.word	24735
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWCR1_Bits',0,9,172,7,16,4,11
 	.byte	'reserved_0',0,1
@@ -3934,7 +3945,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	1,0,2,35,3,0,25
 	.byte	'Ifx_SCU_PMSWCR1_Bits',0,9,183,7,3
-	.word	25278
+	.word	25283
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWSTAT_Bits',0,9,186,7,16,4,11
 	.byte	'reserved_0',0,1
@@ -3998,7 +4009,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	4,0,2,35,3,0,25
 	.byte	'Ifx_SCU_PMSWSTAT_Bits',0,9,208,7,3
-	.word	25523
+	.word	25528
 	.byte	10
 	.byte	'_Ifx_SCU_PMSWSTATCLR_Bits',0,9,211,7,16,4,11
 	.byte	'reserved_0',0,1
@@ -4029,7 +4040,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	23,0,2,35,0,0,25
 	.byte	'Ifx_SCU_PMSWSTATCLR_Bits',0,9,222,7,3
-	.word	25984
+	.word	25989
 	.byte	10
 	.byte	'_Ifx_SCU_RSTCON2_Bits',0,9,225,7,16,4,11
 	.byte	'reserved_0',0,1
@@ -4057,7 +4068,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_RSTCON2_Bits',0,9,235,7,3
-	.word	26254
+	.word	26259
 	.byte	10
 	.byte	'_Ifx_SCU_RSTCON_Bits',0,9,238,7,16,4,11
 	.byte	'ESR0',0,1
@@ -4088,7 +4099,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_RSTCON_Bits',0,9,249,7,3
-	.word	26463
+	.word	26468
 	.byte	10
 	.byte	'_Ifx_SCU_RSTSTAT_Bits',0,9,252,7,16,4,11
 	.byte	'ESR0',0,1
@@ -4155,7 +4166,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	3,0,2,35,3,0,25
 	.byte	'Ifx_SCU_RSTSTAT_Bits',0,9,147,8,3
-	.word	26674
+	.word	26679
 	.byte	10
 	.byte	'_Ifx_SCU_SAFECON_Bits',0,9,150,8,16,4,11
 	.byte	'HBT',0,1
@@ -4165,7 +4176,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	31,0,2,35,0,0,25
 	.byte	'Ifx_SCU_SAFECON_Bits',0,9,154,8,3
-	.word	27106
+	.word	27111
 	.byte	10
 	.byte	'_Ifx_SCU_STSTAT_Bits',0,9,157,8,16,4,11
 	.byte	'HWCFG',0,1
@@ -4202,7 +4213,7 @@ g_prev:	.type	object
 	.word	403
 	.byte	7,0,2,35,3,0,25
 	.byte	'Ifx_SCU_STSTAT_Bits',0,9,170,8,3
-	.word	27202
+	.word	27207
 	.byte	10
 	.byte	'_Ifx_SCU_SWRSTCON_Bits',0,9,173,8,16,4,11
 	.byte	'reserved_0',0,1
@@ -4215,7 +4226,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	30,0,2,35,0,0,25
 	.byte	'Ifx_SCU_SWRSTCON_Bits',0,9,178,8,3
-	.word	27468
+	.word	27473
 	.byte	10
 	.byte	'_Ifx_SCU_SYSCON_Bits',0,9,181,8,16,4,11
 	.byte	'CCTRIG0',0,1
@@ -4240,7 +4251,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	23,0,2,35,0,0,25
 	.byte	'Ifx_SCU_SYSCON_Bits',0,9,190,8,3
-	.word	27593
+	.word	27598
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPCLR_Bits',0,9,193,8,16,4,11
 	.byte	'ESR0T',0,1
@@ -4259,7 +4270,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	28,0,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPCLR_Bits',0,9,200,8,3
-	.word	27790
+	.word	27795
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPDIS_Bits',0,9,203,8,16,4,11
 	.byte	'ESR0T',0,1
@@ -4278,7 +4289,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	28,0,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPDIS_Bits',0,9,210,8,3
-	.word	27943
+	.word	27948
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPSET_Bits',0,9,213,8,16,4,11
 	.byte	'ESR0T',0,1
@@ -4297,7 +4308,7 @@ g_prev:	.type	object
 	.word	420
 	.byte	28,0,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPSET_Bits',0,9,220,8,3
-	.word	28096
+	.word	28101
 	.byte	10
 	.byte	'_Ifx_SCU_TRAPSTAT_Bits',0,9,223,8,16,4,11
 	.byte	'ESR0T',0,1
@@ -4316,24 +4327,24 @@ g_prev:	.type	object
 	.word	420
 	.byte	28,0,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPSTAT_Bits',0,9,230,8,3
-	.word	28249
+	.word	28254
 	.byte	7
 	.byte	'unsigned int',0,4,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON0_Bits',0,9,233,8,16,4,11
 	.byte	'ENDINIT',0,4
-	.word	28404
+	.word	28409
 	.byte	1,31,2,35,0,11
 	.byte	'LCK',0,4
-	.word	28404
+	.word	28409
 	.byte	1,30,2,35,0,11
 	.byte	'PW',0,4
-	.word	28404
+	.word	28409
 	.byte	14,16,2,35,0,11
 	.byte	'REL',0,4
-	.word	28404
+	.word	28409
 	.byte	16,0,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTCPU_CON0_Bits',0,9,239,8,3
-	.word	28420
+	.word	28425
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,9,242,8,16,4,11
 	.byte	'reserved_0',0,1
@@ -4367,7 +4378,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_WDTCPU_CON1_Bits',0,9,254,8,3
-	.word	28550
+	.word	28555
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU_SR_Bits',0,9,129,9,16,4,11
 	.byte	'AE',0,1
@@ -4404,23 +4415,23 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_WDTCPU_SR_Bits',0,9,142,9,3
-	.word	28788
+	.word	28793
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_CON0_Bits',0,9,145,9,16,4,11
 	.byte	'ENDINIT',0,4
-	.word	28404
+	.word	28409
 	.byte	1,31,2,35,0,11
 	.byte	'LCK',0,4
-	.word	28404
+	.word	28409
 	.byte	1,30,2,35,0,11
 	.byte	'PW',0,4
-	.word	28404
+	.word	28409
 	.byte	14,16,2,35,0,11
 	.byte	'REL',0,4
-	.word	28404
+	.word	28409
 	.byte	16,0,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTS_CON0_Bits',0,9,151,9,3
-	.word	29011
+	.word	29016
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_CON1_Bits',0,9,154,9,16,4,11
 	.byte	'CLRIRF',0,1
@@ -4457,7 +4468,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_WDTS_CON1_Bits',0,9,167,9,3
-	.word	29137
+	.word	29142
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS_SR_Bits',0,9,170,9,16,4,11
 	.byte	'AE',0,1
@@ -4494,7 +4505,7 @@ g_prev:	.type	object
 	.word	443
 	.byte	16,0,2,35,2,0,25
 	.byte	'Ifx_SCU_WDTS_SR_Bits',0,9,183,9,3
-	.word	29389
+	.word	29394
 	.byte	12,9,191,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4503,10 +4514,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11370
+	.word	11375
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ACCEN0',0,9,196,9,3
-	.word	29608
+	.word	29613
 	.byte	12,9,199,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4515,10 +4526,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	11927
+	.word	11932
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ACCEN1',0,9,204,9,3
-	.word	29672
+	.word	29677
 	.byte	12,9,207,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4527,10 +4538,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12004
+	.word	12009
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ARSTDIS',0,9,212,9,3
-	.word	29736
+	.word	29741
 	.byte	12,9,215,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4539,10 +4550,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12140
+	.word	12145
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON0',0,9,220,9,3
-	.word	29801
+	.word	29806
 	.byte	12,9,223,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4551,10 +4562,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12421
+	.word	12426
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON1',0,9,228,9,3
-	.word	29866
+	.word	29871
 	.byte	12,9,231,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4563,10 +4574,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12661
+	.word	12666
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON2',0,9,236,9,3
-	.word	29931
+	.word	29936
 	.byte	12,9,239,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4575,10 +4586,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	12789
+	.word	12794
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON3',0,9,244,9,3
-	.word	29996
+	.word	30001
 	.byte	12,9,247,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4587,10 +4598,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13032
+	.word	13037
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON4',0,9,252,9,3
-	.word	30061
+	.word	30066
 	.byte	12,9,255,9,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4599,10 +4610,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13267
+	.word	13272
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON5',0,9,132,10,3
-	.word	30126
+	.word	30131
 	.byte	12,9,135,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4611,10 +4622,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13395
+	.word	13400
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON6',0,9,140,10,3
-	.word	30191
+	.word	30196
 	.byte	12,9,143,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4623,10 +4634,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13495
+	.word	13500
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON7',0,9,148,10,3
-	.word	30256
+	.word	30261
 	.byte	12,9,151,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4635,10 +4646,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13595
+	.word	13600
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CCUCON8',0,9,156,10,3
-	.word	30321
+	.word	30326
 	.byte	12,9,159,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4647,10 +4658,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13695
+	.word	13700
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_CHIPID',0,9,164,10,3
-	.word	30386
+	.word	30391
 	.byte	12,9,167,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4659,10 +4670,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	13903
+	.word	13908
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_DTSCON',0,9,172,10,3
-	.word	30450
+	.word	30455
 	.byte	12,9,175,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4671,10 +4682,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	14068
+	.word	14073
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_DTSLIM',0,9,180,10,3
-	.word	30514
+	.word	30519
 	.byte	12,9,183,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4683,10 +4694,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	14251
+	.word	14256
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_DTSSTAT',0,9,188,10,3
-	.word	30578
+	.word	30583
 	.byte	12,9,191,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4695,10 +4706,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	14405
+	.word	14410
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EICR',0,9,196,10,3
-	.word	30643
+	.word	30648
 	.byte	12,9,199,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4707,10 +4718,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	14769
+	.word	14774
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EIFR',0,9,204,10,3
-	.word	30705
+	.word	30710
 	.byte	12,9,207,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4719,10 +4730,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	14980
+	.word	14985
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EMSR',0,9,212,10,3
-	.word	30767
+	.word	30772
 	.byte	12,9,215,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4731,10 +4742,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15232
+	.word	15237
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ESRCFG',0,9,220,10,3
-	.word	30829
+	.word	30834
 	.byte	12,9,223,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4743,10 +4754,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15350
+	.word	15355
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ESROCFG',0,9,228,10,3
-	.word	30893
+	.word	30898
 	.byte	12,9,231,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4755,10 +4766,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15461
+	.word	15466
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVR13CON',0,9,236,10,3
-	.word	30958
+	.word	30963
 	.byte	12,9,239,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4767,10 +4778,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15624
+	.word	15629
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVR33CON',0,9,244,10,3
-	.word	31024
+	.word	31029
 	.byte	12,9,247,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4779,10 +4790,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15787
+	.word	15792
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRADCSTAT',0,9,252,10,3
-	.word	31090
+	.word	31095
 	.byte	12,9,255,10,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4791,10 +4802,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	15945
+	.word	15950
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRDVSTAT',0,9,132,11,3
-	.word	31158
+	.word	31163
 	.byte	12,9,135,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4803,10 +4814,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	16110
+	.word	16115
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRMONCTRL',0,9,140,11,3
-	.word	31225
+	.word	31230
 	.byte	12,9,143,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4815,10 +4826,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	16478
+	.word	16483
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVROVMON',0,9,148,11,3
-	.word	31293
+	.word	31298
 	.byte	12,9,151,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4827,10 +4838,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	16657
+	.word	16662
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRRSTCON',0,9,156,11,3
-	.word	31359
+	.word	31364
 	.byte	12,9,159,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4839,10 +4850,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	16922
+	.word	16927
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF1',0,9,164,11,3
-	.word	31426
+	.word	31431
 	.byte	12,9,167,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4851,10 +4862,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17075
+	.word	17080
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF2',0,9,172,11,3
-	.word	31495
+	.word	31500
 	.byte	12,9,175,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4863,10 +4874,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17231
+	.word	17236
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF3',0,9,180,11,3
-	.word	31564
+	.word	31569
 	.byte	12,9,183,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4875,10 +4886,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17393
+	.word	17398
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF4',0,9,188,11,3
-	.word	31633
+	.word	31638
 	.byte	12,9,191,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4887,10 +4898,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17536
+	.word	17541
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF5',0,9,196,11,3
-	.word	31702
+	.word	31707
 	.byte	12,9,199,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4899,10 +4910,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17701
+	.word	17706
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCOEFF6',0,9,204,11,3
-	.word	31771
+	.word	31776
 	.byte	12,9,207,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4911,10 +4922,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	17846
+	.word	17851
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL1',0,9,212,11,3
-	.word	31840
+	.word	31845
 	.byte	12,9,215,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4923,10 +4934,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18027
+	.word	18032
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL2',0,9,220,11,3
-	.word	31908
+	.word	31913
 	.byte	12,9,223,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4935,10 +4946,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18201
+	.word	18206
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL3',0,9,228,11,3
-	.word	31976
+	.word	31981
 	.byte	12,9,231,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4947,10 +4958,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18361
+	.word	18366
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSDCTRL4',0,9,236,11,3
-	.word	32044
+	.word	32049
 	.byte	12,9,239,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4959,10 +4970,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18505
+	.word	18510
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRSTAT',0,9,244,11,3
-	.word	32112
+	.word	32117
 	.byte	12,9,247,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4971,10 +4982,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18779
+	.word	18784
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRTRIM',0,9,252,11,3
-	.word	32177
+	.word	32182
 	.byte	12,9,255,11,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4983,10 +4994,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	18934
+	.word	18939
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EVRUVMON',0,9,132,12,3
-	.word	32242
+	.word	32247
 	.byte	12,9,135,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -4995,10 +5006,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19113
+	.word	19118
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_EXTCON',0,9,140,12,3
-	.word	32308
+	.word	32313
 	.byte	12,9,143,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5007,10 +5018,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19331
+	.word	19336
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_FDR',0,9,148,12,3
-	.word	32372
+	.word	32377
 	.byte	12,9,151,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5019,10 +5030,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19494
+	.word	19499
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_FMR',0,9,156,12,3
-	.word	32433
+	.word	32438
 	.byte	12,9,159,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5031,10 +5042,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19830
+	.word	19835
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_ID',0,9,164,12,3
-	.word	32494
+	.word	32499
 	.byte	12,9,167,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5043,10 +5054,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	19937
+	.word	19942
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_IGCR',0,9,172,12,3
-	.word	32554
+	.word	32559
 	.byte	12,9,175,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5055,10 +5066,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20389
+	.word	20394
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_IN',0,9,180,12,3
-	.word	32616
+	.word	32621
 	.byte	12,9,183,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5067,10 +5078,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20488
+	.word	20493
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_IOCR',0,9,188,12,3
-	.word	32676
+	.word	32681
 	.byte	12,9,191,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5079,10 +5090,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20638
+	.word	20643
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_LBISTCTRL0',0,9,196,12,3
-	.word	32738
+	.word	32743
 	.byte	12,9,199,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5091,10 +5102,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20787
+	.word	20792
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_LBISTCTRL1',0,9,204,12,3
-	.word	32806
+	.word	32811
 	.byte	12,9,207,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5103,10 +5114,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	20948
+	.word	20953
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_LBISTCTRL2',0,9,212,12,3
-	.word	32874
+	.word	32879
 	.byte	12,9,215,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5115,10 +5126,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21078
+	.word	21083
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_LCLCON',0,9,220,12,3
-	.word	32942
+	.word	32947
 	.byte	12,9,223,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5127,10 +5138,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21210
+	.word	21215
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_LCLTEST',0,9,228,12,3
-	.word	33006
+	.word	33011
 	.byte	12,9,231,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5139,10 +5150,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21325
+	.word	21330
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_MANID',0,9,236,12,3
-	.word	33071
+	.word	33076
 	.byte	12,9,239,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5151,10 +5162,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21436
+	.word	21441
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_OMR',0,9,244,12,3
-	.word	33134
+	.word	33139
 	.byte	12,9,247,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5163,10 +5174,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	21594
+	.word	21599
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_OSCCON',0,9,252,12,3
-	.word	33195
+	.word	33200
 	.byte	12,9,255,12,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5175,10 +5186,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22006
+	.word	22011
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_OUT',0,9,132,13,3
-	.word	33259
+	.word	33264
 	.byte	12,9,135,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5187,10 +5198,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22107
+	.word	22112
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_OVCCON',0,9,140,13,3
-	.word	33320
+	.word	33325
 	.byte	12,9,143,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5199,10 +5210,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22374
+	.word	22379
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_OVCENABLE',0,9,148,13,3
-	.word	33384
+	.word	33389
 	.byte	12,9,151,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5211,10 +5222,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22510
+	.word	22515
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PDISC',0,9,156,13,3
-	.word	33451
+	.word	33456
 	.byte	12,9,159,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5223,10 +5234,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22621
+	.word	22626
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PDR',0,9,164,13,3
-	.word	33514
+	.word	33519
 	.byte	12,9,167,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5235,10 +5246,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22754
+	.word	22759
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PDRR',0,9,172,13,3
-	.word	33575
+	.word	33580
 	.byte	12,9,175,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5247,10 +5258,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	22957
+	.word	22962
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLCON0',0,9,180,13,3
-	.word	33637
+	.word	33642
 	.byte	12,9,183,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5259,10 +5270,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23313
+	.word	23318
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLCON1',0,9,188,13,3
-	.word	33702
+	.word	33707
 	.byte	12,9,191,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5271,10 +5282,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23491
+	.word	23496
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLCON2',0,9,196,13,3
-	.word	33767
+	.word	33772
 	.byte	12,9,199,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5283,10 +5294,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23591
+	.word	23596
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLERAYCON0',0,9,204,13,3
-	.word	33832
+	.word	33837
 	.byte	12,9,207,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5295,10 +5306,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	23961
+	.word	23966
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLERAYCON1',0,9,212,13,3
-	.word	33901
+	.word	33906
 	.byte	12,9,215,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5307,10 +5318,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24147
+	.word	24152
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLERAYSTAT',0,9,220,13,3
-	.word	33970
+	.word	33975
 	.byte	12,9,223,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5319,10 +5330,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24345
+	.word	24350
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PLLSTAT',0,9,228,13,3
-	.word	34039
+	.word	34044
 	.byte	12,9,231,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5331,10 +5342,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24578
+	.word	24583
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PMCSR',0,9,236,13,3
-	.word	34104
+	.word	34109
 	.byte	12,9,239,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5343,10 +5354,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	24730
+	.word	24735
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PMSWCR0',0,9,244,13,3
-	.word	34167
+	.word	34172
 	.byte	12,9,247,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5355,10 +5366,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25278
+	.word	25283
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PMSWCR1',0,9,252,13,3
-	.word	34232
+	.word	34237
 	.byte	12,9,255,13,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5367,10 +5378,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25523
+	.word	25528
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PMSWSTAT',0,9,132,14,3
-	.word	34297
+	.word	34302
 	.byte	12,9,135,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5379,10 +5390,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	25984
+	.word	25989
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_PMSWSTATCLR',0,9,140,14,3
-	.word	34363
+	.word	34368
 	.byte	12,9,143,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5391,10 +5402,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26463
+	.word	26468
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_RSTCON',0,9,148,14,3
-	.word	34432
+	.word	34437
 	.byte	12,9,151,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5403,10 +5414,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26254
+	.word	26259
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_RSTCON2',0,9,156,14,3
-	.word	34496
+	.word	34501
 	.byte	12,9,159,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5415,10 +5426,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	26674
+	.word	26679
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_RSTSTAT',0,9,164,14,3
-	.word	34561
+	.word	34566
 	.byte	12,9,167,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5427,10 +5438,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27106
+	.word	27111
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_SAFECON',0,9,172,14,3
-	.word	34626
+	.word	34631
 	.byte	12,9,175,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5439,10 +5450,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27202
+	.word	27207
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_STSTAT',0,9,180,14,3
-	.word	34691
+	.word	34696
 	.byte	12,9,183,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5451,10 +5462,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27468
+	.word	27473
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_SWRSTCON',0,9,188,14,3
-	.word	34755
+	.word	34760
 	.byte	12,9,191,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5463,10 +5474,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27593
+	.word	27598
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_SYSCON',0,9,196,14,3
-	.word	34821
+	.word	34826
 	.byte	12,9,199,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5475,10 +5486,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27790
+	.word	27795
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPCLR',0,9,204,14,3
-	.word	34885
+	.word	34890
 	.byte	12,9,207,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5487,10 +5498,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	27943
+	.word	27948
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPDIS',0,9,212,14,3
-	.word	34950
+	.word	34955
 	.byte	12,9,215,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5499,10 +5510,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28096
+	.word	28101
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPSET',0,9,220,14,3
-	.word	35015
+	.word	35020
 	.byte	12,9,223,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5511,10 +5522,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28249
+	.word	28254
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_TRAPSTAT',0,9,228,14,3
-	.word	35080
+	.word	35085
 	.byte	12,9,231,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5523,10 +5534,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28420
+	.word	28425
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTCPU_CON0',0,9,236,14,3
-	.word	35146
+	.word	35151
 	.byte	12,9,239,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5535,10 +5546,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28550
+	.word	28555
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTCPU_CON1',0,9,244,14,3
-	.word	35215
+	.word	35220
 	.byte	12,9,247,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5547,10 +5558,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	28788
+	.word	28793
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTCPU_SR',0,9,252,14,3
-	.word	35284
+	.word	35289
 	.byte	12,9,255,14,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5559,10 +5570,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29011
+	.word	29016
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTS_CON0',0,9,132,15,3
-	.word	35351
+	.word	35356
 	.byte	12,9,135,15,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5571,10 +5582,10 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29137
+	.word	29142
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTS_CON1',0,9,140,15,3
-	.word	35418
+	.word	35423
 	.byte	12,9,143,15,9,4,13
 	.byte	'U',0
 	.word	420
@@ -5583,40 +5594,40 @@ g_prev:	.type	object
 	.word	436
 	.byte	4,2,35,0,13
 	.byte	'B',0
-	.word	29389
+	.word	29394
 	.byte	4,2,35,0,0,25
 	.byte	'Ifx_SCU_WDTS_SR',0,9,148,15,3
-	.word	35485
+	.word	35490
 	.byte	10
 	.byte	'_Ifx_SCU_WDTCPU',0,9,159,15,25,12,13
 	.byte	'CON0',0
-	.word	35146
+	.word	35151
 	.byte	4,2,35,0,13
 	.byte	'CON1',0
-	.word	35215
+	.word	35220
 	.byte	4,2,35,4,13
 	.byte	'SR',0
-	.word	35284
+	.word	35289
 	.byte	4,2,35,8,0,16
-	.word	35550
+	.word	35555
 	.byte	25
 	.byte	'Ifx_SCU_WDTCPU',0,9,164,15,3
-	.word	35613
+	.word	35618
 	.byte	10
 	.byte	'_Ifx_SCU_WDTS',0,9,167,15,25,12,13
 	.byte	'CON0',0
-	.word	35351
+	.word	35356
 	.byte	4,2,35,0,13
 	.byte	'CON1',0
-	.word	35418
+	.word	35423
 	.byte	4,2,35,4,13
 	.byte	'SR',0
-	.word	35485
+	.word	35490
 	.byte	4,2,35,8,0,16
-	.word	35642
+	.word	35647
 	.byte	25
 	.byte	'Ifx_SCU_WDTS',0,9,172,15,3
-	.word	35703
+	.word	35708
 	.byte	25
 	.byte	'IfxPort_InputMode',0,3,86,3
 	.word	8275
@@ -5633,13 +5644,13 @@ g_prev:	.type	object
 	.byte	'IfxPort_OutputIdx_alt6',0,176,1,18
 	.byte	'IfxPort_OutputIdx_alt7',0,184,1,0,25
 	.byte	'IfxPort_OutputIdx',0,3,127,3
-	.word	35777
+	.word	35782
 	.byte	17,3,131,1,9,1,18
 	.byte	'IfxPort_OutputMode_none',0,0,18
 	.byte	'IfxPort_OutputMode_pushPull',0,128,1,18
 	.byte	'IfxPort_OutputMode_openDrain',0,192,1,0,25
 	.byte	'IfxPort_OutputMode',0,3,136,1,3
-	.word	36020
+	.word	36025
 	.byte	17,3,142,1,9,1,18
 	.byte	'IfxPort_PadDriver_cmosAutomotiveSpeed1',0,0,18
 	.byte	'IfxPort_PadDriver_cmosAutomotiveSpeed2',0,1,18
@@ -5654,7 +5665,7 @@ g_prev:	.type	object
 	.byte	'IfxPort_PadDriver_ttlSpeed3',0,10,18
 	.byte	'IfxPort_PadDriver_ttlSpeed4',0,11,0,25
 	.byte	'IfxPort_PadDriver',0,3,156,1,3
-	.word	36144
+	.word	36149
 	.byte	25
 	.byte	'IfxPort_State',0,3,176,1,3
 	.word	8480
@@ -5662,10 +5673,10 @@ g_prev:	.type	object
 	.byte	'IfxPort_Pin',0,3,192,1,3
 	.word	9552
 	.byte	27
-	.byte	'IfxPort_P10_2',0,10,86,24
+	.byte	'IfxPort_P11_10',0,10,95,24
 	.word	9552
 	.byte	1,1,27
-	.byte	'IfxPort_P11_10',0,10,95,24
+	.byte	'IfxPort_P11_3',0,10,102,24
 	.word	9552
 	.byte	1,1,27
 	.byte	'IfxPort_P33_0',0,10,182,1,24
@@ -5674,13 +5685,13 @@ g_prev:	.type	object
 	.byte	'IfxPort_P33_3',0,10,191,1,24
 	.word	9552
 	.byte	1,1
-.L108:
-	.byte	14,3
+.L86:
+	.byte	14,4
 	.word	403
-	.byte	15,2,0,0
+	.byte	15,3,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L31:
+.L28:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -5692,12 +5703,12 @@ g_prev:	.type	object
 	.byte	59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L32:
-	.word	.L111-.L110
-.L110:
+.L29:
+	.word	.L90-.L89
+.L89:
 	.half	3
-	.word	.L113-.L112
-.L112:
+	.word	.L92-.L91
+.L91:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
@@ -5715,518 +5726,464 @@ g_prev:	.type	object
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0,0,0
 	.byte	'IfxScu_regdef.h',0,2,0,0
 	.byte	'IfxPort_PinMap.h',0,3,0,0,0
-.L113:
-.L111:
+.L92:
+.L90:
 	.sdecl	'.debug_info',debug,cluster('Init_Buttons')
 	.sect	'.debug_info'
-.L33:
+.L30:
 	.word	436
 	.half	3
-	.word	.L34
+	.word	.L31
 	.byte	4,1
 	.byte	'../includes/general/Buttons.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L36,.L35
+	.word	.L33,.L32
 	.byte	2
-	.word	.L29
+	.word	.L26
 	.byte	3
-	.byte	'Init_Buttons',0,1,59,6,1,1,1
-	.word	.L24,.L50,.L23
+	.byte	'Init_Buttons',0,1,62,6,1,1,1
+	.word	.L21,.L49,.L20
 	.byte	4
-	.word	.L24,.L50
+	.word	.L21,.L49
 	.byte	5
-	.word	.L51,.L52,.L53
+	.word	.L50,.L51,.L52
 	.byte	6
-	.word	.L54,.L55
+	.word	.L53,.L54
 	.byte	6
-	.word	.L56,.L57
+	.word	.L55,.L56
 	.byte	6
-	.word	.L58,.L59
+	.word	.L57,.L58
 	.byte	7
-	.word	.L60,.L52,.L53
+	.word	.L59,.L51,.L52
 	.byte	0,5
-	.word	.L61,.L62,.L63
+	.word	.L50,.L60,.L61
 	.byte	6
-	.word	.L64,.L65
+	.word	.L53,.L54
 	.byte	6
-	.word	.L66,.L67
+	.word	.L55,.L56
 	.byte	6
-	.word	.L68,.L69
+	.word	.L57,.L58
 	.byte	7
-	.word	.L70,.L62,.L63
+	.word	.L59,.L60,.L61
 	.byte	0,5
-	.word	.L61,.L71,.L72
+	.word	.L50,.L62,.L63
 	.byte	6
-	.word	.L64,.L65
+	.word	.L53,.L54
 	.byte	6
-	.word	.L66,.L67
+	.word	.L55,.L56
 	.byte	6
-	.word	.L68,.L69
+	.word	.L57,.L58
 	.byte	7
-	.word	.L70,.L71,.L72
+	.word	.L59,.L62,.L63
 	.byte	0,5
-	.word	.L61,.L73,.L74
+	.word	.L50,.L64,.L65
 	.byte	6
-	.word	.L64,.L65
+	.word	.L53,.L54
 	.byte	6
-	.word	.L66,.L67
+	.word	.L55,.L56
 	.byte	6
-	.word	.L68,.L69
+	.word	.L57,.L58
 	.byte	7
-	.word	.L70,.L73,.L74
+	.word	.L59,.L64,.L65
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Buttons')
 	.sect	'.debug_abbrev'
-.L34:
+.L31:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
 	.byte	0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Buttons')
 	.sect	'.debug_line'
-.L35:
-	.word	.L115-.L114
-.L114:
+.L32:
+	.word	.L94-.L93
+.L93:
 	.half	3
-	.word	.L117-.L116
-.L116:
+	.word	.L96-.L95
+.L95:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0,0
 	.byte	'../includes/general/Buttons.c',0,0,0,0
 	.byte	'IfxPort.h',0,1,0,0,0
-.L117:
-	.byte	5,5,7,0,5,2
-	.word	.L24
-	.byte	3,60,1,4,2,5,26,9
-	.half	.L52-.L24
-	.byte	3,147,4,1,5,17,9
-	.half	.L118-.L52
-	.byte	1,4,1,5,29,9
-	.half	.L53-.L118
-	.byte	3,239,123,1,5,46,9
-	.half	.L119-.L53
+.L96:
+	.byte	5,29,7,0,5,2
+	.word	.L21
+	.byte	3,194,0,1,5,46,9
+	.half	.L97-.L21
 	.byte	1,5,53,9
-	.half	.L120-.L119
+	.half	.L98-.L97
 	.byte	1,5,70,9
-	.half	.L121-.L120
+	.half	.L99-.L98
 	.byte	1,5,81,9
-	.half	.L122-.L121
+	.half	.L100-.L99
 	.byte	1,4,2,5,40,9
-	.half	.L62-.L122
-	.byte	3,133,4,1,4,1,5,29,9
-	.half	.L63-.L62
-	.byte	3,254,123,1,5,46,9
-	.half	.L123-.L63
-	.byte	1,5,53,9
-	.half	.L124-.L123
-	.byte	1,5,70,9
-	.half	.L125-.L124
-	.byte	1,5,81,9
-	.half	.L126-.L125
-	.byte	1,4,2,5,40,9
-	.half	.L71-.L126
-	.byte	3,130,4,1,4,1,5,29,9
-	.half	.L72-.L71
+	.half	.L51-.L100
+	.byte	3,129,4,1,4,1,5,29,9
+	.half	.L52-.L51
 	.byte	3,130,124,1,5,46,9
-	.half	.L127-.L72
+	.half	.L101-.L52
 	.byte	1,5,53,9
-	.half	.L128-.L127
+	.half	.L102-.L101
 	.byte	1,5,70,9
-	.half	.L129-.L128
+	.half	.L103-.L102
 	.byte	1,5,81,9
-	.half	.L130-.L129
+	.half	.L104-.L103
 	.byte	1,4,2,5,40,9
-	.half	.L73-.L130
-	.byte	3,254,3,1,4,1,5,1,9
-	.half	.L74-.L73
-	.byte	3,131,124,1,7,9
-	.half	.L37-.L74
+	.half	.L60-.L104
+	.byte	3,254,3,1,4,1,5,29,9
+	.half	.L61-.L60
+	.byte	3,133,124,1,5,46,9
+	.half	.L105-.L61
+	.byte	1,5,53,9
+	.half	.L106-.L105
+	.byte	1,5,70,9
+	.half	.L107-.L106
+	.byte	1,5,81,9
+	.half	.L108-.L107
+	.byte	1,4,2,5,40,9
+	.half	.L62-.L108
+	.byte	3,251,3,1,4,1,5,29,9
+	.half	.L63-.L62
+	.byte	3,136,124,1,5,51,9
+	.half	.L109-.L63
+	.byte	1,5,58,9
+	.half	.L110-.L109
+	.byte	1,5,80,9
+	.half	.L111-.L110
+	.byte	1,5,91,9
+	.half	.L112-.L111
+	.byte	1,4,2,5,40,9
+	.half	.L64-.L112
+	.byte	3,248,3,1,4,1,5,1,9
+	.half	.L65-.L64
+	.byte	3,137,124,1,7,9
+	.half	.L34-.L65
 	.byte	0,1,1
-.L115:
+.L94:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Buttons')
 	.sect	'.debug_ranges'
-.L36:
-	.word	-1,.L24,0,.L37-.L24,0,0
+.L33:
+	.word	-1,.L21,0,.L34-.L21,0,0
 	.sdecl	'.debug_info',debug,cluster('Get_Button_State')
 	.sect	'.debug_info'
-.L38:
-	.word	399
+.L35:
+	.word	383
 	.half	3
-	.word	.L39
+	.word	.L36
 	.byte	4,1
 	.byte	'../includes/general/Buttons.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L41,.L40
+	.word	.L38,.L37
 	.byte	2
-	.word	.L29
+	.word	.L26
 	.byte	3
 	.byte	'Get_Button_State',0,1,79,9
-	.word	.L75
+	.word	.L66
 	.byte	1,1,1
-	.word	.L28,.L76,.L27
+	.word	.L23,.L67,.L22
 	.byte	4
 	.byte	'pin_num',0,1,79,38
-	.word	.L77,.L78
+	.word	.L68,.L69
 	.byte	5
-	.word	.L28,.L76
-	.byte	6
-	.byte	'idx',0,1,87,11
-	.word	.L75,.L79
+	.word	.L23,.L67
 	.byte	5
-	.word	.L13,.L76
+	.word	.L4,.L67
 	.byte	6
-	.byte	'temp_SW',0,1,96,13
-	.word	.L75,.L80
+	.byte	'temp_SW',0,1,102,13
+	.word	.L66,.L70
 	.byte	7
-	.word	.L81,.L82,.L18
+	.word	.L71,.L72,.L15
 	.byte	8
-	.word	.L83,.L84
+	.word	.L73,.L74
 	.byte	8
-	.word	.L85,.L86
+	.word	.L75,.L76
 	.byte	9
-	.word	.L87,.L88
+	.word	.L77,.L78
 	.byte	0,7
-	.word	.L81,.L89,.L90
+	.word	.L71,.L79,.L80
 	.byte	8
-	.word	.L83,.L84
+	.word	.L73,.L74
 	.byte	8
-	.word	.L85,.L86
+	.word	.L75,.L76
 	.byte	0,7
-	.word	.L81,.L91,.L92
+	.word	.L71,.L81,.L82
 	.byte	8
-	.word	.L83,.L84
+	.word	.L73,.L74
 	.byte	8
-	.word	.L85,.L86
+	.word	.L75,.L76
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Get_Button_State')
 	.sect	'.debug_abbrev'
-.L39:
+.L36:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
 	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,0,49,16,85
 	.byte	6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Get_Button_State')
 	.sect	'.debug_line'
-.L40:
-	.word	.L132-.L131
-.L131:
+.L37:
+	.word	.L114-.L113
+.L113:
 	.half	3
-	.word	.L134-.L133
-.L133:
+	.word	.L116-.L115
+.L115:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0,0
 	.byte	'../includes/general/Buttons.c',0,0,0,0
 	.byte	'IfxPort.h',0,1,0,0,0
-.L134:
-	.byte	5,15,7,0,5,2
-	.word	.L28
-	.byte	3,214,0,1,5,8,9
-	.half	.L109-.L28
-	.byte	3,1,1,5,13,9
-	.half	.L135-.L109
-	.byte	3,1,1,5,16,9
-	.half	.L136-.L135
+.L116:
+	.byte	5,8,7,0,5,2
+	.word	.L23
+	.byte	3,215,0,1,5,9,9
+	.half	.L117-.L23
+	.byte	3,1,1,5,15,9
+	.half	.L118-.L117
 	.byte	1,5,13,9
-	.half	.L11-.L136
-	.byte	3,2,1,9
-	.half	.L137-.L11
-	.byte	3,1,1,5,50,9
-	.half	.L13-.L137
+	.half	.L119-.L118
+	.byte	1,5,16,9
+	.half	.L120-.L119
+	.byte	1,5,13,9
+	.half	.L2-.L120
+	.byte	3,2,1,5,9,9
+	.half	.L121-.L2
+	.byte	3,1,1,5,15,9
+	.half	.L122-.L121
+	.byte	1,5,13,9
+	.half	.L123-.L122
+	.byte	1,5,16,9
+	.half	.L124-.L123
+	.byte	1,5,13,9
+	.half	.L5-.L124
+	.byte	3,2,1,5,9,9
+	.half	.L125-.L5
+	.byte	3,1,1,5,15,9
+	.half	.L126-.L125
+	.byte	1,5,13,9
+	.half	.L127-.L126
+	.byte	1,5,16,9
+	.half	.L128-.L127
+	.byte	1,5,13,9
+	.half	.L8-.L128
+	.byte	3,2,1,5,9,9
+	.half	.L129-.L8
+	.byte	3,1,1,5,15,9
+	.half	.L130-.L129
+	.byte	1,5,13,9
+	.half	.L131-.L130
+	.byte	1,5,50,9
+	.half	.L4-.L131
 	.byte	3,4,1,5,64,9
-	.half	.L138-.L13
+	.half	.L132-.L4
 	.byte	1,4,2,5,13,9
-	.half	.L82-.L138
-	.byte	3,204,3,1,5,12,9
-	.half	.L139-.L82
+	.half	.L72-.L132
+	.byte	3,198,3,1,5,12,9
+	.half	.L133-.L72
 	.byte	1,5,51,7,9
-	.half	.L140-.L139
+	.half	.L134-.L133
 	.byte	1,5,58,9
-	.half	.L141-.L140
+	.half	.L135-.L134
 	.byte	1,5,51,9
-	.half	.L16-.L141
+	.half	.L13-.L135
 	.byte	1,5,5,9
-	.half	.L17-.L16
-	.byte	1,4,1,5,8,9
-	.half	.L18-.L17
-	.byte	3,182,124,1,5,14,9
-	.half	.L142-.L18
+	.half	.L14-.L13
+	.byte	1,4,1,5,15,9
+	.half	.L15-.L14
+	.byte	3,188,124,1,5,8,9
+	.half	.L136-.L15
+	.byte	1,5,14,9
+	.half	.L137-.L136
 	.byte	1,5,8,9
-	.half	.L143-.L142
+	.half	.L138-.L137
 	.byte	1,5,24,7,9
-	.half	.L89-.L143
+	.half	.L79-.L138
 	.byte	1,5,16,7,9
-	.half	.L90-.L89
+	.half	.L80-.L79
 	.byte	3,1,1,5,9,9
-	.half	.L144-.L90
-	.byte	1,5,5,9
-	.half	.L19-.L144
-	.byte	3,3,1,5,11,9
-	.half	.L145-.L19
-	.byte	1,5,17,9
-	.half	.L91-.L145
+	.half	.L139-.L80
 	.byte	1,5,12,9
-	.half	.L92-.L91
+	.half	.L16-.L139
+	.byte	3,3,1,5,5,9
+	.half	.L140-.L16
+	.byte	1,5,11,9
+	.half	.L141-.L140
+	.byte	1,5,17,9
+	.half	.L81-.L141
+	.byte	1,5,12,9
+	.half	.L82-.L81
 	.byte	3,1,1,5,5,9
-	.half	.L146-.L92
+	.half	.L142-.L82
 	.byte	1,5,1,9
-	.half	.L21-.L146
+	.half	.L18-.L142
 	.byte	3,1,1,7,9
-	.half	.L42-.L21
+	.half	.L39-.L18
 	.byte	0,1,1
-.L132:
+.L114:
 	.sdecl	'.debug_ranges',debug,cluster('Get_Button_State')
 	.sect	'.debug_ranges'
-.L41:
-	.word	-1,.L28,0,.L42-.L28,0,0
-.L88:
-	.word	-1,.L28,.L82-.L28,.L18-.L28,.L89-.L28,.L90-.L28,.L91-.L28,.L92-.L28,0,0
+.L38:
+	.word	-1,.L23,0,.L39-.L23,0,0
+.L78:
+	.word	-1,.L23,.L72-.L23,.L15-.L23,.L79-.L23,.L80-.L23,.L81-.L23,.L82-.L23,0,0
 	.sdecl	'.debug_info',debug,cluster('Read_Buttons')
 	.sect	'.debug_info'
-.L43:
-	.word	439
+.L40:
+	.word	235
 	.half	3
-	.word	.L44
+	.word	.L41
 	.byte	4,1
 	.byte	'../includes/general/Buttons.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L46,.L45
+	.word	.L43,.L42
 	.byte	2
-	.word	.L29
+	.word	.L26
 	.byte	3
-	.byte	'Read_Buttons',0,1,73,6,1,1,1
-	.word	.L26,.L93,.L25
+	.byte	'Read_Buttons',0,1,112,6,1,1,1
+	.word	.L25,.L83,.L24
 	.byte	4
-	.word	.L26,.L93
+	.byte	'dst',0,1,112,27
+	.word	.L84,.L85
 	.byte	5
-	.word	.L81,.L94,.L4
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	7
-	.word	.L87,.L97
-	.byte	0,5
-	.word	.L81,.L98,.L99
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	0,5
-	.word	.L81,.L100,.L7
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	7
-	.word	.L87,.L101
-	.byte	0,5
-	.word	.L81,.L102,.L103
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	0,5
-	.word	.L81,.L104,.L10
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	7
-	.word	.L87,.L105
-	.byte	0,5
-	.word	.L81,.L106,.L107
-	.byte	6
-	.word	.L83,.L95
-	.byte	6
-	.word	.L85,.L96
-	.byte	0,0,0,0
+	.word	.L25,.L83
+	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Read_Buttons')
 	.sect	'.debug_abbrev'
-.L44:
+.L41:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
-	.byte	0,49,16,85,6,0,0,0
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Read_Buttons')
 	.sect	'.debug_line'
-.L45:
-	.word	.L148-.L147
-.L147:
+.L42:
+	.word	.L144-.L143
+.L143:
 	.half	3
-	.word	.L150-.L149
-.L149:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std',0,0
-	.byte	'../includes/general/Buttons.c',0,0,0,0
-	.byte	'IfxPort.h',0,1,0,0,0
-.L150:
-	.byte	5,37,7,0,5,2
-	.word	.L26
-	.byte	3,201,0,1,5,54,9
-	.half	.L151-.L26
-	.byte	1,5,61,9
+	.word	.L146-.L145
+.L145:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../includes/general/Buttons.c',0,0,0,0,0
+.L146:
+	.byte	5,6,7,0,5,2
+	.word	.L25
+	.byte	3,239,0,1,5,31,9
+	.half	.L88-.L25
+	.byte	3,6,1,5,12,9
+	.half	.L87-.L88
+	.byte	1,5,31,9
+	.half	.L147-.L87
+	.byte	3,1,1,5,12,9
+	.half	.L148-.L147
+	.byte	1,5,31,9
+	.half	.L149-.L148
+	.byte	3,1,1,5,12,9
+	.half	.L150-.L149
+	.byte	1,5,31,9
+	.half	.L151-.L150
+	.byte	3,1,1,5,12,9
 	.half	.L152-.L151
-	.byte	1,5,78,9
-	.half	.L153-.L152
-	.byte	1,4,2,5,13,9
-	.half	.L94-.L153
-	.byte	3,226,3,1,5,12,9
-	.half	.L154-.L94
-	.byte	1,5,51,7,9
-	.half	.L155-.L154
-	.byte	1,5,58,9
-	.half	.L156-.L155
-	.byte	1,5,51,9
-	.half	.L2-.L156
-	.byte	1,5,5,9
-	.half	.L3-.L2
-	.byte	1,4,1,9
-	.half	.L4-.L3
-	.byte	3,158,124,1,5,15,9
-	.half	.L98-.L4
-	.byte	1,5,37,9
-	.half	.L99-.L98
-	.byte	3,1,1,5,54,9
-	.half	.L157-.L99
-	.byte	1,5,61,9
-	.half	.L158-.L157
-	.byte	1,5,78,9
-	.half	.L159-.L158
-	.byte	1,4,2,5,13,9
-	.half	.L100-.L159
-	.byte	3,225,3,1,5,12,9
-	.half	.L160-.L100
-	.byte	1,5,51,7,9
-	.half	.L161-.L160
-	.byte	1,5,58,9
-	.half	.L162-.L161
-	.byte	1,5,51,9
-	.half	.L5-.L162
-	.byte	1,5,5,9
-	.half	.L6-.L5
-	.byte	1,4,1,9
-	.half	.L7-.L6
-	.byte	3,159,124,1,5,15,9
-	.half	.L102-.L7
-	.byte	1,5,37,9
-	.half	.L103-.L102
-	.byte	3,1,1,5,54,9
-	.half	.L163-.L103
-	.byte	1,5,61,9
-	.half	.L164-.L163
-	.byte	1,5,78,9
-	.half	.L165-.L164
-	.byte	1,4,2,5,13,9
-	.half	.L104-.L165
-	.byte	3,224,3,1,5,12,9
-	.half	.L166-.L104
-	.byte	1,5,51,7,9
-	.half	.L167-.L166
-	.byte	1,5,58,9
-	.half	.L168-.L167
-	.byte	1,5,51,9
-	.half	.L8-.L168
-	.byte	1,5,5,9
-	.half	.L9-.L8
-	.byte	1,4,1,9
-	.half	.L10-.L9
-	.byte	3,160,124,1,5,15,9
-	.half	.L106-.L10
 	.byte	1,5,1,9
-	.half	.L107-.L106
-	.byte	3,1,1,7,9
-	.half	.L47-.L107
+	.half	.L153-.L152
+	.byte	3,7,1,7,9
+	.half	.L44-.L153
 	.byte	0,1,1
-.L148:
+.L144:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Buttons')
 	.sect	'.debug_ranges'
-.L46:
-	.word	-1,.L26,0,.L47-.L26,0,0
-.L97:
-	.word	-1,.L26,.L94-.L26,.L4-.L26,.L98-.L26,.L99-.L26,0,0
-.L101:
-	.word	-1,.L26,.L100-.L26,.L7-.L26,.L102-.L26,.L103-.L26,0,0
-.L105:
-	.word	-1,.L26,.L104-.L26,.L10-.L26,.L106-.L26,.L107-.L26,0,0
-	.sdecl	'.debug_info',debug,cluster('g_prev')
+.L43:
+	.word	-1,.L25,0,.L44-.L25,0,0
+	.sdecl	'.debug_info',debug,cluster('idx')
 	.sect	'.debug_info'
-.L48:
-	.word	191
+.L45:
+	.word	188
 	.half	3
-	.word	.L49
+	.word	.L46
 	.byte	4,1
 	.byte	'../includes/general/Buttons.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L29
+	.word	.L26
 	.byte	3
-	.byte	'g_prev',0,5,46,9
-	.word	.L108
+	.byte	'idx',0,5,46,7
+	.word	.L66
+	.byte	1,5,3
+	.word	idx
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('idx')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_prev')
+	.sect	'.debug_info'
+.L47:
+	.word	191
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../includes/general/Buttons.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L26
+	.byte	3
+	.byte	'g_prev',0,5,51,9
+	.word	.L86
 	.byte	1,5,3
 	.word	g_prev
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_prev')
 	.sect	'.debug_abbrev'
-.L49:
+.L48:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Get_Button_State')
 	.sect	'.debug_loc'
-.L27:
-	.word	-1,.L28,0,.L76-.L28
+.L22:
+	.word	-1,.L23,0,.L67-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L79:
-	.word	-1,.L28,.L109-.L28,.L76-.L28
-	.half	1
-	.byte	81
+.L76:
 	.word	0,0
-.L86:
-	.word	0,0
-.L78:
-	.word	-1,.L28,0,.L76-.L28
+.L69:
+	.word	-1,.L23,0,.L67-.L23
 	.half	2
 	.byte	144,34
 	.word	0,0
-.L84:
+.L74:
 	.word	0,0
-.L80:
+.L70:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Buttons')
 	.sect	'.debug_loc'
-.L23:
-	.word	-1,.L24,0,.L50-.L24
+.L20:
+	.word	-1,.L21,0,.L49-.L21
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L59:
+.L58:
 	.word	0,0
-.L69:
+.L56:
 	.word	0,0
-.L67:
-	.word	0,0
-.L57:
-	.word	0,0
-.L65:
-	.word	0,0
-.L55:
+.L54:
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Read_Buttons')
 	.sect	'.debug_loc'
-.L25:
-	.word	-1,.L26,0,.L93-.L26
+.L24:
+	.word	-1,.L25,0,.L83-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L96:
-	.word	0,0
-.L95:
+.L85:
+	.word	-1,.L25,0,.L87-.L25
+	.half	1
+	.byte	100
+	.word	.L88-.L25,.L83-.L25
+	.half	1
+	.byte	111
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L169:
+.L154:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -6234,15 +6191,14 @@ g_prev:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Buttons')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L169,.L24,.L50-.L24
-	.sdecl	'.debug_frame',debug,cluster('Read_Buttons')
-	.sect	'.debug_frame'
-	.word	24
-	.word	.L169,.L26,.L93-.L26
-	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	.word	.L154,.L21,.L49-.L21
 	.sdecl	'.debug_frame',debug,cluster('Get_Button_State')
 	.sect	'.debug_frame'
 	.word	24
-	.word	.L169,.L28,.L76-.L28
+	.word	.L154,.L23,.L67-.L23
 	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Read_Buttons')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L25,.L83-.L25
 	; Module end

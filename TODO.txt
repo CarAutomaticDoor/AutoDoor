@@ -1,1 +1,5 @@
 DelayMs를 주는 동안에는 ISR이 실행되지 않는다면, Lock.c의 Locking과 Unlocking의 로직을 바꿔야 함
+
+채은이와 호재의 약속! (꼭 지키기)
+    g_rx_data가 48로 초기화되는 것이 보장되는가
+    LOCK -> UNLOCKING, UNLOCK -> LOCKING 
