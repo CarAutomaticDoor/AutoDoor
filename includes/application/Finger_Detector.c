@@ -67,6 +67,6 @@ uint16 Read_Finger_Detector(void) {
 }
 
 
-boolean Read_Touch_State(void) {
+boolean Read_Finger_State(void) {
     return (Read_Adc_Value(&g_finger_detector) < THRESHOLD);
 }

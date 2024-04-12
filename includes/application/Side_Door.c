@@ -61,34 +61,34 @@ uint32 g_duty = DUTY_CLOSE;
 /*********************************************************************************************************************/
 void Control_Door(uint8 *state) {
     switch(*state) {
-    case DOOR_OPEN:
-        g_duty = DUTY_OPEN;
-        break;
-    case DOOR_CLOSE:
-        g_duty = DUTY_CLOSE;
-        break;
-    case DOOR_OPENING:
-        if (g_duty > DUTY_OPEN) {
-            g_duty -= DUTY_STEP;
-        }
-        if (g_duty <= DUTY_OPEN) {
-            *state = DOOR_OPEN;
-        }
-        break;
-    case DOOR_CLOSING:
-        if (g_duty < DUTY_CLOSE) {
-            g_duty += DUTY_STEP;
-        }
-        if (g_duty >= DUTY_CLOSE) {
-            *state = DOOR_CLOSE;
-        }
-        break;
-    case DOOR_STOP:
-        break;
-    default:
-        break;
+        case DOOR_OPEN:
+            g_duty = DUTY_OPEN;
+            break;
+        case DOOR_CLOSE:
+            g_duty = DUTY_CLOSE;
+            break;
+        case DOOR_OPENING:
+            if (g_duty > DUTY_OPEN) {
+                g_duty -= DUTY_STEP;
+            }
+            if (g_duty <= DUTY_OPEN) {
+                *state = DOOR_OPEN;
+            }
+            break;
+        case DOOR_CLOSING:
+            if (g_duty < DUTY_CLOSE) {
+                g_duty += DUTY_STEP;
+            }
+            if (g_duty >= DUTY_CLOSE) {
+                *state = DOOR_CLOSE;
+            }
+            break;
+        case DOOR_STOP:
+            break;
+        default:
+            break;
     }
 
     setOnTime1(g_duty);
-    DelayMs(DELAY);
+    Delay_Ms(DELAY);
 }

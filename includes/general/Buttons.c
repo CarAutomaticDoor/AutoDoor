@@ -38,12 +38,13 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define NUM_BUTTON   3 // 현재는 키즈락 안쓴다고 가정해서 (2)로 설정. -> 키즈락을 쓰게된다면 (3)으로 변경.
+#define NUM_BUTTON   4   // 사용하는 버튼 개수
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
-boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE };
+boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE, TRUE };
+uint8 idx = 0;
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -52,28 +53,27 @@ boolean g_prev[NUM_BUTTON] = { TRUE, TRUE, TRUE };
 /*********************************************************************************************************************/
 /*------------------------------------------------Function Prototypes------------------------------------------------*/
 /*********************************************************************************************************************/
+//boolean Get_Button_State(IfxPort_Pin pin_num);
 
 /*********************************************************************************************************************/
 /*---------------------------------------------Function Implementations----------------------------------------------*/
 /*********************************************************************************************************************/
-void Init_Buttons(void) // 버튼으로 사용되는 디지털 핀을 입력으로 설정.
+
+void Init_Buttons(void) // 버튼으로 사용되는 디지털 핀을 입력으로 설정. => 사용하는 버튼은 총 4개 (Auto Lock, 열고닫기 버튼, 차량 문 잠금, 비상정지 버튼)
 {
-    SET_PIN(IfxPort_P10_2, LOW);
+//    SET_PIN(IfxPort_P10_2, LOW);
+
     // set door open/close button as input/inputPullUp
     IfxPort_setPinModeInput(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
 
     // set auto door lock button as input/inputPullUp
     IfxPort_setPinModeInput(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex, IfxPort_Mode_inputPullUp);
 
-    // 키즈락 기능은 우선 없는 걸로 생각. <- 주석처리.
     // set kids lock button as input/inputPullUp
     IfxPort_setPinModeInput(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex, IfxPort_Mode_inputPullUp);
-}
 
-void Read_Buttons() {
-    g_prev[0] = IfxPort_getPinState(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex);
-    g_prev[1] = IfxPort_getPinState(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex);
-    g_prev[2] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+    // set emergency stop button as input/inputPullUp
+    IfxPort_setPinModeInput(PIN_BTN_EMERGENCY_STOP.port, PIN_BTN_EMERGENCY_STOP.pinIndex, IfxPort_Mode_inputPullUp);
 }
 
 boolean Get_Button_State(IfxPort_Pin pin_num)
@@ -84,12 +84,18 @@ boolean Get_Button_State(IfxPort_Pin pin_num)
 
     // pin_num에 따라 인덱스가 매핑 -> if ~ else로 구현
 
-    uint8 idx = 0;
+
     if(CMP_PINS(pin_num, PIN_BTN_AUTO_LOCK)) {
         idx = 0;
     }
     else if(CMP_PINS(pin_num, PIN_BTN_DOOR_OPCL)) {
         idx = 1;
+    }
+    else if(CMP_PINS(pin_num, PIN_BTN_KIDS_LOCK)){
+        idx = 2;
+    }
+    else if(CMP_PINS(pin_num, PIN_BTN_EMERGENCY_STOP)){
+        idx = 3;
     }
 
     // 초기값 : OFF -> FALSE 를 리턴. 스위치가 눌리면 ON : TRUE 리턴.
@@ -102,3 +108,16 @@ boolean Get_Button_State(IfxPort_Pin pin_num)
     g_prev[idx] = temp_SW;
     return FALSE;
 }
+
+void Read_Buttons(boolean dst[]) {
+//    g_prev[0] = IfxPort_getPinState(PIN_BTN_AUTO_LOCK.port, PIN_BTN_AUTO_LOCK.pinIndex);
+//    g_prev[3] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+//    g_prev[1] = IfxPort_getPinState(PIN_BTN_DOOR_OPCL.port, PIN_BTN_DOOR_OPCL.pinIndex);
+//    g_prev[2] = IfxPort_getPinState(PIN_BTN_KIDS_LOCK.port, PIN_BTN_KIDS_LOCK.pinIndex);
+
+    dst[0] = Get_Button_State(PIN_BTN_AUTO_LOCK);
+    dst[1] = Get_Button_State(PIN_BTN_DOOR_OPCL);
+    dst[2] = Get_Button_State(PIN_BTN_KIDS_LOCK);
+    dst[3] = Get_Button_State(PIN_BTN_EMERGENCY_STOP);
+}
+

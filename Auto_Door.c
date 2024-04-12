@@ -38,13 +38,17 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
+#define btn_auto_lock_idx       0       // 오토락 버튼 상태 받아오기
+#define btn_door_opcl_idx       1       // 차량문 열고 닫힘 버튼 상태 받아오기
+#define btn_kids_lock_idx       2       // 차량 문잠금(키즈락) 버튼 상태 받아오기
+#define btn_emergency_stop_idx  3       // 비상 정지 버튼 상태 받아오기
 
 /*********************************************************************************************************************/
 /*-------------------------------------------------Global variables--------------------------------------------------*/
 /*********************************************************************************************************************/
 uint8 g_auto_lock = TRUE;
-uint8 g_door_lock = LOCK;
-uint8 g_door      = DOOR_CLOSE;
+uint8 g_door_lock = LOCK;           // 수동 잠금 걸쇠.
+uint8 g_door      = DOOR_CLOSE;     // 차량 문의 현재 상태.
 
 boolean g_touch    = FALSE;
 boolean g_finger   = FALSE;
@@ -52,6 +56,8 @@ boolean g_foot     = FALSE;
 boolean g_obstacle = FALSE;
 
 boolean g_state_change = FALSE;
+
+boolean g_btns[4] = {FALSE, FALSE, FALSE, FALSE};        // 버튼들(4개)의 상태를 받아오는 배열
 
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
@@ -79,13 +85,13 @@ void Auto_Door(void) {
 
 void Setup(void) {
 //    PIN_MODE(IfxPort_P10_2, OUTPUT_MODE);
-    PIN_MODE(IfxPort_P00_4, INPUT_MODE);
+//    PIN_MODE(IfxPort_P00_4, INPUT_MODE);
     Init_Gtm();
     initGtmTom();
     Init_Vadc();
     Init_Finger_Detector();
     Init_Touch_Sensor();
-//    Init_Buttons();
+    Init_Buttons();
 //
     Init_Foot_Sensor();
     Init_Obstacle_Sensor();
@@ -106,29 +112,32 @@ void Auto_Door_Start() {
 }
 
 void Sensors(void) {
+    // 오토락이 해제되어 있고, 터치 모듈을 눌러서 문을 열때.
     if ((g_auto_lock == FALSE) && (g_door == DOOR_CLOSE)) {
         g_touch = Read_Touch_Sensor();
     } else {
         g_touch = FALSE;
     }
 
-    // g_door == DOOR_CLOSE일 때?
-    if ((g_door == DOOR_CLOSING)) {
+    // 손끼임 검사
+    if ((g_door == DOOR_CLOSING) || (g_door == DOOR_CLOSE)) {
         g_finger = Read_Finger_Detector();
     } else {
         g_finger = FALSE;
     }
 
-//    Read_Buttons();
+    Read_Buttons(g_btns);
 
     Delay_Ms(10);
 
+    // 발 감지 초음파
     if ((g_door == DOOR_CLOSE) && (g_auto_lock == FALSE)) {
         g_foot = Read_Foot_Detection_State();
     } else {
         g_foot = FALSE;
     }
 
+    // 차량 문의 장애물 감지 초음파
     // g_door == DOOR_CLOSE 또는 g_door == DOOR_OPEN일 때?
     if ((g_door == DOOR_OPENING)) {
         g_obstacle = Read_Obstacle_Detection_State();
@@ -147,6 +156,7 @@ void Change_State(void) {
 
 
 void Change_Auto_Lock_State(void) {
+    // Auto_Lock은 반드시 차량 문이 닫혀 있는 상태에서만 동작해야한다.
     if (g_door != DOOR_CLOSE) {
         return;
     }
@@ -156,31 +166,34 @@ void Change_Auto_Lock_State(void) {
 }
 
 void Change_Door_Lock_State(void) {
+    // 수동 잠금도 반드시 차량 문이 닫혀있는 상태에서만 동작해야한다.
     if (g_door != DOOR_CLOSE) {
         return;
     }
 
     switch (g_door_lock) {
-    case LOCK:
-        // if (버튼 잠금 해제) || g_auto_lock == FALSE)
-        {g_door_lock = UNLOCKING;}
-        break;
-    case UNLOCK:
-        // if (버튼 잠금)
-        {g_door_lock = LOCKING;}
-        break;
-    case LOCKING:
-    case UNLOCKING:
-    default:
-        break;
+        case LOCK:
+            // if (버튼 잠금 해제) || g_auto_lock == FALSE)
+            {g_door_lock = UNLOCKING;}
+            break;
+        case UNLOCK:
+            // if (버튼 잠금)
+            {g_door_lock = LOCKING;}
+            break;
+        case LOCKING:
+        case UNLOCKING:
+        default:
+            break;
     }
 }
 
 void Change_Door_State(void) {
+    // auto_lock이 해제가 안되어 있을 떄는 아무것도 할 수 없다. state 변경 없음.
     if (g_auto_lock == TRUE) {
         return;
     }
 
+    // 수동 잠금 걸쇠
     if (g_door_lock != UNLOCK) {
         return;
     }
@@ -196,7 +209,7 @@ void Change_Door_State(void) {
             {g_door = DOOR_OPENING; g_state_change = TRUE;}
             break;
         case DOOR_OPENING:
-            // if (장애물 || 버튼 멈춤)
+            // if ((장애물 && 손안끼임) || 버튼 멈춤)
             {g_door = DOOR_STOP; g_state_change = TRUE;}
             // else if (끝까지 도달)
             {g_door = DOOR_OPEN; g_state_change = TRUE;}
@@ -222,7 +235,7 @@ void Change_Door_State(void) {
 }
 
 void Actuators(void) {
-    Control_Door_Lock(&g_door_lock);
+//    Control_Door_Lock(&g_door_lock);
 
     if (g_auto_lock == FALSE && g_door_lock == UNLOCK) {
         Control_Door(&g_door);
