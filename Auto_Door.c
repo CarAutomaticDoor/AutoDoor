@@ -95,7 +95,7 @@ void Setup(void) {
     Init_Finger_Detector();
     Init_Touch_Sensor();
     Init_Buttons();
-//
+
     Init_Foot_Sensor();
     Init_Obstacle_Sensor();
 //    Init_Uart();
@@ -106,6 +106,20 @@ void Setup(void) {
 
 void Auto_Door_Start() {
     while(1) {
+        /*setOnTime1(0);
+        setOnTime2(30);
+        Delay_Ms(1000);
+        setOnTime1(10);
+        setOnTime2(20);
+        Delay_Ms(1000);
+        setOnTime1(20);
+        setOnTime2(10);
+        Delay_Ms(1000);
+        setOnTime1(30);
+        setOnTime2(0);
+        Delay_Ms(1000);
+         */
+
         Sensors();
         Change_State();
         if (g_state_change == TRUE) {
@@ -133,14 +147,14 @@ void Sensors(void) {
         g_finger = FALSE;
     }
 
-    Read_Buttons(g_btns);   // 스위치값들 읽어오기.
+//    Read_Buttons(g_btns);   // 스위치값들 읽어오기.
 
-//    g_btns[btn_auto_lock_idx]       = Get_Button_State(PIN_BTN_AUTO_LOCK);
-//    g_btns[btn_door_opcl_idx]       = Get_Button_State(PIN_BTN_DOOR_OPCL);
-//    g_btns[btn_kids_lock_idx]       = Get_Button_State(PIN_BTN_KIDS_LOCK);
-//    g_btns[btn_emergency_stop_idx]  = Get_Button_State(PIN_BTN_EMERGENCY_STOP);
+    g_btns[btn_auto_lock_idx]       = Get_Button_State(PIN_BTN_AUTO_LOCK);
+    g_btns[btn_door_opcl_idx]       = Get_Button_State(PIN_BTN_DOOR_OPCL);
+    g_btns[btn_kids_lock_idx]       = Get_Button_State(PIN_BTN_KIDS_LOCK);
+    g_btns[btn_emergency_stop_idx]  = Get_Button_State(PIN_BTN_EMERGENCY_STOP);
 
-    if(g_btns[0] && !g_btns[1] && !g_btns[2]){
+    if(g_btns[0]){
         IfxPort_setPinHigh(IfxPort_P14_0.port, IfxPort_P14_0.pinIndex);
         IfxPort_setPinLow(IfxPort_P15_6.port, IfxPort_P15_6.pinIndex);
         IfxPort_setPinLow(IfxPort_P00_8.port, IfxPort_P00_8.pinIndex);
@@ -219,7 +233,9 @@ void Change_Door_Lock_State(void) {
             {g_door_lock = LOCKING;}
             break;
         case LOCKING:
+            break;
         case UNLOCKING:
+            break;
         default:
             break;
     }
@@ -268,7 +284,7 @@ void Change_Door_State(void) {
             if(g_btns[btn_door_opcl_idx])
             {g_door = DOOR_OPENING; g_state_change = TRUE;}
             // else if (uart 닫기)
-            {g_door = DOOR_CLOSING; g_state_change = TRUE;}
+            //{g_door = DOOR_CLOSING; g_state_change = TRUE;}
             break;
         default:
             break;
@@ -276,7 +292,7 @@ void Change_Door_State(void) {
 }
 
 void Actuators(void) {
-//    Control_Door_Lock(&g_door_lock);
+    Control_Lock(&g_door_lock);
 
     if (g_auto_lock == FALSE && g_door_lock == UNLOCK) {
         Control_Door(&g_door);
