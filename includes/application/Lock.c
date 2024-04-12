@@ -66,12 +66,12 @@ void Control_Lock(uint8 *state) {
             break;
         case LOCKING:
             setOnTime2(DUTY_LOCK);
-            DelayMs(DELAY);
+            Delay_Ms(DELAY);
             *state = LOCK;
             break;
         case UNLOCKING:
             setOnTime2(DUTY_UNLOCK);
-            DelayMs(DELAY);
+            Delay_Ms(DELAY);
             *state = UNLOCK;
             break;
         default:

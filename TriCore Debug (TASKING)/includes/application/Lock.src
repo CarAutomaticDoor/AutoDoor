@@ -1,0 +1,278 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc13944a --dep-file=includes/application/Lock.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Lock.src ../includes/application/Lock.c"
+	.compiler_name		"ctc"
+	;source	'../includes/application/Lock.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Lock.Control_Lock',code,cluster('Control_Lock')
+	.sect	'.text.Lock.Control_Lock'
+	.align	2
+	
+	.global	Control_Lock
+; Function Control_Lock
+.L13:
+Control_Lock:	.type	func
+	mov.aa	a15,a4
+.L27:
+	ld.bu	d15,[a15]
+.L39:
+	mov	d0,#0
+	jeq	d15,d0,.L2
+.L40:
+	mov	d0,#1
+	jeq	d15,d0,.L3
+.L41:
+	mov	d0,#2
+	jeq	d15,d0,.L4
+.L42:
+	mov	d0,#3
+	jeq	d15,d0,.L5
+	j	.L6
+.L2:
+	mov	d4,#30
+	call	setOnTime2
+.L26:
+	j	.L7
+.L3:
+	mov	d4,#20
+	call	setOnTime2
+.L28:
+	j	.L8
+.L4:
+	mov	d4,#30
+	call	setOnTime2
+.L29:
+	mov	d4,#2000
+	call	Delay_Ms
+.L43:
+	mov	d15,#0
+.L44:
+	st.b	[a15],d15
+.L45:
+	j	.L9
+.L5:
+	mov	d4,#20
+	call	setOnTime2
+.L30:
+	mov	d4,#2000
+	call	Delay_Ms
+.L46:
+	mov	d15,#1
+.L47:
+	st.b	[a15],d15
+.L48:
+	j	.L10
+.L6:
+	j	.L11
+.L11:
+.L10:
+.L9:
+.L8:
+.L7:
+	ret
+.L23:
+	
+__Control_Lock_function_end:
+	.size	Control_Lock,__Control_Lock_function_end-Control_Lock
+.L22:
+	; End of function
+	
+	.calls	'Control_Lock','setOnTime2'
+	.calls	'Control_Lock','Delay_Ms'
+	.extern	setOnTime2
+	.extern	Delay_Ms
+	.calls	'Control_Lock','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L15:
+	.word	329
+	.half	3
+	.word	.L16
+	.byte	4
+.L14:
+	.byte	1
+	.byte	'../includes/application/Lock.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L17
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'setOnTime2',0,1,37,6,1,1,1,1,4
+	.byte	'n',0,1,37,24
+	.word	172
+	.byte	0,2
+	.byte	'unsigned char',0,1,8
+.L24:
+	.byte	5
+	.word	223
+	.byte	3
+	.byte	'Delay_Ms',0,2,58,6,1,1,1,1,4
+	.byte	'millis',0,2,58,22
+	.word	172
+	.byte	0,6,1,5
+	.word	278
+	.byte	7
+	.byte	'__codeptr',0,3,1,1
+	.word	280
+	.byte	7
+	.byte	'uint8',0,4,108,29
+	.word	223
+	.byte	7
+	.byte	'uint32',0,4,116,29
+	.word	172
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	54,15,39,12,63,12,60,12,0,0,4,5,0,3,8,58,15,59,15,57,15,73,19,0,0,5,15,0,73,19,0,0,6,21,0,54,15,0,0,7
+	.byte	22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L17:
+	.word	.L32-.L31
+.L31:
+	.half	3
+	.word	.L34-.L33
+.L33:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\\\Project1\\\\AutoDoor\\\\includes\\\\general',0
+	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0,0
+	.byte	'Servo.h',0,1,0,0
+	.byte	'Delay.h',0,1,0,0
+	.byte	'../includes/application/Lock.c',0,0,0,0
+	.byte	'Platform_Types.h',0,2,0,0,0
+.L34:
+.L32:
+	.sdecl	'.debug_info',debug,cluster('Control_Lock')
+	.sect	'.debug_info'
+.L18:
+	.word	238
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../includes/application/Lock.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L14
+	.byte	3
+	.byte	'Control_Lock',0,1,59,6,1,1,1
+	.word	.L13,.L23,.L12
+	.byte	4
+	.byte	'state',0,1,59,26
+	.word	.L24,.L25
+	.byte	5
+	.word	.L13,.L23
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Control_Lock')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Control_Lock')
+	.sect	'.debug_line'
+.L20:
+	.word	.L36-.L35
+.L35:
+	.half	3
+	.word	.L38-.L37
+.L37:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../includes/application/Lock.c',0,0,0,0,0
+.L38:
+	.byte	5,6,7,0,5,2
+	.word	.L13
+	.byte	3,58,1,5,12,9
+	.half	.L27-.L13
+	.byte	3,1,1,5,14,9
+	.half	.L39-.L27
+	.byte	3,1,1,9
+	.half	.L40-.L39
+	.byte	3,3,1,9
+	.half	.L41-.L40
+	.byte	3,3,1,9
+	.half	.L42-.L41
+	.byte	3,5,1,5,24,9
+	.half	.L2-.L42
+	.byte	3,118,1,5,13,9
+	.half	.L26-.L2
+	.byte	3,1,1,5,24,9
+	.half	.L3-.L26
+	.byte	3,2,1,5,13,9
+	.half	.L28-.L3
+	.byte	3,1,1,5,24,9
+	.half	.L4-.L28
+	.byte	3,2,1,5,22,9
+	.half	.L29-.L4
+	.byte	3,1,1,9
+	.half	.L43-.L29
+	.byte	3,1,1,5,20,9
+	.half	.L44-.L43
+	.byte	1,5,13,9
+	.half	.L45-.L44
+	.byte	3,1,1,5,24,9
+	.half	.L5-.L45
+	.byte	3,2,1,5,22,9
+	.half	.L30-.L5
+	.byte	3,1,1,9
+	.half	.L46-.L30
+	.byte	3,1,1,5,20,9
+	.half	.L47-.L46
+	.byte	1,5,13,9
+	.half	.L48-.L47
+	.byte	3,1,1,9
+	.half	.L6-.L48
+	.byte	3,2,1,5,1,9
+	.half	.L7-.L6
+	.byte	3,2,1,7,9
+	.half	.L22-.L7
+	.byte	0,1,1
+.L36:
+	.sdecl	'.debug_ranges',debug,cluster('Control_Lock')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L13,0,.L22-.L13,0,0
+	.sdecl	'.debug_loc',debug,cluster('Control_Lock')
+	.sect	'.debug_loc'
+.L12:
+	.word	-1,.L13,0,.L23-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L25:
+	.word	-1,.L13,0,.L26-.L13
+	.half	1
+	.byte	100
+	.word	.L27-.L13,.L23-.L13
+	.half	1
+	.byte	111
+	.word	.L3-.L13,.L28-.L13
+	.half	1
+	.byte	100
+	.word	.L4-.L13,.L29-.L13
+	.half	1
+	.byte	100
+	.word	.L5-.L13,.L30-.L13
+	.half	1
+	.byte	100
+	.word	.L6-.L13,.L7-.L13
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L49:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Control_Lock')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L49,.L13,.L23-.L13
+	; Module end

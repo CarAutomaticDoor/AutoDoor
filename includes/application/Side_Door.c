@@ -90,5 +90,5 @@ void Control_Door(uint8 *state) {
     }
 
     setOnTime1(g_duty);
-    DelayMs(DELAY);
+    Delay_Ms(DELAY);
 }

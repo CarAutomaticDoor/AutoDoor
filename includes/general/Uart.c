@@ -60,7 +60,7 @@ static IfxAsclin_Asc g_uart_handler;
 static uint8 g_tx_buffer[TX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];
 static uint8 g_rx_buffer[RX_BUFFER_SIZE + sizeof(Ifx_Fifo) + 8];
 
-uint32 g_rx_data;
+uint32 g_rx_data = 0;
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
@@ -80,13 +80,6 @@ void TxISR(void) {
 IFX_INTERRUPT(RxISR, 0, INTPRIO_RX);
 void RxISR(void) {
     g_rx_data = g_uart_handler.asclin->RXDATA.U;
-    if (g_rx_data == '1') {
-        setOnTime(5);
-    } else if (g_rx_data == '2') {
-        setOnTime(20);
-    } else if (g_rx_data == '3') {
-        setOnTime(30);
-    }
 }
 
 /* This function initializes the ASCLIN UART module */

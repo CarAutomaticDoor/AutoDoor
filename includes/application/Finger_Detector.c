@@ -34,7 +34,7 @@
 #include "IfxVadc.h"
 #include "IfxVadc_Adc.h"
 #include "Platform_Types.h"
-#include "IfxPort_PinMap.h";
+#include "IfxPort_PinMap.h"
 #include "Adc.h"
 #include "Pin_Map.h"
 
@@ -67,6 +67,6 @@ uint16 Read_Finger_Detector(void) {
 }
 
 
-boolean Read_Touch_State(void) {
+boolean Read_Finger_State(void) {
     return (Read_Adc_Value(&g_finger_detector) < THRESHOLD);
 }

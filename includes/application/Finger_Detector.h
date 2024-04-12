@@ -54,5 +54,5 @@
 /*********************************************************************************************************************/
 void Init_Finger_Detector(void);
 uint16 Read_Finger_Detector(void);
-
+boolean Read_Finger_State(void);
 #endif /* INCLUDES_APPLICATION_FINGER_DETECTOR_H_ */
