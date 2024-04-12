@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc13736a --dep-file=includes/general/Servo.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Servo.src ../includes/general/Servo.c"
+	.compiler_invocation	"ctc -f cc6580a --dep-file=includes/general/Servo.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Servo.src ../includes/general/Servo.c"
 	.compiler_name		"ctc"
 	;source	'../includes/general/Servo.c'
 
@@ -64,11 +64,11 @@ interruptGtmTom:	.type	func
 .L3:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
-	ld.w	d8,[a15]
+	ld.w	d15,[a15]
 .L126:
-	mov	d15,#199
+	mov	d8,#1999
 .L127:
-	jlt.u	d8,d15,.L4
+	jlt.u	d15,d8,.L4
 .L128:
 	movh.a	a15,#@his(_999001_counter)
 	lea	a15,[a15]@los(_999001_counter)
@@ -112,8 +112,8 @@ initGtmTom:	.type	func
 	movh.a	a5,#61456
 	call	IfxGtm_Tom_Timer_initConfig
 .L138:
-	mov	d15,#16384
-	addih	d15,d15,#17948
+	mov	d15,#20480
+	addih	d15,d15,#18371
 .L139:
 	st.w	[a10],d15
 .L140:
@@ -266,14 +266,14 @@ g_timerDriver:	.type	object
 	.align	2
 g_on_time_1:	.type	object
 	.size	g_on_time_1,4
-	.word	20
+	.word	200
 	.sdecl	'.data.Servo.g_on_time_2',data,cluster('g_on_time_2')
 	.sect	'.data.Servo.g_on_time_2'
 	.global	g_on_time_2
 	.align	2
 g_on_time_2:	.type	object
 	.size	g_on_time_2,4
-	.word	20
+	.word	200
 	.sdecl	'.data.Servo._999001_counter',data,cluster('_999001_counter')
 	.sect	'.data.Servo._999001_counter'
 	.align	2
@@ -23197,7 +23197,7 @@ _999001_counter:	.type	object
 	.half	.L125-.L85
 	.byte	1,4,1,5,9,9
 	.half	.L3-.L125
-	.byte	3,247,123,1,5,32,9
+	.byte	3,247,123,1,5,33,9
 	.half	.L126-.L3
 	.byte	1,5,5,9
 	.half	.L127-.L126

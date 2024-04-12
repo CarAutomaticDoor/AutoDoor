@@ -35,6 +35,8 @@
 #include "IfxPort.h"
 #include "IfxPort_PinMap.h"
 
+#include "Uart.h"
+
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
@@ -50,7 +52,12 @@ boolean g_touch    = FALSE;
 boolean g_finger   = FALSE;
 boolean g_foot     = FALSE;
 boolean g_obstacle = FALSE;
+uint32 *g_uart;
+uint32 g_tmp;
 
+boolean g_open     = FALSE;
+boolean g_close    = FALSE;
+boolean g_lock     = FALSE;
 boolean g_state_change = FALSE;
 
 /*********************************************************************************************************************/
@@ -78,18 +85,19 @@ void Auto_Door(void) {
 }
 
 void Setup(void) {
-//    PIN_MODE(IfxPort_P10_2, OUTPUT_MODE);
+    PIN_MODE(IfxPort_P10_2, OUTPUT_MODE);
     PIN_MODE(IfxPort_P00_4, INPUT_MODE);
     Init_Gtm();
-    initGtmTom();
+    initGtmTom();  //이게 없어야 uart 돌아감
     Init_Vadc();
     Init_Finger_Detector();
     Init_Touch_Sensor();
-//    Init_Buttons();
-//
+    Init_Buttons();
+
     Init_Foot_Sensor();
     Init_Obstacle_Sensor();
-    Init_Uart();
+
+    Init_Uart(&g_uart);
     Start_Adc_Scan();
 }
 
@@ -97,51 +105,67 @@ void Auto_Door_Start() {
     while(1) {
         Sensors();
         Change_State();
-        if (g_state_change == TRUE) {
-            g_state_change = FALSE;
-            continue;
-        }
-        Actuators();
+//        if (g_state_change == TRUE) {
+//            g_state_change = FALSE;
+//            continue;
+//        }
+//        Actuators();
     }
 }
 
 void Sensors(void) {
-    if ((g_auto_lock == FALSE) && (g_door == DOOR_CLOSE)) {
-        g_touch = Read_Touch_Sensor();
-    } else {
-        g_touch = FALSE;
+//    if ((g_auto_lock == FALSE) && (g_door == DOOR_CLOSE)) {
+//        g_touch = Read_Touch_Sensor();
+//    } else {
+//        g_touch = FALSE;
+//    }
+//
+//    // g_door == DOOR_CLOSE일 때?
+//    if ((g_door == DOOR_CLOSING)) {
+//        g_finger = Read_Finger_Detector();
+//    } else {
+//        g_finger = FALSE;
+//    }
+////
+////    Read_Buttons();
+//
+//    Delay_Ms(10);
+//
+//    if ((g_door == DOOR_CLOSE) && (g_auto_lock == FALSE)) {
+//        g_foot = Read_Foot_Detection_State();
+//    } else {
+//        g_foot = FALSE;
+//    }
+////
+//    if ((g_door == DOOR_OPENING)) {
+//        g_obstacle = Read_Obstacle_Detection_State();
+//    } else {
+//        g_obstacle = FALSE;
+//    }
+
+    //uart
+    g_tmp = *g_uart;
+    if (g_tmp != 48) {
+        TOGGLE_PIN(IfxPort_P10_2);
+        if (g_tmp == 49) {
+            g_open = TRUE;
+        } else if (g_tmp == 50) {
+            g_close = TRUE;
+        } else {
+            g_lock  = TRUE;
+        }
+         g_tmp = 48;
+         *g_uart = 48;
     }
 
-    // g_door == DOOR_CLOSE일 때?
-    if ((g_door == DOOR_CLOSING)) {
-        g_finger = Read_Finger_Detector();
-    } else {
-        g_finger = FALSE;
-    }
-
-//    Read_Buttons();
-
-    Delay_Ms(10);
-
-    if ((g_door == DOOR_CLOSE) && (g_auto_lock == FALSE)) {
-        g_foot = Read_Foot_Detection_State();
-    } else {
-        g_foot = FALSE;
-    }
-
-    if ((g_door == DOOR_OPENING)) {
-        g_obstacle = Read_Obstacle_Detection_State();
-    } else {
-        g_obstacle = FALSE;
-    }
 
     Delay_Ms(10);
 }
 
 void Change_State(void) {
-    Change_Door_State();
+//    Change_Door_State();
     Change_Auto_Lock_State();
-    Change_Door_Lock_State();
+//    Change_Door_Lock_State();
 }
 
 
@@ -151,7 +175,11 @@ void Change_Auto_Lock_State(void) {
     }
 
     // if (버튼 기능 잠금 해제) || (uart 기능 잠금 해제)
-    {g_auto_lock = (g_auto_lock == TRUE) ? FALSE : TRUE;}
+    if(g_lock == TRUE)
+    {
+        g_auto_lock = (g_auto_lock == TRUE) ? FALSE : TRUE;
+        g_lock = FALSE;
+    }
 }
 
 void Change_Door_Lock_State(void) {
@@ -159,20 +187,21 @@ void Change_Door_Lock_State(void) {
         return;
     }
 
-    switch (g_door_lock) {
-    case LOCK:
-        // if (버튼 잠금 해제) || g_auto_lock == FALSE)
-        {g_door_lock = UNLOCKING;}
-        break;
-    case UNLOCK:
-        // if (버튼 잠금)
-        {g_door_lock = LOCKING;}
-        break;
-    case LOCKING:
-    case UNLOCKING:
-    default:
-        break;
-    }
+//    switch (g_door_lock) {
+//    case LOCK:
+//        // if (버튼 잠금 해제) || g_auto_lock == FALSE)
+////        if(g_auto_lock == FALSE)
+////        {g_door_lock = UNLOCKING;}
+//        break;
+//    case UNLOCK:
+//        // if (버튼 잠금)
+////        {g_door_lock = LOCKING;}
+//        break;
+//    case LOCKING:
+//    case UNLOCKING:
+//    default:
+//        break;
+//    }
 }
 
 void Change_Door_State(void) {
@@ -187,33 +216,37 @@ void Change_Door_State(void) {
     switch (g_door) {
     case DOOR_OPEN:
         // if (uart 닫기 || 버튼 닫기)
-        {g_door = DOOR_CLOSING; g_state_change = TRUE;}
+//        if(g_uart == UART_CLOSE)
+//        {g_door = DOOR_CLOSING; g_state_change = TRUE;}
         break;
     case DOOR_CLOSE:
         // 문이 잠긴 상황에서 열기 버튼을 누르면 자동 잠금 해제 후 열기?
         // if (uart 열기 || 버튼 열기) && 기능 가능 && 문 잠기지 않음
-        {g_door = DOOR_OPENING; g_state_change = TRUE;}
+//        if(g_uart == UART_OPEN)
+//        {g_door = DOOR_OPENING; g_state_change = TRUE;}
         break;
     case DOOR_OPENING:
         // if (장애물 || 버튼 멈춤)
-        {g_door = DOOR_STOP; g_state_change = TRUE;}
+//        {g_door = DOOR_STOP; g_state_change = TRUE;}
         // else if (끝까지 도달)
-        {g_door = DOOR_OPEN; g_state_change = TRUE;}
+//        {g_door = DOOR_OPEN; g_state_change = TRUE;}
         break;
     case DOOR_CLOSING:
         // if (손가락)
-        {g_door = DOOR_OPENING; g_state_change = TRUE;}
+//        {g_door = DOOR_OPENING; g_state_change = TRUE;}
         // else if (버튼 멈춤)
-        {g_door = DOOR_STOP; g_state_change = TRUE;}
+//        {g_door = DOOR_STOP; g_state_change = TRUE;}
         // else if (끝까지 도달)
-        {g_door = DOOR_CLOSE; g_state_change = TRUE;}
+//        {g_door = DOOR_CLOSE; g_state_change = TRUE;}
         break;
     case DOOR_STOP:
         // 문 버튼으로 닫고 싶은 경우?
         // if (문 버튼 || uart 열기)
-        {g_door = DOOR_OPENING; g_state_change = TRUE;}
+//        if(g_uart == UART_OPEN)
+//        {g_door = DOOR_OPENING; g_state_change = TRUE;}
         // else if (uart 닫기)
-        {g_door = DOOR_CLOSING; g_state_change = TRUE;}
+//        if(g_uart == UART_CLOSE)
+//        {g_door = DOOR_CLOSING; g_state_change = TRUE;}
         break;
     default:
         break;
@@ -221,7 +254,7 @@ void Change_Door_State(void) {
 }
 
 void Actuators(void) {
-    Control_Lock(&g_door_lock);
+//    Control_Lock(&g_door_lock);
 
     if (g_auto_lock == FALSE && g_door_lock == UNLOCK) {
         Control_Door(&g_door);
