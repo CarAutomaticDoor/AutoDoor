@@ -1,5 +1,9 @@
 includes/general/Servo.o :	../includes/general/Servo.c
 ../includes/general/Servo.c :
+includes/general/Servo.o :	../includes/general/Servo.h
+../includes/general/Servo.h :
+includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h
+c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h :
 includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.h
@@ -16,8 +20,6 @@ includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/Infra/Platform/Tricore
 c:/Project1/AutoDoor/Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.h :
 includes/general/Servo.o :	c:/Infineon/AURIX-Studio-1.9.20/tools/Compilers/Tasking_1.1r8/ctc/include/stddef.h
 c:/Infineon/AURIX-Studio-1.9.20/tools/Compilers/Tasking_1.1r8/ctc/include/stddef.h :
-includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h :
 includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_TypesTasking.h :
 includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu_IntrinsicsTasking.h
@@ -90,3 +92,7 @@ includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/Service/CpuGeneric/Std
 c:/Project1/AutoDoor/Libraries/Service/CpuGeneric/StdIf/IfxStdIf.h :
 includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
+includes/general/Servo.o :	c:/Project1/AutoDoor/includes/application/Pin_Map.h
+c:/Project1/AutoDoor/includes/application/Pin_Map.h :
+includes/general/Servo.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
+c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :

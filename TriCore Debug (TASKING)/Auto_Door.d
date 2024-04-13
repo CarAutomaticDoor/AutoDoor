@@ -108,24 +108,22 @@ Auto_Door.o :	c:/Project1/AutoDoor/includes/general/Delay.h
 c:/Project1/AutoDoor/includes/general/Delay.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Finger_Detector.h
 c:/Project1/AutoDoor/includes/application/Finger_Detector.h :
+Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Foot_Sensor.h
+c:/Project1/AutoDoor/includes/application/Foot_Sensor.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Touch_Sensor.h
 c:/Project1/AutoDoor/includes/application/Touch_Sensor.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/general/Buttons.h
 c:/Project1/AutoDoor/includes/general/Buttons.h :
-Auto_Door.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/general/Ultrasonic.h
 c:/Project1/AutoDoor/includes/general/Ultrasonic.h :
-Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Foot_Sensor.h
-c:/Project1/AutoDoor/includes/application/Foot_Sensor.h :
+Auto_Door.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
+c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Audio.h
 c:/Project1/AutoDoor/includes/application/Audio.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/general/Uart.h
 c:/Project1/AutoDoor/includes/general/Uart.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/general/Servo.h
 c:/Project1/AutoDoor/includes/general/Servo.h :
-Auto_Door.o :	c:/Project1/AutoDoor/includes/application/BT_Interface.h
-c:/Project1/AutoDoor/includes/application/BT_Interface.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Obstacle_Detector.h
 c:/Project1/AutoDoor/includes/application/Obstacle_Detector.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Side_Door.h
@@ -136,3 +134,7 @@ Auto_Door.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
 Auto_Door.o :	c:/Project1/AutoDoor/includes/application/Lock.h
 c:/Project1/AutoDoor/includes/application/Lock.h :
+Auto_Door.o :	c:/Project1/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxAsclin_reg.h
+c:/Project1/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxAsclin_reg.h :
+Auto_Door.o :	c:/Project1/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxAsclin_regdef.h
+c:/Project1/AutoDoor/Libraries/Infra/Sfr/TC27D/_Reg/IfxAsclin_regdef.h :

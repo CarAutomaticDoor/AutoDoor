@@ -50,9 +50,3 @@ includes/application/Obstacle_Detector.o :	c:/Project1/AutoDoor/Libraries/iLLD/T
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
 includes/application/Obstacle_Detector.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
-includes/application/Obstacle_Detector.o :	../includes/application/Pin_Map.h
-../includes/application/Pin_Map.h :
-includes/application/Obstacle_Detector.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
-includes/application/Obstacle_Detector.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :

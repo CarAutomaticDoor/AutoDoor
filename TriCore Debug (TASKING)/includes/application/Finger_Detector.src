@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc7552a --dep-file=includes/application/Finger_Detector.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Finger_Detector.src ../includes/application/Finger_Detector.c"
+	.compiler_invocation	"ctc -f cc11392a --dep-file=includes/application/Finger_Detector.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Finger_Detector.src ../includes/application/Finger_Detector.c"
 	.compiler_name		"ctc"
 	;source	'../includes/application/Finger_Detector.c'
 
@@ -13,40 +13,18 @@ $TC16X
 	
 	.global	Init_Finger_Detector
 ; Function Init_Finger_Detector
-.L5:
+.L4:
 Init_Finger_Detector:	.type	func
 	movh.a	a4,#@his(g_finger_detector)
 	lea	a4,[a4]@los(g_finger_detector)
 	call	Init_Vadc_Channel
-.L45:
+.L35:
 	ret
-.L31:
+.L23:
 	
 __Init_Finger_Detector_function_end:
 	.size	Init_Finger_Detector,__Init_Finger_Detector_function_end-Init_Finger_Detector
-.L18:
-	; End of function
-	
-	.sdecl	'.text.Finger_Detector.Read_Finger_Detector',code,cluster('Read_Finger_Detector')
-	.sect	'.text.Finger_Detector.Read_Finger_Detector'
-	.align	2
-	
-	.global	Read_Finger_Detector
-; Function Read_Finger_Detector
-.L7:
-Read_Finger_Detector:	.type	func
-	movh.a	a4,#@his(g_finger_detector)
-	lea	a4,[a4]@los(g_finger_detector)
-	call	Read_Adc_Value
-.L50:
-	j	.L2
-.L2:
-	ret
-.L33:
-	
-__Read_Finger_Detector_function_end:
-	.size	Read_Finger_Detector,__Read_Finger_Detector_function_end-Read_Finger_Detector
-.L23:
+.L15:
 	; End of function
 	
 	.sdecl	'.text.Finger_Detector.Read_Finger_State',code,cluster('Read_Finger_State')
@@ -55,24 +33,24 @@ __Read_Finger_Detector_function_end:
 	
 	.global	Read_Finger_State
 ; Function Read_Finger_State
-.L9:
+.L6:
 Read_Finger_State:	.type	func
 	movh.a	a4,#@his(g_finger_detector)
 	lea	a4,[a4]@los(g_finger_detector)
 	call	Read_Adc_Value
-.L55:
+.L40:
 	mov	d15,#4000
-.L56:
+.L41:
 	lt.u	d2,d2,d15
-.L57:
-	j	.L3
-.L3:
+.L42:
+	j	.L2
+.L2:
 	ret
-.L35:
+.L25:
 	
 __Read_Finger_State_function_end:
 	.size	Read_Finger_State,__Read_Finger_State_function_end-Read_Finger_State
-.L28:
+.L20:
 	; End of function
 	
 	.sdecl	'.data.Finger_Detector.g_finger_detector',data,cluster('g_finger_detector')
@@ -84,26 +62,24 @@ g_finger_detector:	.type	object
 	.byte	4
 	.space	7
 	.calls	'Init_Finger_Detector','Init_Vadc_Channel'
-	.calls	'Read_Finger_Detector','Read_Adc_Value'
 	.calls	'Read_Finger_State','Read_Adc_Value'
 	.calls	'Init_Finger_Detector','',0
-	.calls	'Read_Finger_Detector','',0
 	.extern	Init_Vadc_Channel
 	.extern	Read_Adc_Value
 	.calls	'Read_Finger_State','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L11:
+.L8:
 	.word	119615
 	.half	3
-	.word	.L12
+	.word	.L9
 	.byte	4
-.L10:
+.L7:
 	.byte	1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L13
+	.word	.L10
 	.byte	2,1,1,3
 	.word	183
 	.byte	4
@@ -139,7 +115,7 @@ g_finger_detector:	.type	object
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7,7
 	.byte	'int',0,4,5
-.L34:
+.L24:
 	.byte	7
 	.byte	'unsigned char',0,1,8,10
 	.byte	'_Ifx_SRC_SRCR_Bits',0,4,63,16,4,11
@@ -227,9 +203,7 @@ g_finger_detector:	.type	object
 	.byte	4,2,35,0,13
 	.byte	'B',0
 	.word	885
-	.byte	4,2,35,0,0
-.L32:
-	.byte	7
+	.byte	4,2,35,0,0,7
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,6,242,8,16,4,11
 	.byte	'reserved_0',0,1
@@ -4776,7 +4750,7 @@ g_finger_detector:	.type	object
 	.word	29708
 	.byte	3
 	.word	29763
-.L36:
+.L26:
 	.byte	23,15,212,3,9,8,13
 	.byte	'channel',0
 	.word	28213
@@ -4789,14 +4763,14 @@ g_finger_detector:	.type	object
 	.byte	4,2,35,4,0,3
 	.word	29773
 	.byte	25
-	.byte	'Init_Vadc_Channel',0,14,50,6,1,1,1,1,5
-	.byte	'adc',0,14,50,45
+	.byte	'Init_Vadc_Channel',0,14,42,6,1,1,1,1,5
+	.byte	'adc',0,14,42,45
 	.word	29831
 	.byte	0,26
-	.byte	'Read_Adc_Value',0,14,51,8
+	.byte	'Read_Adc_Value',0,14,43,8
 	.word	1021
 	.byte	1,1,1,1,5
-	.byte	'adc',0,14,51,44
+	.byte	'adc',0,14,43,44
 	.word	29831
 	.byte	0,7
 	.byte	'short int',0,2,5,27
@@ -4842,23 +4816,16 @@ g_finger_detector:	.type	object
 	.byte	27
 	.byte	'float32',0,17,170,1,29
 	.word	243
-	.byte	17,18,66,9,1,18
-	.byte	'IfxSrc_Tos_cpu0',0,0,18
-	.byte	'IfxSrc_Tos_cpu1',0,1,18
-	.byte	'IfxSrc_Tos_cpu2',0,2,18
-	.byte	'IfxSrc_Tos_dma',0,3,0,27
-	.byte	'IfxSrc_Tos',0,18,72,3
-	.word	30177
 	.byte	27
-	.byte	'pvoid',0,19,54,28
+	.byte	'pvoid',0,18,54,28
 	.word	361
 	.byte	27
-	.byte	'Ifx_TickTime',0,19,76,28
+	.byte	'Ifx_TickTime',0,18,76,28
 	.word	30127
 	.byte	27
-	.byte	'Ifx_Priority',0,19,100,16
+	.byte	'Ifx_Priority',0,18,100,16
 	.word	1021
-	.byte	17,19,127,9,1,18
+	.byte	17,18,127,9,1,18
 	.byte	'Ifx_RxSel_a',0,0,18
 	.byte	'Ifx_RxSel_b',0,1,18
 	.byte	'Ifx_RxSel_c',0,2,18
@@ -4867,8 +4834,15 @@ g_finger_detector:	.type	object
 	.byte	'Ifx_RxSel_f',0,5,18
 	.byte	'Ifx_RxSel_g',0,6,18
 	.byte	'Ifx_RxSel_h',0,7,0,27
-	.byte	'Ifx_RxSel',0,19,137,1,3
-	.word	30329
+	.byte	'Ifx_RxSel',0,18,137,1,3
+	.word	30233
+	.byte	17,19,66,9,1,18
+	.byte	'IfxSrc_Tos_cpu0',0,0,18
+	.byte	'IfxSrc_Tos_cpu1',0,1,18
+	.byte	'IfxSrc_Tos_cpu2',0,2,18
+	.byte	'IfxSrc_Tos_dma',0,3,0,27
+	.byte	'IfxSrc_Tos',0,19,72,3
+	.word	30370
 	.byte	27
 	.byte	'Ifx_SRC_SRCR_Bits',0,4,80,3
 	.word	487
@@ -17288,7 +17262,7 @@ g_finger_detector:	.type	object
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L12:
+.L9:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -17300,15 +17274,14 @@ g_finger_detector:	.type	object
 	.byte	59,15,57,15,73,19,0,0,28,21,0,54,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L13:
-	.word	.L38-.L37
-.L37:
+.L10:
+	.word	.L28-.L27
+.L27:
 	.half	3
-	.word	.L40-.L39
-.L39:
+	.word	.L30-.L29
+.L29:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
-	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\includes\\\\general',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0,0
@@ -17324,15 +17297,15 @@ g_finger_detector:	.type	object
 	.byte	'IfxPort_regdef.h',0,1,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu.h',0,0,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxCpu_cfg.h',0,0,0,0
-	.byte	'IfxVadc.h',0,2,0,0
+	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Vadc\\Std\\IfxVadc.h',0,0,0,0
 	.byte	'IfxVadc_regdef.h',0,1,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxVadc_cfg.h',0,0,0,0
-	.byte	'Adc.h',0,3,0,0
-	.byte	'IfxVadc_Adc.h',0,4,0,0
+	.byte	'Adc.h',0,2,0,0
+	.byte	'IfxVadc_Adc.h',0,3,0,0
 	.byte	'../includes/application/Finger_Detector.c',0,0,0,0
-	.byte	'Platform_Types.h',0,5,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'Ifx_Types.h',0,4,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxSrc_cfg.h',0,0,0,0
-	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0,0,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_Impl\\IfxScu_cfg.h',0,0,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\_PinMap\\IfxVadc_PinMap.h',0,0,0
 	.byte	0
@@ -17341,207 +17314,149 @@ g_finger_detector:	.type	object
 	.byte	'IfxFlash_regdef.h',0,1,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Scu\\Std\\IfxScuCcu.h',0,0,0,0
 	.byte	'IfxCcu6_regdef.h',0,1,0,0,0
-.L40:
-.L38:
+.L30:
+.L28:
 	.sdecl	'.debug_info',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_info'
-.L14:
+.L11:
 	.word	239
 	.half	3
-	.word	.L15
+	.word	.L12
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L17,.L16
+	.word	.L14,.L13
 	.byte	2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'Init_Finger_Detector',0,1,61,6,1,1,1
-	.word	.L5,.L31,.L4
+	.byte	'Init_Finger_Detector',0,1,21,6,1,1,1
+	.word	.L4,.L23,.L3
 	.byte	4
-	.word	.L5,.L31
+	.word	.L4,.L23
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_abbrev'
-.L15:
+.L12:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_line'
-.L16:
-	.word	.L42-.L41
-.L41:
+.L13:
+	.word	.L32-.L31
+.L31:
 	.half	3
-	.word	.L44-.L43
-.L43:
+	.word	.L34-.L33
+.L33:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Finger_Detector.c',0,0,0,0,0
-.L44:
+.L34:
 	.byte	5,24,7,0,5,2
-	.word	.L5
-	.byte	3,61,1,5,1,9
-	.half	.L45-.L5
+	.word	.L4
+	.byte	3,21,1,5,1,9
+	.half	.L35-.L4
 	.byte	3,1,1,7,9
-	.half	.L18-.L45
+	.half	.L15-.L35
 	.byte	0,1,1
-.L42:
+.L32:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_ranges'
-.L17:
-	.word	-1,.L5,0,.L18-.L5,0,0
-	.sdecl	'.debug_info',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_info'
-.L19:
-	.word	243
-	.half	3
-	.word	.L20
-	.byte	4,1
-	.byte	'../includes/application/Finger_Detector.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L22,.L21
-	.byte	2
-	.word	.L10
-	.byte	3
-	.byte	'Read_Finger_Detector',0,1,65,8
-	.word	.L32
-	.byte	1,1,1
-	.word	.L7,.L33,.L6
-	.byte	4
-	.word	.L7,.L33
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_abbrev'
-.L20:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_line'
-.L21:
-	.word	.L47-.L46
-.L46:
-	.half	3
-	.word	.L49-.L48
-.L48:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/application/Finger_Detector.c',0,0,0,0,0
-.L49:
-	.byte	5,28,7,0,5,2
-	.word	.L7
-	.byte	3,193,0,1,5,5,9
-	.half	.L50-.L7
-	.byte	1,5,1,9
-	.half	.L2-.L50
-	.byte	3,1,1,7,9
-	.half	.L23-.L2
-	.byte	0,1,1
-.L47:
-	.sdecl	'.debug_ranges',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_ranges'
-.L22:
-	.word	-1,.L7,0,.L23-.L7,0,0
+.L14:
+	.word	-1,.L4,0,.L15-.L4,0,0
 	.sdecl	'.debug_info',debug,cluster('Read_Finger_State')
 	.sect	'.debug_info'
-.L24:
+.L16:
 	.word	240
 	.half	3
-	.word	.L25
+	.word	.L17
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L27,.L26
+	.word	.L19,.L18
 	.byte	2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'Read_Finger_State',0,1,70,9
-	.word	.L34
+	.byte	'Read_Finger_State',0,1,25,9
+	.word	.L24
 	.byte	1,1,1
-	.word	.L9,.L35,.L8
+	.word	.L6,.L25,.L5
 	.byte	4
-	.word	.L9,.L35
+	.word	.L6,.L25
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Read_Finger_State')
 	.sect	'.debug_abbrev'
-.L25:
+.L17:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Read_Finger_State')
 	.sect	'.debug_line'
-.L26:
-	.word	.L52-.L51
-.L51:
+.L18:
+	.word	.L37-.L36
+.L36:
 	.half	3
-	.word	.L54-.L53
-.L53:
+	.word	.L39-.L38
+.L38:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Finger_Detector.c',0,0,0,0,0
-.L54:
+.L39:
 	.byte	5,29,7,0,5,2
-	.word	.L9
-	.byte	3,198,0,1,5,50,9
-	.half	.L55-.L9
+	.word	.L6
+	.byte	3,25,1,5,50,9
+	.half	.L40-.L6
 	.byte	1,5,48,9
-	.half	.L56-.L55
+	.half	.L41-.L40
 	.byte	1,5,5,9
-	.half	.L57-.L56
+	.half	.L42-.L41
 	.byte	1,5,1,9
-	.half	.L3-.L57
+	.half	.L2-.L42
 	.byte	3,1,1,7,9
-	.half	.L28-.L3
+	.half	.L20-.L2
 	.byte	0,1,1
-.L52:
+.L37:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Finger_State')
 	.sect	'.debug_ranges'
-.L27:
-	.word	-1,.L9,0,.L28-.L9,0,0
+.L19:
+	.word	-1,.L6,0,.L20-.L6,0,0
 	.sdecl	'.debug_info',debug,cluster('g_finger_detector')
 	.sect	'.debug_info'
-.L29:
+.L21:
 	.word	214
 	.half	3
-	.word	.L30
+	.word	.L22
 	.byte	4,1
 	.byte	'../includes/application/Finger_Detector.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'g_finger_detector',0,16,48,21
-	.word	.L36
+	.byte	'g_finger_detector',0,16,16,21
+	.word	.L26
 	.byte	1,5,3
 	.word	g_finger_detector
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_finger_detector')
 	.sect	'.debug_abbrev'
-.L30:
+.L22:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_loc'
-.L4:
-	.word	-1,.L5,0,.L31-.L5
-	.half	2
-	.byte	138,0
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L33-.L7
+.L3:
+	.word	-1,.L4,0,.L23-.L4
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Read_Finger_State')
 	.sect	'.debug_loc'
-.L8:
-	.word	-1,.L9,0,.L35-.L9
+.L5:
+	.word	-1,.L6,0,.L25-.L6
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L58:
+.L43:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -17549,13 +17464,9 @@ g_finger_detector:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Finger_Detector')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L58,.L5,.L31-.L5
-	.sdecl	'.debug_frame',debug,cluster('Read_Finger_Detector')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L58,.L7,.L33-.L7
+	.word	.L43,.L4,.L23-.L4
 	.sdecl	'.debug_frame',debug,cluster('Read_Finger_State')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L58,.L9,.L35-.L9
+	.word	.L43,.L6,.L25-.L6
 	; Module end

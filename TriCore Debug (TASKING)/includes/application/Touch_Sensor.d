@@ -118,11 +118,3 @@ includes/application/Touch_Sensor.o :	c:/Project1/AutoDoor/includes/general/Adc.
 c:/Project1/AutoDoor/includes/general/Adc.h :
 includes/application/Touch_Sensor.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Vadc/Adc/IfxVadc_Adc.h :
-includes/application/Touch_Sensor.o :	../includes/application/Pin_Map.h
-../includes/application/Pin_Map.h :
-includes/application/Touch_Sensor.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
-includes/application/Touch_Sensor.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
-includes/application/Touch_Sensor.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :

@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc10100a --dep-file=includes/application/Touch_Sensor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Touch_Sensor.src ../includes/application/Touch_Sensor.c"
+	.compiler_invocation	"ctc -f cc11880a --dep-file=includes/application/Touch_Sensor.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Touch_Sensor.src ../includes/application/Touch_Sensor.c"
 	.compiler_name		"ctc"
 	;source	'../includes/application/Touch_Sensor.c'
 
@@ -13,40 +13,18 @@ $TC16X
 	
 	.global	Init_Touch_Sensor
 ; Function Init_Touch_Sensor
-.L5:
+.L4:
 Init_Touch_Sensor:	.type	func
 	movh.a	a4,#@his(g_touch_sensor)
 	lea	a4,[a4]@los(g_touch_sensor)
 	call	Init_Vadc_Channel
-.L45:
+.L35:
 	ret
-.L31:
+.L23:
 	
 __Init_Touch_Sensor_function_end:
 	.size	Init_Touch_Sensor,__Init_Touch_Sensor_function_end-Init_Touch_Sensor
-.L18:
-	; End of function
-	
-	.sdecl	'.text.Touch_Sensor.Read_Touch_Sensor',code,cluster('Read_Touch_Sensor')
-	.sect	'.text.Touch_Sensor.Read_Touch_Sensor'
-	.align	2
-	
-	.global	Read_Touch_Sensor
-; Function Read_Touch_Sensor
-.L7:
-Read_Touch_Sensor:	.type	func
-	movh.a	a4,#@his(g_touch_sensor)
-	lea	a4,[a4]@los(g_touch_sensor)
-	call	Read_Adc_Value
-.L50:
-	j	.L2
-.L2:
-	ret
-.L33:
-	
-__Read_Touch_Sensor_function_end:
-	.size	Read_Touch_Sensor,__Read_Touch_Sensor_function_end-Read_Touch_Sensor
-.L23:
+.L15:
 	; End of function
 	
 	.sdecl	'.text.Touch_Sensor.Read_Touch_State',code,cluster('Read_Touch_State')
@@ -55,24 +33,24 @@ __Read_Touch_Sensor_function_end:
 	
 	.global	Read_Touch_State
 ; Function Read_Touch_State
-.L9:
+.L6:
 Read_Touch_State:	.type	func
 	movh.a	a4,#@his(g_touch_sensor)
 	lea	a4,[a4]@los(g_touch_sensor)
 	call	Read_Adc_Value
-.L55:
+.L40:
 	mov	d15,#3900
-.L56:
+.L41:
 	lt.u	d2,d2,d15
-.L57:
-	j	.L3
-.L3:
+.L42:
+	j	.L2
+.L2:
 	ret
-.L35:
+.L25:
 	
 __Read_Touch_State_function_end:
 	.size	Read_Touch_State,__Read_Touch_State_function_end-Read_Touch_State
-.L28:
+.L20:
 	; End of function
 	
 	.sdecl	'.data.Touch_Sensor.g_touch_sensor',data,cluster('g_touch_sensor')
@@ -84,26 +62,24 @@ g_touch_sensor:	.type	object
 	.byte	5,1
 	.space	6
 	.calls	'Init_Touch_Sensor','Init_Vadc_Channel'
-	.calls	'Read_Touch_Sensor','Read_Adc_Value'
 	.calls	'Read_Touch_State','Read_Adc_Value'
 	.calls	'Init_Touch_Sensor','',0
-	.calls	'Read_Touch_Sensor','',0
 	.extern	Init_Vadc_Channel
 	.extern	Read_Adc_Value
 	.calls	'Read_Touch_State','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L11:
+.L8:
 	.word	119612
 	.half	3
-	.word	.L12
+	.word	.L9
 	.byte	4
-.L10:
+.L7:
 	.byte	1
 	.byte	'../includes/application/Touch_Sensor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L13
+	.word	.L10
 	.byte	2,1,1,3
 	.word	180
 	.byte	4
@@ -139,7 +115,7 @@ g_touch_sensor:	.type	object
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7,7
 	.byte	'int',0,4,5
-.L34:
+.L24:
 	.byte	7
 	.byte	'unsigned char',0,1,8,10
 	.byte	'_Ifx_SRC_SRCR_Bits',0,4,63,16,4,11
@@ -1736,9 +1712,7 @@ g_touch_sensor:	.type	object
 	.byte	1,1,6,0,8
 	.byte	'IfxCpu_areInterruptsEnabled',0,3,9,138,5,20
 	.word	467
-	.byte	1,1,6,0
-.L32:
-	.byte	7
+	.byte	1,1,6,0,7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,9,160,6,19
 	.word	10325
@@ -4776,7 +4750,7 @@ g_touch_sensor:	.type	object
 	.word	29705
 	.byte	3
 	.word	29760
-.L36:
+.L26:
 	.byte	23,15,212,3,9,8,13
 	.byte	'channel',0
 	.word	28210
@@ -4789,14 +4763,14 @@ g_touch_sensor:	.type	object
 	.byte	4,2,35,4,0,3
 	.word	29770
 	.byte	25
-	.byte	'Init_Vadc_Channel',0,14,50,6,1,1,1,1,5
-	.byte	'adc',0,14,50,45
+	.byte	'Init_Vadc_Channel',0,14,42,6,1,1,1,1,5
+	.byte	'adc',0,14,42,45
 	.word	29828
 	.byte	0,26
-	.byte	'Read_Adc_Value',0,14,51,8
+	.byte	'Read_Adc_Value',0,14,43,8
 	.word	1018
 	.byte	1,1,1,1,5
-	.byte	'adc',0,14,51,44
+	.byte	'adc',0,14,43,44
 	.word	29828
 	.byte	0,7
 	.byte	'short int',0,2,5,27
@@ -17288,7 +17262,7 @@ g_touch_sensor:	.type	object
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L12:
+.L9:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -17300,12 +17274,12 @@ g_touch_sensor:	.type	object
 	.byte	59,15,57,15,73,19,0,0,28,21,0,54,15,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L13:
-	.word	.L38-.L37
-.L37:
+.L10:
+	.word	.L28-.L27
+.L27:
 	.half	3
-	.word	.L40-.L39
-.L39:
+	.word	.L30-.L29
+.L29:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std',0
@@ -17341,207 +17315,149 @@ g_touch_sensor:	.type	object
 	.byte	'IfxFlash_regdef.h',0,1,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Scu\\Std\\IfxScuCcu.h',0,0,0,0
 	.byte	'IfxCcu6_regdef.h',0,1,0,0,0
-.L40:
-.L38:
+.L30:
+.L28:
 	.sdecl	'.debug_info',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_info'
-.L14:
+.L11:
 	.word	233
 	.half	3
-	.word	.L15
+	.word	.L12
 	.byte	4,1
 	.byte	'../includes/application/Touch_Sensor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L17,.L16
+	.word	.L14,.L13
 	.byte	2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'Init_Touch_Sensor',0,1,61,6,1,1,1
-	.word	.L5,.L31,.L4
+	.byte	'Init_Touch_Sensor',0,1,24,6,1,1,1
+	.word	.L4,.L23,.L3
 	.byte	4
-	.word	.L5,.L31
+	.word	.L4,.L23
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_abbrev'
-.L15:
+.L12:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_line'
-.L16:
-	.word	.L42-.L41
-.L41:
+.L13:
+	.word	.L32-.L31
+.L31:
 	.half	3
-	.word	.L44-.L43
-.L43:
+	.word	.L34-.L33
+.L33:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Touch_Sensor.c',0,0,0,0,0
-.L44:
+.L34:
 	.byte	5,24,7,0,5,2
-	.word	.L5
-	.byte	3,61,1,5,1,9
-	.half	.L45-.L5
+	.word	.L4
+	.byte	3,24,1,5,1,9
+	.half	.L35-.L4
 	.byte	3,1,1,7,9
-	.half	.L18-.L45
+	.half	.L15-.L35
 	.byte	0,1,1
-.L42:
+.L32:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_ranges'
-.L17:
-	.word	-1,.L5,0,.L18-.L5,0,0
-	.sdecl	'.debug_info',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_info'
-.L19:
-	.word	237
-	.half	3
-	.word	.L20
-	.byte	4,1
-	.byte	'../includes/application/Touch_Sensor.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L22,.L21
-	.byte	2
-	.word	.L10
-	.byte	3
-	.byte	'Read_Touch_Sensor',0,1,65,8
-	.word	.L32
-	.byte	1,1,1
-	.word	.L7,.L33,.L6
-	.byte	4
-	.word	.L7,.L33
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_abbrev'
-.L20:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_line'
-.L21:
-	.word	.L47-.L46
-.L46:
-	.half	3
-	.word	.L49-.L48
-.L48:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/application/Touch_Sensor.c',0,0,0,0,0
-.L49:
-	.byte	5,28,7,0,5,2
-	.word	.L7
-	.byte	3,193,0,1,5,5,9
-	.half	.L50-.L7
-	.byte	1,5,1,9
-	.half	.L2-.L50
-	.byte	3,1,1,7,9
-	.half	.L23-.L2
-	.byte	0,1,1
-.L47:
-	.sdecl	'.debug_ranges',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_ranges'
-.L22:
-	.word	-1,.L7,0,.L23-.L7,0,0
+.L14:
+	.word	-1,.L4,0,.L15-.L4,0,0
 	.sdecl	'.debug_info',debug,cluster('Read_Touch_State')
 	.sect	'.debug_info'
-.L24:
+.L16:
 	.word	236
 	.half	3
-	.word	.L25
+	.word	.L17
 	.byte	4,1
 	.byte	'../includes/application/Touch_Sensor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L27,.L26
+	.word	.L19,.L18
 	.byte	2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'Read_Touch_State',0,1,69,9
-	.word	.L34
+	.byte	'Read_Touch_State',0,1,28,9
+	.word	.L24
 	.byte	1,1,1
-	.word	.L9,.L35,.L8
+	.word	.L6,.L25,.L5
 	.byte	4
-	.word	.L9,.L35
+	.word	.L6,.L25
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Read_Touch_State')
 	.sect	'.debug_abbrev'
-.L25:
+.L17:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
 	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Read_Touch_State')
 	.sect	'.debug_line'
-.L26:
-	.word	.L52-.L51
-.L51:
+.L18:
+	.word	.L37-.L36
+.L36:
 	.half	3
-	.word	.L54-.L53
-.L53:
+	.word	.L39-.L38
+.L38:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Touch_Sensor.c',0,0,0,0,0
-.L54:
+.L39:
 	.byte	5,29,7,0,5,2
-	.word	.L9
-	.byte	3,197,0,1,5,47,9
-	.half	.L55-.L9
+	.word	.L6
+	.byte	3,28,1,5,47,9
+	.half	.L40-.L6
 	.byte	1,5,45,9
-	.half	.L56-.L55
+	.half	.L41-.L40
 	.byte	1,5,5,9
-	.half	.L57-.L56
+	.half	.L42-.L41
 	.byte	1,5,1,9
-	.half	.L3-.L57
+	.half	.L2-.L42
 	.byte	3,1,1,7,9
-	.half	.L28-.L3
+	.half	.L20-.L2
 	.byte	0,1,1
-.L52:
+.L37:
 	.sdecl	'.debug_ranges',debug,cluster('Read_Touch_State')
 	.sect	'.debug_ranges'
-.L27:
-	.word	-1,.L9,0,.L28-.L9,0,0
+.L19:
+	.word	-1,.L6,0,.L20-.L6,0,0
 	.sdecl	'.debug_info',debug,cluster('g_touch_sensor')
 	.sect	'.debug_info'
-.L29:
+.L21:
 	.word	208
 	.half	3
-	.word	.L30
+	.word	.L22
 	.byte	4,1
 	.byte	'../includes/application/Touch_Sensor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L10
+	.word	.L7
 	.byte	3
-	.byte	'g_touch_sensor',0,16,48,21
-	.word	.L36
+	.byte	'g_touch_sensor',0,16,19,21
+	.word	.L26
 	.byte	1,5,3
 	.word	g_touch_sensor
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_touch_sensor')
 	.sect	'.debug_abbrev'
-.L30:
+.L22:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_loc'
-.L4:
-	.word	-1,.L5,0,.L31-.L5
-	.half	2
-	.byte	138,0
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L33-.L7
+.L3:
+	.word	-1,.L4,0,.L23-.L4
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Read_Touch_State')
 	.sect	'.debug_loc'
-.L8:
-	.word	-1,.L9,0,.L35-.L9
+.L5:
+	.word	-1,.L6,0,.L25-.L6
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L58:
+.L43:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -17549,13 +17465,9 @@ g_touch_sensor:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Touch_Sensor')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L58,.L5,.L31-.L5
-	.sdecl	'.debug_frame',debug,cluster('Read_Touch_Sensor')
-	.sect	'.debug_frame'
-	.word	12
-	.word	.L58,.L7,.L33-.L7
+	.word	.L43,.L4,.L23-.L4
 	.sdecl	'.debug_frame',debug,cluster('Read_Touch_State')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L58,.L9,.L35-.L9
+	.word	.L43,.L6,.L25-.L6
 	; Module end

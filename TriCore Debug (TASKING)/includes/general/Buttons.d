@@ -48,8 +48,6 @@ includes/general/Buttons.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/S
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.asm.h :
 includes/general/Buttons.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Cpu/Std/Ifx_Types.h :
-includes/general/Buttons.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h
-c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.h :
 includes/general/Buttons.o :	c:/Project1/AutoDoor/includes/application/Pin_Map.h
 c:/Project1/AutoDoor/includes/application/Pin_Map.h :
 includes/general/Buttons.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h

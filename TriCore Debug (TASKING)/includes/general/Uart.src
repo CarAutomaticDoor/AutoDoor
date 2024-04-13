@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc6232a --dep-file=includes/general/Uart.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Uart.src ../includes/general/Uart.c"
+	.compiler_invocation	"ctc -f cc15512a --dep-file=includes/general/Uart.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Project1\\\\AutoDoor -IC:\\\\Project1\\\\AutoDoor\\\\Configurations -IC:\\\\Project1\\\\AutoDoor\\\\Libraries -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\Project1\\\\AutoDoor\\\\includes -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\application -IC:\\\\Project1\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/general/Uart.src ../includes/general/Uart.c"
 	.compiler_name		"ctc"
 	;source	'../includes/general/Uart.c'
 
@@ -24,21 +24,21 @@ $TC16X
 	
 	.global	TxISR
 ; Function TxISR
-.L7:
+.L6:
 TxISR:	.type	func
 	svlcx
-.L95:
+.L118:
 	movh.a	a4,#@his(g_uart_handler)
 	lea	a4,[a4]@los(g_uart_handler)
 	call	IfxAsclin_Asc_isrTransmit
-.L96:
+.L119:
 	rslcx
 	rfe
-.L53:
+.L65:
 	
 __TxISR_function_end:
 	.size	TxISR,__TxISR_function_end-TxISR
-.L24:
+.L31:
 	; End of function
 	
 	.sdecl	'.text.inttab0.intvec.012',code
@@ -52,29 +52,29 @@ __TxISR_function_end:
 	
 	.global	RxISR
 ; Function RxISR
-.L9:
+.L8:
 RxISR:	.type	func
 	svlcx
-.L101:
+.L124:
 	movh.a	a15,#@his(g_rx_data)
 	lea	a15,[a15]@los(g_rx_data)
-.L102:
+.L125:
 	movh.a	a12,#@his(g_uart_handler)
 	lea	a12,[a12]@los(g_uart_handler)
-.L103:
+.L126:
 	ld.a	a12,[a12]
-.L104:
+.L127:
 	ld.w	d15,[a12]72
-.L105:
+.L128:
 	st.w	[a15],d15
-.L106:
+.L129:
 	rslcx
 	rfe
-.L54:
+.L66:
 	
 __RxISR_function_end:
 	.size	RxISR,__RxISR_function_end-RxISR
-.L29:
+.L36:
 	; End of function
 	
 	.sdecl	'.text.Uart.Init_Uart',code,cluster('Init_Uart')
@@ -83,82 +83,82 @@ __RxISR_function_end:
 	
 	.global	Init_Uart
 ; Function Init_Uart
-.L11:
+.L10:
 Init_Uart:	.type	func
 	sub.a	a10,#96
-.L79:
+.L70:
 	lea	a4,[a10]0
-.L111:
+.L86:
 	lea	a5,0xf0000600
 	call	IfxAsclin_Asc_initModuleConfig
-.L112:
+.L87:
 	movh	d15,#18401
-.L113:
+.L88:
 	st.w	[a10]4,d15
-.L114:
+.L89:
 	mov	d15,#19
-.L115:
+.L90:
 	st.h	[a10]32,d15
-.L116:
+.L91:
 	mov	d15,#18
-.L117:
+.L92:
 	st.h	[a10]34,d15
-.L59:
+.L49:
 	mfcr	d15,#65052
-.L80:
+.L71:
 	and	d15,#7
-.L81:
+.L72:
 	j	.L2
 .L2:
 	j	.L3
 .L3:
 	st.b	[a10]38,d15
-.L118:
+.L93:
 	movh.a	a15,#@his(g_tx_buffer)
 	lea	a15,[a15]@los(g_tx_buffer)
-.L119:
+.L94:
 	st.a	[a10]48,a15
-.L120:
+.L95:
 	mov	d15,#64
-.L121:
+.L96:
 	st.h	[a10]46,d15
-.L122:
+.L97:
 	movh.a	a15,#@his(g_rx_buffer)
 	lea	a15,[a15]@los(g_rx_buffer)
-.L123:
+.L98:
 	st.a	[a10]56,a15
-.L124:
+.L99:
 	mov	d15,#64
-.L125:
+.L100:
 	st.h	[a10]52,d15
-.L67:
+.L57:
 	movh.a	a15,#@his(.1.ini)
 	lea	a15,[a15]@los(.1.ini)
 	lea	a15,[a15]0
-.L126:
+.L101:
 	lea	a2,[a10]64
 	mov.a	a4,#7
 .L4:
 	ld.w	d15,[a15+]
 	st.w	[a2+],d15
 	loop	a4,.L4
-.L127:
+.L102:
 	lea	a15,[a10]64
-.L128:
+.L103:
 	st.a	[a10]40,a15
-.L129:
+.L104:
 	movh.a	a4,#@his(g_uart_handler)
 	lea	a4,[a4]@los(g_uart_handler)
-.L130:
+.L105:
 	lea	a5,[a10]0
 	call	IfxAsclin_Asc_initModule
-.L131:
+.L106:
 	ret
-.L55:
+.L45:
 	
 __Init_Uart_function_end:
 	.size	Init_Uart,__Init_Uart_function_end-Init_Uart
-.L34:
+.L21:
 	; End of function
 	
 	.sdecl	'.text.Uart.Send_Uart_Msg',code,cluster('Send_Uart_Msg')
@@ -167,54 +167,32 @@ __Init_Uart_function_end:
 	
 	.global	Send_Uart_Msg
 ; Function Send_Uart_Msg
-.L13:
+.L12:
 Send_Uart_Msg:	.type	func
 	sub.a	a10,#8
-.L82:
+.L73:
 	mov.aa	a5,a4
-.L85:
+.L76:
 	st.h	[a10],d4
-.L136:
+.L111:
 	movh.a	a4,#@his(g_uart_handler)
-.L84:
+.L75:
 	lea	a4,[a4]@los(g_uart_handler)
-.L137:
+.L112:
 	lea	a6,[a10]0
-.L138:
+.L113:
 	movh.a	a15,#@his(.2.cnt)
 	lea	a15,[a15]@los(.2.cnt)
 	ld.d	e4,[a15]0
-.L83:
+.L74:
 	call	IfxAsclin_Asc_write
-.L86:
+.L77:
 	ret
-.L70:
+.L60:
 	
 __Send_Uart_Msg_function_end:
 	.size	Send_Uart_Msg,__Send_Uart_Msg_function_end-Send_Uart_Msg
-.L39:
-	; End of function
-	
-	.sdecl	'.text.Uart.Receive_Uart_Msg',code,cluster('Receive_Uart_Msg')
-	.sect	'.text.Uart.Receive_Uart_Msg'
-	.align	2
-	
-	.global	Receive_Uart_Msg
-; Function Receive_Uart_Msg
-.L15:
-Receive_Uart_Msg:	.type	func
-	movh.a	a15,#@his(g_rx_data)
-	lea	a15,[a15]@los(g_rx_data)
-	ld.w	d2,[a15]
-.L143:
-	j	.L5
-.L5:
-	ret
-.L76:
-	
-__Receive_Uart_Msg_function_end:
-	.size	Receive_Uart_Msg,__Receive_Uart_Msg_function_end-Receive_Uart_Msg
-.L44:
+.L26:
 	; End of function
 	
 	.sdecl	'.bss.Uart.g_uart_handler',data,cluster('g_uart_handler')
@@ -263,27 +241,26 @@ g_rx_data:	.type	object
 	.calls	'TxISR','',0
 	.calls	'RxISR','',0
 	.calls	'Init_Uart','',96
-	.calls	'Send_Uart_Msg','',8
 	.extern	IfxAsclin0_RXB_P15_3_IN
 	.extern	IfxAsclin0_TX_P15_2_OUT
 	.extern	IfxAsclin_Asc_isrTransmit
 	.extern	IfxAsclin_Asc_write
 	.extern	IfxAsclin_Asc_initModule
 	.extern	IfxAsclin_Asc_initModuleConfig
-	.calls	'Receive_Uart_Msg','',0
+	.calls	'Send_Uart_Msg','',8
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L17:
+.L14:
 	.word	112095
 	.half	3
-	.word	.L18
+	.word	.L15
 	.byte	4
-.L16:
+.L13:
 	.byte	1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L19
+	.word	.L16
 	.byte	2,1,1,3
 	.word	168
 	.byte	4
@@ -465,12 +442,12 @@ g_rx_data:	.type	object
 	.byte	'IfxCpu_ResourceCpu_1',0,1,16
 	.byte	'IfxCpu_ResourceCpu_2',0,2,16
 	.byte	'IfxCpu_ResourceCpu_none',0,3,0
-.L58:
+.L48:
 	.byte	8
 	.byte	'IfxCpu_getCoreIndex',0,3,5,140,6,31
 	.word	1419
 	.byte	1,1
-.L60:
+.L50:
 	.byte	6,0,8
 	.byte	'IfxCpu_areInterruptsEnabled',0,3,5,138,5,20
 	.word	607
@@ -482,7 +459,7 @@ g_rx_data:	.type	object
 	.byte	'enabled',0,5,167,7,50
 	.word	607
 	.byte	6,0
-.L75:
+.L67:
 	.byte	7
 	.byte	'unsigned long int',0,4,7,8
 	.byte	'IfxCpu_getPerformanceCounter',0,3,5,160,6,19
@@ -3079,7 +3056,7 @@ g_rx_data:	.type	object
 	.byte	'alti',0,12,190,18,82
 	.word	17666
 	.byte	6,0
-.L73:
+.L63:
 	.byte	7
 	.byte	'short int',0,2,5,7
 	.byte	'long int',0,4,5,20,14,57,9,12,13
@@ -3732,16 +3709,16 @@ g_rx_data:	.type	object
 	.byte	'IfxSrc_Tos_cpu1',0,1,16
 	.byte	'IfxSrc_Tos_cpu2',0,2,16
 	.byte	'IfxSrc_Tos_dma',0,3,0
-.L63:
+.L53:
 	.byte	8
 	.byte	'IfxCpu_Irq_getTos',0,3,17,101,23
 	.word	22003
 	.byte	1,1
-.L64:
+.L54:
 	.byte	5
 	.byte	'coreId',0,17,101,60
 	.word	1419
-.L66:
+.L56:
 	.byte	6,0,14
 	.word	448
 	.byte	21
@@ -4010,7 +3987,7 @@ g_rx_data:	.type	object
 	.word	1690
 	.byte	14
 	.word	21853
-.L77:
+.L68:
 	.byte	20,19,214,2,9,28,13
 	.byte	'asclin',0
 	.word	17415
@@ -4358,7 +4335,7 @@ g_rx_data:	.type	object
 	.byte	'IfxAsclin_ClockSource_flexRayClock',0,4,16
 	.byte	'IfxAsclin_ClockSource_ascFastClock',0,8,16
 	.byte	'IfxAsclin_ClockSource_ascSlowClock',0,16,0
-.L56:
+.L46:
 	.byte	20,19,229,2,9,64,13
 	.byte	'asclin',0
 	.word	17415
@@ -4438,7 +4415,7 @@ g_rx_data:	.type	object
 	.byte	'reserved_3',0,4
 	.word	455
 	.byte	29,0,2,35,0,0
-.L61:
+.L51:
 	.byte	12,22,244,5,9,4,13
 	.byte	'U',0
 	.word	432
@@ -4449,10 +4426,10 @@ g_rx_data:	.type	object
 	.byte	'B',0
 	.word	29210
 	.byte	4,2,35,0,0
-.L68:
+.L58:
 	.byte	29
 	.word	28377
-.L71:
+.L61:
 	.byte	3
 	.word	607
 	.byte	31
@@ -16306,13 +16283,13 @@ g_rx_data:	.type	object
 	.byte	31
 	.byte	'IfxAsclin_Asc_Config',0,19,254,2,3
 	.word	28754
-.L78:
+.L69:
 	.byte	18,100
 	.word	607
 	.byte	19,99,0,0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L18:
+.L15:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -16326,12 +16303,12 @@ g_rx_data:	.type	object
 	.byte	0,0,35,21,1,54,15,39,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L19:
-	.word	.L88-.L87
-.L87:
+.L16:
+	.word	.L79-.L78
+.L78:
 	.half	3
-	.word	.L90-.L89
-.L89:
+	.word	.L81-.L80
+.L80:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq',0
@@ -16371,518 +16348,460 @@ g_rx_data:	.type	object
 	.byte	'IfxCbs_regdef.h',0,1,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\StdIf\\IfxStdIf.h',0,0,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\StdIf\\IfxStdIf_DPipe.h',0,0,0,0,0
-.L90:
-.L88:
-	.sdecl	'.debug_info',debug,cluster('TxISR')
-	.sect	'.debug_info'
-.L20:
-	.word	209
-	.half	3
-	.word	.L21
-	.byte	4,1
-	.byte	'../includes/general/Uart.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L23,.L22
-	.byte	2
-	.word	.L16
-	.byte	3
-	.byte	'TxISR',0,1,77,6,1,1,1
-	.word	.L7,.L53,.L6
-	.byte	4
-	.word	.L7,.L53
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('TxISR')
-	.sect	'.debug_abbrev'
-.L21:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('TxISR')
-	.sect	'.debug_line'
-.L22:
-	.word	.L92-.L91
-.L91:
-	.half	3
-	.word	.L94-.L93
-.L93:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/general/Uart.c',0,0,0,0,0
-.L94:
-	.byte	5,6,7,0,5,2
-	.word	.L7
-	.byte	3,204,0,1,5,32,9
-	.half	.L95-.L7
-	.byte	3,1,1,5,1,9
-	.half	.L96-.L95
-	.byte	3,1,1,9
-	.half	.L24-.L96
-	.byte	0,1,1
-.L92:
-	.sdecl	'.debug_ranges',debug,cluster('TxISR')
-	.sect	'.debug_ranges'
-.L23:
-	.word	-1,.L7,0,.L24-.L7,0,0
-	.sdecl	'.debug_info',debug,cluster('RxISR')
-	.sect	'.debug_info'
-.L25:
-	.word	209
-	.half	3
-	.word	.L26
-	.byte	4,1
-	.byte	'../includes/general/Uart.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L28,.L27
-	.byte	2
-	.word	.L16
-	.byte	3
-	.byte	'RxISR',0,1,82,6,1,1,1
-	.word	.L9,.L54,.L8
-	.byte	4
-	.word	.L9,.L54
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('RxISR')
-	.sect	'.debug_abbrev'
-.L26:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('RxISR')
-	.sect	'.debug_line'
-.L27:
-	.word	.L98-.L97
-.L97:
-	.half	3
-	.word	.L100-.L99
-.L99:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/general/Uart.c',0,0,0,0,0
-.L100:
-	.byte	5,6,7,0,5,2
-	.word	.L9
-	.byte	3,209,0,1,5,5,9
-	.half	.L101-.L9
-	.byte	3,1,1,5,17,9
-	.half	.L102-.L101
-	.byte	1,5,31,9
-	.half	.L103-.L102
-	.byte	1,5,46,9
-	.half	.L104-.L103
-	.byte	1,5,15,9
-	.half	.L105-.L104
-	.byte	1,5,1,9
-	.half	.L106-.L105
-	.byte	3,1,1,9
-	.half	.L29-.L106
-	.byte	0,1,1
-.L98:
-	.sdecl	'.debug_ranges',debug,cluster('RxISR')
-	.sect	'.debug_ranges'
-.L28:
-	.word	-1,.L9,0,.L29-.L9,0,0
+.L81:
+.L79:
 	.sdecl	'.debug_info',debug,cluster('Init_Uart')
 	.sect	'.debug_info'
-.L30:
+.L17:
 	.word	344
 	.half	3
-	.word	.L31
+	.word	.L18
 	.byte	4,1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L33,.L32
+	.word	.L20,.L19
 	.byte	2
-	.word	.L16
+	.word	.L13
 	.byte	3
-	.byte	'Init_Uart',0,1,87,6,1,1
-	.word	.L11,.L55,.L10
+	.byte	'Init_Uart',0,1,52,6,1,1
+	.word	.L10,.L45,.L9
 	.byte	4
-	.word	.L11,.L55
+	.word	.L10,.L45
 	.byte	5
-	.byte	'asc_config',0,1,90,26
-	.word	.L56,.L57
+	.byte	'asc_config',0,1,55,26
+	.word	.L46,.L47
 	.byte	6
-	.word	.L58,.L59,.L2
+	.word	.L48,.L49,.L2
 	.byte	7
-	.word	.L60,.L59,.L2
+	.word	.L50,.L49,.L2
 	.byte	5
 	.byte	'reg',0,2,142,6,21
-	.word	.L61,.L62
+	.word	.L51,.L52
 	.byte	0,0,6
-	.word	.L63,.L2,.L3
+	.word	.L53,.L2,.L3
 	.byte	8
-	.word	.L64,.L65
+	.word	.L54,.L55
 	.byte	9
-	.word	.L66,.L2,.L3
+	.word	.L56,.L2,.L3
 	.byte	0,4
-	.word	.L67,.L55
+	.word	.L57,.L45
 	.byte	5
-	.byte	'pins',0,1,108,30
-	.word	.L68,.L69
+	.byte	'pins',0,1,73,30
+	.word	.L58,.L59
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Uart')
 	.sect	'.debug_abbrev'
-.L31:
+.L18:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,29,1,49,16
 	.byte	17,1,18,1,0,0,7,11,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Uart')
 	.sect	'.debug_line'
-.L32:
-	.word	.L108-.L107
-.L107:
+.L19:
+	.word	.L83-.L82
+.L82:
 	.half	3
-	.word	.L110-.L109
-.L109:
+	.word	.L85-.L84
+.L84:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq',0,0
 	.byte	'../includes/general/Uart.c',0,0,0,0
 	.byte	'C:\\\\Project1\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\IfxCpu.h',0,0,0,0
 	.byte	'IfxCpu_Irq.h',0,1,0,0,0
-.L110:
+.L85:
 	.byte	5,6,7,0,5,2
-	.word	.L11
-	.byte	3,214,0,1,5,37,9
-	.half	.L79-.L11
+	.word	.L10
+	.byte	3,51,1,5,37,9
+	.half	.L70-.L10
 	.byte	3,4,1,5,50,9
-	.half	.L111-.L79
+	.half	.L86-.L70
 	.byte	1,5,36,9
-	.half	.L112-.L111
+	.half	.L87-.L86
 	.byte	3,3,1,5,34,9
-	.half	.L113-.L112
+	.half	.L88-.L87
 	.byte	1,5,39,9
-	.half	.L114-.L113
+	.half	.L89-.L88
 	.byte	3,3,1,5,37,9
-	.half	.L115-.L114
+	.half	.L90-.L89
 	.byte	1,5,39,9
-	.half	.L116-.L115
+	.half	.L91-.L90
 	.byte	3,1,1,5,37,9
-	.half	.L117-.L116
+	.half	.L92-.L91
 	.byte	1,4,2,5,19,9
-	.half	.L59-.L117
-	.byte	3,173,5,1,5,37,9
-	.half	.L80-.L59
+	.half	.L49-.L92
+	.byte	3,208,5,1,5,37,9
+	.half	.L71-.L49
 	.byte	3,1,1,5,5,9
-	.half	.L81-.L80
+	.half	.L72-.L71
 	.byte	1,4,3,9
-	.half	.L2-.L81
+	.half	.L2-.L72
 	.byte	3,215,122,1,4,1,5,40,9
 	.half	.L3-.L2
-	.byte	3,124,1,5,28,9
-	.half	.L118-.L3
+	.byte	3,89,1,5,28,9
+	.half	.L93-.L3
 	.byte	3,3,1,5,25,9
-	.half	.L119-.L118
+	.half	.L94-.L93
 	.byte	1,5,31,9
-	.half	.L120-.L119
+	.half	.L95-.L94
 	.byte	3,1,1,5,29,9
-	.half	.L121-.L120
+	.half	.L96-.L95
 	.byte	1,5,28,9
-	.half	.L122-.L121
+	.half	.L97-.L96
 	.byte	3,1,1,5,25,9
-	.half	.L123-.L122
+	.half	.L98-.L97
 	.byte	1,5,31,9
-	.half	.L124-.L123
+	.half	.L99-.L98
 	.byte	3,1,1,5,29,9
-	.half	.L125-.L124
+	.half	.L100-.L99
 	.byte	1,5,37,9
-	.half	.L67-.L125
+	.half	.L57-.L100
 	.byte	3,3,1,5,35,9
-	.half	.L126-.L67
+	.half	.L101-.L57
 	.byte	1,5,24,9
-	.half	.L127-.L126
+	.half	.L102-.L101
 	.byte	3,7,1,5,21,9
-	.half	.L128-.L127
+	.half	.L103-.L102
 	.byte	1,5,31,9
-	.half	.L129-.L128
+	.half	.L104-.L103
 	.byte	3,2,1,5,48,9
-	.half	.L130-.L129
+	.half	.L105-.L104
 	.byte	1,5,1,9
-	.half	.L131-.L130
+	.half	.L106-.L105
 	.byte	3,1,1,7,9
-	.half	.L34-.L131
+	.half	.L21-.L106
 	.byte	0,1,1
-.L108:
+.L83:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Uart')
 	.sect	'.debug_ranges'
-.L33:
-	.word	-1,.L11,0,.L34-.L11,0,0
+.L20:
+	.word	-1,.L10,0,.L21-.L10,0,0
 	.sdecl	'.debug_info',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_info'
-.L35:
+.L22:
 	.word	251
 	.half	3
-	.word	.L36
+	.word	.L23
 	.byte	4,1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L38,.L37
+	.word	.L25,.L24
 	.byte	2
-	.word	.L16
+	.word	.L13
 	.byte	3
-	.byte	'Send_Uart_Msg',0,1,120,6,1,1,1
-	.word	.L13,.L70,.L12
+	.byte	'Send_Uart_Msg',0,1,85,6,1,1,1
+	.word	.L12,.L60,.L11
 	.byte	4
-	.byte	'msg',0,1,120,27
-	.word	.L71,.L72
+	.byte	'msg',0,1,85,27
+	.word	.L61,.L62
 	.byte	4
-	.byte	'count',0,1,120,42
-	.word	.L73,.L74
+	.byte	'count',0,1,85,42
+	.word	.L63,.L64
 	.byte	5
-	.word	.L13,.L70
+	.word	.L12,.L60
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_abbrev'
-.L36:
+.L23:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_line'
-.L37:
-	.word	.L133-.L132
-.L132:
+.L24:
+	.word	.L108-.L107
+.L107:
 	.half	3
-	.word	.L135-.L134
-.L134:
+	.word	.L110-.L109
+.L109:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Uart.c',0,0,0,0,0
-.L135:
+.L110:
 	.byte	5,6,7,0,5,2
-	.word	.L13
-	.byte	3,247,0,1,5,26,9
-	.half	.L136-.L13
+	.word	.L12
+	.byte	3,212,0,1,5,26,9
+	.half	.L111-.L12
 	.byte	3,1,1,5,48,9
-	.half	.L137-.L136
+	.half	.L112-.L111
 	.byte	1,5,55,9
-	.half	.L138-.L137
+	.half	.L113-.L112
 	.byte	1,5,1,9
-	.half	.L86-.L138
+	.half	.L77-.L113
 	.byte	3,1,1,7,9
-	.half	.L39-.L86
+	.half	.L26-.L77
 	.byte	0,1,1
-.L133:
+.L108:
 	.sdecl	'.debug_ranges',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_ranges'
-.L38:
-	.word	-1,.L13,0,.L39-.L13,0,0
-	.sdecl	'.debug_info',debug,cluster('Receive_Uart_Msg')
+.L25:
+	.word	-1,.L12,0,.L26-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('TxISR')
 	.sect	'.debug_info'
-.L40:
-	.word	223
+.L27:
+	.word	209
 	.half	3
-	.word	.L41
+	.word	.L28
 	.byte	4,1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L43,.L42
+	.word	.L30,.L29
 	.byte	2
-	.word	.L16
+	.word	.L13
 	.byte	3
-	.byte	'Receive_Uart_Msg',0,1,124,8
-	.word	.L75
-	.byte	1,1
-	.word	.L15,.L76,.L14
+	.byte	'TxISR',0,1,42,6,1,1,1
+	.word	.L6,.L65,.L5
 	.byte	4
-	.word	.L15,.L76
+	.word	.L6,.L65
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Receive_Uart_Msg')
+	.sdecl	'.debug_abbrev',debug,cluster('TxISR')
 	.sect	'.debug_abbrev'
-.L41:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
-	.byte	54,15,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Receive_Uart_Msg')
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('TxISR')
 	.sect	'.debug_line'
-.L42:
-	.word	.L140-.L139
-.L139:
+.L29:
+	.word	.L115-.L114
+.L114:
 	.half	3
-	.word	.L142-.L141
-.L141:
+	.word	.L117-.L116
+.L116:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/general/Uart.c',0,0,0,0,0
-.L142:
-	.byte	5,12,7,0,5,2
-	.word	.L15
-	.byte	3,252,0,1,5,5,9
-	.half	.L143-.L15
-	.byte	1,5,1,9
-	.half	.L5-.L143
-	.byte	3,1,1,7,9
-	.half	.L44-.L5
+.L117:
+	.byte	5,6,7,0,5,2
+	.word	.L6
+	.byte	3,41,1,5,32,9
+	.half	.L118-.L6
+	.byte	3,1,1,5,1,9
+	.half	.L119-.L118
+	.byte	3,1,1,9
+	.half	.L31-.L119
 	.byte	0,1,1
-.L140:
-	.sdecl	'.debug_ranges',debug,cluster('Receive_Uart_Msg')
+.L115:
+	.sdecl	'.debug_ranges',debug,cluster('TxISR')
 	.sect	'.debug_ranges'
-.L43:
-	.word	-1,.L15,0,.L44-.L15,0,0
-	.sdecl	'.debug_info',debug,cluster('g_uart_handler')
+.L30:
+	.word	-1,.L6,0,.L31-.L6,0,0
+	.sdecl	'.debug_info',debug,cluster('RxISR')
 	.sect	'.debug_info'
-.L45:
-	.word	195
+.L32:
+	.word	209
 	.half	3
-	.word	.L46
+	.word	.L33
 	.byte	4,1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L16
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L13
 	.byte	3
-	.byte	'g_uart_handler',0,23,58,22
-	.word	.L77
-	.byte	5,3
-	.word	g_uart_handler
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_uart_handler')
+	.byte	'RxISR',0,1,47,6,1,1,1
+	.word	.L8,.L66,.L7
+	.byte	4
+	.word	.L8,.L66
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('RxISR')
 	.sect	'.debug_abbrev'
-.L46:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('g_tx_buffer')
-	.sect	'.debug_info'
-.L47:
-	.word	192
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('RxISR')
+	.sect	'.debug_line'
+.L34:
+	.word	.L121-.L120
+.L120:
 	.half	3
-	.word	.L48
-	.byte	4,1
-	.byte	'../includes/general/Uart.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L16
-	.byte	3
-	.byte	'g_tx_buffer',0,23,61,14
-	.word	.L78
-	.byte	5,3
-	.word	g_tx_buffer
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_tx_buffer')
-	.sect	'.debug_abbrev'
-.L48:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
-	.sdecl	'.debug_info',debug,cluster('g_rx_buffer')
-	.sect	'.debug_info'
-.L49:
-	.word	192
-	.half	3
-	.word	.L50
-	.byte	4,1
-	.byte	'../includes/general/Uart.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L16
-	.byte	3
-	.byte	'g_rx_buffer',0,23,62,14
-	.word	.L78
-	.byte	5,3
-	.word	g_rx_buffer
-	.byte	0
-	.sdecl	'.debug_abbrev',debug,cluster('g_rx_buffer')
-	.sect	'.debug_abbrev'
-.L50:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.word	.L123-.L122
+.L122:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../includes/general/Uart.c',0,0,0,0,0
+.L123:
+	.byte	5,6,7,0,5,2
+	.word	.L8
+	.byte	3,46,1,5,5,9
+	.half	.L124-.L8
+	.byte	3,1,1,5,17,9
+	.half	.L125-.L124
+	.byte	1,5,31,9
+	.half	.L126-.L125
+	.byte	1,5,46,9
+	.half	.L127-.L126
+	.byte	1,5,15,9
+	.half	.L128-.L127
+	.byte	1,5,1,9
+	.half	.L129-.L128
+	.byte	3,1,1,9
+	.half	.L36-.L129
+	.byte	0,1,1
+.L121:
+	.sdecl	'.debug_ranges',debug,cluster('RxISR')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L8,0,.L36-.L8,0,0
 	.sdecl	'.debug_info',debug,cluster('g_rx_data')
 	.sect	'.debug_info'
-.L51:
+.L37:
 	.word	191
 	.half	3
-	.word	.L52
+	.word	.L38
 	.byte	4,1
 	.byte	'../includes/general/Uart.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L16
+	.word	.L13
 	.byte	3
-	.byte	'g_rx_data',0,23,64,8
-	.word	.L75
+	.byte	'g_rx_data',0,23,36,8
+	.word	.L67
 	.byte	1,5,3
 	.word	g_rx_data
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_rx_data')
 	.sect	'.debug_abbrev'
-.L52:
+.L38:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_uart_handler')
+	.sect	'.debug_info'
+.L39:
+	.word	195
+	.half	3
+	.word	.L40
+	.byte	4,1
+	.byte	'../includes/general/Uart.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L13
+	.byte	3
+	.byte	'g_uart_handler',0,23,30,22
+	.word	.L68
+	.byte	5,3
+	.word	g_uart_handler
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_uart_handler')
+	.sect	'.debug_abbrev'
+.L40:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_tx_buffer')
+	.sect	'.debug_info'
+.L41:
+	.word	192
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../includes/general/Uart.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L13
+	.byte	3
+	.byte	'g_tx_buffer',0,23,33,14
+	.word	.L69
+	.byte	5,3
+	.word	g_tx_buffer
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_tx_buffer')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('g_rx_buffer')
+	.sect	'.debug_info'
+.L43:
+	.word	192
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../includes/general/Uart.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Project1\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L13
+	.byte	3
+	.byte	'g_rx_buffer',0,23,34,14
+	.word	.L69
+	.byte	5,3
+	.word	g_rx_buffer
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_rx_buffer')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Uart')
 	.sect	'.debug_loc'
-.L10:
-	.word	-1,.L11,0,.L79-.L11
+.L9:
+	.word	-1,.L10,0,.L70-.L10
 	.half	2
 	.byte	138,0
-	.word	.L79-.L11,.L55-.L11
+	.word	.L70-.L10,.L45-.L10
 	.half	3
 	.byte	138,224,0
-	.word	.L55-.L11,.L55-.L11
+	.word	.L45-.L10,.L45-.L10
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L57:
-	.word	-1,.L11,0,.L55-.L11
+.L47:
+	.word	-1,.L10,0,.L45-.L10
 	.half	3
 	.byte	145,160,127
 	.word	0,0
-.L65:
+.L55:
 	.word	0,0
-.L69:
-	.word	-1,.L11,0,.L55-.L11
+.L59:
+	.word	-1,.L10,0,.L45-.L10
 	.half	2
 	.byte	145,96
 	.word	0,0
-.L62:
-	.word	-1,.L11,.L80-.L11,.L81-.L11
+.L52:
+	.word	-1,.L10,.L71-.L10,.L72-.L10
 	.half	1
 	.byte	95
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Receive_Uart_Msg')
-	.sect	'.debug_loc'
-.L14:
-	.word	-1,.L15,0,.L76-.L15
-	.half	2
-	.byte	138,0
-	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('RxISR')
 	.sect	'.debug_loc'
-.L8:
-	.word	-1,.L9,0,.L54-.L9
+.L7:
+	.word	-1,.L8,0,.L66-.L8
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_loc'
-.L12:
-	.word	-1,.L13,0,.L82-.L13
+.L11:
+	.word	-1,.L12,0,.L73-.L12
 	.half	2
 	.byte	138,0
-	.word	.L82-.L13,.L70-.L13
+	.word	.L73-.L12,.L60-.L12
 	.half	2
 	.byte	138,8
-	.word	.L70-.L13,.L70-.L13
+	.word	.L60-.L12,.L60-.L12
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L74:
-	.word	-1,.L13,0,.L83-.L13
+.L64:
+	.word	-1,.L12,0,.L74-.L12
 	.half	1
 	.byte	84
-	.word	0,.L70-.L13
+	.word	0,.L60-.L12
 	.half	2
 	.byte	145,120
 	.word	0,0
-.L72:
-	.word	-1,.L13,0,.L84-.L13
+.L62:
+	.word	-1,.L12,0,.L75-.L12
 	.half	1
 	.byte	100
-	.word	.L85-.L13,.L86-.L13
+	.word	.L76-.L12,.L77-.L12
 	.half	1
 	.byte	101
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('TxISR')
 	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L53-.L7
+.L5:
+	.word	-1,.L6,0,.L65-.L6
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L144:
+.L130:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -16890,32 +16809,27 @@ g_rx_data:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('TxISR')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L144,.L7,.L53-.L7
+	.word	.L130,.L6,.L65-.L6
 	.sdecl	'.debug_frame',debug,cluster('RxISR')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L144,.L9,.L54-.L9
+	.word	.L130,.L8,.L66-.L8
 	.sdecl	'.debug_frame',debug,cluster('Init_Uart')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L144,.L11,.L55-.L11
+	.word	.L130,.L10,.L45-.L10
 	.byte	4
-	.word	(.L79-.L11)/2
+	.word	(.L70-.L10)/2
 	.byte	19,224,0,22,26,4,19,138,224,0,4
-	.word	(.L55-.L79)/2
+	.word	(.L45-.L70)/2
 	.byte	19,0,8,26
 	.sdecl	'.debug_frame',debug,cluster('Send_Uart_Msg')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L144,.L13,.L70-.L13
+	.word	.L130,.L12,.L60-.L12
 	.byte	4
-	.word	(.L82-.L13)/2
+	.word	(.L73-.L12)/2
 	.byte	19,8,22,26,3,19,138,8,4
-	.word	(.L70-.L82)/2
+	.word	(.L60-.L73)/2
 	.byte	19,0,8,26,0,0
-	.sdecl	'.debug_frame',debug,cluster('Receive_Uart_Msg')
-	.sect	'.debug_frame'
-	.word	24
-	.word	.L144,.L15,.L76-.L15
-	.byte	8,18,8,19,8,20,8,21,8,22,8,23
 	; Module end

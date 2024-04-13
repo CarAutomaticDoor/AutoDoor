@@ -140,5 +140,5 @@ includes/general/Uart.o :	c:/Project1/AutoDoor/includes/application/Pin_Map.h
 c:/Project1/AutoDoor/includes/application/Pin_Map.h :
 includes/general/Uart.o :	c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h
 c:/Project1/AutoDoor/Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.h :
-includes/general/Uart.o :	../includes/general/Servo.h
-../includes/general/Servo.h :
+includes/general/Uart.o :	../includes/general/Uart.h
+../includes/general/Uart.h :
