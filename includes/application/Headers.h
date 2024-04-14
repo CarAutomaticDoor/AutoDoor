@@ -20,5 +20,6 @@
 #include "Pin_Map.h"
 #include "Lock.h"
 #include "Platform_Types.h"
+#include "Light.h"
 
 #endif /* INCLUDES_APPLICATION_HEADERS_H_ */

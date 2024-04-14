@@ -87,6 +87,9 @@ void Auto_Door(void) {
 }
 
 void Setup(void) {
+    PIN_MODE(PIN_LED, OUTPUT_MODE);
+    SET_PIN(PIN_LED, LOW);
+
     Init_Gtm();
     Init_Servos();  //이게 없어야 uart 돌아감
     Init_Vadc();
@@ -96,6 +99,7 @@ void Setup(void) {
     Init_Foot_Sensor();
     Init_Obstacle_Sensor();
     Init_Uart();
+    Init_Light();
     Start_Adc_Scan();
 }
 
@@ -272,10 +276,11 @@ void Change_Door_State(void) {
 }
 
 void Actuators(void) {
-    // 상태정보에 따라 잠금 장치를 동작시킴
+//     상태정보에 따라 잠금 장치를 동작시킴
     Control_Lock(&g_door_lock);
 
     // 상태정보에 따라 문을 동작시킴
     Control_Door(&g_door);
+    Control_Light(g_auto_lock);
 //    Control_Audio();
 }

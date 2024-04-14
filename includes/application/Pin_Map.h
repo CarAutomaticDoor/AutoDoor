@@ -23,11 +23,11 @@
 #define PIN_DOOR_CTRL                   IfxPort_P00_5
 #define PIN_LOCK_CTRL                   IfxPort_P00_6
 
-#define PIN_AUDIO                                           // PWM10    PWMH3   P10_5
+#define PIN_LED_RED                     IfxPort_P10_4
+#define PIN_LED_GREEN                   IfxPort_P02_1
+#define PIN_LED_BLUE                    IfxPort_P02_0
 
-#define PIN_AMBIENT_1                                       // PIN39    XIO19   P00_7
-#define PIN_AMBIENT_2                                       // PIN41    XIO21   P11_9
-#define PIN_AMBIENT_3                                       // PIN43    XIO23   P11_11
+#define PIN_AUDIO                                           // PWM10    PWMH3   P10_5
 
 #define PIN_LED                         IfxPort_P10_2
 
