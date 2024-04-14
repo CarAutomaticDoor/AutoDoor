@@ -87,10 +87,8 @@ void Auto_Door(void) {
 }
 
 void Setup(void) {
-    PIN_MODE(PIN_LED, OUTPUT_MODE);
-    SET_PIN(PIN_LED, LOW);
-
     Init_Gtm();
+    Init_Audio();
     Init_Servos();  //이게 없어야 uart 돌아감
     Init_Vadc();
     Init_Finger_Detector();
@@ -147,7 +145,7 @@ void Sensors(void) {
     }
 
     // 장애물 센서
-    if ((g_door == DOOR_OPENING)) {
+    if ((g_door == DOOR_OPENING) || (g_door == DOOR_STOP)) {
         g_obstacle = Read_Obstacle_Detection_State();
     } else {
         g_obstacle = FALSE;
@@ -277,10 +275,24 @@ void Change_Door_State(void) {
 
 void Actuators(void) {
 //     상태정보에 따라 잠금 장치를 동작시킴
+    Control_Light(g_auto_lock);
+
     Control_Lock(&g_door_lock);
 
     // 상태정보에 따라 문을 동작시킴
+    uint8 prev_door = g_door;
     Control_Door(&g_door);
-    Control_Light(g_auto_lock);
-//    Control_Audio();
+
+    uint8 audio_state = NO_SOUND;
+    if ((prev_door == DOOR_CLOSING) && (g_door == DOOR_CLOSE)) {
+        audio_state = WELCOME_SOUND;
+    }
+//    else if ((g_door == DOOR_STOP) && ((g_obstacle == TRUE) || (g_finger == TRUE))) {
+//        audio_state = EMERGENCY;
+//    }
+    else if ((g_door == DOOR_OPENING) || (g_door == DOOR_CLOSING)) {
+        audio_state = WARNING;
+    }
+    Control_Audio(audio_state);
+
 }
