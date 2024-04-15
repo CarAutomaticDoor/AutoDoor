@@ -89,7 +89,7 @@ void Auto_Door(void) {
 void Setup(void) {
     Init_Gtm();
     Init_Audio();
-    Init_Servos();  //이게 없어야 uart 돌아감
+    Init_Servos();
     Init_Vadc();
     Init_Finger_Detector();
     Init_Touch_Sensor();
@@ -274,9 +274,10 @@ void Change_Door_State(void) {
 }
 
 void Actuators(void) {
-//     상태정보에 따라 잠금 장치를 동작시킴
+    // 상태정보에 따라 조명 장치를 동작시킴
     Control_Light(g_auto_lock);
 
+    // 상태정보에 따라 잠금 장치를 동작시킴
     Control_Lock(&g_door_lock);
 
     // 상태정보에 따라 문을 동작시킴
@@ -287,9 +288,9 @@ void Actuators(void) {
     if ((prev_door == DOOR_CLOSING) && (g_door == DOOR_CLOSE)) {
         audio_state = WELCOME_SOUND;
     }
-//    else if ((g_door == DOOR_STOP) && ((g_obstacle == TRUE) || (g_finger == TRUE))) {
-//        audio_state = EMERGENCY;
-//    }
+    else if ((g_door == DOOR_STOP) && ((g_obstacle == TRUE) || (g_finger == TRUE))) {
+        audio_state = EMERGENCY;
+    }
     else if ((g_door == DOOR_OPENING) || (g_door == DOOR_CLOSING)) {
         audio_state = WARNING;
     }

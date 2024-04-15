@@ -40,7 +40,7 @@
 /*********************************************************************************************************************/
 /*------------------------------------------------------Macros-------------------------------------------------------*/
 /*********************************************************************************************************************/
-#define VOLUME_LEVEL        2                                   /* Volume level in percentage                       */
+#define VOLUME_LEVEL        10                                   /* Volume level in percentage                       */
 #define WAIT_TIME           1                                   /* Number of milliseconds to wait during play time  */
 
 #define FREQ_OFF            0
@@ -120,12 +120,13 @@ void Control_Audio(uint8 state) {
         break;
     case WARNING:
         if (Get_Cur_Millis() % 500 < 250) {
+            IfxGtm_Tom_Timer_stop(&g_buzzer);
             IfxGtm_Tom_Timer_run(&g_buzzer);
             IfxGtm_Tom_Timer_setFrequency(&g_buzzer, FREQ_A);
-            setVolume(1);
+            setVolume(10);
             waitTime(g_ticksFor1ms);
-            IfxGtm_Tom_Timer_stop(&g_buzzer);
         } else {
+            IfxGtm_Tom_Timer_stop(&g_buzzer);
         }
         break;
 //    case EMERGENCY:
@@ -178,7 +179,7 @@ void Welcome_Sound(void) {
 
 void Warning(void) {
     if (Get_Cur_Millis() % 1000)
-        setVolume(VOLUME_LEVEL);
+        setVolume(10);
 }
 
 //void Emergency(void) {

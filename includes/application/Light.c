@@ -53,9 +53,7 @@
 uint8 g_led_state = 0;
 uint8 g_arr_led[6] = {RG,G,GB,B,BR, RGB};
 uint64 g_prev_millis = 0;
-uint8 g_r;
-uint8 g_g;
-uint8 g_b;
+
 /*********************************************************************************************************************/
 /*--------------------------------------------Private Variables/Constants--------------------------------------------*/
 /*********************************************************************************************************************/
@@ -79,26 +77,29 @@ void Init_Light(void) {
 
 void Control_Light(uint8 state) {
     if (state == TRUE) {
+        SET_PIN(PIN_LED_RED, LOW);
+        SET_PIN(PIN_LED_GREEN, LOW);
+        SET_PIN(PIN_LED_BLUE, LOW);
         g_prev_millis = 0;
         return;
     }
-    g_r = g_arr_led[g_led_state] & R;
-    g_g = g_arr_led[g_led_state] & G;
-    g_b = g_arr_led[g_led_state] & B;
-    SET_PIN(PIN_LED, HIGH);
-    if (g_r != 0) {
+    uint8 red   = g_arr_led[g_led_state] & R;
+    uint8 green = g_arr_led[g_led_state] & G;
+    uint8 blue  = g_arr_led[g_led_state] & B;
+
+    if (red != 0) {
         SET_PIN(PIN_LED_RED, HIGH);
     } else {
         SET_PIN(PIN_LED_RED, LOW);
     }
 
-    if (g_g != 0) {
+    if (green != 0) {
         SET_PIN(PIN_LED_GREEN, HIGH);
     } else {
         SET_PIN(PIN_LED_GREEN, LOW);
     }
 
-    if (g_b != 0) {
+    if (blue != 0) {
         SET_PIN(PIN_LED_BLUE, HIGH);
     } else {
         SET_PIN(PIN_LED_BLUE, LOW);

@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc14780a --dep-file=includes/application/Audio.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git-repo\\\\AutoDoor -IC:\\\\git-repo\\\\AutoDoor\\\\Configurations -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git-repo\\\\AutoDoor\\\\includes -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Audio.src ../includes/application/Audio.c"
+	.compiler_invocation	"ctc -f cc15924a --dep-file=includes/application/Audio.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\git-repo\\\\AutoDoor -IC:\\\\git-repo\\\\AutoDoor\\\\Configurations -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -IC:\\\\git-repo\\\\AutoDoor\\\\includes -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\application -IC:\\\\git-repo\\\\AutoDoor\\\\includes\\\\general -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o includes/application/Audio.src ../includes/application/Audio.c"
 	.compiler_name		"ctc"
 	;source	'../includes/application/Audio.c'
 
@@ -13,122 +13,122 @@ $TC16X
 	
 	.global	Init_Audio
 ; Function Init_Audio
-.L25:
+.L23:
 Init_Audio:	.type	func
 	sub.a	a10,#56
-.L142:
+.L132:
 	movh.a	a15,#61440
-.L90:
+.L81:
 	jz.a	a15,.L2
 .L2:
 	call	IfxScuCcu_getSourceFrequency
-.L167:
+.L156:
 	movh.a	a15,#61443
 	ld.bu	d15,[a15]@los(0xf0036035)
 	and	d15,#15
 	itof	d15,d15
-.L168:
+.L157:
 	div.f	d15,d2,d15
-.L169:
+.L158:
 	j	.L3
 .L3:
 	j	.L4
 .L4:
 	ftoiz	d15,d15
-.L99:
+.L90:
 	mov	d0,#1000
-.L170:
+.L159:
 	div	e0,d15,d0
-.L171:
+.L160:
 	mul	d15,d0,#1
-.L143:
+.L133:
 	j	.L5
 .L5:
 	movh.a	a15,#@his(g_ticksFor1ms)
 	lea	a15,[a15]@los(g_ticksFor1ms)
-.L172:
+.L161:
 	mov	e0,d15
-.L173:
+.L162:
 	st.d	[a15]0,e0
-.L174:
+.L163:
 	movh.a	a4,#61456
 	call	IfxGtm_enable
-.L175:
+.L164:
 	movh.a	a4,#61456
-.L176:
+.L165:
 	movh	d4,#128
 	call	IfxGtm_Cmu_enableClocks
-.L108:
+.L99:
 	lea	a4,[a10]0
-.L177:
+.L166:
 	movh.a	a5,#61456
 	call	IfxGtm_Tom_Timer_initConfig
-.L178:
+.L167:
 	mov	d15,#1
-.L179:
+.L168:
 	st.b	[a10]40,d15
-.L180:
+.L169:
 	mov	d15,#4
-.L181:
+.L170:
 	st.b	[a10]41,d15
-.L182:
+.L171:
 	mov	d15,#2
-.L183:
+.L172:
 	st.b	[a10]48,d15
-.L184:
+.L173:
 	movh.a	a15,#@his(IfxGtm_TOM1_4_TOUT30_P33_8_OUT)
 	lea	a15,[a15]@los(IfxGtm_TOM1_4_TOUT30_P33_8_OUT)
-.L185:
+.L174:
 	st.a	[a10]44,a15
+.L175:
+	mov	d15,#1
+.L176:
+	st.b	[a10]12,d15
+.L177:
+	mov	d15,#1
+.L178:
+	st.b	[a10]24,d15
+.L179:
+	mov	d15,#1
+.L180:
+	st.b	[a10]23,d15
+.L181:
+	movh.a	a4,#@his(g_buzzer)
+	lea	a4,[a4]@los(g_buzzer)
+.L182:
+	lea	a5,[a10]0
+	call	IfxGtm_Tom_Timer_init
+.L183:
+	movh.a	a15,#@his(g_buzzer)
+	lea	a15,[a15]@los(g_buzzer)
+.L184:
+	ld.a	a15,[a15]16
+.L185:
+	lea	a15,[a15]48
 .L186:
 	mov	d15,#1
 .L187:
-	st.b	[a10]12,d15
-.L188:
-	mov	d15,#1
-.L189:
-	st.b	[a10]24,d15
-.L190:
-	mov	d15,#1
-.L191:
-	st.b	[a10]23,d15
-.L192:
-	movh.a	a4,#@his(g_buzzer)
-	lea	a4,[a4]@los(g_buzzer)
-.L193:
-	lea	a5,[a10]0
-	call	IfxGtm_Tom_Timer_init
-.L194:
-	movh.a	a15,#@his(g_buzzer)
-	lea	a15,[a15]@los(g_buzzer)
-.L195:
-	ld.a	a15,[a15]16
-.L196:
-	lea	a15,[a15]48
-.L197:
-	mov	d15,#1
-.L198:
 	movh.a	a2,#@his(IfxGtm_TOM1_4_TOUT30_P33_8_OUT)
 	lea	a2,[a2]@los(IfxGtm_TOM1_4_TOUT30_P33_8_OUT)
-.L199:
+.L188:
 	ld.b	d0,[a2]1
-.L200:
+.L189:
 	sha	d15,d15,d0
 	extr.u	d4,d15,#0,#16
-.L201:
+.L190:
 	mov	d5,#0
-.L112:
+.L103:
 	mov	d6,#16
 	call	IfxGtm_Tom_Tgc_buildFeature
-.L202:
+.L191:
 	st.w	[a15],d2
-.L113:
+.L104:
 	ret
-.L88:
+.L79:
 	
 __Init_Audio_function_end:
 	.size	Init_Audio,__Init_Audio_function_end-Init_Audio
-.L48:
+.L44:
 	; End of function
 	
 	.sdecl	'.text.Audio.Control_Audio',code,cluster('Control_Audio')
@@ -137,87 +137,80 @@ __Init_Audio_function_end:
 	
 	.global	Control_Audio
 ; Function Control_Audio
-.L27:
+.L25:
 Control_Audio:	.type	func
 	mov	d15,#0
 	jeq	d15,d4,.L6
-.L207:
+.L196:
 	mov	d15,#1
 	jeq	d15,d4,.L7
-.L208:
+.L197:
 	mov	d15,#2
 	jeq	d15,d4,.L8
-.L209:
-	mov	d15,#3
-	jeq	d15,d4,.L9
-	j	.L10
+	j	.L9
 .L7:
 	call	Welcome_Sound
-.L144:
-	j	.L11
+.L134:
+	j	.L10
 .L8:
 	call	Get_Cur_Millis
-.L145:
+.L135:
 	mov	e6,#500
-.L210:
+.L198:
 	mov	e4,d3,d2
 	call	__ll_urem64
-.L211:
+.L199:
 	mov	e0,#250
-.L212:
+.L200:
 	ge.u	d15,d2,d0
 	and.eq	d15,d3,d1
 	or.lt.u	d15,d1,d3
-.L213:
-	jne	d15,#0,.L12
-.L214:
+.L201:
+	jne	d15,#0,.L11
+.L202:
+	movh.a	a4,#@his(g_buzzer)
+	lea	a4,[a4]@los(g_buzzer)
+	call	IfxGtm_Tom_Timer_stop
+.L203:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
 	call	IfxGtm_Tom_Timer_run
-.L215:
+.L204:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
-.L216:
+.L205:
 	movh	d4,#17500
 	call	IfxGtm_Tom_Timer_setFrequency
-.L217:
-	mov	d4,#1
+.L206:
+	mov	d4,#10
 	call	setVolume
-.L218:
+.L207:
 	movh.a	a15,#@his(g_ticksFor1ms)
 	lea	a15,[a15]@los(g_ticksFor1ms)
 	ld.d	e4,[a15]0
 	call	waitTime
-.L219:
+.L208:
+	j	.L12
+.L11:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
 	call	IfxGtm_Tom_Timer_stop
-.L220:
-	j	.L13
 .L12:
-.L13:
-	j	.L14
-.L9:
-	movh.a	a4,#@his(g_buzzer)
-	lea	a4,[a4]@los(g_buzzer)
-	call	IfxGtm_Tom_Timer_run
-.L146:
-	j	.L15
+	j	.L13
 .L6:
-.L10:
+.L9:
 	call	No_Sound
-.L147:
-	j	.L16
-.L16:
-.L15:
+.L136:
+	j	.L14
 .L14:
-.L11:
+.L13:
+.L10:
 	ret
-.L121:
+.L112:
 	
 __Control_Audio_function_end:
 	.size	Control_Audio,__Control_Audio_function_end-Control_Audio
-.L53:
+.L49:
 	; End of function
 	
 	.sdecl	'.text.Audio.setVolume',code,cluster('setVolume')
@@ -226,29 +219,29 @@ __Control_Audio_function_end:
 	
 	.global	setVolume
 ; Function setVolume
-.L29:
+.L27:
 setVolume:	.type	func
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
-.L225:
+.L213:
 	movh.a	a15,#@his(g_buzzer)
 	lea	a15,[a15]@los(g_buzzer)
-.L226:
+.L214:
 	ld.w	d15,[a15]
-.L227:
+.L215:
 	mul	d4,d15
-.L148:
+.L137:
 	mov	d15,#150
-.L228:
+.L216:
 	div.u	e4,d4,d15
 	call	IfxGtm_Tom_Timer_setTrigger
-.L229:
+.L217:
 	ret
-.L124:
+.L115:
 	
 __setVolume_function_end:
 	.size	setVolume,__setVolume_function_end-setVolume
-.L58:
+.L54:
 	; End of function
 	
 	.sdecl	'.text.Audio.playTone',code,cluster('playTone')
@@ -257,64 +250,64 @@ __setVolume_function_end:
 	
 	.global	playTone
 ; Function playTone
-.L31:
+.L29:
 playTone:	.type	func
 	mov	d8,d4
-.L150:
+.L139:
 	mov	e10,d7,d6
-.L234:
+.L222:
 	extr.u	d15,d8,#23,#8
-	jeq	d15,#0,.L17
-.L235:
+	jeq	d15,#0,.L15
+.L223:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
 	call	IfxGtm_Tom_Timer_run
-.L149:
+.L138:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
-.L236:
+.L224:
 	mov	d4,d8
-.L151:
+.L140:
 	call	IfxGtm_Tom_Timer_setFrequency
-.L152:
-	mov	d4,#2
+.L141:
+	mov	d4,#10
 	call	setVolume
-.L237:
+.L225:
 	movh.a	a15,#@his(g_ticksFor1ms)
 	lea	a15,[a15]@los(g_ticksFor1ms)
 	ld.d	e6,[a15]0
-.L153:
+.L142:
 	mov	e4,d11,d10
-.L154:
+.L143:
 	call	__ll_mul64
 	mov	e4,d3,d2
 	call	waitTime
-.L238:
+.L226:
 	mov	d4,#0
 	call	setVolume
-.L239:
+.L227:
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
 	call	IfxGtm_Tom_Timer_stop
-.L240:
-	j	.L18
-.L17:
+.L228:
+	j	.L16
+.L15:
 	movh.a	a15,#@his(g_ticksFor1ms)
 	lea	a15,[a15]@los(g_ticksFor1ms)
 	ld.d	e6,[a15]0
-.L155:
+.L144:
 	mov	e4,d11,d10
-.L156:
+.L145:
 	call	__ll_mul64
 	mov	e4,d3,d2
 	call	waitTime
-.L18:
+.L16:
 	ret
-.L126:
+.L117:
 	
 __playTone_function_end:
 	.size	playTone,__playTone_function_end-playTone
-.L63:
+.L59:
 	; End of function
 	
 	.sdecl	'.text.Audio.Welcome_Sound',code,cluster('Welcome_Sound')
@@ -323,40 +316,40 @@ __playTone_function_end:
 	
 	.global	Welcome_Sound
 ; Function Welcome_Sound
-.L33:
+.L31:
 Welcome_Sound:	.type	func
 	sub.a	a10,#64
-.L157:
+.L146:
 	movh.a	a15,#@his(.2.ini)
 	lea	a15,[a15]@los(.2.ini)
 	lea	a15,[a15]0
-.L245:
+.L233:
 	lea	a2,[a10]0
 	mov.a	a4,#7
-.L19:
+.L17:
 	ld.w	d15,[a15+]
 	st.w	[a2+],d15
-	loop	a4,.L19
-.L246:
+	loop	a4,.L17
+.L234:
 	movh.a	a15,#@his(.3.ini)
 	lea	a15,[a15]@los(.3.ini)
 	lea	a15,[a15]0
-.L247:
+.L235:
 	lea	a2,[a10]32
 	mov.a	a4,#7
-.L20:
+.L18:
 	ld.w	d15,[a15+]
 	st.w	[a2+],d15
-	loop	a4,.L20
-.L134:
+	loop	a4,.L18
+.L125:
 	mov	d8,#0
-.L158:
-	j	.L21
-.L22:
+.L147:
+	j	.L19
+.L20:
 	mul	d15,d8,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d9,[a15]
-.L248:
+.L236:
 	mul	d15,d8,#4
 	addsc.a	a15,a10,d15,#0
 	ld.w	d4,[a15]32
@@ -364,17 +357,17 @@ Welcome_Sound:	.type	func
 	mov	e6,d3,d2
 	mov	d4,d9
 	call	playTone
-.L249:
+.L237:
 	add	d8,#1
-.L21:
-	jlt.u	d8,#8,.L22
-.L135:
+.L19:
+	jlt.u	d8,#8,.L20
+.L126:
 	ret
-.L130:
+.L121:
 	
 __Welcome_Sound_function_end:
 	.size	Welcome_Sound,__Welcome_Sound_function_end-Welcome_Sound
-.L68:
+.L64:
 	; End of function
 	
 	.sdecl	'.text.Audio.Warning',code,cluster('Warning')
@@ -383,44 +376,28 @@ __Welcome_Sound_function_end:
 	
 	.global	Warning
 ; Function Warning
-.L35:
+.L33:
 Warning:	.type	func
 	call	Get_Cur_Millis
-.L254:
+.L242:
 	mov	e6,#1000
-.L255:
+.L243:
 	mov	e4,d3,d2
 	call	__ll_urem64
-.L256:
+.L244:
 	eq	d15,d2,#0
 	and.eq	d15,d3,#0
-	jne	d15,#0,.L23
-.L257:
-	mov	d4,#2
+	jne	d15,#0,.L21
+.L245:
+	mov	d4,#10
 	call	setVolume
-.L23:
+.L21:
 	ret
-.L138:
+.L129:
 	
 __Warning_function_end:
 	.size	Warning,__Warning_function_end-Warning
-.L73:
-	; End of function
-	
-	.sdecl	'.text.Audio.Emergency',code,cluster('Emergency')
-	.sect	'.text.Audio.Emergency'
-	.align	2
-	
-	.global	Emergency
-; Function Emergency
-.L37:
-Emergency:	.type	func
-	ret
-.L139:
-	
-__Emergency_function_end:
-	.size	Emergency,__Emergency_function_end-Emergency
-.L78:
+.L69:
 	; End of function
 	
 	.sdecl	'.text.Audio.No_Sound',code,cluster('No_Sound')
@@ -429,18 +406,18 @@ __Emergency_function_end:
 	
 	.global	No_Sound
 ; Function No_Sound
-.L39:
+.L35:
 No_Sound:	.type	func
 	movh.a	a4,#@his(g_buzzer)
 	lea	a4,[a4]@los(g_buzzer)
 	call	IfxGtm_Tom_Timer_stop
-.L266:
+.L250:
 	ret
-.L140:
+.L130:
 	
 __No_Sound_function_end:
 	.size	No_Sound,__No_Sound_function_end-No_Sound
-.L83:
+.L74:
 	; End of function
 	
 	.sdecl	'.bss.Audio.g_ticksFor1ms',data,cluster('g_ticksFor1ms')
@@ -484,11 +461,11 @@ g_buzzer:	.type	object
 	.calls	'Init_Audio','IfxGtm_Tom_Tgc_buildFeature'
 	.calls	'Control_Audio','Welcome_Sound'
 	.calls	'Control_Audio','Get_Cur_Millis'
+	.calls	'Control_Audio','IfxGtm_Tom_Timer_stop'
 	.calls	'Control_Audio','IfxGtm_Tom_Timer_run'
 	.calls	'Control_Audio','IfxGtm_Tom_Timer_setFrequency'
 	.calls	'Control_Audio','setVolume'
 	.calls	'Control_Audio','waitTime'
-	.calls	'Control_Audio','IfxGtm_Tom_Timer_stop'
 	.calls	'Control_Audio','No_Sound'
 	.calls	'setVolume','IfxGtm_Tom_Timer_setTrigger'
 	.calls	'playTone','IfxGtm_Tom_Timer_run'
@@ -506,7 +483,6 @@ g_buzzer:	.type	object
 	.calls	'playTone','',0
 	.calls	'Welcome_Sound','',64
 	.calls	'Warning','',0
-	.calls	'Emergency','',0
 	.extern	IfxScuCcu_getSourceFrequency
 	.extern	waitTime
 	.extern	IfxGtm_enable
@@ -526,17 +502,17 @@ g_buzzer:	.type	object
 	.calls	'No_Sound','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L41:
+.L37:
 	.word	214888
 	.half	3
-	.word	.L42
+	.word	.L38
 	.byte	4
-.L40:
+.L36:
 	.byte	1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L43
+	.word	.L39
 	.byte	2,1,1,3
 	.word	173
 	.byte	4
@@ -561,7 +537,7 @@ g_buzzer:	.type	object
 	.word	237
 	.byte	6,0,9
 	.byte	'__fract',0,4,128,1
-.L104:
+.L95:
 	.byte	9
 	.byte	'float',0,4,4,10
 	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
@@ -622,10 +598,10 @@ g_buzzer:	.type	object
 	.byte	'B',0
 	.word	635
 	.byte	4,2,35,0,0
-.L122:
+.L113:
 	.byte	9
 	.byte	'unsigned char',0,1,8
-.L136:
+.L127:
 	.byte	9
 	.byte	'unsigned short int',0,2,7,11
 	.byte	'_Ifx_SCU_WDTCPU_CON1_Bits',0,4,242,8,16,4,12
@@ -2102,12 +2078,12 @@ g_buzzer:	.type	object
 	.byte	'action',0,5,206,4,80
 	.word	9327
 	.byte	6,0
-.L106:
+.L97:
 	.byte	10
 	.byte	'IfxScuCcu_getStmFrequency',0,3,7,177,9,20
 	.word	336
 	.byte	1,1
-.L107:
+.L98:
 	.byte	6,0,17,9,155,1,9,1,18
 	.byte	'IfxCpu_ResourceCpu_0',0,0,18
 	.byte	'IfxCpu_ResourceCpu_1',0,1,18
@@ -2778,18 +2754,18 @@ g_buzzer:	.type	object
 	.byte	'stm',0,12,194,4,39
 	.word	13917
 	.byte	6,0
-.L98:
+.L89:
 	.byte	10
 	.byte	'IfxStm_getFrequency',0,3,12,211,4,20
 	.word	336
 	.byte	1,1
-.L100:
+.L91:
 	.byte	5
 	.byte	'stm',0,12,211,4,49
 	.word	13917
-.L102:
+.L93:
 	.byte	19
-.L103:
+.L94:
 	.byte	6,6,0,0,10
 	.byte	'IfxStm_getLower',0,3,12,222,4,19
 	.word	237
@@ -2797,25 +2773,25 @@ g_buzzer:	.type	object
 	.byte	'stm',0,12,222,4,44
 	.word	13917
 	.byte	6,0
-.L96:
+.L87:
 	.byte	9
 	.byte	'long int',0,4,5
-.L89:
+.L80:
 	.byte	10
 	.byte	'IfxStm_getTicksFromMilliseconds',0,3,12,153,5,19
 	.word	14053
 	.byte	1,1
-.L91:
+.L82:
 	.byte	5
 	.byte	'stm',0,12,153,5,60
 	.word	13917
-.L93:
+.L84:
 	.byte	5
 	.byte	'milliSeconds',0,12,153,5,72
 	.word	237
-.L95:
+.L86:
 	.byte	19,6,0,0
-.L128:
+.L119:
 	.byte	9
 	.byte	'long long int',0,8,5,10
 	.byte	'IfxStm_now',0,3,12,223,5,19
@@ -4986,22 +4962,22 @@ g_buzzer:	.type	object
 	.word	29623
 	.byte	3
 	.word	29812
-.L111:
+.L102:
 	.byte	4
 	.byte	'IfxGtm_Tom_Tgc_enableChannelsUpdate',0,3,18,155,7,17,1,1
-.L114:
+.L105:
 	.byte	5
 	.byte	'tgc',0,18,155,7,70
 	.word	29817
-.L116:
+.L107:
 	.byte	5
 	.byte	'enableMask',0,18,155,7,82
 	.word	788
-.L118:
+.L109:
 	.byte	5
 	.byte	'disableMask',0,18,155,7,101
 	.word	788
-.L120:
+.L111:
 	.byte	6,0,21
 	.byte	'IfxStdIf_InterfaceDriver',0,20,115,15
 	.word	526
@@ -16496,7 +16472,7 @@ g_buzzer:	.type	object
 	.byte	'IfxGtm_IrqMode_pulse',0,1,18
 	.byte	'IfxGtm_IrqMode_pulseNotify',0,2,18
 	.byte	'IfxGtm_IrqMode_singlePulse',0,3,0
-.L109:
+.L100:
 	.byte	25,21,179,1,9,52,14
 	.byte	'base',0
 	.word	32155
@@ -17015,7 +16991,7 @@ g_buzzer:	.type	object
 	.byte	16,1,0,15,8
 	.word	237
 	.byte	16,1,0
-.L141:
+.L131:
 	.byte	25,21,162,1,9,56,14
 	.byte	'base',0
 	.word	110892
@@ -17101,7 +17077,7 @@ g_buzzer:	.type	object
 	.byte	'Get_Cur_Millis',0,26,18,8
 	.word	500
 	.byte	1,1,1,1
-.L131:
+.L122:
 	.byte	15,32
 	.word	336
 	.byte	16,7,0,9
@@ -30828,7 +30804,7 @@ g_buzzer:	.type	object
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L42:
+.L38:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,59,0,3,8,0,0,8,53
 	.byte	0,73,19,0,0,9,36,0,3,8,11,15,62,15,0,0,10,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,11,19
@@ -30842,12 +30818,12 @@ g_buzzer:	.type	object
 	.byte	12,0,0,35,21,0,54,15,0,0,36,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L43:
-	.word	.L160-.L159
-.L159:
+.L39:
+	.word	.L149-.L148
+.L148:
 	.half	3
-	.word	.L162-.L161
-.L161:
+	.word	.L151-.L150
+.L150:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg',0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp',0
@@ -30893,852 +30869,793 @@ g_buzzer:	.type	object
 	.byte	'IfxCbs_regdef.h',0,1,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Gtm\\Std\\IfxGtm_Tbu.h',0,0,0,0
 	.byte	'IfxGtm_Tom_Pwm.h',0,6,0,0,0
-.L162:
-.L160:
+.L151:
+.L149:
 	.sdecl	'.debug_info',debug,cluster('Init_Audio')
 	.sect	'.debug_info'
-.L44:
+.L40:
 	.word	467
 	.half	3
-	.word	.L45
+	.word	.L41
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L47,.L46
+	.word	.L43,.L42
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
 	.byte	'Init_Audio',0,1,91,6,1,1,1
-	.word	.L25,.L88,.L24
+	.word	.L23,.L79,.L22
 	.byte	4
-	.word	.L25,.L88
+	.word	.L23,.L79
 	.byte	5
-	.word	.L89,.L90,.L5
+	.word	.L80,.L81,.L5
 	.byte	6
-	.word	.L91,.L92
+	.word	.L82,.L83
 	.byte	6
-	.word	.L93,.L94
+	.word	.L84,.L85
 	.byte	7
-	.word	.L95,.L90,.L5
+	.word	.L86,.L81,.L5
 	.byte	8
 	.byte	'freq',0,2,155,5,12
-	.word	.L96,.L97
+	.word	.L87,.L88
 	.byte	5
-	.word	.L98,.L90,.L99
+	.word	.L89,.L81,.L90
 	.byte	6
-	.word	.L100,.L101
+	.word	.L91,.L92
 	.byte	7
-	.word	.L102,.L90,.L99
+	.word	.L93,.L81,.L90
 	.byte	7
-	.word	.L103,.L2,.L4
+	.word	.L94,.L2,.L4
 	.byte	8
 	.byte	'result',0,2,214,4,13
-	.word	.L104,.L105
+	.word	.L95,.L96
 	.byte	5
-	.word	.L106,.L2,.L3
+	.word	.L97,.L2,.L3
 	.byte	9
-	.word	.L107,.L2,.L3
+	.word	.L98,.L2,.L3
 	.byte	0,0,0,0,0,0,4
-	.word	.L108,.L88
+	.word	.L99,.L79
 	.byte	8
 	.byte	'timerCfg',0,1,99,29
-	.word	.L109,.L110
+	.word	.L100,.L101
 	.byte	5
-	.word	.L111,.L112,.L113
+	.word	.L102,.L103,.L104
 	.byte	6
-	.word	.L114,.L115
+	.word	.L105,.L106
 	.byte	6
-	.word	.L116,.L117
+	.word	.L107,.L108
 	.byte	6
-	.word	.L118,.L119
+	.word	.L109,.L110
 	.byte	9
-	.word	.L120,.L112,.L113
+	.word	.L111,.L103,.L104
 	.byte	0,0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Init_Audio')
 	.sect	'.debug_abbrev'
-.L45:
+.L41:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,29,1,49,16,17,1,18,1,0,0,6,5,0,49,16,2,6,0,0,7,11
 	.byte	1,49,16,17,1,18,1,0,0,8,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,9,11,0,49,16,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Init_Audio')
 	.sect	'.debug_line'
-.L46:
-	.word	.L164-.L163
-.L163:
+.L42:
+	.word	.L153-.L152
+.L152:
 	.half	3
-	.word	.L166-.L165
-.L165:
+	.word	.L155-.L154
+.L154:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Stm\\Std\\IfxStm.h',0,0,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Scu\\Std\\IfxScuCcu.h',0,0,0,0
 	.byte	'C:\\\\git-repo\\\\AutoDoor\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Gtm\\Std\\IfxGtm_Tom.h',0,0,0,0
 	.byte	0
-.L166:
+.L155:
 	.byte	5,6,7,0,5,2
-	.word	.L25
+	.word	.L23
 	.byte	3,218,0,1,5,53,9
-	.half	.L142-.L25
+	.half	.L132-.L23
 	.byte	3,3,1,4,2,5,5,9
-	.half	.L90-.L142
+	.half	.L81-.L132
 	.byte	3,247,3,1,4,3,5,40,7,9
-	.half	.L2-.L90
+	.half	.L2-.L81
 	.byte	3,222,4,1,5,58,9
-	.half	.L167-.L2
+	.half	.L156-.L2
 	.byte	1,5,43,9
-	.half	.L168-.L167
+	.half	.L157-.L156
 	.byte	1,5,5,9
-	.half	.L169-.L168
+	.half	.L158-.L157
 	.byte	1,4,2,9
-	.half	.L3-.L169
+	.half	.L3-.L158
 	.byte	3,167,123,1,5,19,9
 	.half	.L4-.L3
 	.byte	3,193,0,1,5,21,9
-	.half	.L99-.L4
+	.half	.L90-.L4
 	.byte	3,1,1,5,18,9
-	.half	.L170-.L99
+	.half	.L159-.L90
 	.byte	1,5,28,9
-	.half	.L171-.L170
+	.half	.L160-.L159
 	.byte	1,5,5,9
-	.half	.L143-.L171
+	.half	.L133-.L160
 	.byte	1,4,1,9
-	.half	.L5-.L143
+	.half	.L5-.L133
 	.byte	3,194,123,1,5,52,9
-	.half	.L172-.L5
+	.half	.L161-.L5
 	.byte	1,5,19,9
-	.half	.L173-.L172
+	.half	.L162-.L161
 	.byte	1,5,20,9
-	.half	.L174-.L173
+	.half	.L163-.L162
 	.byte	3,2,1,5,30,9
-	.half	.L175-.L174
+	.half	.L164-.L163
 	.byte	3,1,1,5,42,9
-	.half	.L176-.L175
+	.half	.L165-.L164
 	.byte	1,5,34,9
-	.half	.L108-.L176
+	.half	.L99-.L165
 	.byte	3,3,1,5,45,9
-	.half	.L177-.L108
+	.half	.L166-.L99
 	.byte	1,5,20,9
-	.half	.L178-.L177
+	.half	.L167-.L166
 	.byte	3,2,1,5,18,9
-	.half	.L179-.L178
+	.half	.L168-.L167
 	.byte	1,5,29,9
-	.half	.L180-.L179
+	.half	.L169-.L168
 	.byte	3,1,1,5,27,9
-	.half	.L181-.L180
+	.half	.L170-.L169
 	.byte	1,5,22,9
-	.half	.L182-.L181
+	.half	.L171-.L170
 	.byte	3,1,1,5,20,9
-	.half	.L183-.L182
+	.half	.L172-.L171
 	.byte	1,5,28,9
-	.half	.L184-.L183
+	.half	.L173-.L172
 	.byte	3,1,1,5,25,9
-	.half	.L185-.L184
+	.half	.L174-.L173
 	.byte	1,5,37,9
-	.half	.L186-.L185
+	.half	.L175-.L174
 	.byte	3,1,1,5,35,9
-	.half	.L187-.L186
+	.half	.L176-.L175
 	.byte	1,5,43,9
-	.half	.L188-.L187
+	.half	.L177-.L176
 	.byte	3,1,1,5,41,9
-	.half	.L189-.L188
+	.half	.L178-.L177
 	.byte	1,5,48,9
-	.half	.L190-.L189
+	.half	.L179-.L178
 	.byte	3,1,1,5,46,9
-	.half	.L191-.L190
+	.half	.L180-.L179
 	.byte	1,5,28,9
-	.half	.L192-.L191
+	.half	.L181-.L180
 	.byte	3,1,1,5,39,9
-	.half	.L193-.L192
+	.half	.L182-.L181
 	.byte	1,5,61,9
-	.half	.L194-.L193
+	.half	.L183-.L182
 	.byte	3,3,1,5,69,9
-	.half	.L195-.L194
+	.half	.L184-.L183
 	.byte	1,5,73,9
-	.half	.L196-.L195
+	.half	.L185-.L184
 	.byte	1,5,90,9
-	.half	.L197-.L196
+	.half	.L186-.L185
 	.byte	1,5,95,9
-	.half	.L198-.L197
+	.half	.L187-.L186
 	.byte	1,5,125,9
-	.half	.L199-.L198
+	.half	.L188-.L187
 	.byte	1,5,92,9
-	.half	.L200-.L199
+	.half	.L189-.L188
 	.byte	1,5,135,1,9
-	.half	.L201-.L200
+	.half	.L190-.L189
 	.byte	1,4,4,5,76,9
-	.half	.L112-.L201
+	.half	.L103-.L190
 	.byte	3,173,6,1,5,21,9
-	.half	.L202-.L112
+	.half	.L191-.L103
 	.byte	1,4,1,5,1,9
-	.half	.L113-.L202
+	.half	.L104-.L191
 	.byte	3,213,121,1,7,9
-	.half	.L48-.L113
+	.half	.L44-.L104
 	.byte	0,1,1
-.L164:
+.L153:
 	.sdecl	'.debug_ranges',debug,cluster('Init_Audio')
 	.sect	'.debug_ranges'
-.L47:
-	.word	-1,.L25,0,.L48-.L25,0,0
+.L43:
+	.word	-1,.L23,0,.L44-.L23,0,0
 	.sdecl	'.debug_info',debug,cluster('Control_Audio')
 	.sect	'.debug_info'
-.L49:
+.L45:
 	.word	240
 	.half	3
-	.word	.L50
+	.word	.L46
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L52,.L51
+	.word	.L48,.L47
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
 	.byte	'Control_Audio',0,1,116,6,1,1,1
-	.word	.L27,.L121,.L26
+	.word	.L25,.L112,.L24
 	.byte	4
 	.byte	'state',0,1,116,26
-	.word	.L122,.L123
+	.word	.L113,.L114
 	.byte	5
-	.word	.L27,.L121
+	.word	.L25,.L112
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Control_Audio')
 	.sect	'.debug_abbrev'
-.L50:
+.L46:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Control_Audio')
 	.sect	'.debug_line'
-.L51:
-	.word	.L204-.L203
-.L203:
+.L47:
+	.word	.L193-.L192
+.L192:
 	.half	3
-	.word	.L206-.L205
-.L205:
+	.word	.L195-.L194
+.L194:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L206:
+.L195:
 	.byte	5,10,7,0,5,2
-	.word	.L27
-	.byte	3,133,1,1,9
-	.half	.L207-.L27
-	.byte	3,112,1,9
-	.half	.L208-.L207
-	.byte	3,3,1,9
-	.half	.L209-.L208
-	.byte	3,10,1,5,22,9
-	.half	.L7-.L209
-	.byte	3,116,1,5,9,9
-	.half	.L144-.L7
+	.word	.L25
+	.byte	3,134,1,1,9
+	.half	.L196-.L25
+	.byte	3,111,1,9
+	.half	.L197-.L196
+	.byte	3,3,1,5,22,9
+	.half	.L7-.L197
+	.byte	3,126,1,5,9,9
+	.half	.L134-.L7
 	.byte	3,1,1,5,27,9
-	.half	.L8-.L144
+	.half	.L8-.L134
 	.byte	3,2,1,5,32,9
-	.half	.L145-.L8
+	.half	.L135-.L8
 	.byte	1,5,30,9
-	.half	.L210-.L145
+	.half	.L198-.L135
 	.byte	1,5,38,9
-	.half	.L211-.L210
+	.half	.L199-.L198
 	.byte	1,5,36,9
-	.half	.L212-.L211
+	.half	.L200-.L199
 	.byte	1,5,9,9
-	.half	.L213-.L212
-	.byte	1,5,35,7,9
-	.half	.L214-.L213
+	.half	.L201-.L200
+	.byte	1,5,36,7,9
+	.half	.L202-.L201
+	.byte	3,1,1,5,35,9
+	.half	.L203-.L202
 	.byte	3,1,1,5,44,9
-	.half	.L215-.L214
+	.half	.L204-.L203
 	.byte	3,1,1,5,54,9
-	.half	.L216-.L215
+	.half	.L205-.L204
 	.byte	1,5,23,9
-	.half	.L217-.L216
+	.half	.L206-.L205
 	.byte	3,1,1,5,22,9
-	.half	.L218-.L217
-	.byte	3,1,1,5,36,9
-	.half	.L219-.L218
-	.byte	3,1,1,5,44,9
-	.half	.L220-.L219
-	.byte	3,124,1,5,9,9
-	.half	.L13-.L220
-	.byte	3,7,1,5,31,9
-	.half	.L9-.L13
-	.byte	3,2,1,5,9,9
-	.half	.L146-.L9
-	.byte	3,1,1,5,17,9
-	.half	.L10-.L146
-	.byte	3,3,1,5,9,9
-	.half	.L147-.L10
+	.half	.L207-.L206
+	.byte	3,1,1,5,45,9
+	.half	.L208-.L207
+	.byte	3,124,1,5,36,9
+	.half	.L11-.L208
+	.byte	3,6,1,5,9,9
+	.half	.L12-.L11
+	.byte	3,2,1,5,17,9
+	.half	.L9-.L12
+	.byte	3,6,1,5,9,9
+	.half	.L136-.L9
 	.byte	3,1,1,5,1,9
-	.half	.L11-.L147
+	.half	.L10-.L136
 	.byte	3,2,1,7,9
-	.half	.L53-.L11
+	.half	.L49-.L10
 	.byte	0,1,1
-.L204:
+.L193:
 	.sdecl	'.debug_ranges',debug,cluster('Control_Audio')
 	.sect	'.debug_ranges'
-.L52:
-	.word	-1,.L27,0,.L53-.L27,0,0
+.L48:
+	.word	-1,.L25,0,.L49-.L25,0,0
 	.sdecl	'.debug_info',debug,cluster('setVolume')
 	.sect	'.debug_info'
-.L54:
+.L50:
 	.word	244
 	.half	3
-	.word	.L55
+	.word	.L51
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L57,.L56
+	.word	.L53,.L52
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
-	.byte	'setVolume',0,1,142,1,6,1,1,1
-	.word	.L29,.L124,.L28
+	.byte	'setVolume',0,1,143,1,6,1,1,1
+	.word	.L27,.L115,.L26
 	.byte	4
-	.byte	'volumeLevel',0,1,142,1,22
-	.word	.L122,.L125
+	.byte	'volumeLevel',0,1,143,1,22
+	.word	.L113,.L116
 	.byte	5
-	.word	.L29,.L124
+	.word	.L27,.L115
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('setVolume')
 	.sect	'.debug_abbrev'
-.L55:
+.L51:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('setVolume')
 	.sect	'.debug_line'
-.L56:
-	.word	.L222-.L221
-.L221:
+.L52:
+	.word	.L210-.L209
+.L209:
 	.half	3
-	.word	.L224-.L223
-.L223:
+	.word	.L212-.L211
+.L211:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L224:
+.L212:
 	.byte	5,34,7,0,5,2
-	.word	.L29
-	.byte	3,144,1,1,5,60,9
-	.half	.L225-.L29
+	.word	.L27
+	.byte	3,145,1,1,5,60,9
+	.half	.L213-.L27
 	.byte	1,5,73,9
-	.half	.L226-.L225
+	.half	.L214-.L213
 	.byte	1,5,57,9
-	.half	.L227-.L226
+	.half	.L215-.L214
 	.byte	1,5,85,9
-	.half	.L148-.L227
+	.half	.L137-.L215
 	.byte	1,5,83,9
-	.half	.L228-.L148
+	.half	.L216-.L137
 	.byte	1,5,1,9
-	.half	.L229-.L228
+	.half	.L217-.L216
 	.byte	3,1,1,7,9
-	.half	.L58-.L229
+	.half	.L54-.L217
 	.byte	0,1,1
-.L222:
+.L210:
 	.sdecl	'.debug_ranges',debug,cluster('setVolume')
 	.sect	'.debug_ranges'
-.L57:
-	.word	-1,.L29,0,.L58-.L29,0,0
+.L53:
+	.word	-1,.L27,0,.L54-.L27,0,0
 	.sdecl	'.debug_info',debug,cluster('playTone')
 	.sect	'.debug_info'
-.L59:
+.L55:
 	.word	266
 	.half	3
-	.word	.L60
+	.word	.L56
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L62,.L61
+	.word	.L58,.L57
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
-	.byte	'playTone',0,1,149,1,6,1,1,1
-	.word	.L31,.L126,.L30
+	.byte	'playTone',0,1,150,1,6,1,1,1
+	.word	.L29,.L117,.L28
 	.byte	4
-	.byte	'frequency',0,1,149,1,23
-	.word	.L104,.L127
+	.byte	'frequency',0,1,150,1,23
+	.word	.L95,.L118
 	.byte	4
-	.byte	'duration_ms',0,1,149,1,41
-	.word	.L128,.L129
+	.byte	'duration_ms',0,1,150,1,41
+	.word	.L119,.L120
 	.byte	5
-	.word	.L31,.L126
+	.word	.L29,.L117
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('playTone')
 	.sect	'.debug_abbrev'
-.L60:
+.L56:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('playTone')
 	.sect	'.debug_line'
-.L61:
-	.word	.L231-.L230
-.L230:
+.L57:
+	.word	.L219-.L218
+.L218:
 	.half	3
-	.word	.L233-.L232
-.L232:
+	.word	.L221-.L220
+.L220:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L233:
+.L221:
 	.byte	5,6,7,0,5,2
-	.word	.L31
-	.byte	3,148,1,1,5,5,9
-	.half	.L234-.L31
+	.word	.L29
+	.byte	3,149,1,1,5,5,9
+	.half	.L222-.L29
 	.byte	3,2,1,5,31,9
-	.half	.L235-.L234
+	.half	.L223-.L222
 	.byte	3,6,1,5,40,9
-	.half	.L149-.L235
+	.half	.L138-.L223
 	.byte	3,1,1,5,49,9
-	.half	.L236-.L149
+	.half	.L224-.L138
 	.byte	1,5,19,9
-	.half	.L152-.L236
+	.half	.L141-.L224
 	.byte	3,1,1,5,32,9
-	.half	.L237-.L152
+	.half	.L225-.L141
 	.byte	3,1,1,5,30,9
-	.half	.L153-.L237
+	.half	.L142-.L225
 	.byte	1,5,19,9
-	.half	.L238-.L153
+	.half	.L226-.L142
 	.byte	3,1,1,5,32,9
-	.half	.L239-.L238
+	.half	.L227-.L226
 	.byte	3,1,1,5,46,9
-	.half	.L240-.L239
+	.half	.L228-.L227
 	.byte	3,119,1,5,32,9
-	.half	.L17-.L240
+	.half	.L15-.L228
 	.byte	1,5,30,9
-	.half	.L155-.L17
+	.half	.L144-.L15
 	.byte	1,5,1,9
-	.half	.L18-.L155
+	.half	.L16-.L144
 	.byte	3,11,1,7,9
-	.half	.L63-.L18
+	.half	.L59-.L16
 	.byte	0,1,1
-.L231:
+.L219:
 	.sdecl	'.debug_ranges',debug,cluster('playTone')
 	.sect	'.debug_ranges'
-.L62:
-	.word	-1,.L31,0,.L63-.L31,0,0
+.L58:
+	.word	-1,.L29,0,.L59-.L29,0,0
 	.sdecl	'.debug_info',debug,cluster('Welcome_Sound')
 	.sect	'.debug_info'
-.L64:
+.L60:
 	.word	297
 	.half	3
-	.word	.L65
+	.word	.L61
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L67,.L66
+	.word	.L63,.L62
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
-	.byte	'Welcome_Sound',0,1,166,1,6,1,1,1
-	.word	.L33,.L130,.L32
+	.byte	'Welcome_Sound',0,1,167,1,6,1,1,1
+	.word	.L31,.L121,.L30
 	.byte	4
-	.word	.L33,.L130
+	.word	.L31,.L121
 	.byte	5
-	.byte	'frequencies',0,1,167,1,13
-	.word	.L131,.L132
+	.byte	'frequencies',0,1,168,1,13
+	.word	.L122,.L123
 	.byte	5
-	.byte	'durations',0,1,170,1,13
-	.word	.L131,.L133
+	.byte	'durations',0,1,171,1,13
+	.word	.L122,.L124
 	.byte	4
-	.word	.L134,.L135
+	.word	.L125,.L126
 	.byte	5
-	.byte	'i',0,1,173,1,16
-	.word	.L136,.L137
+	.byte	'i',0,1,174,1,16
+	.word	.L127,.L128
 	.byte	0,0,0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Welcome_Sound')
 	.sect	'.debug_abbrev'
-.L65:
+.L61:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Welcome_Sound')
 	.sect	'.debug_line'
-.L66:
-	.word	.L242-.L241
-.L241:
+.L62:
+	.word	.L230-.L229
+.L229:
 	.half	3
-	.word	.L244-.L243
-.L243:
+	.word	.L232-.L231
+.L231:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L244:
+.L232:
 	.byte	5,6,7,0,5,2
-	.word	.L33
-	.byte	3,165,1,1,5,29,9
-	.half	.L157-.L33
+	.word	.L31
+	.byte	3,166,1,1,5,29,9
+	.half	.L146-.L31
 	.byte	3,1,1,5,27,9
-	.half	.L245-.L157
+	.half	.L233-.L146
 	.byte	1,9
-	.half	.L246-.L245
+	.half	.L234-.L233
 	.byte	3,3,1,5,25,9
-	.half	.L247-.L246
+	.half	.L235-.L234
 	.byte	1,5,18,9
-	.half	.L134-.L247
+	.half	.L125-.L235
 	.byte	3,3,1,5,64,9
-	.half	.L158-.L134
+	.half	.L147-.L125
 	.byte	1,5,29,9
-	.half	.L22-.L158
+	.half	.L20-.L147
 	.byte	3,2,1,5,43,9
-	.half	.L248-.L22
+	.half	.L236-.L20
 	.byte	1,5,67,9
-	.half	.L249-.L248
+	.half	.L237-.L236
 	.byte	3,126,1,5,64,9
-	.half	.L21-.L249
+	.half	.L19-.L237
 	.byte	1,5,1,7,9
-	.half	.L135-.L21
+	.half	.L126-.L19
 	.byte	3,4,1,7,9
-	.half	.L68-.L135
+	.half	.L64-.L126
 	.byte	0,1,1
-.L242:
+.L230:
 	.sdecl	'.debug_ranges',debug,cluster('Welcome_Sound')
 	.sect	'.debug_ranges'
-.L67:
-	.word	-1,.L33,0,.L68-.L33,0,0
+.L63:
+	.word	-1,.L31,0,.L64-.L31,0,0
 	.sdecl	'.debug_info',debug,cluster('Warning')
 	.sect	'.debug_info'
-.L69:
+.L65:
 	.word	217
 	.half	3
-	.word	.L70
+	.word	.L66
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L72,.L71
+	.word	.L68,.L67
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
-	.byte	'Warning',0,1,179,1,6,1,1,1
-	.word	.L35,.L138,.L34
+	.byte	'Warning',0,1,180,1,6,1,1,1
+	.word	.L33,.L129,.L32
 	.byte	4
-	.word	.L35,.L138
+	.word	.L33,.L129
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Warning')
 	.sect	'.debug_abbrev'
-.L70:
+.L66:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Warning')
 	.sect	'.debug_line'
-.L71:
-	.word	.L251-.L250
-.L250:
+.L67:
+	.word	.L239-.L238
+.L238:
 	.half	3
-	.word	.L253-.L252
-.L252:
+	.word	.L241-.L240
+.L240:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L253:
+.L241:
 	.byte	5,23,7,0,5,2
-	.word	.L35
-	.byte	3,179,1,1,5,28,9
-	.half	.L254-.L35
+	.word	.L33
+	.byte	3,180,1,1,5,28,9
+	.half	.L242-.L33
 	.byte	1,5,26,9
-	.half	.L255-.L254
+	.half	.L243-.L242
 	.byte	1,5,5,9
-	.half	.L256-.L255
+	.half	.L244-.L243
 	.byte	1,5,19,9
-	.half	.L257-.L256
+	.half	.L245-.L244
 	.byte	3,1,1,5,1,9
-	.half	.L23-.L257
+	.half	.L21-.L245
 	.byte	3,1,1,7,9
-	.half	.L73-.L23
+	.half	.L69-.L21
 	.byte	0,1,1
-.L251:
+.L239:
 	.sdecl	'.debug_ranges',debug,cluster('Warning')
 	.sect	'.debug_ranges'
-.L72:
-	.word	-1,.L35,0,.L73-.L35,0,0
-	.sdecl	'.debug_info',debug,cluster('Emergency')
-	.sect	'.debug_info'
-.L74:
-	.word	219
-	.half	3
-	.word	.L75
-	.byte	4,1
-	.byte	'../includes/application/Audio.c',0
-	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
-	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L77,.L76
-	.byte	2
-	.word	.L40
-	.byte	3
-	.byte	'Emergency',0,1,184,1,6,1,1,1
-	.word	.L37,.L139,.L36
-	.byte	4
-	.word	.L37,.L139
-	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Emergency')
-	.sect	'.debug_abbrev'
-.L75:
-	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
-	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Emergency')
-	.sect	'.debug_line'
-.L76:
-	.word	.L259-.L258
-.L258:
-	.half	3
-	.word	.L261-.L260
-.L260:
-	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
-	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L261:
-	.byte	5,1,7,0,5,2
-	.word	.L37
-	.byte	3,185,1,1,7,9
-	.half	.L78-.L37
-	.byte	0,1,1
-.L259:
-	.sdecl	'.debug_ranges',debug,cluster('Emergency')
-	.sect	'.debug_ranges'
-.L77:
-	.word	-1,.L37,0,.L78-.L37,0,0
+.L68:
+	.word	-1,.L33,0,.L69-.L33,0,0
 	.sdecl	'.debug_info',debug,cluster('No_Sound')
 	.sect	'.debug_info'
-.L79:
+.L70:
 	.word	218
 	.half	3
-	.word	.L80
+	.word	.L71
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1
-	.word	.L82,.L81
+	.word	.L73,.L72
 	.byte	2
-	.word	.L40
+	.word	.L36
 	.byte	3
-	.byte	'No_Sound',0,1,188,1,6,1,1,1
-	.word	.L39,.L140,.L38
+	.byte	'No_Sound',0,1,189,1,6,1,1,1
+	.word	.L35,.L130,.L34
 	.byte	4
-	.word	.L39,.L140
+	.word	.L35,.L130
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('No_Sound')
 	.sect	'.debug_abbrev'
-.L80:
+.L71:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('No_Sound')
 	.sect	'.debug_line'
-.L81:
-	.word	.L263-.L262
-.L262:
+.L72:
+	.word	.L247-.L246
+.L246:
 	.half	3
-	.word	.L265-.L264
-.L264:
+	.word	.L249-.L248
+.L248:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../includes/application/Audio.c',0,0,0,0,0
-.L265:
+.L249:
 	.byte	5,28,7,0,5,2
-	.word	.L39
-	.byte	3,188,1,1,5,1,9
-	.half	.L266-.L39
+	.word	.L35
+	.byte	3,189,1,1,5,1,9
+	.half	.L250-.L35
 	.byte	3,1,1,7,9
-	.half	.L83-.L266
+	.half	.L74-.L250
 	.byte	0,1,1
-.L263:
+.L247:
 	.sdecl	'.debug_ranges',debug,cluster('No_Sound')
 	.sect	'.debug_ranges'
-.L82:
-	.word	-1,.L39,0,.L83-.L39,0,0
+.L73:
+	.word	-1,.L35,0,.L74-.L35,0,0
 	.sdecl	'.debug_info',debug,cluster('g_ticksFor1ms')
 	.sect	'.debug_info'
-.L84:
+.L75:
 	.word	200
 	.half	3
-	.word	.L85
+	.word	.L76
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L40
+	.word	.L36
 	.byte	3
 	.byte	'g_ticksFor1ms',0,27,62,14
-	.word	.L128
+	.word	.L119
 	.byte	1,5,3
 	.word	g_ticksFor1ms
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_ticksFor1ms')
 	.sect	'.debug_abbrev'
-.L85:
+.L76:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_info',debug,cluster('g_buzzer')
 	.sect	'.debug_info'
-.L86:
+.L77:
 	.word	195
 	.half	3
-	.word	.L87
+	.word	.L78
 	.byte	4,1
 	.byte	'../includes/application/Audio.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'C:\\git-repo\\AutoDoor\\TriCore Debug (TASKING)\\',0,12,1,2
-	.word	.L40
+	.word	.L36
 	.byte	3
 	.byte	'g_buzzer',0,27,63,18
-	.word	.L141
+	.word	.L131
 	.byte	1,5,3
 	.word	g_buzzer
 	.byte	0
 	.sdecl	'.debug_abbrev',debug,cluster('g_buzzer')
 	.sect	'.debug_abbrev'
-.L87:
+.L78:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
 	.byte	0,0,0
 	.sdecl	'.debug_loc',debug,cluster('Control_Audio')
 	.sect	'.debug_loc'
-.L26:
-	.word	-1,.L27,0,.L121-.L27
+.L24:
+	.word	-1,.L25,0,.L112-.L25
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L123:
-	.word	-1,.L27,0,.L144-.L27
+.L114:
+	.word	-1,.L25,0,.L134-.L25
 	.half	1
 	.byte	84
-	.word	.L8-.L27,.L145-.L27
+	.word	.L8-.L25,.L135-.L25
 	.half	1
 	.byte	84
-	.word	.L9-.L27,.L146-.L27
+	.word	.L9-.L25,.L136-.L25
 	.half	1
 	.byte	84
-	.word	.L10-.L27,.L147-.L27
-	.half	1
-	.byte	84
-	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Emergency')
-	.sect	'.debug_loc'
-.L36:
-	.word	-1,.L37,0,.L139-.L37
-	.half	2
-	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Init_Audio')
 	.sect	'.debug_loc'
-.L24:
-	.word	-1,.L25,0,.L142-.L25
+.L22:
+	.word	-1,.L23,0,.L132-.L23
 	.half	2
 	.byte	138,0
-	.word	.L142-.L25,.L88-.L25
+	.word	.L132-.L23,.L79-.L23
 	.half	2
 	.byte	138,56
-	.word	.L88-.L25,.L88-.L25
+	.word	.L79-.L23,.L79-.L23
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L119:
+.L110:
 	.word	0,0
-.L117:
+.L108:
 	.word	0,0
-.L97:
-	.word	-1,.L25,.L99-.L25,.L143-.L25
+.L88:
+	.word	-1,.L23,.L90-.L23,.L133-.L23
 	.half	1
 	.byte	95
 	.word	0,0
-.L94:
+.L85:
 	.word	0,0
-.L105:
-	.word	0,0
-.L101:
+.L96:
 	.word	0,0
 .L92:
 	.word	0,0
-.L115:
+.L83:
 	.word	0,0
-.L110:
-	.word	-1,.L25,0,.L88-.L25
+.L106:
+	.word	0,0
+.L101:
+	.word	-1,.L23,0,.L79-.L23
 	.half	2
 	.byte	145,72
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('No_Sound')
 	.sect	'.debug_loc'
-.L38:
-	.word	-1,.L39,0,.L140-.L39
+.L34:
+	.word	-1,.L35,0,.L130-.L35
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Warning')
 	.sect	'.debug_loc'
-.L34:
-	.word	-1,.L35,0,.L138-.L35
+.L32:
+	.word	-1,.L33,0,.L129-.L33
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('Welcome_Sound')
 	.sect	'.debug_loc'
-.L32:
-	.word	-1,.L33,0,.L157-.L33
+.L30:
+	.word	-1,.L31,0,.L146-.L31
 	.half	2
 	.byte	138,0
-	.word	.L157-.L33,.L130-.L33
+	.word	.L146-.L31,.L121-.L31
 	.half	3
 	.byte	138,192,0
-	.word	.L130-.L33,.L130-.L33
+	.word	.L121-.L31,.L121-.L31
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L133:
-	.word	-1,.L33,0,.L130-.L33
+.L124:
+	.word	-1,.L31,0,.L121-.L31
 	.half	2
 	.byte	145,96
 	.word	0,0
-.L132:
-	.word	-1,.L33,0,.L130-.L33
+.L123:
+	.word	-1,.L31,0,.L121-.L31
 	.half	2
 	.byte	145,64
 	.word	0,0
-.L137:
-	.word	-1,.L33,.L158-.L33,.L130-.L33
+.L128:
+	.word	-1,.L31,.L147-.L31,.L121-.L31
 	.half	1
 	.byte	88
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('playTone')
 	.sect	'.debug_loc'
-.L129:
-	.word	-1,.L31,0,.L149-.L31
+.L120:
+	.word	-1,.L29,0,.L138-.L29
 	.half	2
 	.byte	144,35
-	.word	.L153-.L31,.L154-.L31
+	.word	.L142-.L29,.L143-.L29
 	.half	2
 	.byte	144,37
-	.word	.L17-.L31,.L155-.L31
+	.word	.L15-.L29,.L144-.L29
 	.half	2
 	.byte	144,35
-	.word	.L155-.L31,.L156-.L31
+	.word	.L144-.L29,.L145-.L29
 	.half	2
 	.byte	144,37
 	.word	0,0
-.L127:
-	.word	-1,.L31,0,.L149-.L31
+.L118:
+	.word	-1,.L29,0,.L138-.L29
 	.half	1
 	.byte	84
-	.word	.L150-.L31,.L126-.L31
+	.word	.L139-.L29,.L117-.L29
 	.half	1
 	.byte	88
-	.word	.L151-.L31,.L152-.L31
+	.word	.L140-.L29,.L141-.L29
 	.half	1
 	.byte	84
-	.word	.L17-.L31,.L156-.L31
+	.word	.L15-.L29,.L145-.L29
 	.half	1
 	.byte	84
 	.word	0,0
-.L30:
-	.word	-1,.L31,0,.L126-.L31
+.L28:
+	.word	-1,.L29,0,.L117-.L29
 	.half	2
 	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_loc',debug,cluster('setVolume')
 	.sect	'.debug_loc'
-.L28:
-	.word	-1,.L29,0,.L124-.L29
+.L26:
+	.word	-1,.L27,0,.L115-.L27
 	.half	2
 	.byte	138,0
 	.word	0,0
-.L125:
-	.word	-1,.L29,0,.L148-.L29
+.L116:
+	.word	-1,.L27,0,.L137-.L27
 	.half	1
 	.byte	84
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L267:
+.L251:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -31746,44 +31663,39 @@ g_buzzer:	.type	object
 	.sdecl	'.debug_frame',debug,cluster('Init_Audio')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L267,.L25,.L88-.L25
+	.word	.L251,.L23,.L79-.L23
 	.byte	4
-	.word	(.L142-.L25)/2
+	.word	(.L132-.L23)/2
 	.byte	19,56,22,26,3,19,138,56,4
-	.word	(.L88-.L142)/2
+	.word	(.L79-.L132)/2
 	.byte	19,0,8,26,0,0
 	.sdecl	'.debug_frame',debug,cluster('Control_Audio')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L267,.L27,.L121-.L27
+	.word	.L251,.L25,.L112-.L25
 	.sdecl	'.debug_frame',debug,cluster('setVolume')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L267,.L29,.L124-.L29
+	.word	.L251,.L27,.L115-.L27
 	.sdecl	'.debug_frame',debug,cluster('playTone')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L267,.L31,.L126-.L31
+	.word	.L251,.L29,.L117-.L29
 	.sdecl	'.debug_frame',debug,cluster('Welcome_Sound')
 	.sect	'.debug_frame'
 	.word	36
-	.word	.L267,.L33,.L130-.L33
+	.word	.L251,.L31,.L121-.L31
 	.byte	4
-	.word	(.L157-.L33)/2
+	.word	(.L146-.L31)/2
 	.byte	19,192,0,22,26,4,19,138,192,0,4
-	.word	(.L130-.L157)/2
+	.word	(.L121-.L146)/2
 	.byte	19,0,8,26
 	.sdecl	'.debug_frame',debug,cluster('Warning')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L267,.L35,.L138-.L35
-	.sdecl	'.debug_frame',debug,cluster('Emergency')
-	.sect	'.debug_frame'
-	.word	24
-	.word	.L267,.L37,.L139-.L37
-	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.word	.L251,.L33,.L129-.L33
 	.sdecl	'.debug_frame',debug,cluster('No_Sound')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L267,.L39,.L140-.L39
+	.word	.L251,.L35,.L130-.L35
 	; Module end
